@@ -1,0 +1,174 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2200" height="1750" viewBox="0 0 2200 1750">
+<defs>
+  <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+    <stop offset="0%" stop-color="#f7fbff"/>
+    <stop offset="55%" stop-color="#f4f8fb"/>
+    <stop offset="100%" stop-color="#eef7f4"/>
+  </linearGradient>
+  <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+    <feDropShadow dx="0" dy="10" stdDeviation="9" flood-color="#0f172a" flood-opacity="0.12"/>
+  </filter>
+  <marker id="arrow" markerWidth="14" markerHeight="14" refX="11" refY="6" orient="auto" markerUnits="strokeWidth">
+    <path d="M2,2 L12,6 L2,10 z" fill="#475569" />
+  </marker>
+  <style>.card{filter:url(#shadow);}</style>
+</defs>
+<rect x="0" y="0" width="2200" height="1750" fill="url(#bg)"/>
+
+<rect x="70" y="48" width="2060" height="136" rx="34" ry="34" fill="#102a43" stroke="#102a43" stroke-width="0" opacity="1" class="card"/>
+<text x="108" y="104" font-family="Inter, Arial, Helvetica, sans-serif" font-size="48" fill="#ffffff" font-weight="850" text-anchor="start">Synthetic Exercise World Format</text>
+<text x="108" y="147" font-family="Inter, Arial, Helvetica, sans-serif" font-size="25" fill="#d7eafe" font-weight="500" text-anchor="start">Neutral fictional CTI exercise data model: countries, companies and threat actors with reusable metadata</text>
+<rect x="1610" y="88" width="170" height="42" rx="21" ry="21" fill="#e0f2fe" stroke="#7dd3fc" stroke-width="1.4" opacity="1" class=""/>
+<text x="1695.0" y="116" font-family="Inter, Arial, Helvetica, sans-serif" font-size="21" fill="#124861" font-weight="700" text-anchor="middle">JSON dataset</text>
+<rect x="1782" y="88" width="181" height="42" rx="21" ry="21" fill="#dcfce7" stroke="#86efac" stroke-width="1.4" opacity="1" class=""/>
+<text x="1872.5" y="116" font-family="Inter, Arial, Helvetica, sans-serif" font-size="21" fill="#124861" font-weight="700" text-anchor="middle">planet: Nacre</text>
+<rect x="1960" y="88" width="148" height="42" rx="21" ry="21" fill="#fef9c3" stroke="#fde047" stroke-width="1.4" opacity="1" class=""/>
+<text x="2034.0" y="116" font-family="Inter, Arial, Helvetica, sans-serif" font-size="21" fill="#124861" font-weight="700" text-anchor="middle">60 entries</text>
+<rect x="70" y="245" width="560" height="380" rx="28" ry="28" fill="#ffffff" stroke="#d5dde6" stroke-width="2.2" opacity="1" class="card"/>
+<rect x="70" y="245" width="560" height="82" rx="28" ry="28" fill="#2563eb" stroke="#2563eb" stroke-width="0" opacity="1" class=""/>
+<rect x="70" y="299" width="560" height="28" fill="#2563eb" stroke="none"/>
+<text x="102" y="296" font-family="Inter, Arial, Helvetica, sans-serif" font-size="33" fill="#ffffff" font-weight="850" text-anchor="start">Top-level object</text>
+<text x="598" y="296" font-family="Inter, Arial, Helvetica, sans-serif" font-size="26" fill="#ffffff" font-weight="800" text-anchor="end">container</text>
+<circle cx="112" cy="361" r="4.2" fill="#94a3b8"/>
+<text x="128" y="368" font-family="Inter, Arial, Helvetica, sans-serif" font-size="23" fill="#334155" font-weight="400" text-anchor="start">name, type, uuid, version</text>
+<circle cx="112" cy="393" r="4.2" fill="#94a3b8"/>
+<text x="128" y="400" font-family="Inter, Arial, Helvetica, sans-serif" font-size="23" fill="#334155" font-weight="400" text-anchor="start">description and category</text>
+<circle cx="112" cy="425" r="4.2" fill="#94a3b8"/>
+<text x="128" y="432" font-family="Inter, Arial, Helvetica, sans-serif" font-size="23" fill="#334155" font-weight="400" text-anchor="start">authors and source metadata</text>
+<circle cx="112" cy="457" r="4.2" fill="#94a3b8"/>
+<text x="128" y="464" font-family="Inter, Arial, Helvetica, sans-serif" font-size="23" fill="#334155" font-weight="400" text-anchor="start">values[]: reusable entity list</text>
+<rect x="96" y="527" width="508" height="68" rx="16" ry="16" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.4" opacity="1" class=""/>
+<text x="114" y="561" font-family="Inter, Arial, Helvetica, sans-serif" font-size="19" fill="#475569" font-weight="400" text-anchor="start">Document-level metadata + one list containing every</text>
+<text x="114" y="585" font-family="Inter, Arial, Helvetica, sans-serif" font-size="19" fill="#475569" font-weight="400" text-anchor="start">synthetic entity.</text>
+<rect x="810" y="245" width="560" height="380" rx="28" ry="28" fill="#ffffff" stroke="#d5dde6" stroke-width="2.2" opacity="1" class="card"/>
+<rect x="810" y="245" width="560" height="82" rx="28" ry="28" fill="#0f766e" stroke="#0f766e" stroke-width="0" opacity="1" class=""/>
+<rect x="810" y="299" width="560" height="28" fill="#0f766e" stroke="none"/>
+<text x="842" y="296" font-family="Inter, Arial, Helvetica, sans-serif" font-size="33" fill="#ffffff" font-weight="850" text-anchor="start">values[] entry</text>
+<text x="1338" y="296" font-family="Inter, Arial, Helvetica, sans-serif" font-size="26" fill="#ffffff" font-weight="800" text-anchor="end">record shape</text>
+<circle cx="852" cy="361" r="4.2" fill="#94a3b8"/>
+<text x="868" y="368" font-family="Inter, Arial, Helvetica, sans-serif" font-size="23" fill="#334155" font-weight="400" text-anchor="start">value: entity display name</text>
+<circle cx="852" cy="393" r="4.2" fill="#94a3b8"/>
+<text x="868" y="400" font-family="Inter, Arial, Helvetica, sans-serif" font-size="23" fill="#334155" font-weight="400" text-anchor="start">uuid: stable entity identifier</text>
+<circle cx="852" cy="425" r="4.2" fill="#94a3b8"/>
+<text x="868" y="432" font-family="Inter, Arial, Helvetica, sans-serif" font-size="23" fill="#334155" font-weight="400" text-anchor="start">description: neutral scenario text</text>
+<circle cx="852" cy="457" r="4.2" fill="#94a3b8"/>
+<text x="868" y="464" font-family="Inter, Arial, Helvetica, sans-serif" font-size="23" fill="#334155" font-weight="400" text-anchor="start">meta{}: typed metadata arrays</text>
+<circle cx="852" cy="489" r="4.2" fill="#94a3b8"/>
+<text x="868" y="496" font-family="Inter, Arial, Helvetica, sans-serif" font-size="23" fill="#334155" font-weight="400" text-anchor="start">meta.entity-type selects family</text>
+<rect x="836" y="527" width="508" height="68" rx="16" ry="16" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.4" opacity="1" class=""/>
+<text x="854" y="561" font-family="Inter, Arial, Helvetica, sans-serif" font-size="19" fill="#475569" font-weight="400" text-anchor="start">Same outer shape for countries, companies and threat actors.</text>
+<rect x="1550" y="245" width="580" height="380" rx="28" ry="28" fill="#ffffff" stroke="#d5dde6" stroke-width="2.2" opacity="1" class="card"/>
+<rect x="1550" y="245" width="580" height="82" rx="28" ry="28" fill="#7c3aed" stroke="#7c3aed" stroke-width="0" opacity="1" class=""/>
+<rect x="1550" y="299" width="580" height="28" fill="#7c3aed" stroke="none"/>
+<text x="1582" y="296" font-family="Inter, Arial, Helvetica, sans-serif" font-size="33" fill="#ffffff" font-weight="850" text-anchor="start">Neutral CTI use</text>
+<text x="2098" y="296" font-family="Inter, Arial, Helvetica, sans-serif" font-size="26" fill="#ffffff" font-weight="800" text-anchor="end">purpose</text>
+<circle cx="1592" cy="361" r="4.2" fill="#94a3b8"/>
+<text x="1608" y="368" font-family="Inter, Arial, Helvetica, sans-serif" font-size="23" fill="#334155" font-weight="400" text-anchor="start">Standard examples without real countries</text>
+<circle cx="1592" cy="393" r="4.2" fill="#94a3b8"/>
+<text x="1608" y="400" font-family="Inter, Arial, Helvetica, sans-serif" font-size="23" fill="#334155" font-weight="400" text-anchor="start">Scenario data for exercises and demos</text>
+<circle cx="1592" cy="425" r="4.2" fill="#94a3b8"/>
+<text x="1608" y="432" font-family="Inter, Arial, Helvetica, sans-serif" font-size="23" fill="#334155" font-weight="400" text-anchor="start">Safe attribution and victim modelling</text>
+<circle cx="1592" cy="457" r="4.2" fill="#94a3b8"/>
+<text x="1608" y="464" font-family="Inter, Arial, Helvetica, sans-serif" font-size="23" fill="#334155" font-weight="400" text-anchor="start">Portable across tools and validators</text>
+<rect x="1576" y="527" width="528" height="68" rx="16" ry="16" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.4" opacity="1" class=""/>
+<text x="1594" y="561" font-family="Inter, Arial, Helvetica, sans-serif" font-size="19" fill="#475569" font-weight="400" text-anchor="start">Designed for standard-drafting, tabletop, training and CTI</text>
+<text x="1594" y="585" font-family="Inter, Arial, Helvetica, sans-serif" font-size="19" fill="#475569" font-weight="400" text-anchor="start">exercises.</text>
+<line x1="630" y1="435" x2="810" y2="435" stroke="#64748b" stroke-width="4" marker-end="url(#arrow)"/>
+<line x1="1370" y1="435" x2="1550" y2="435" stroke="#64748b" stroke-width="4" marker-end="url(#arrow)"/>
+<path d="M1080 625 C1080 690, 365 660, 365 735" fill="none" stroke="#64748b" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M1080 625 C1080 690, 1080 660, 1080 735" fill="none" stroke="#64748b" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M1080 625 C1080 690, 1780 660, 1780 735" fill="none" stroke="#64748b" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="70" y="745" width="610" height="535" rx="28" ry="28" fill="#ffffff" stroke="#d5dde6" stroke-width="2.2" opacity="1" class="card"/>
+<rect x="70" y="745" width="610" height="82" rx="28" ry="28" fill="#0ea5e9" stroke="#0ea5e9" stroke-width="0" opacity="1" class=""/>
+<rect x="70" y="799" width="610" height="28" fill="#0ea5e9" stroke="none"/>
+<text x="102" y="796" font-family="Inter, Arial, Helvetica, sans-serif" font-size="33" fill="#ffffff" font-weight="850" text-anchor="start">Country profiles</text>
+<text x="648" y="796" font-family="Inter, Arial, Helvetica, sans-serif" font-size="26" fill="#ffffff" font-weight="800" text-anchor="end">10</text>
+<circle cx="112" cy="861" r="4.2" fill="#94a3b8"/>
+<text x="128" y="868" font-family="Inter, Arial, Helvetica, sans-serif" font-size="23" fill="#334155" font-weight="400" text-anchor="start">meta.entity-type: country</text>
+<circle cx="112" cy="893" r="4.2" fill="#94a3b8"/>
+<text x="128" y="900" font-family="Inter, Arial, Helvetica, sans-serif" font-size="23" fill="#334155" font-weight="400" text-anchor="start">meta.planet: Nacre</text>
+<circle cx="112" cy="925" r="4.2" fill="#94a3b8"/>
+<text x="128" y="932" font-family="Inter, Arial, Helvetica, sans-serif" font-size="23" fill="#334155" font-weight="400" text-anchor="start">meta.capital: fictional capital city</text>
+<circle cx="112" cy="957" r="4.2" fill="#94a3b8"/>
+<text x="128" y="964" font-family="Inter, Arial, Helvetica, sans-serif" font-size="23" fill="#334155" font-weight="400" text-anchor="start">meta.geography: synthetic world role</text>
+<circle cx="112" cy="989" r="4.2" fill="#94a3b8"/>
+<text x="128" y="996" font-family="Inter, Arial, Helvetica, sans-serif" font-size="23" fill="#334155" font-weight="400" text-anchor="start">meta.exercise-use: standard-drafting, tabletop,</text>
+<text x="128" y="1028" font-family="Inter, Arial, Helvetica, sans-serif" font-size="23" fill="#334155" font-weight="400" text-anchor="start">training</text>
+<circle cx="112" cy="1053" r="4.2" fill="#94a3b8"/>
+<text x="128" y="1060" font-family="Inter, Arial, Helvetica, sans-serif" font-size="23" fill="#334155" font-weight="400" text-anchor="start">Examples: polar logistics, delta ports,</text>
+<text x="128" y="1092" font-family="Inter, Arial, Helvetica, sans-serif" font-size="23" fill="#334155" font-weight="400" text-anchor="start">research archipelago, neutral corridor</text>
+<rect x="96" y="1182" width="558" height="68" rx="16" ry="16" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.4" opacity="1" class=""/>
+<text x="114" y="1216" font-family="Inter, Arial, Helvetica, sans-serif" font-size="19" fill="#475569" font-weight="400" text-anchor="start">Provides geopolitical context without using real-world</text>
+<text x="114" y="1240" font-family="Inter, Arial, Helvetica, sans-serif" font-size="19" fill="#475569" font-weight="400" text-anchor="start">countries.</text>
+<rect x="745" y="745" width="610" height="535" rx="28" ry="28" fill="#ffffff" stroke="#d5dde6" stroke-width="2.2" opacity="1" class="card"/>
+<rect x="745" y="745" width="610" height="82" rx="28" ry="28" fill="#16a34a" stroke="#16a34a" stroke-width="0" opacity="1" class=""/>
+<rect x="745" y="799" width="610" height="28" fill="#16a34a" stroke="none"/>
+<text x="777" y="796" font-family="Inter, Arial, Helvetica, sans-serif" font-size="33" fill="#ffffff" font-weight="850" text-anchor="start">Company profiles</text>
+<text x="1323" y="796" font-family="Inter, Arial, Helvetica, sans-serif" font-size="26" fill="#ffffff" font-weight="800" text-anchor="end">30</text>
+<circle cx="787" cy="861" r="4.2" fill="#94a3b8"/>
+<text x="803" y="868" font-family="Inter, Arial, Helvetica, sans-serif" font-size="23" fill="#334155" font-weight="400" text-anchor="start">meta.entity-type: company</text>
+<circle cx="787" cy="893" r="4.2" fill="#94a3b8"/>
+<text x="803" y="900" font-family="Inter, Arial, Helvetica, sans-serif" font-size="23" fill="#334155" font-weight="400" text-anchor="start">meta.planet: Nacre</text>
+<circle cx="787" cy="925" r="4.2" fill="#94a3b8"/>
+<text x="803" y="932" font-family="Inter, Arial, Helvetica, sans-serif" font-size="23" fill="#334155" font-weight="400" text-anchor="start">meta.headquarters: country name</text>
+<circle cx="787" cy="957" r="4.2" fill="#94a3b8"/>
+<text x="803" y="964" font-family="Inter, Arial, Helvetica, sans-serif" font-size="23" fill="#334155" font-weight="400" text-anchor="start">meta.sector: industry sector</text>
+<circle cx="787" cy="989" r="4.2" fill="#94a3b8"/>
+<text x="803" y="996" font-family="Inter, Arial, Helvetica, sans-serif" font-size="23" fill="#334155" font-weight="400" text-anchor="start">meta.exercise-use: standard-drafting, red-blue-</text>
+<text x="803" y="1028" font-family="Inter, Arial, Helvetica, sans-serif" font-size="23" fill="#334155" font-weight="400" text-anchor="start">exercise</text>
+<circle cx="787" cy="1053" r="4.2" fill="#94a3b8"/>
+<text x="803" y="1060" font-family="Inter, Arial, Helvetica, sans-serif" font-size="23" fill="#334155" font-weight="400" text-anchor="start">Sectors: Energy, Finance, Healthcare, Telecom,</text>
+<text x="803" y="1092" font-family="Inter, Arial, Helvetica, sans-serif" font-size="23" fill="#334155" font-weight="400" text-anchor="start">Aerospace, Logistics, Manufacturing, Maritime,</text>
+<text x="803" y="1124" font-family="Inter, Arial, Helvetica, sans-serif" font-size="23" fill="#334155" font-weight="400" text-anchor="start">Food, Media</text>
+<rect x="771" y="1182" width="558" height="68" rx="16" ry="16" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.4" opacity="1" class=""/>
+<text x="789" y="1216" font-family="Inter, Arial, Helvetica, sans-serif" font-size="19" fill="#475569" font-weight="400" text-anchor="start">Three companies per country; useful as victims, suppliers,</text>
+<text x="789" y="1240" font-family="Inter, Arial, Helvetica, sans-serif" font-size="19" fill="#475569" font-weight="400" text-anchor="start">operators or reporting entities.</text>
+<rect x="1420" y="745" width="710" height="535" rx="28" ry="28" fill="#ffffff" stroke="#d5dde6" stroke-width="2.2" opacity="1" class="card"/>
+<rect x="1420" y="745" width="710" height="82" rx="28" ry="28" fill="#dc2626" stroke="#dc2626" stroke-width="0" opacity="1" class=""/>
+<rect x="1420" y="799" width="710" height="28" fill="#dc2626" stroke="none"/>
+<text x="1452" y="796" font-family="Inter, Arial, Helvetica, sans-serif" font-size="33" fill="#ffffff" font-weight="850" text-anchor="start">Threat-actor profiles</text>
+<text x="2098" y="796" font-family="Inter, Arial, Helvetica, sans-serif" font-size="26" fill="#ffffff" font-weight="800" text-anchor="end">20</text>
+<circle cx="1462" cy="861" r="4.2" fill="#94a3b8"/>
+<text x="1478" y="868" font-family="Inter, Arial, Helvetica, sans-serif" font-size="23" fill="#334155" font-weight="400" text-anchor="start">meta.entity-type: threat-actor</text>
+<circle cx="1462" cy="893" r="4.2" fill="#94a3b8"/>
+<text x="1478" y="900" font-family="Inter, Arial, Helvetica, sans-serif" font-size="23" fill="#334155" font-weight="400" text-anchor="start">meta.planet: Nacre</text>
+<circle cx="1462" cy="925" r="4.2" fill="#94a3b8"/>
+<text x="1478" y="932" font-family="Inter, Arial, Helvetica, sans-serif" font-size="23" fill="#334155" font-weight="400" text-anchor="start">meta.origin: country name</text>
+<circle cx="1462" cy="957" r="4.2" fill="#94a3b8"/>
+<text x="1478" y="964" font-family="Inter, Arial, Helvetica, sans-serif" font-size="23" fill="#334155" font-weight="400" text-anchor="start">meta.primary-motivation: actor objective</text>
+<circle cx="1462" cy="989" r="4.2" fill="#94a3b8"/>
+<text x="1478" y="996" font-family="Inter, Arial, Helvetica, sans-serif" font-size="23" fill="#334155" font-weight="400" text-anchor="start">meta.sophistication: capability level</text>
+<circle cx="1462" cy="1021" r="4.2" fill="#94a3b8"/>
+<text x="1478" y="1028" font-family="Inter, Arial, Helvetica, sans-serif" font-size="23" fill="#334155" font-weight="400" text-anchor="start">meta.exercise-use: standard-drafting, cti-training</text>
+<circle cx="1462" cy="1053" r="4.2" fill="#94a3b8"/>
+<text x="1478" y="1060" font-family="Inter, Arial, Helvetica, sans-serif" font-size="23" fill="#334155" font-weight="400" text-anchor="start">Motivations: Espionage, Financial disruption, Strategic</text>
+<text x="1478" y="1092" font-family="Inter, Arial, Helvetica, sans-serif" font-size="23" fill="#334155" font-weight="400" text-anchor="start">signaling, Technology theft, Influence operations</text>
+<rect x="1446" y="1182" width="658" height="68" rx="16" ry="16" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.4" opacity="1" class=""/>
+<text x="1464" y="1216" font-family="Inter, Arial, Helvetica, sans-serif" font-size="19" fill="#475569" font-weight="400" text-anchor="start">Two fictional actors per country; useful for neutral attribution and</text>
+<text x="1464" y="1240" font-family="Inter, Arial, Helvetica, sans-serif" font-size="19" fill="#475569" font-weight="400" text-anchor="start">scenario construction.</text>
+<rect x="70" y="1360" width="2060" height="310" rx="30" ry="30" fill="#ffffff" stroke="#d7dee8" stroke-width="2.3" opacity="1" class="card"/>
+<text x="105" y="1410" font-family="Inter, Arial, Helvetica, sans-serif" font-size="36" fill="#0f172a" font-weight="800" text-anchor="start">Relationship model encoded by metadata</text>
+<text x="105" y="1450" font-family="Inter, Arial, Helvetica, sans-serif" font-size="24" fill="#475569" font-weight="500" text-anchor="start">The dataset remains simple JSON, while metadata fields create joins between countries, organizations and actors.</text>
+<rect x="130" y="1515" width="350" height="110" rx="22" ry="22" fill="#eff6ff" stroke="#60a5fa" stroke-width="2.2" opacity="1" class=""/>
+<text x="305" y="1557" font-family="Inter, Arial, Helvetica, sans-serif" font-size="27" fill="#1d4ed8" font-weight="800" text-anchor="middle">country.value</text>
+<text x="305" y="1593" font-family="Inter, Arial, Helvetica, sans-serif" font-size="20" fill="#475569" font-weight="400" text-anchor="middle">fictional country name</text>
+<rect x="630" y="1515" width="430" height="110" rx="22" ry="22" fill="#f0fdf4" stroke="#4ade80" stroke-width="2.2" opacity="1" class=""/>
+<text x="845" y="1557" font-family="Inter, Arial, Helvetica, sans-serif" font-size="25" fill="#15803d" font-weight="800" text-anchor="middle">company.meta.headquarters</text>
+<text x="845" y="1593" font-family="Inter, Arial, Helvetica, sans-serif" font-size="20" fill="#475569" font-weight="400" text-anchor="middle">equals country.value</text>
+<rect x="1200" y="1515" width="390" height="110" rx="22" ry="22" fill="#fef2f2" stroke="#f87171" stroke-width="2.2" opacity="1" class=""/>
+<text x="1395" y="1557" font-family="Inter, Arial, Helvetica, sans-serif" font-size="27" fill="#b91c1c" font-weight="800" text-anchor="middle">actor.meta.origin</text>
+<text x="1395" y="1593" font-family="Inter, Arial, Helvetica, sans-serif" font-size="20" fill="#475569" font-weight="400" text-anchor="middle">equals country.value</text>
+<rect x="1740" y="1515" width="300" height="110" rx="22" ry="22" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2.2" opacity="1" class=""/>
+<text x="1890" y="1557" font-family="Inter, Arial, Helvetica, sans-serif" font-size="27" fill="#334155" font-weight="800" text-anchor="middle">meta.planet</text>
+<text x="1890" y="1593" font-family="Inter, Arial, Helvetica, sans-serif" font-size="20" fill="#475569" font-weight="400" text-anchor="middle">shared value: Nacre</text>
+<line x1="480" y1="1570" x2="630" y2="1570" stroke="#64748b" stroke-width="4" marker-end="url(#arrow)"/>
+<line x1="1060" y1="1570" x2="1200" y2="1570" stroke="#64748b" stroke-width="4" marker-end="url(#arrow)"/>
+<line x1="1590" y1="1570" x2="1740" y2="1570" stroke="#94a3b8" stroke-width="3" stroke-dasharray="8 8" marker-end="url(#arrow)"/>
+<text x="550" y="1617" font-family="Inter, Arial, Helvetica, sans-serif" font-size="20" fill="#475569" font-weight="700" text-anchor="start">hosts</text>
+<text x="1112" y="1617" font-family="Inter, Arial, Helvetica, sans-serif" font-size="20" fill="#475569" font-weight="700" text-anchor="start">originates</text>
+<text x="1630" y="1617" font-family="Inter, Arial, Helvetica, sans-serif" font-size="20" fill="#475569" font-weight="700" text-anchor="start">same world</text>
+<rect x="105" y="1472" width="1990" height="40" rx="16" ry="16" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.1" opacity="1" class=""/>
+<text x="125" y="1498" font-family="Inter, Arial, Helvetica, sans-serif" font-size="20" fill="#0f172a" font-weight="800" text-anchor="start">Inventory:</text>
+<text x="225" y="1498" font-family="Inter, Arial, Helvetica, sans-serif" font-size="20" fill="#475569" font-weight="600" text-anchor="start">10 countries, 30 companies, 20 threat actors | 10 sectors | 5 motivations | 4 sophistication levels</text>
+<text x="2130" y="1725" font-family="Inter, Arial, Helvetica, sans-serif" font-size="18" fill="#64748b" font-weight="400" text-anchor="end">Generated from the Synthetic Exercise World JSON structure</text>
+</svg>
