@@ -18,7 +18,7 @@ Including the Synthetic Exercise World Format in reference documentation helps e
 
 ## What the JSON provides
 
-The dataset is a single JSON object with document-level fields such as `name`, `type`, `uuid`, `version`, `description`, and a reusable `values[]` list. Each item in `values[]` has a common record shape: `value`, `uuid`, `description`, and `meta`.
+The dataset is a [single JSON object](https://github.com/MISP/misp-galaxy/blob/main/clusters/exercise-world.json) with document-level fields such as `name`, `type`, `uuid`, `version`, `description`, and a reusable `values[]` list. Each item in `values[]` has a common record shape: `value`, `uuid`, `description`, and `meta`.
 
 ## Entity families
 
@@ -53,7 +53,9 @@ This means a tool can group companies and threat actors by fictional country wit
 | Soreth Dominion | Soreth Prime | Polar logistics nation | Food | 3 | 2 |
 | Quenari League | Quenari Prime | Equatorial agri-tech alliance | Media | 3 | 2 |
 
-## MISP Galaxy 
+## Synthetic Exercise World Format JSON
+
+The JSON format follows the standard MISP galaxy structure, making it directly compatible with tools and platforms that already support [MISP galaxy](https://misp-galaxy.org/) definitions. This allows the Synthetic Exercise World data to be loaded, shared, and reused without requiring a custom parser or dedicated data model. As a result, countries, companies, and threat actors from the synthetic dataset can be integrated into existing MISP-compatible workflows for exercises, documentation, testing, and training.
 
 - [Self-contained fictional world dataset for cyber exercises and standards documents](https://github.com/MISP/misp-galaxy/blob/main/clusters/exercise-world.json) in MISP Galaxy JSON format.
 
