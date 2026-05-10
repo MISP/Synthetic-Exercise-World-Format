@@ -14,7 +14,7 @@ Including the Synthetic Exercise World Format in reference documentation helps e
 
 # Synthetic Exercise World Format — Data Model
 
-![Synthetic Exercise World Format diagram](https://hdoc.csirt-tooling.org/uploads/4c5f388f-4965-4a79-b8cf-507361747c1a.png)
+![Synthetic Exercise World Format diagram](https://raw.githubusercontent.com/MISP/Synthetic-Exercise-World-Format/refs/heads/main/images/synthetic_exercise_world_format_diagram.png)
 
 ## What the JSON provides
 
@@ -59,9 +59,9 @@ This means a tool can group companies and threat actors by fictional country wit
 
 # Geography of the Synthetic Exercise World
 
-![Synthetic Exercise World - Planet Nacre](https://hdoc.csirt-tooling.org/uploads/34c1f8f7-4ee9-431b-ab5a-ae72247a952c.png)
+![Synthetic Exercise World - Planet Nacre](https://raw.githubusercontent.com/MISP/Synthetic-Exercise-World-Format/refs/heads/main/images/synthetic_exercise_world_clear_map.png)
 
-[SVG](https://hdoc.csirt-tooling.org/uploads/e5e4e1af-188d-4748-ac51-40ed98b32721.svg)
+[SVG](https://raw.githubusercontent.com/MISP/Synthetic-Exercise-World-Format/refs/heads/main/images/synthetic_exercise_world_clear_map.svg)
 
 
 ## Synthetic Exercise World Map — Planet Nacre
@@ -201,5 +201,3 @@ This field guide accompanies the revised fictional atlas map. The map is designe
 - **Supply-chain drill:** Chain Soreth polar logistics, Thyros steppe logistics, Ilyndor corridor manufacturing, and Neruva delta ports.
 - **Public communication and influence:** Pair Neruva delta megacity pressure with Quenari media companies and Orinthia healthcare/research stakeholders.
 - **Neutral corridor stress test:** Treat Ilyndor as a diplomatic and technical choke point for data-sharing, emergency peering, cross-border incident notification, and temporary traffic rerouting.
-
-
