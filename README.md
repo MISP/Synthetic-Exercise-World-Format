@@ -199,6 +199,12 @@ This field guide accompanies the revised fictional atlas map. The map is designe
 - **Public communication and influence:** Pair Neruva delta megacity pressure with Quenari media companies and Orinthia healthcare/research stakeholders.
 - **Neutral corridor stress test:** Treat Ilyndor as a diplomatic and technical choke point for data-sharing, emergency peering, cross-border incident notification, and temporary traffic rerouting.
 
+# Contributing
+
+Contributions can be made through the public GitHub repository by opening issues for proposed changes or submitting pull requests with new synthetic entities, metadata improvements, maps, diagrams, or documentation updates.
+
+Repository: [https://github.com/MISP/Synthetic-Exercise-World-Format](https://github.com/MISP/Synthetic-Exercise-World-Format)
+
 # License
 
 Synthetic Exercise World is licensed under the **Creative Commons Attribution 4.0 International License (CC BY 4.0)**.
