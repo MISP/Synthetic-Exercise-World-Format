@@ -201,3 +201,17 @@ This field guide accompanies the revised fictional atlas map. The map is designe
 - **Supply-chain drill:** Chain Soreth polar logistics, Thyros steppe logistics, Ilyndor corridor manufacturing, and Neruva delta ports.
 - **Public communication and influence:** Pair Neruva delta megacity pressure with Quenari media companies and Orinthia healthcare/research stakeholders.
 - **Neutral corridor stress test:** Treat Ilyndor as a diplomatic and technical choke point for data-sharing, emergency peering, cross-border incident notification, and temporary traffic rerouting.
+
+# License
+
+Synthetic Exercise World is licensed under the **Creative Commons Attribution 4.0 International License (CC BY 4.0)**.
+
+You may share and adapt the material for any purpose, including commercial use, provided that you give appropriate credit, link to the license, and indicate whether changes were made.
+
+Suggested attribution:
+
+> Synthetic Exercise World — licensed under CC BY 4.0.
+
+License text: <https://creativecommons.org/licenses/by/4.0/>
+
+All countries, companies, sectors, and threat actors described in this project are fictional and intended for neutral CTI exercises, documentation, testing, and training.
