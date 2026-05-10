@@ -59,18 +59,13 @@ This means a tool can group companies and threat actors by fictional country wit
 
 # Geography of the Synthetic Exercise World
 
-![Synthetic Exercise World - Planet Nacre](https://raw.githubusercontent.com/MISP/Synthetic-Exercise-World-Format/refs/heads/main/images/synthetic_exercise_world_clear_map.png)
-
-[SVG](https://raw.githubusercontent.com/MISP/Synthetic-Exercise-World-Format/refs/heads/main/images/synthetic_exercise_world_clear_map.svg)
-
-
 ## Synthetic Exercise World Map — Planet Nacre
 
 This field guide accompanies the revised fictional atlas map. The map is designed for neutral cyber-exercise planning and keeps the original synthetic country, company, and threat-actor relationships while making the visual layout easier to read.
 
-![Synthetic Exercise World — Planet Nacre clear-label map](synthetic_exercise_world_clear_map.png)
+![Synthetic Exercise World - Planet Nacre](https://raw.githubusercontent.com/MISP/Synthetic-Exercise-World-Format/refs/heads/main/images/synthetic_exercise_world_clear_map.png)
 
-
+[SVG](https://raw.githubusercontent.com/MISP/Synthetic-Exercise-World-Format/refs/heads/main/images/synthetic_exercise_world_clear_map.svg)
 
 ### Country index
 
