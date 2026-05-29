@@ -16,6 +16,8 @@ Including the Synthetic Exercise World Format in reference documentation helps e
 
 ![Synthetic Exercise World Format diagram](https://raw.githubusercontent.com/MISP/Synthetic-Exercise-World-Format/refs/heads/main/images/synthetic_exercise_world_format_diagram.png)
 
+![Synthetic Exercise World map - official map](https://raw.githubusercontent.com/MISP/Synthetic-Exercise-World-Format/refs/heads/main/images/planet_nacre_official_map.png)
+
 ## What the JSON provides
 
 The dataset is a [single JSON object](https://github.com/MISP/misp-galaxy/blob/main/clusters/exercise-world.json) with document-level fields such as `name`, `type`, `uuid`, `version`, `description`, and a reusable `values[]` list. Each item in `values[]` has a common record shape: `value`, `uuid`, `description`, and `meta`.
@@ -69,6 +71,7 @@ This field guide accompanies the revised fictional atlas map. The map is designe
 
 [SVG](https://raw.githubusercontent.com/MISP/Synthetic-Exercise-World-Format/refs/heads/main/images/synthetic_exercise_world_clear_map.svg)
 
+![Synthetic Exercise World - MAP without labels](https://raw.githubusercontent.com/MISP/Synthetic-Exercise-World-Format/refs/heads/main/images/planet_nacre.png)
 ### Country index
 
 | # | Country | Capital | Geography | Sector |
