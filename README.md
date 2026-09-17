@@ -202,6 +202,31 @@ This field guide accompanies the revised fictional atlas map. The map is designe
 - **Public communication and influence:** Pair Neruva delta megacity pressure with Quenari media companies and Orinthia healthcare/research stakeholders.
 - **Neutral corridor stress test:** Treat Ilyndor as a diplomatic and technical choke point for data-sharing, emergency peering, cross-border incident notification, and temporary traffic rerouting.
 
+# Integrating the dataset
+
+Projects consuming the Synthetic Exercise World should:
+
+- pin the exact `MISP/misp-galaxy` revision of both
+  [`clusters/exercise-world.json`](https://github.com/MISP/misp-galaxy/blob/main/clusters/exercise-world.json)
+  and [`galaxies/exercise-world.json`](https://github.com/MISP/misp-galaxy/blob/main/galaxies/exercise-world.json),
+  rather than relying only on the numeric dataset version;
+- use entity UUIDs as stable references and treat `value` as display text;
+- load the galaxy before importing events carrying `misp-galaxy:exercise-world` tags;
+- validate the generic MISP Galaxy JSON schemas plus the documented country/company/actor
+  relationships; and
+- preserve CC-BY-4.0 attribution and record whether local changes were made.
+
+## Community integrations
+
+- [Range42](https://github.com/range42), an open-source cyber range platform, is integrating
+  the dataset as a neutral narrative layer for its MISP lab, scenario manifests, reporting
+  workflows, and future exercise-management tooling. The work is tracked in
+  [range42/project_management#106](https://github.com/range42/project_management/issues/106),
+  with implementation in
+  [range42/range42-catalog#211](https://github.com/range42/range42-catalog/pull/211) and
+  [range42/range42-playbooks#151](https://github.com/range42/range42-playbooks/pull/151).
+  Status: integration in progress.
+
 # Contributing
 
 Contributions can be made through the public GitHub repository by opening issues for proposed changes or submitting pull requests with new synthetic entities, metadata improvements, maps, diagrams, or documentation updates.
