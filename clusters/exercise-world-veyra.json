@@ -1,0 +1,146 @@
+{
+  "authors": [
+    "MISP Project"
+  ],
+  "category": "context",
+  "description": "Fictional subsurface locations and their connection to Ilyndor on planet Nacre.",
+  "name": "Synthetic Exercise World - Veyra",
+  "source": "https://github.com/MISP/Synthetic-Exercise-World-Format",
+  "type": "exercise-world-veyra",
+  "uuid": "bc92db65-95a5-43eb-ae4f-176c97a01b86",
+  "values": [
+    {
+      "value": "Veyra",
+      "uuid": "48e6c9eb-f3a3-47ff-81d6-0bd8446ce970",
+      "description": "An inhabited network of caverns beneath Nacre, governed by a council of settlements.",
+      "meta": {
+        "entity-type": [
+          "subsurface-world"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "world": [
+          "Veyra"
+        ]
+      }
+    },
+    {
+      "value": "Ilyndor Gate",
+      "uuid": "6431b08d-c7dc-4a47-b0e8-bead7ab13ce7",
+      "description": "A jointly operated transfer lift on the Ilyndor trade corridor and the only mapped crossing into Veyra.",
+      "meta": {
+        "entity-type": [
+          "crossing"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "world": [
+          "Veyra"
+        ],
+        "depth": [
+          "0 to 1.2 km below the surface"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "1e875520-fb3e-4d26-a982-44a5fb7f9375",
+          "type": "connects-to"
+        },
+        {
+          "dest-uuid": "73d2926d-d632-4f42-82b1-cdc5b66a81b3",
+          "type": "connects-to"
+        }
+      ]
+    },
+    {
+      "value": "Threshold Station",
+      "uuid": "73d2926d-d632-4f42-82b1-cdc5b66a81b3",
+      "description": "The Veyran landing for the lift. Surface and subsurface operators share inspection and communications facilities here.",
+      "meta": {
+        "entity-type": [
+          "station"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "world": [
+          "Veyra"
+        ],
+        "depth": [
+          "1.2 km below the surface"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "6431b08d-c7dc-4a47-b0e8-bead7ab13ce7",
+          "type": "connects-to"
+        },
+        {
+          "dest-uuid": "7e35306b-28b1-4b73-9669-795c4dd41c97",
+          "type": "connects-to"
+        }
+      ]
+    },
+    {
+      "value": "Lantern Basin",
+      "uuid": "7e35306b-28b1-4b73-9669-795c4dd41c97",
+      "description": "Veyra's main settlement and freight market, illuminated by municipal light galleries.",
+      "meta": {
+        "entity-type": [
+          "settlement"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "world": [
+          "Veyra"
+        ],
+        "depth": [
+          "1.6 km below the surface"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "73d2926d-d632-4f42-82b1-cdc5b66a81b3",
+          "type": "connects-to"
+        },
+        {
+          "dest-uuid": "48e6c9eb-f3a3-47ff-81d6-0bd8446ce970",
+          "type": "part-of"
+        },
+        {
+          "dest-uuid": "7650bcb4-01cc-4554-ba52-108690b364b4",
+          "type": "supplied-by"
+        }
+      ]
+    },
+    {
+      "value": "Glasswater Reservoir",
+      "uuid": "7650bcb4-01cc-4554-ba52-108690b364b4",
+      "description": "Veyra's freshwater reserve. A pump gallery supplies Lantern Basin's lower terraces.",
+      "meta": {
+        "entity-type": [
+          "reservoir"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "world": [
+          "Veyra"
+        ],
+        "depth": [
+          "2.1 km below the surface"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "48e6c9eb-f3a3-47ff-81d6-0bd8446ce970",
+          "type": "part-of"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

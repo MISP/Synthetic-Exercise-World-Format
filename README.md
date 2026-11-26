@@ -202,6 +202,25 @@ This field guide accompanies the revised fictional atlas map. The map is designe
 - **Public communication and influence:** Pair Neruva delta megacity pressure with Quenari media companies and Orinthia healthcare/research stakeholders.
 - **Neutral corridor stress test:** Treat Ilyndor as a diplomatic and technical choke point for data-sharing, emergency peering, cross-border incident notification, and temporary traffic rerouting.
 
+## Veyra — the world beneath Nacre
+
+Veyra is an inhabited network of caverns beneath Nacre's Ilyndor trade corridor. Its settlements share a council that allocates water and maintains the light galleries. Lantern Basin is the largest settlement and the main market for goods arriving from the surface.
+
+[![Oblique cutaway of Nacre and Veyra showing Ilyndor Gate, Threshold Station, Lantern Basin, and Glasswater Reservoir](images/nacre_veyra_cutaway.svg)](images/nacre_veyra_cutaway.svg)
+
+The cutaway shows the Ilyndor region. Depths are measured from the surface at Ilyndor Gate. Horizontal distances and cavern sizes are schematic.
+
+| Landmark | Depth | Role |
+|---|---:|---|
+| Ilyndor Gate | Surface to 1.2 km | Jointly operated transfer lift and the only mapped crossing between the two worlds. |
+| Threshold Station | 1.2 km | Veyran landing, cargo inspection point, and shared communications relay. |
+| Lantern Basin | 1.6 km | Main Veyran settlement and freight market, connected to Threshold Station by a haulway. |
+| Glasswater Reservoir | 2.1 km | Freshwater reserve feeding Lantern Basin's lower terraces. |
+
+Ilyndor sends food, medicines, and replacement equipment down the lift. Veyra sends optical glass and specialist repair crews up to the corridor. Both councils must approve a closure, and Threshold Station relays manifests and emergency messages in either direction.
+
+A gate outage makes a cross-world continuity exercise possible. Participants can decide how to allocate stored supplies, prioritize essential cargo when the lift reopens, and reconcile manifests recorded independently during the outage.
+
 # Integrating the dataset
 
 Projects consuming the Synthetic Exercise World should:
@@ -215,6 +234,13 @@ Projects consuming the Synthetic Exercise World should:
 - validate the generic MISP Galaxy JSON schemas plus the documented country/company/actor
   relationships; and
 - preserve CC-BY-4.0 attribution and record whether local changes were made.
+
+Veyra has its own MISP [galaxy definition](galaxies/exercise-world-veyra.json) and
+[cluster collection](clusters/exercise-world-veyra.json). Import both alongside
+the surface dataset and use the `exercise-world-veyra` galaxy type for Veyran
+entities. The Ilyndor Gate cluster references the surface Ilyndor cluster by UUID
+and links to Threshold Station inside Veyra. The surface reference was verified
+against [MISP Galaxy revision `779b780`](https://github.com/MISP/misp-galaxy/blob/779b780a13f67288d9b1a031b064fb140cdacaae/clusters/exercise-world.json).
 
 ## Community integrations
 
