@@ -107,6 +107,10 @@
       },
       "related": [
         {
+          "dest-uuid": "73d2926d-d632-4f42-82b1-cdc5b66a81b3",
+          "type": "connects-to"
+        },
+        {
           "dest-uuid": "48e6c9eb-f3a3-47ff-81d6-0bd8446ce970",
           "type": "part-of"
         },
