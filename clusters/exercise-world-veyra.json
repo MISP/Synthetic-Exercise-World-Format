@@ -3,7 +3,7 @@
     "MISP Project"
   ],
   "category": "context",
-  "description": "Fictional subsurface locations and their connection to Ilyndor on planet Nacre.",
+  "description": "Fictional subsurface locations on Nacre and their crossings to Ilyndor, Brinax Collective, and Kestrel Island in Orinthia.",
   "name": "Synthetic Exercise World - Veyra",
   "source": "https://github.com/MISP/Synthetic-Exercise-World-Format",
   "type": "exercise-world-veyra",
@@ -28,7 +28,7 @@
     {
       "value": "Ilyndor Gate",
       "uuid": "6431b08d-c7dc-4a47-b0e8-bead7ab13ce7",
-      "description": "A jointly operated transfer lift on the Ilyndor trade corridor and the only mapped crossing into Veyra.",
+      "description": "A jointly operated transfer lift on the Ilyndor trade corridor and Veyra's main route for general cargo.",
       "meta": {
         "entity-type": [
           "crossing"
@@ -57,7 +57,7 @@
     {
       "value": "Threshold Station",
       "uuid": "73d2926d-d632-4f42-82b1-cdc5b66a81b3",
-      "description": "The Veyran landing for the lift. Surface and subsurface operators share inspection and communications facilities here.",
+      "description": "Veyra's landing for Ilyndor Gate and the end of the research passage from Kestrel Island Shaft. Surface and subsurface operators share inspection and communications facilities here.",
       "meta": {
         "entity-type": [
           "station"
@@ -80,13 +80,17 @@
         {
           "dest-uuid": "7e35306b-28b1-4b73-9669-795c4dd41c97",
           "type": "connects-to"
+        },
+        {
+          "dest-uuid": "78c054f5-db78-4dd1-899c-035bf519a0a4",
+          "type": "connects-to"
         }
       ]
     },
     {
       "value": "Lantern Basin",
       "uuid": "7e35306b-28b1-4b73-9669-795c4dd41c97",
-      "description": "Veyra's main settlement and freight market, illuminated by municipal light galleries.",
+      "description": "Veyra's main settlement and freight market, illuminated by municipal light galleries. The freight gallery from Brinax Coastal Lift reaches its receiving terraces.",
       "meta": {
         "entity-type": [
           "settlement"
@@ -109,6 +113,10 @@
         {
           "dest-uuid": "7650bcb4-01cc-4554-ba52-108690b364b4",
           "type": "supplied-by"
+        },
+        {
+          "dest-uuid": "731a7f05-709c-4ccf-85ae-a6102ff50306",
+          "type": "connects-to"
         }
       ]
     },
@@ -136,7 +144,68 @@
           "type": "part-of"
         }
       ]
+    },
+    {
+      "value": "Brinax Coastal Lift",
+      "uuid": "731a7f05-709c-4ccf-85ae-a6102ff50306",
+      "description": "A heavy-freight lift at a Brinax Collective port. Its underground freight gallery leads to Lantern Basin and carries bulk supplies and grid equipment.",
+      "meta": {
+        "entity-type": [
+          "crossing"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "world": [
+          "Veyra"
+        ],
+        "depth": [
+          "0 to 1.6 km below the surface"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "91f273f8-66c0-446f-bdb2-4233fd0c55ef",
+          "type": "connects-to"
+        },
+        {
+          "dest-uuid": "7e35306b-28b1-4b73-9669-795c4dd41c97",
+          "type": "connects-to"
+        }
+      ]
+    },
+    {
+      "value": "Kestrel Island Shaft",
+      "uuid": "78c054f5-db78-4dd1-899c-035bf519a0a4",
+      "description": "A restricted shaft for research teams and medical transfers on Kestrel Island, the only island in Orinthia with access to Veyra. Its research passage leads to Threshold Station.",
+      "meta": {
+        "entity-type": [
+          "crossing"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "world": [
+          "Veyra"
+        ],
+        "depth": [
+          "0 to 1.2 km below the surface"
+        ],
+        "surface-site": [
+          "Kestrel Island"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "74d2286a-1b87-4984-8dd1-c5bd466ecca5",
+          "type": "connects-to"
+        },
+        {
+          "dest-uuid": "73d2926d-d632-4f42-82b1-cdc5b66a81b3",
+          "type": "connects-to"
+        }
+      ]
     }
   ],
-  "version": 1
+  "version": 2
 }
