@@ -1,0 +1,9 @@
+{
+  "description": "Fictional subsurface locations and their connection to Ilyndor on planet Nacre.",
+  "icon": "globe",
+  "name": "Synthetic Exercise World - Veyra",
+  "namespace": "misp",
+  "type": "exercise-world-veyra",
+  "uuid": "5fa66ecf-cd85-43ef-8b70-c72b2dfb48aa",
+  "version": 1
+}

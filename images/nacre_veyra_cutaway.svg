@@ -1,0 +1,227 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 960" role="img" aria-labelledby="title description">
+  <title id="title">Nacre and Veyra — Ilyndor regional cutaway</title>
+  <desc id="description">An oblique cutaway showing Nacre's surface at Ilyndor, the gate lift down to Threshold Station, the haulway to Lantern Basin, and the Glasswater Reservoir that supplies the settlement.</desc>
+  <defs>
+    <linearGradient id="background" x2="0" y2="1">
+      <stop stop-color="#102331"/>
+      <stop offset="1" stop-color="#08141d"/>
+    </linearGradient>
+    <linearGradient id="surface-water" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#417b86"/>
+      <stop offset="1" stop-color="#183e54"/>
+    </linearGradient>
+    <linearGradient id="surface-land" x1="0" y1="1" x2="1" y2="0">
+      <stop stop-color="#6a9c91"/>
+      <stop offset="1" stop-color="#abc2a0"/>
+    </linearGradient>
+    <linearGradient id="left-rock" x2="1" y2="0">
+      <stop stop-color="#20323c"/>
+      <stop offset="1" stop-color="#36424a"/>
+    </linearGradient>
+    <linearGradient id="right-rock" x2="0" y2="1">
+      <stop stop-color="#4e4743"/>
+      <stop offset="1" stop-color="#212a35"/>
+    </linearGradient>
+    <linearGradient id="chamber" x2="0" y2="1">
+      <stop stop-color="#11343b"/>
+      <stop offset="1" stop-color="#061b26"/>
+    </linearGradient>
+    <linearGradient id="water" x2="0" y2="1">
+      <stop stop-color="#91e1db"/>
+      <stop offset="1" stop-color="#28758b"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40,0 H 0 V 40" fill="none" stroke="#91b6c4" stroke-opacity=".09"/>
+    </pattern>
+    <clipPath id="top-face">
+      <path d="M 96,333 579,216 995,360 500,495 Z"/>
+    </clipPath>
+    <clipPath id="front-faces">
+      <path d="M 96,333 500,495 995,360 V 718 L 500,853 96,691 Z"/>
+    </clipPath>
+    <marker id="gold-arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0,0 8,4 0,8 Z" fill="#ffc178"/>
+    </marker>
+    <marker id="teal-arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0,0 8,4 0,8 Z" fill="#82dfd9"/>
+    </marker>
+    <style>
+      text { font-family: 'DejaVu Sans', sans-serif; }
+      .ink { fill: #e9f2ee; }
+      .muted { fill: #abc1c8; }
+      .gold { fill: #ffc178; }
+      .teal { fill: #8de2d8; }
+      .caps { font-size: 13px; font-weight: 700; letter-spacing: 2.2px; }
+      .heading { font-size: 62px; font-weight: 700; letter-spacing: -2.3px; }
+      .place { font-size: 18px; font-weight: 700; }
+      .body { font-size: 15px; }
+      .terrain-label { fill: #102b35; font-size: 14px; font-weight: 700; letter-spacing: 1.2px; }
+      .note { font-size: 12px; letter-spacing: .3px; }
+      .small-number { fill: #09212a; font-size: 12px; font-weight: 700; text-anchor: middle; dominant-baseline: central; }
+      .hairline { stroke: #63828d; stroke-opacity: .6; }
+    </style>
+  </defs>
+
+  <path fill="url(#background)" d="M 0,0 H 1440 V 960 H 0 Z"/>
+  <path fill="url(#grid)" d="M 42,197 H 1016 V 883 H 42 Z"/>
+  <path d="M 48,169 H 1392 M 48,902 H 1392" class="hairline"/>
+  <text x="48" y="61" class="caps teal">SYNTHETIC EXERCISE WORLD ATLAS</text>
+  <text x="48" y="132" class="heading ink">Nacre &amp; Veyra</text>
+  <text x="1392" y="126" text-anchor="end" class="caps muted">ILYNDOR REGIONAL CUTAWAY</text>
+
+  <!-- Exposed rock faces -->
+  <path d="M 96,333 500,495 V 853 L 96,691 Z" fill="url(#left-rock)"/>
+  <path d="M 500,495 995,360 V 718 L 500,853 Z" fill="url(#right-rock)"/>
+  <g clip-path="url(#front-faces)">
+    <path d="M 90,365 500,530 690,472 778,460 1002,396
+             M 90,395 203,445 287,468 500,558 663,506 812,475 1002,423
+             M 90,451 243,523 357,557 500,617 606,590 724,535 836,519 1002,470
+             M 90,493 221,548 380,618 500,660 663,614 825,575 1002,515
+             M 90,542 205,585 382,666 500,710 677,658 831,629 1002,563
+             M 90,599 204,641 352,713 500,766 645,728 785,698 1002,621
+             M 90,639 251,709 392,756 500,803 639,769 795,737 1002,669"
+          fill="none" stroke="#bda995" stroke-opacity=".28" stroke-width="2"/>
+    <path d="M 96,411 500,582 652,540 818,497 995,444
+             M 96,571 500,739 665,696 807,655 995,588"
+          fill="none" stroke="#120e21" stroke-opacity=".24" stroke-width="15"/>
+    <path d="M 149,394 174,463 153,519 200,607 M 395,520 361,597 372,622 347,681
+             M 912,419 876,490 899,514 851,586 M 577,658 596,708 558,774"
+          fill="none" stroke="#101c24" stroke-opacity=".65" stroke-width="2"/>
+  </g>
+
+  <!-- Surface relief -->
+  <path d="M 96,333 579,216 995,360 500,495 Z" fill="url(#surface-water)"/>
+  <g clip-path="url(#top-face)">
+    <path d="M 66,315 554,184 952,349 905,355 845,346 808,358 765,348 729,360
+             697,349 682,371 694,390 665,420 623,431 602,438 565,462
+             490,506 82,363 Z" fill="url(#surface-land)" stroke="#bee0bb" stroke-width="2"/>
+    <path d="M 118,330 229,302 297,301 367,277 464,260 522,234 600,237 704,267
+             M 154,350 249,321 308,322 398,291 483,282 537,255 611,253 684,271
+             M 198,369 249,345 315,346 405,315 472,313 538,281 613,275 696,290
+             M 247,392 330,368 401,346 471,343 533,314 587,304 657,310
+             M 308,415 388,386 464,364 524,350 580,326 637,328
+             M 369,437 421,414 500,400 549,370 612,357
+             M 427,458 479,433 532,428 565,402"
+          fill="none" stroke="#315750" stroke-opacity=".52" stroke-width="1.4"/>
+    <path d="M 407,257 450,280 484,286 510,312 554,315 592,342 606,369 648,376 691,393"
+          fill="none" stroke="#3b7384" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M 188,327 299,350 388,346 463,378 529,372 583,396 636,406"
+          fill="none" stroke="#edf1c8" stroke-width="2.4" stroke-dasharray="5 5"/>
+    <path d="M 706,381 740,377 773,382 803,374 M 728,400 762,396 792,399 836,388
+             M 784,411 811,410 846,400 885,395 M 833,429 866,421 901,415 934,401"
+          fill="none" stroke="#a5d2ce" stroke-opacity=".56" stroke-width="1.5"/>
+    <text x="373" y="326" class="terrain-label">ILYNDOR</text>
+    <text x="453" y="366" class="note" fill="#1b3b42">Trade corridor</text>
+  </g>
+  <path d="M 96,333 579,216 995,360 500,495 Z" fill="none" stroke="#c3dbbd" stroke-width="2"/>
+  <path d="M 96,333 V 691 L 500,853 995,718 V 360 M 500,495 V 853"
+        fill="none" stroke="#72838b" stroke-width="1.7"/>
+
+  <!-- Cavern, galleries, and reservoir -->
+  <path d="M 518,695 Q 529,672 548,661 L 564,634 590,634 610,606 628,591
+           655,595 683,578 709,589 729,570 779,557 811,566 844,551
+           884,563 899,582 925,582 958,611 968,648 961,680 912,694
+           867,715 815,725 780,746 724,753 687,745 652,765 604,766
+           575,754 555,758 531,738 Z"
+        fill="url(#chamber)" stroke="#82c3b8" stroke-width="2.2"/>
+  <path d="M 529,697 578,673 625,664 680,640 713,650 774,616 833,634 868,619 941,625
+           M 541,722 593,699 643,696 674,683 712,689 758,669 810,674"
+        fill="none" stroke="#40736f" stroke-width="1.5"/>
+  <path d="M 549,730 589,717 614,722 653,711 683,713 724,701 764,705 810,690
+           849,694 903,675 951,664"
+        fill="none" stroke="#315c64" stroke-width="1.7"/>
+  <path d="M 806,700 827,688 854,691 880,680 910,681 933,670 952,674
+           942,684 907,696 883,706 850,712 823,712 Z"
+        fill="url(#water)" stroke="#96e3da" stroke-width="1.5"/>
+  <path d="M 834,701 851,699 875,699 904,690 M 860,706 880,702 898,697"
+        fill="none" stroke="#c2eeea" stroke-opacity=".7"/>
+  <path d="M 850,690 Q 821,670 789,668 L 755,654" fill="none" stroke="#82dfd9"
+        stroke-width="2" stroke-dasharray="4 5" marker-end="url(#teal-arrow)"/>
+
+  <!-- Lantern Basin: stepped settlement and light galleries -->
+  <path d="M 696,657 734,644 770,651 733,665 Z M 717,634 751,624 784,631 751,642 Z
+           M 764,608 791,599 819,605 793,615 Z" fill="#397074" stroke="#8ec6b8" stroke-width="1.5"/>
+  <g fill="#acd5ba" stroke="#0e3038" stroke-width="1">
+    <path d="M 709,647 V 633 L 720,629 728,633 V 644 L 719,650 Z"/>
+    <path d="M 725,642 V 628 L 736,624 744,628 V 639 L 734,645 Z"/>
+    <path d="M 738,628 V 611 L 749,607 757,611 V 625 L 747,631 Z"/>
+    <path d="M 752,624 V 615 L 764,611 771,615 V 621 L 762,627 Z"/>
+    <path d="M 774,606 V 590 L 785,586 793,590 V 603 L 783,609 Z"/>
+    <path d="M 789,603 V 588 L 800,584 808,588 V 600 L 798,606 Z"/>
+  </g>
+  <path d="M 719,635 V 641 M 734,630 V 637 M 747,614 V 622 M 783,591 V 600 M 798,590 V 597"
+        stroke="#ffe39f" stroke-width="2"/>
+
+  <!-- Surface gate, transfer lift and station -->
+  <path d="M 603,411 628,400 655,409 631,421 Z" fill="#233e45" stroke="#ffc178" stroke-width="2"/>
+  <path d="M 613,408 V 389 L 634,381 647,387 V 406 L 628,415 Z"
+        fill="#18333e" stroke="#ffc178" stroke-width="1.7"/>
+  <path d="M 613,389 627,396 647,387 M 627,396 V 414" fill="none" stroke="#ffc178" stroke-width="1.6"/>
+  <path d="M 628,420 V 602 M 648,415 V 596" stroke="#ffcc89" stroke-opacity=".44" stroke-width="1.5"/>
+  <path d="M 638,433 V 587" stroke="#ffc178" stroke-width="3"
+        marker-start="url(#gold-arrow)" marker-end="url(#gold-arrow)"/>
+  <path d="M 628,526 648,521 V 539 L 628,544 Z" fill="#1e353d" stroke="#ffc178" stroke-width="1.6"/>
+  <path d="M 633,533 643,530" stroke="#ffc178" stroke-width="1.5"/>
+  <path d="M 613,616 640,602 667,610 641,625 Z" fill="#1c4650" stroke="#ffc178" stroke-width="2"/>
+  <path d="M 653,616 Q 676,618 691,630 L 717,640" fill="none"
+        stroke="#ffc178" stroke-width="2.5" stroke-dasharray="5 5" marker-end="url(#gold-arrow)"/>
+
+  <!-- Map annotations -->
+  <path d="M 349,246 398,246 442,254" fill="none" stroke="#b6d4ca" stroke-width="1.2"/>
+  <text x="345" y="241" text-anchor="end" class="caps ink">NACRE SURFACE</text>
+  <path d="M 438,731 H 481 L 531,708" fill="none" stroke="#8de2d8" stroke-width="1.5"/>
+  <text x="433" y="725" text-anchor="end" class="caps teal">VEYRA</text>
+  <text x="433" y="747" text-anchor="end" class="note muted">Subsurface caverns</text>
+  <g>
+    <circle cx="662" cy="393" r="11" fill="#ffc178"/><text x="662" y="393" class="small-number">1</text>
+    <circle cx="612" cy="604" r="11" fill="#ffc178"/><text x="612" y="604" class="small-number">2</text>
+    <circle cx="815" cy="594" r="11" fill="#8de2d8"/><text x="815" y="594" class="small-number">3</text>
+    <circle cx="938" cy="659" r="11" fill="#8de2d8"/><text x="938" y="659" class="small-number">4</text>
+  </g>
+
+  <!-- Landmark key and flow legend -->
+  <path d="M 1028,207 H 1392 V 861 H 1028 Z" fill="#0d202c" stroke="#45636e"/>
+  <text x="1054" y="245" class="caps muted">LANDMARKS</text>
+
+  <g>
+    <circle cx="1066" cy="287" r="11" fill="#ffc178"/><text x="1066" y="287" class="small-number">1</text>
+    <text x="1088" y="293" class="place ink">Ilyndor Gate</text>
+    <text x="1366" y="293" text-anchor="end" class="note gold">0–1.2 km</text>
+    <text x="1088" y="318" class="body muted">Jointly operated transfer lift</text>
+    <path d="M 1054,339 H 1366" class="hairline"/>
+
+    <circle cx="1066" cy="368" r="11" fill="#ffc178"/><text x="1066" y="368" class="small-number">2</text>
+    <text x="1088" y="374" class="place ink">Threshold Station</text>
+    <text x="1366" y="374" text-anchor="end" class="note gold">1.2 km</text>
+    <text x="1088" y="399" class="body muted">Cargo inspection and relay</text>
+    <path d="M 1054,420 H 1366" class="hairline"/>
+
+    <circle cx="1066" cy="449" r="11" fill="#8de2d8"/><text x="1066" y="449" class="small-number">3</text>
+    <text x="1088" y="455" class="place ink">Lantern Basin</text>
+    <text x="1366" y="455" text-anchor="end" class="note teal">1.6 km</text>
+    <text x="1088" y="480" class="body muted">Main settlement and market</text>
+    <path d="M 1054,501 H 1366" class="hairline"/>
+
+    <circle cx="1066" cy="530" r="11" fill="#8de2d8"/><text x="1066" y="530" class="small-number">4</text>
+    <text x="1088" y="536" class="place ink">Glasswater Reservoir</text>
+    <text x="1366" y="536" text-anchor="end" class="note teal">2.1 km</text>
+    <text x="1088" y="561" class="body muted">Freshwater for the lower terraces</text>
+    <path d="M 1054,588 H 1366" class="hairline"/>
+  </g>
+
+  <text x="1054" y="626" class="caps muted">MOVEMENT</text>
+  <path d="M 1059,655 H 1092" fill="none" stroke="#ffc178" stroke-width="2"
+        marker-start="url(#gold-arrow)" marker-end="url(#gold-arrow)"/>
+  <text x="1108" y="660" class="body ink">Transfer lift</text>
+  <text x="1108" y="684" class="note muted">Down: food, medicine, equipment</text>
+  <text x="1108" y="706" class="note muted">Up: optical glass, repair crews</text>
+  <path d="M 1059,747 H 1092" fill="none" stroke="#ffc178" stroke-width="2" stroke-dasharray="4 4"
+        marker-end="url(#gold-arrow)"/>
+  <text x="1108" y="752" class="body ink">Subsurface haulway</text>
+  <path d="M 1059,789 H 1092" fill="none" stroke="#82dfd9" stroke-width="2" stroke-dasharray="4 4"
+        marker-end="url(#teal-arrow)"/>
+  <text x="1108" y="794" class="body ink">Freshwater supply</text>
+
+  <text x="48" y="930" class="note muted">Schematic geometry. Depths measured from the surface at Ilyndor Gate.</text>
+  <text x="1392" y="930" text-anchor="end" class="note muted">Synthetic Exercise World · CC BY 4.0</text>
+</svg>
