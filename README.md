@@ -204,22 +204,24 @@ This field guide accompanies the revised fictional atlas map. The map is designe
 
 ## Veyra — the world beneath Nacre
 
-Veyra is an inhabited network of caverns beneath Nacre's Ilyndor trade corridor. Its settlements share a council that allocates water and maintains the light galleries. Lantern Basin is the largest settlement and the main market for goods arriving from the surface.
+Veyra is an inhabited network of caverns beneath Nacre, with crossings in Ilyndor, Brinax Collective, and on Kestrel Island in Orinthia. Its settlements share a council that allocates water and maintains the light galleries. Lantern Basin is the largest settlement and the main market for goods arriving from the surface.
 
-[![Oblique cutaway of Nacre and Veyra showing Ilyndor Gate, Threshold Station, Lantern Basin, and Glasswater Reservoir](images/nacre_veyra_cutaway.svg)](images/nacre_veyra_cutaway.svg)
+[![Oblique cutaway of Nacre and Veyra showing the Ilyndor, Brinax, and Kestrel Island crossings and their routes to Threshold Station and Lantern Basin](images/nacre_veyra_cutaway.svg)](images/nacre_veyra_cutaway.svg)
 
-The cutaway shows the Ilyndor region. Depths are measured from the surface at Ilyndor Gate. Horizontal distances and cavern sizes are schematic.
+Each crossing's depth is measured from its local surface. Horizontal distances and cavern sizes are schematic.
 
 | Landmark | Depth | Role |
 |---|---:|---|
-| Ilyndor Gate | Surface to 1.2 km | Jointly operated transfer lift and the only mapped crossing between the two worlds. |
-| Threshold Station | 1.2 km | Veyran landing, cargo inspection point, and shared communications relay. |
-| Lantern Basin | 1.6 km | Main Veyran settlement and freight market, connected to Threshold Station by a haulway. |
+| Ilyndor Gate | Surface to 1.2 km | Jointly operated transfer lift and Veyra's main route for general cargo. |
+| Brinax Coastal Lift | Surface to 1.6 km | Heavy-freight lift at a Brinax Collective port. A freight gallery leads to Lantern Basin. |
+| Kestrel Island Shaft | Surface to 1.2 km | Restricted crossing for research teams and medical transfers, with a passage to Threshold Station. Kestrel Island is the only Orinthian island with access to Veyra. |
+| Threshold Station | 1.2 km | Ilyndor landing, cargo inspection point, and shared communications relay at the end of the Kestrel research passage. |
+| Lantern Basin | 1.6 km | Main Veyran settlement and freight market. A haulway connects it to Threshold Station, and the Brinax freight gallery serves its receiving terraces. |
 | Glasswater Reservoir | 2.1 km | Freshwater reserve feeding Lantern Basin's lower terraces. |
 
-Ilyndor sends food, medicines, and replacement equipment down the lift. Veyra sends optical glass and specialist repair crews up to the corridor. Both councils must approve a closure, and Threshold Station relays manifests and emergency messages in either direction.
+Ilyndor sends food, medicines, and replacement equipment down the gate lift. Veyra sends optical glass and specialist repair crews up to the corridor. The Ilyndor and Veyran councils must both approve a closure of Ilyndor Gate, and Threshold Station relays manifests and emergency messages in either direction. Brinax moves bulk supplies and grid equipment, while Kestrel handles research and medical transfers.
 
-A gate outage makes a cross-world continuity exercise possible. Participants can decide how to allocate stored supplies, prioritize essential cargo when the lift reopens, and reconcile manifests recorded independently during the outage.
+An Ilyndor Gate outage gives exercise participants a choice about what to reroute through Brinax, which medical transfers qualify for Kestrel, and which supplies to allocate from Veyra's reserves. When the gate reopens, participants can reconcile the manifests recorded at each crossing.
 
 # Integrating the dataset
 
@@ -238,9 +240,10 @@ Projects consuming the Synthetic Exercise World should:
 Veyra has its own MISP [galaxy definition](galaxies/exercise-world-veyra.json) and
 [cluster collection](clusters/exercise-world-veyra.json). Import both alongside
 the surface dataset and use the `exercise-world-veyra` galaxy type for Veyran
-entities. The Ilyndor Gate cluster references the surface Ilyndor cluster by UUID
-and links to Threshold Station inside Veyra. The surface reference was verified
-against [MISP Galaxy revision `779b780`](https://github.com/MISP/misp-galaxy/blob/779b780a13f67288d9b1a031b064fb140cdacaae/clusters/exercise-world.json).
+entities. The three crossing clusters link by UUID to their surface countries
+and their destinations within Veyra. The Kestrel Island Shaft cluster uses
+`meta.surface-site` to identify the specific island within Orinthia. The surface
+references were verified against [MISP Galaxy revision `779b780`](https://github.com/MISP/misp-galaxy/blob/779b780a13f67288d9b1a031b064fb140cdacaae/clusters/exercise-world.json).
 
 ## Community integrations
 

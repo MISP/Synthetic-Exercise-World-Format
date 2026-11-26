@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 960" role="img" aria-labelledby="title description">
-  <title id="title">Nacre and Veyra — Ilyndor regional cutaway</title>
-  <desc id="description">An oblique cutaway showing Nacre's surface at Ilyndor, the gate lift down to Threshold Station, the haulway to Lantern Basin, and the Glasswater Reservoir that supplies the settlement.</desc>
+  <title id="title">Nacre and Veyra — three crossings</title>
+  <desc id="description">An oblique cutaway showing Ilyndor Gate and Kestrel Island Shaft connecting to Threshold Station, and Brinax Coastal Lift connecting to Lantern Basin. Kestrel Island is the only island in Orinthia with a crossing to Veyra. The Glasswater Reservoir supplies Lantern Basin.</desc>
   <defs>
     <linearGradient id="background" x2="0" y2="1">
       <stop stop-color="#102331"/>
@@ -67,7 +67,7 @@
   <path d="M 48,169 H 1392 M 48,902 H 1392" class="hairline"/>
   <text x="48" y="61" class="caps teal">SYNTHETIC EXERCISE WORLD ATLAS</text>
   <text x="48" y="132" class="heading ink">Nacre &amp; Veyra</text>
-  <text x="1392" y="126" text-anchor="end" class="caps muted">ILYNDOR REGIONAL CUTAWAY</text>
+  <text x="1392" y="126" text-anchor="end" class="caps muted">SURFACE CROSSINGS · OBLIQUE CUTAWAY</text>
 
   <!-- Exposed rock faces -->
   <path d="M 96,333 500,495 V 853 L 96,691 Z" fill="url(#left-rock)"/>
@@ -110,7 +110,21 @@
     <path d="M 706,381 740,377 773,382 803,374 M 728,400 762,396 792,399 836,388
              M 784,411 811,410 846,400 885,395 M 833,429 866,421 901,415 934,401"
           fill="none" stroke="#a5d2ce" stroke-opacity=".56" stroke-width="1.5"/>
-    <text x="373" y="326" class="terrain-label">ILYNDOR</text>
+    <!-- Brinax harbor and the Orinthian islands -->
+    <path d="M 99,360 176,359 215,365 241,379 269,376 295,385 314,383
+             325,390 322,399 301,404 292,413 264,419 229,437 99,404 Z"
+          fill="url(#surface-water)" stroke="#bee0bb" stroke-width="1.5"/>
+    <path d="M 227,382 247,389 268,386 M 262,400 282,396 292,397"
+          fill="none" stroke="#a5d2ce" stroke-opacity=".56" stroke-width="1.5"/>
+    <path d="M 821,389 834,375 852,372 862,364 880,367 889,375 901,380
+             894,391 875,394 863,403 846,403 840,395 Z
+             M 776,396 785,387 800,385 810,391 805,400 790,403 Z
+             M 904,371 914,362 928,359 936,364 931,371 915,377 Z"
+          fill="url(#surface-land)" stroke="#bee0bb" stroke-width="1.5" stroke-linejoin="round"/>
+    <path d="M 836,388 850,381 861,373 878,375 M 867,397 884,388 893,386"
+          fill="none" stroke="#315750" stroke-opacity=".55" stroke-width="1.4"/>
+    <text x="166" y="331" class="terrain-label">BRINAX COLLECTIVE</text>
+    <text x="421" y="326" class="terrain-label">ILYNDOR</text>
     <text x="453" y="366" class="note" fill="#1b3b42">Trade corridor</text>
   </g>
   <path d="M 96,333 579,216 995,360 500,495 Z" fill="none" stroke="#c3dbbd" stroke-width="2"/>
@@ -118,14 +132,17 @@
         fill="none" stroke="#72838b" stroke-width="1.7"/>
 
   <!-- Cavern, galleries, and reservoir -->
-  <path d="M 518,695 Q 529,672 548,661 L 564,634 590,634 610,606 628,591
+  <path d="M 500,704 518,695 Q 529,672 548,661 L 564,634 590,634 610,606 628,591
            655,595 683,578 709,589 729,570 779,557 811,566 844,551
            884,563 899,582 925,582 958,611 968,648 961,680 912,694
            867,715 815,725 780,746 724,753 687,745 652,765 604,766
-           575,754 555,758 531,738 Z"
+           575,754 555,758 531,738 500,750 472,750 451,737 424,737 390,712
+           361,710 338,680 310,670 289,649 285,625 302,613 318,609 332,620
+           353,616 375,638 403,650 428,682 458,684 473,700 Z"
         fill="url(#chamber)" stroke="#82c3b8" stroke-width="2.2"/>
   <path d="M 529,697 578,673 625,664 680,640 713,650 774,616 833,634 868,619 941,625
-           M 541,722 593,699 643,696 674,683 712,689 758,669 810,674"
+           M 541,722 593,699 643,696 674,683 712,689 758,669 810,674
+           M 293,637 315,632 340,654 373,658 400,681 428,698 454,706 478,725 501,731"
         fill="none" stroke="#40736f" stroke-width="1.5"/>
   <path d="M 549,730 589,717 614,722 653,711 683,713 724,701 764,705 810,690
            849,694 903,675 951,664"
@@ -137,6 +154,9 @@
         fill="none" stroke="#c2eeea" stroke-opacity=".7"/>
   <path d="M 850,690 Q 821,670 789,668 L 755,654" fill="none" stroke="#82dfd9"
         stroke-width="2" stroke-dasharray="4 5" marker-end="url(#teal-arrow)"/>
+  <path d="M 351,649 C 414,666 438,714 500,726 S 654,681 712,652
+           M 862,572 C 807,568 780,581 743,596 S 688,611 660,611"
+        fill="none" stroke="#ffc178" stroke-width="2.5" stroke-dasharray="5 5"/>
 
   <!-- Lantern Basin: stepped settlement and light galleries -->
   <path d="M 696,657 734,644 770,651 733,665 Z M 717,634 751,624 784,631 751,642 Z
@@ -152,7 +172,7 @@
   <path d="M 719,635 V 641 M 734,630 V 637 M 747,614 V 622 M 783,591 V 600 M 798,590 V 597"
         stroke="#ffe39f" stroke-width="2"/>
 
-  <!-- Surface gate, transfer lift and station -->
+  <!-- Ilyndor Gate and Threshold Station -->
   <path d="M 603,411 628,400 655,409 631,421 Z" fill="#233e45" stroke="#ffc178" stroke-width="2"/>
   <path d="M 613,408 V 389 L 634,381 647,387 V 406 L 628,415 Z"
         fill="#18333e" stroke="#ffc178" stroke-width="1.7"/>
@@ -164,64 +184,99 @@
   <path d="M 633,533 643,530" stroke="#ffc178" stroke-width="1.5"/>
   <path d="M 613,616 640,602 667,610 641,625 Z" fill="#1c4650" stroke="#ffc178" stroke-width="2"/>
   <path d="M 653,616 Q 676,618 691,630 L 717,640" fill="none"
-        stroke="#ffc178" stroke-width="2.5" stroke-dasharray="5 5" marker-end="url(#gold-arrow)"/>
+        stroke="#ffc178" stroke-width="2.5" stroke-dasharray="5 5"/>
+
+  <!-- Brinax Coastal Lift and the freight gallery -->
+  <path d="M 298,390 329,380 336,384 304,395 Z" fill="#426970" stroke="#abc1c8" stroke-width="1.3"/>
+  <path d="M 323,391 345,383 366,392 344,401 Z" fill="#233e45" stroke="#ffc178" stroke-width="2"/>
+  <path d="M 330,389 V 371 L 346,364 359,371 V 388 L 343,395 Z
+           M 330,371 343,378 359,371 M 343,378 V 395"
+        fill="#18333e" stroke="#ffc178" stroke-width="1.6" stroke-linejoin="round"/>
+  <path d="M 334,397 V 635 M 354,397 V 635" stroke="#ffcc89" stroke-opacity=".44" stroke-width="1.5"/>
+  <path d="M 344,411 V 626" stroke="#ffc178" stroke-width="3"
+        marker-start="url(#gold-arrow)" marker-end="url(#gold-arrow)"/>
+  <path d="M 334,510 354,516 V 536 L 334,530 Z" fill="#1e353d" stroke="#ffc178" stroke-width="1.6"/>
+  <path d="M 322,641 344,633 368,642 346,651 Z" fill="#1c4650" stroke="#ffc178" stroke-width="2"/>
+
+  <!-- Kestrel Island Shaft and the research passage -->
+  <path d="M 849,390 862,384 876,389 863,396 Z" fill="#233e45" stroke="#ffc178" stroke-width="1.8"/>
+  <path d="M 854,386 V 377 L 864,373 872,376 V 385 L 862,389 Z
+           M 854,377 862,381 872,376 M 862,381 V 389"
+        fill="#18333e" stroke="#ffc178" stroke-width="1.5" stroke-linejoin="round"/>
+  <path d="M 854,393 V 563 M 870,393 V 563" stroke="#ffcc89" stroke-opacity=".44" stroke-width="1.5"/>
+  <path d="M 862,405 V 552" stroke="#ffc178" stroke-width="3"
+        marker-start="url(#gold-arrow)" marker-end="url(#gold-arrow)"/>
+  <path d="M 854,466 870,461 V 475 L 854,480 Z" fill="#1e353d" stroke="#ffc178" stroke-width="1.6"/>
+  <path d="M 846,569 862,562 879,569 862,576 Z" fill="#1c4650" stroke="#ffc178" stroke-width="2"/>
 
   <!-- Map annotations -->
   <path d="M 349,246 398,246 442,254" fill="none" stroke="#b6d4ca" stroke-width="1.2"/>
   <text x="345" y="241" text-anchor="end" class="caps ink">NACRE SURFACE</text>
-  <path d="M 438,731 H 481 L 531,708" fill="none" stroke="#8de2d8" stroke-width="1.5"/>
-  <text x="433" y="725" text-anchor="end" class="caps teal">VEYRA</text>
-  <text x="433" y="747" text-anchor="end" class="note muted">Subsurface caverns</text>
+  <path d="M 905,294 H 892 L 875,360" fill="none" stroke="#b6d4ca" stroke-width="1.2"/>
+  <text x="910" y="290" class="caps ink">ORINTHIA</text>
+  <text x="910" y="311" class="note muted">Kestrel Island</text>
+  <path d="M 190,706 H 268 L 315,667" fill="none" stroke="#8de2d8" stroke-width="1.5"/>
+  <text x="185" y="700" text-anchor="end" class="caps teal">VEYRA</text>
+  <text x="185" y="722" text-anchor="end" class="note muted">Subsurface caverns</text>
   <g>
     <circle cx="662" cy="393" r="11" fill="#ffc178"/><text x="662" y="393" class="small-number">1</text>
-    <circle cx="612" cy="604" r="11" fill="#ffc178"/><text x="612" y="604" class="small-number">2</text>
-    <circle cx="815" cy="594" r="11" fill="#8de2d8"/><text x="815" y="594" class="small-number">3</text>
-    <circle cx="938" cy="659" r="11" fill="#8de2d8"/><text x="938" y="659" class="small-number">4</text>
+    <circle cx="375" cy="379" r="11" fill="#ffc178"/><text x="375" y="379" class="small-number">2</text>
+    <circle cx="888" cy="381" r="11" fill="#ffc178"/><text x="888" y="381" class="small-number">3</text>
+    <circle cx="612" cy="604" r="11" fill="#8de2d8"/><text x="612" y="604" class="small-number">4</text>
+    <circle cx="815" cy="594" r="11" fill="#8de2d8"/><text x="815" y="594" class="small-number">5</text>
+    <circle cx="938" cy="659" r="11" fill="#8de2d8"/><text x="938" y="659" class="small-number">6</text>
   </g>
 
   <!-- Landmark key and flow legend -->
   <path d="M 1028,207 H 1392 V 861 H 1028 Z" fill="#0d202c" stroke="#45636e"/>
-  <text x="1054" y="245" class="caps muted">LANDMARKS</text>
-
+  <text x="1054" y="245" class="caps muted">SURFACE CROSSINGS</text>
   <g>
-    <circle cx="1066" cy="287" r="11" fill="#ffc178"/><text x="1066" y="287" class="small-number">1</text>
-    <text x="1088" y="293" class="place ink">Ilyndor Gate</text>
-    <text x="1366" y="293" text-anchor="end" class="note gold">0–1.2 km</text>
-    <text x="1088" y="318" class="body muted">Jointly operated transfer lift</text>
-    <path d="M 1054,339 H 1366" class="hairline"/>
+    <circle cx="1066" cy="281" r="11" fill="#ffc178"/><text x="1066" y="281" class="small-number">1</text>
+    <text x="1088" y="287" class="place ink">Ilyndor Gate</text>
+    <text x="1366" y="287" text-anchor="end" class="note gold">0–1.2 km</text>
+    <text x="1088" y="312" class="body muted">General cargo to Threshold Station</text>
 
-    <circle cx="1066" cy="368" r="11" fill="#ffc178"/><text x="1066" y="368" class="small-number">2</text>
-    <text x="1088" y="374" class="place ink">Threshold Station</text>
-    <text x="1366" y="374" text-anchor="end" class="note gold">1.2 km</text>
-    <text x="1088" y="399" class="body muted">Cargo inspection and relay</text>
-    <path d="M 1054,420 H 1366" class="hairline"/>
+    <circle cx="1066" cy="345" r="11" fill="#ffc178"/><text x="1066" y="345" class="small-number">2</text>
+    <text x="1088" y="351" class="place ink">Brinax Coastal Lift</text>
+    <text x="1366" y="351" text-anchor="end" class="note gold">0–1.6 km</text>
+    <text x="1088" y="376" class="body muted">Heavy freight to Lantern Basin</text>
 
-    <circle cx="1066" cy="449" r="11" fill="#8de2d8"/><text x="1066" y="449" class="small-number">3</text>
-    <text x="1088" y="455" class="place ink">Lantern Basin</text>
-    <text x="1366" y="455" text-anchor="end" class="note teal">1.6 km</text>
-    <text x="1088" y="480" class="body muted">Main settlement and market</text>
-    <path d="M 1054,501 H 1366" class="hairline"/>
-
-    <circle cx="1066" cy="530" r="11" fill="#8de2d8"/><text x="1066" y="530" class="small-number">4</text>
-    <text x="1088" y="536" class="place ink">Glasswater Reservoir</text>
-    <text x="1366" y="536" text-anchor="end" class="note teal">2.1 km</text>
-    <text x="1088" y="561" class="body muted">Freshwater for the lower terraces</text>
-    <path d="M 1054,588 H 1366" class="hairline"/>
+    <circle cx="1066" cy="409" r="11" fill="#ffc178"/><text x="1066" y="409" class="small-number">3</text>
+    <text x="1088" y="415" class="place ink">Kestrel Island Shaft</text>
+    <text x="1366" y="415" text-anchor="end" class="note gold">0–1.2 km</text>
+    <text x="1088" y="440" class="body muted">Research and medical transfers</text>
+    <path d="M 1054,459 H 1366" class="hairline"/>
   </g>
 
-  <text x="1054" y="626" class="caps muted">MOVEMENT</text>
-  <path d="M 1059,655 H 1092" fill="none" stroke="#ffc178" stroke-width="2"
-        marker-start="url(#gold-arrow)" marker-end="url(#gold-arrow)"/>
-  <text x="1108" y="660" class="body ink">Transfer lift</text>
-  <text x="1108" y="684" class="note muted">Down: food, medicine, equipment</text>
-  <text x="1108" y="706" class="note muted">Up: optical glass, repair crews</text>
-  <path d="M 1059,747 H 1092" fill="none" stroke="#ffc178" stroke-width="2" stroke-dasharray="4 4"
-        marker-end="url(#gold-arrow)"/>
-  <text x="1108" y="752" class="body ink">Subsurface haulway</text>
-  <path d="M 1059,789 H 1092" fill="none" stroke="#82dfd9" stroke-width="2" stroke-dasharray="4 4"
-        marker-end="url(#teal-arrow)"/>
-  <text x="1108" y="794" class="body ink">Freshwater supply</text>
+  <text x="1054" y="488" class="caps muted">VEYRA LANDMARKS</text>
+  <g>
+    <circle cx="1066" cy="522" r="11" fill="#8de2d8"/><text x="1066" y="522" class="small-number">4</text>
+    <text x="1088" y="528" class="place ink">Threshold Station</text>
+    <text x="1366" y="528" text-anchor="end" class="note teal">1.2 km</text>
+    <text x="1088" y="553" class="body muted">Ilyndor and Kestrel connections</text>
 
-  <text x="48" y="930" class="note muted">Schematic geometry. Depths measured from the surface at Ilyndor Gate.</text>
+    <circle cx="1066" cy="586" r="11" fill="#8de2d8"/><text x="1066" y="586" class="small-number">5</text>
+    <text x="1088" y="592" class="place ink">Lantern Basin</text>
+    <text x="1366" y="592" text-anchor="end" class="note teal">1.6 km</text>
+    <text x="1088" y="617" class="body muted">Main settlement and freight market</text>
+
+    <circle cx="1066" cy="650" r="11" fill="#8de2d8"/><text x="1066" y="650" class="small-number">6</text>
+    <text x="1088" y="656" class="place ink">Glasswater Reservoir</text>
+    <text x="1366" y="656" text-anchor="end" class="note teal">2.1 km</text>
+    <text x="1088" y="681" class="body muted">Freshwater for the lower terraces</text>
+    <path d="M 1054,699 H 1366" class="hairline"/>
+  </g>
+
+  <text x="1054" y="729" class="caps muted">MOVEMENT</text>
+  <path d="M 1059,758 H 1092" fill="none" stroke="#ffc178" stroke-width="2"
+        marker-start="url(#gold-arrow)" marker-end="url(#gold-arrow)"/>
+  <text x="1108" y="763" class="body ink">Surface crossing</text>
+  <path d="M 1059,791 H 1092" fill="none" stroke="#ffc178" stroke-width="2" stroke-dasharray="4 4"/>
+  <text x="1108" y="796" class="body ink">Underground passage</text>
+  <path d="M 1059,824 H 1092" fill="none" stroke="#82dfd9" stroke-width="2" stroke-dasharray="4 4"
+        marker-end="url(#teal-arrow)"/>
+  <text x="1108" y="829" class="body ink">Freshwater supply</text>
+
+  <text x="48" y="930" class="note muted">Schematic geometry. Crossing depths measured from the local surface.</text>
   <text x="1392" y="930" text-anchor="end" class="note muted">Synthetic Exercise World · CC BY 4.0</text>
 </svg>
