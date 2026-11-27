@@ -1,0 +1,35 @@
+name: Build documentation PDF
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  pdf:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: "1.9.38"
+          tinytex: false
+
+      - name: Build PDF
+        run: python3 scripts/build_pdf.py --revision "$GITHUB_SHA"
+
+      - name: Upload PDF
+        uses: actions/upload-artifact@v4
+        with:
+          name: synthetic-exercise-world-pdf
+          path: _book/synthetic-exercise-world.pdf
+          if-no-files-found: error

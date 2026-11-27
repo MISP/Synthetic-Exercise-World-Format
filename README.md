@@ -288,6 +288,18 @@ Select a preview to open its full-size SVG. Each extension guide includes a tabl
   [range42/range42-playbooks#151](https://github.com/range42/range42-playbooks/pull/151).
   Status: integration in progress.
 
+## PDF documentation
+
+The GitHub Actions workflow builds a single PDF from this README, the geographic atlas guide, and every extension guide. Open a completed run and download the `synthetic-exercise-world-pdf` artifact. [Build documentation PDF](https://github.com/MISP/Synthetic-Exercise-World-Format/actions/workflows/documentation-pdf.yml)
+
+To build locally, install Python 3.9 or later and Quarto 1.9.38, then run this command from the repository root.
+
+```sh
+python3 scripts/build_pdf.py
+```
+
+The PDF is written to `_book/synthetic-exercise-world.pdf`. The build downloads the pinned MISP Book Typst layout, logo, and fonts, and uses the maps in the current checkout. The layout is credited to the MISP Book contributors under CC BY-SA 4.0, with the cover and running text adapted for Synthetic Exercise World. The fonts use the SIL Open Font License 1.1. [MISP Book PDF template](https://github.com/MISP/misp-book/tree/b675fdc9e3926490bd104a3280e2344c10269b8f/assets/pdf)
+
 # Contributing
 
 Contributions can be made through the public GitHub repository by opening issues for proposed changes or submitting pull requests with new synthetic entities, metadata improvements, maps, diagrams, or documentation updates.
