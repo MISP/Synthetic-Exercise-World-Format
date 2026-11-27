@@ -1,0 +1,703 @@
+{
+  "authors": [
+    "MISP Project"
+  ],
+  "category": "context",
+  "description": "Fictional civil and humanitarian facilities, with utility and logistics dependencies on Nacre.",
+  "name": "Synthetic Exercise World - Civil and Humanitarian Services",
+  "source": "https://github.com/MISP/Synthetic-Exercise-World-Format",
+  "type": "exercise-world-civil-humanitarian",
+  "uuid": "bf65c321-43fe-5ae1-a838-a7c2f5ecb2f7",
+  "values": [
+    {
+      "description": "Inpatient hospital and emergency care in Caelum Protectorate.",
+      "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
+        "country": "Caelum Protectorate",
+        "entity-type": [
+          "civil-humanitarian-facility"
+        ],
+        "facility-id": [
+          "CS01"
+        ],
+        "facility-type": [
+          "hospital"
+        ],
+        "geographic-feature-id": [
+          "8816d546-9b3a-56fc-a7ea-eff612294939"
+        ],
+        "latitude": [
+          "50.2174"
+        ],
+        "longitude": [
+          "7.7057"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "service-profile": [
+          "Inpatient hospital and emergency care"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "4a600b9f-b843-446f-a234-415aded47e1b",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "515b3bb8-c927-57dd-a5a5-9525bc30ab60",
+          "type": "receives-water-from"
+        },
+        {
+          "dest-uuid": "9bba65c7-9f4c-5436-8a09-d76fe550e776",
+          "type": "draws-power-from"
+        },
+        {
+          "dest-uuid": "9547d310-1b5d-554f-95d7-1c1e2b223adb",
+          "type": "uses-telecom-provider"
+        }
+      ],
+      "uuid": "8816d546-9b3a-56fc-a7ea-eff612294939",
+      "value": "Plateau General Hospital"
+    },
+    {
+      "description": "Secondary education and a family assistance desk during emergencies in Caelum Protectorate.",
+      "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
+        "country": "Caelum Protectorate",
+        "entity-type": [
+          "civil-humanitarian-facility"
+        ],
+        "facility-id": [
+          "CS02"
+        ],
+        "facility-type": [
+          "school"
+        ],
+        "geographic-feature-id": [
+          "7a0f8670-744b-585e-9921-cef7c8216774"
+        ],
+        "latitude": [
+          "54.7688"
+        ],
+        "longitude": [
+          "31.2213"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "service-profile": [
+          "Secondary education and a family assistance desk during emergencies"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "4a600b9f-b843-446f-a234-415aded47e1b",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "515b3bb8-c927-57dd-a5a5-9525bc30ab60",
+          "type": "receives-water-from"
+        },
+        {
+          "dest-uuid": "9bba65c7-9f4c-5436-8a09-d76fe550e776",
+          "type": "draws-power-from"
+        },
+        {
+          "dest-uuid": "9547d310-1b5d-554f-95d7-1c1e2b223adb",
+          "type": "uses-telecom-provider"
+        }
+      ],
+      "uuid": "7a0f8670-744b-585e-9921-cef7c8216774",
+      "value": "Ridge Secondary School"
+    },
+    {
+      "description": "Regional storage and dispatch of relief supplies in Ilyndor.",
+      "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
+        "country": "Ilyndor",
+        "entity-type": [
+          "civil-humanitarian-facility"
+        ],
+        "facility-id": [
+          "CS03"
+        ],
+        "facility-type": [
+          "relief-depot"
+        ],
+        "geographic-feature-id": [
+          "329a021d-2be4-5006-801c-29b9e12dd864"
+        ],
+        "latitude": [
+          "-3.4512"
+        ],
+        "longitude": [
+          "-7.4657"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "service-profile": [
+          "Regional storage and dispatch of relief supplies"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "1e875520-fb3e-4d26-a982-44a5fb7f9375",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "31c6340b-f548-53a8-b107-20a6ea249021",
+          "type": "receives-water-from"
+        },
+        {
+          "dest-uuid": "993b1bc9-2616-5c0c-be4c-c3b8586dfebd",
+          "type": "draws-power-from"
+        },
+        {
+          "dest-uuid": "69aa2d21-8251-52f8-91c0-c33b1f684040",
+          "type": "uses-telecom-provider"
+        },
+        {
+          "dest-uuid": "0dbdda68-7b32-5cd8-866f-298ec948c46f",
+          "type": "stages-supplies-via"
+        }
+      ],
+      "uuid": "329a021d-2be4-5006-801c-29b9e12dd864",
+      "value": "Corridor Relief Depot"
+    },
+    {
+      "description": "Technical education and a designated overflow reception site in Ilyndor.",
+      "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
+        "country": "Ilyndor",
+        "entity-type": [
+          "civil-humanitarian-facility"
+        ],
+        "facility-id": [
+          "CS04"
+        ],
+        "facility-type": [
+          "school"
+        ],
+        "geographic-feature-id": [
+          "3405a0c1-08ff-5520-95bb-ab83c348f09d"
+        ],
+        "latitude": [
+          "3.3703"
+        ],
+        "longitude": [
+          "11.9341"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "service-profile": [
+          "Technical education and a designated overflow reception site"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "1e875520-fb3e-4d26-a982-44a5fb7f9375",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "31c6340b-f548-53a8-b107-20a6ea249021",
+          "type": "receives-water-from"
+        },
+        {
+          "dest-uuid": "993b1bc9-2616-5c0c-be4c-c3b8586dfebd",
+          "type": "draws-power-from"
+        },
+        {
+          "dest-uuid": "69aa2d21-8251-52f8-91c0-c33b1f684040",
+          "type": "uses-telecom-provider"
+        }
+      ],
+      "uuid": "3405a0c1-08ff-5520-95bb-ab83c348f09d",
+      "value": "Corridor Technical School"
+    },
+    {
+      "description": "Inpatient hospital and emergency care in Neruva Federation.",
+      "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
+        "country": "Neruva Federation",
+        "entity-type": [
+          "civil-humanitarian-facility"
+        ],
+        "facility-id": [
+          "CS05"
+        ],
+        "facility-type": [
+          "hospital"
+        ],
+        "geographic-feature-id": [
+          "5a56b77c-ccd1-5fc2-aaeb-46787d4244a8"
+        ],
+        "latitude": [
+          "-13.0152"
+        ],
+        "longitude": [
+          "75.1186"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "service-profile": [
+          "Inpatient hospital and emergency care"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "cfe1b22e-38b5-4077-bb90-b2bc5fedb965",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "fd510da1-f942-5112-bbdf-888da49b8b0b",
+          "type": "receives-water-from"
+        },
+        {
+          "dest-uuid": "16d9efa9-79d3-51fb-9dd2-34f11f87468a",
+          "type": "draws-power-from"
+        },
+        {
+          "dest-uuid": "a8a57b75-e769-5ba1-b6b2-fdff1caa2b30",
+          "type": "uses-telecom-provider"
+        }
+      ],
+      "uuid": "5a56b77c-ccd1-5fc2-aaeb-46787d4244a8",
+      "value": "Delta General Hospital"
+    },
+    {
+      "description": "Temporary reception, drinking water, and family support in Neruva Federation.",
+      "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
+        "country": "Neruva Federation",
+        "entity-type": [
+          "civil-humanitarian-facility"
+        ],
+        "facility-id": [
+          "CS06"
+        ],
+        "facility-type": [
+          "shelter"
+        ],
+        "geographic-feature-id": [
+          "897e79a4-6495-54a5-87e2-cda8a8b82782"
+        ],
+        "latitude": [
+          "-27.346"
+        ],
+        "longitude": [
+          "80.3385"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "service-profile": [
+          "Temporary reception, drinking water, and family support"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "cfe1b22e-38b5-4077-bb90-b2bc5fedb965",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "fd510da1-f942-5112-bbdf-888da49b8b0b",
+          "type": "receives-water-from"
+        },
+        {
+          "dest-uuid": "16d9efa9-79d3-51fb-9dd2-34f11f87468a",
+          "type": "draws-power-from"
+        },
+        {
+          "dest-uuid": "a8a57b75-e769-5ba1-b6b2-fdff1caa2b30",
+          "type": "uses-telecom-provider"
+        },
+        {
+          "dest-uuid": "7bd507fe-b88c-59b9-a4d1-d290020147f6",
+          "type": "stages-supplies-via"
+        }
+      ],
+      "uuid": "897e79a4-6495-54a5-87e2-cda8a8b82782",
+      "value": "Riverbank Emergency Shelter"
+    },
+    {
+      "description": "Outpatient care and referrals in Brinax Collective.",
+      "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
+        "country": "Brinax Collective",
+        "entity-type": [
+          "civil-humanitarian-facility"
+        ],
+        "facility-id": [
+          "CS07"
+        ],
+        "facility-type": [
+          "clinic"
+        ],
+        "geographic-feature-id": [
+          "e0ee3b96-1eba-5d69-a944-b40d2ee61bd3"
+        ],
+        "latitude": [
+          "-45.1724"
+        ],
+        "longitude": [
+          "45.634"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "service-profile": [
+          "Outpatient care and referrals"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "91f273f8-66c0-446f-bdb2-4233fd0c55ef",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "2d14cd2a-a810-55cc-bf98-46e813c3221f",
+          "type": "receives-water-from"
+        },
+        {
+          "dest-uuid": "d1c53679-81b7-5825-ac54-4d16b05777c9",
+          "type": "draws-power-from"
+        },
+        {
+          "dest-uuid": "ef987a45-cb47-50b2-a795-a561af0e2b8a",
+          "type": "uses-telecom-provider"
+        }
+      ],
+      "uuid": "e0ee3b96-1eba-5d69-a944-b40d2ee61bd3",
+      "value": "Tideport Community Clinic"
+    },
+    {
+      "description": "Meal preparation and distribution for relief operations in Brinax Collective.",
+      "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
+        "country": "Brinax Collective",
+        "entity-type": [
+          "civil-humanitarian-facility"
+        ],
+        "facility-id": [
+          "CS08"
+        ],
+        "facility-type": [
+          "community-kitchen"
+        ],
+        "geographic-feature-id": [
+          "70d2ffcc-5030-517d-b496-fde3085529af"
+        ],
+        "latitude": [
+          "-27.1564"
+        ],
+        "longitude": [
+          "39.9448"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "service-profile": [
+          "Meal preparation and distribution for relief operations"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "91f273f8-66c0-446f-bdb2-4233fd0c55ef",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "2d14cd2a-a810-55cc-bf98-46e813c3221f",
+          "type": "receives-water-from"
+        },
+        {
+          "dest-uuid": "d1c53679-81b7-5825-ac54-4d16b05777c9",
+          "type": "draws-power-from"
+        },
+        {
+          "dest-uuid": "ef987a45-cb47-50b2-a795-a561af0e2b8a",
+          "type": "uses-telecom-provider"
+        },
+        {
+          "dest-uuid": "a6a29bca-7989-509d-a8dc-d112e18747e6",
+          "type": "stages-supplies-via"
+        }
+      ],
+      "uuid": "70d2ffcc-5030-517d-b496-fde3085529af",
+      "value": "Brinax Community Kitchen"
+    },
+    {
+      "description": "Inpatient and island emergency care in Orinthia.",
+      "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
+        "country": "Orinthia",
+        "entity-type": [
+          "civil-humanitarian-facility"
+        ],
+        "facility-id": [
+          "CS09"
+        ],
+        "facility-type": [
+          "hospital"
+        ],
+        "geographic-feature-id": [
+          "624d469d-f640-58c5-a4e4-58496d97aa03"
+        ],
+        "latitude": [
+          "56.286"
+        ],
+        "longitude": [
+          "70.8564"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "service-profile": [
+          "Inpatient and island emergency care"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "74d2286a-1b87-4984-8dd1-c5bd466ecca5",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "73ca00e7-02ce-5b60-8832-dec02c43b624",
+          "type": "receives-water-from"
+        },
+        {
+          "dest-uuid": "d01782ea-fad6-5ed1-9c9f-5cc21e183de4",
+          "type": "draws-power-from"
+        },
+        {
+          "dest-uuid": "9df1eaab-6203-51c4-bd84-c7343ae224c1",
+          "type": "uses-telecom-provider"
+        }
+      ],
+      "uuid": "624d469d-f640-58c5-a4e4-58496d97aa03",
+      "value": "Sound Community Hospital"
+    },
+    {
+      "description": "Primary education and a family reunification point in Orinthia.",
+      "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
+        "country": "Orinthia",
+        "entity-type": [
+          "civil-humanitarian-facility"
+        ],
+        "facility-id": [
+          "CS10"
+        ],
+        "facility-type": [
+          "school"
+        ],
+        "geographic-feature-id": [
+          "398122d1-ff15-551e-be34-cbd78be6d739"
+        ],
+        "latitude": [
+          "44.789"
+        ],
+        "longitude": [
+          "79.4232"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "service-profile": [
+          "Primary education and a family reunification point"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "74d2286a-1b87-4984-8dd1-c5bd466ecca5",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "73ca00e7-02ce-5b60-8832-dec02c43b624",
+          "type": "receives-water-from"
+        },
+        {
+          "dest-uuid": "d01782ea-fad6-5ed1-9c9f-5cc21e183de4",
+          "type": "draws-power-from"
+        },
+        {
+          "dest-uuid": "9df1eaab-6203-51c4-bd84-c7343ae224c1",
+          "type": "uses-telecom-provider"
+        }
+      ],
+      "uuid": "398122d1-ff15-551e-be34-cbd78be6d739",
+      "value": "Sound Primary School"
+    },
+    {
+      "description": "Primary education and community learning in Quenari League.",
+      "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
+        "country": "Quenari League",
+        "entity-type": [
+          "civil-humanitarian-facility"
+        ],
+        "facility-id": [
+          "CS11"
+        ],
+        "facility-type": [
+          "school"
+        ],
+        "geographic-feature-id": [
+          "ee87470d-5286-52b6-a2f1-fa5362e6b698"
+        ],
+        "latitude": [
+          "-21.6568"
+        ],
+        "longitude": [
+          "-42.1701"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "service-profile": [
+          "Primary education and community learning"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "54670ad5-49fe-4d0c-8a81-84b06a8b5050",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "38bc0273-5b09-5f11-a263-ab83ce549fe2",
+          "type": "receives-water-from"
+        },
+        {
+          "dest-uuid": "6cd6ca5e-ea24-5cc9-a821-0ea8e8bd65a8",
+          "type": "draws-power-from"
+        },
+        {
+          "dest-uuid": "1747fb93-72b2-54dd-add1-8852bb420adb",
+          "type": "uses-telecom-provider"
+        }
+      ],
+      "uuid": "ee87470d-5286-52b6-a2f1-fa5362e6b698",
+      "value": "Orchard Learning Center"
+    },
+    {
+      "description": "Local staging of water and essential supplies in Quenari League.",
+      "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
+        "country": "Quenari League",
+        "entity-type": [
+          "civil-humanitarian-facility"
+        ],
+        "facility-id": [
+          "CS12"
+        ],
+        "facility-type": [
+          "relief-depot"
+        ],
+        "geographic-feature-id": [
+          "3fd35d50-0700-54a8-bf6a-018e6107c290"
+        ],
+        "latitude": [
+          "-37.2074"
+        ],
+        "longitude": [
+          "-25.292"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "service-profile": [
+          "Local staging of water and essential supplies"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "54670ad5-49fe-4d0c-8a81-84b06a8b5050",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "38bc0273-5b09-5f11-a263-ab83ce549fe2",
+          "type": "receives-water-from"
+        },
+        {
+          "dest-uuid": "6cd6ca5e-ea24-5cc9-a821-0ea8e8bd65a8",
+          "type": "draws-power-from"
+        },
+        {
+          "dest-uuid": "1747fb93-72b2-54dd-add1-8852bb420adb",
+          "type": "uses-telecom-provider"
+        },
+        {
+          "dest-uuid": "a4788601-2f69-5810-ae59-aa6df5d19041",
+          "type": "stages-supplies-via"
+        }
+      ],
+      "uuid": "3fd35d50-0700-54a8-bf6a-018e6107c290",
+      "value": "Quenari Relief Store"
+    },
+    {
+      "description": "Corridor Relief Depot can send packaged relief supplies to Riverbank Emergency Shelter by freight rail.",
+      "meta": {
+        "cargo": [
+          "packaged drinking water",
+          "essential supplies"
+        ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
+        "entity-type": [
+          "humanitarian-support-arrangement"
+        ],
+        "geographic-feature-id": [
+          "5f5789fd-a170-5ca5-8696-7a4635a37197"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "329a021d-2be4-5006-801c-29b9e12dd864",
+          "type": "dispatches-from"
+        },
+        {
+          "dest-uuid": "897e79a4-6495-54a5-87e2-cda8a8b82782",
+          "type": "delivers-to"
+        },
+        {
+          "dest-uuid": "0b2220ac-6e02-578b-a8ba-d10c46c7434c",
+          "type": "uses-transport-route"
+        }
+      ],
+      "uuid": "5f5789fd-a170-5ca5-8696-7a4635a37197",
+      "value": "Corridor–Delta Relief Supply Arrangement"
+    }
+  ],
+  "version": 2
+}

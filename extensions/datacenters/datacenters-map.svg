@@ -228,15 +228,15 @@
     </g>
     <g id="facility-DC04" data-ownership="independently-owned" data-metro="ORI">
       <title>DC04 · Sound Research Vault · Orinthia</title>
-      <path d="M 896.7,417.1 L 960.7,446.1" class="handoff"/>
-      <g transform="translate(960.7 446.1)"><rect x="-8" y="-8" width="16" height="16" rx="3" fill="#dac5fa" stroke="#172b39" stroke-width="2"/><path d="M -4,-3 H 4 M -4,2 H 4" stroke="#293b4c" stroke-width="1.4" stroke-linecap="round"/></g>
-      <text x="972.7" y="451.1" text-anchor="start" class="site-label">Sound Vault</text>
+      <path d="M 896.7,417.1 L 990.0,463.0" class="handoff"/>
+      <g transform="translate(990.0 463.0)"><rect x="-8" y="-8" width="16" height="16" rx="3" fill="#dac5fa" stroke="#172b39" stroke-width="2"/><path d="M -4,-3 H 4 M -4,2 H 4" stroke="#293b4c" stroke-width="1.4" stroke-linecap="round"/></g>
+      <text x="978.0" y="481.0" text-anchor="end" class="site-label">Sound Vault</text>
     </g>
     <g id="facility-DC05" data-ownership="independently-owned" data-metro="NER">
       <title>DC05 · Delta Cloud Campus · Neruva Federation</title>
-      <path d="M 870.2,775.8 L 923.2,733.8" class="handoff"/>
-      <g transform="translate(923.2 733.8)"><rect x="-8" y="-8" width="16" height="16" rx="3" fill="#dac5fa" stroke="#172b39" stroke-width="2"/><path d="M -4,-3 H 4 M -4,2 H 4" stroke="#293b4c" stroke-width="1.4" stroke-linecap="round"/></g>
-      <text x="936.2" y="738.8" text-anchor="start" class="site-label">Delta Cloud</text>
+      <path d="M 870.2,775.8 L 920.4,749.7" class="handoff"/>
+      <g transform="translate(920.4 749.7)"><rect x="-8" y="-8" width="16" height="16" rx="3" fill="#dac5fa" stroke="#172b39" stroke-width="2"/><path d="M -4,-3 H 4 M -4,2 H 4" stroke="#293b4c" stroke-width="1.4" stroke-linecap="round"/></g>
+      <text x="933.4" y="754.7" text-anchor="start" class="site-label">Delta Cloud</text>
     </g>
     <g id="facility-DC06" data-ownership="jointly-owned" data-metro="BRI">
       <title>DC06 · Tideport Colocation · Brinax Collective</title>

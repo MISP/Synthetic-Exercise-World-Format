@@ -12,12 +12,24 @@
     {
       "description": "Truck depot and coach stop serving the northern towns.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Asterin Union",
         "entity-type": [
           "transport-terminal"
         ],
         "freight-modes": [
           "road"
+        ],
+        "geographic-feature-id": [
+          "e0f89568-0d0e-5036-b6bd-d764e9e30055"
+        ],
+        "latitude": [
+          "53.6822"
+        ],
+        "longitude": [
+          "-44.9806"
         ],
         "passenger-modes": [
           "road"
@@ -40,8 +52,11 @@
       "value": "North Gate Terminal"
     },
     {
-      "description": "Road\u2013rail terminal with pallet transloading and a passenger interchange.",
+      "description": "Road–rail terminal with pallet transloading and a passenger interchange.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Velkar Republic",
         "entity-type": [
           "transport-terminal"
@@ -49,6 +64,15 @@
         "freight-modes": [
           "road",
           "rail"
+        ],
+        "geographic-feature-id": [
+          "4a93ab65-0a43-5658-9486-b9afa7ce4533"
+        ],
+        "latitude": [
+          "17.9992"
+        ],
+        "longitude": [
+          "-9.5764"
         ],
         "passenger-modes": [
           "road",
@@ -86,12 +110,24 @@
     {
       "description": "Truck staging, through coaches, and a passenger rail platform. Road loads transfer between truck services.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Caelum Protectorate",
         "entity-type": [
           "transport-terminal"
         ],
         "freight-modes": [
           "road"
+        ],
+        "geographic-feature-id": [
+          "f050ac0f-b398-5408-b0c1-e183e7433248"
+        ],
+        "latitude": [
+          "42.5313"
+        ],
+        "longitude": [
+          "17.4647"
         ],
         "passenger-modes": [
           "road",
@@ -129,12 +165,24 @@
     {
       "description": "Ferry terminal and quayside freight handling serving Orinthia's domestic island network.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Orinthia",
         "entity-type": [
           "transport-terminal"
         ],
         "freight-modes": [
           "sea"
+        ],
+        "geographic-feature-id": [
+          "bf7e40db-7e91-5671-8a6e-af8e49c7d32d"
+        ],
+        "latitude": [
+          "48.1067"
+        ],
+        "longitude": [
+          "77.9585"
         ],
         "passenger-modes": [
           "sea"
@@ -167,12 +215,24 @@
     {
       "description": "Truck staging yard and coach stop for the eastern steppe.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Thyros Commonwealth",
         "entity-type": [
           "transport-terminal"
         ],
         "freight-modes": [
           "road"
+        ],
+        "geographic-feature-id": [
+          "f0c047c4-b145-59cc-83f8-f2e15a7cb74d"
+        ],
+        "latitude": [
+          "11.5874"
+        ],
+        "longitude": [
+          "62.0684"
         ],
         "passenger-modes": [
           "road"
@@ -199,8 +259,11 @@
       "value": "Steppe Yard"
     },
     {
-      "description": "Road\u2013rail terminal with pallet transloading and onward passenger trains and coaches.",
+      "description": "Road–rail terminal with pallet transloading and onward passenger trains and coaches.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Ilyndor",
         "entity-type": [
           "transport-terminal"
@@ -208,6 +271,15 @@
         "freight-modes": [
           "road",
           "rail"
+        ],
+        "geographic-feature-id": [
+          "0dbdda68-7b32-5cd8-866f-298ec948c46f"
+        ],
+        "latitude": [
+          "-9.3206"
+        ],
+        "longitude": [
+          "7.15"
         ],
         "passenger-modes": [
           "road",
@@ -245,6 +317,9 @@
     {
       "description": "Port with a roll-on/roll-off berth, freight rail yard, and a passenger station shared by rail and coaches.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Neruva Federation",
         "entity-type": [
           "transport-terminal"
@@ -253,6 +328,15 @@
           "road",
           "rail",
           "sea"
+        ],
+        "geographic-feature-id": [
+          "7bd507fe-b88c-59b9-a4d1-d290020147f6"
+        ],
+        "latitude": [
+          "-25.4894"
+        ],
+        "longitude": [
+          "85.4854"
         ],
         "passenger-modes": [
           "road",
@@ -289,8 +373,11 @@
       "value": "Delta Port"
     },
     {
-      "description": "Foot-passenger ferry pier with onward coaches, plus a separate truck\u2013rail freight yard.",
+      "description": "Foot-passenger ferry pier with onward coaches, plus a separate truck–rail freight yard.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Brinax Collective",
         "entity-type": [
           "transport-terminal"
@@ -298,6 +385,15 @@
         "freight-modes": [
           "road",
           "rail"
+        ],
+        "geographic-feature-id": [
+          "a6a29bca-7989-509d-a8dc-d112e18747e6"
+        ],
+        "latitude": [
+          "-43.8885"
+        ],
+        "longitude": [
+          "65.4137"
         ],
         "passenger-modes": [
           "road",
@@ -331,12 +427,24 @@
     {
       "description": "Agricultural truck depot with a regional coach stop.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Quenari League",
         "entity-type": [
           "transport-terminal"
         ],
         "freight-modes": [
           "road"
+        ],
+        "geographic-feature-id": [
+          "a4788601-2f69-5810-ae59-aa6df5d19041"
+        ],
+        "latitude": [
+          "-31.6225"
+        ],
+        "longitude": [
+          "-33.5509"
         ],
         "passenger-modes": [
           "road"
@@ -361,6 +469,9 @@
     {
       "description": "Coastal cargo quay with pallet handling, truck staging, and a domestic coach stop.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Soreth Dominion",
         "entity-type": [
           "transport-terminal"
@@ -368,6 +479,15 @@
         "freight-modes": [
           "road",
           "sea"
+        ],
+        "geographic-feature-id": [
+          "7dc0c17e-8526-5503-a94b-faf0973d49a1"
+        ],
+        "latitude": [
+          "76.8204"
+        ],
+        "longitude": [
+          "17.4647"
         ],
         "passenger-modes": [
           "road"
@@ -396,8 +516,14 @@
     {
       "description": "Bidirectional service between North Gate Terminal and Basin Junction using trucks and coaches.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "transport-route"
+        ],
+        "geographic-feature-id": [
+          "5fa49288-f52c-508f-aec5-3f18478a6454"
         ],
         "planet": [
           "Nacre"
@@ -432,8 +558,14 @@
     {
       "description": "Bidirectional service between Basin Junction and Plateau Terminal using trucks and coaches.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "transport-route"
+        ],
+        "geographic-feature-id": [
+          "679aee1e-952b-53ff-995c-b1926789b855"
         ],
         "planet": [
           "Nacre"
@@ -468,8 +600,14 @@
     {
       "description": "Bidirectional service between Plateau Terminal and North Quay using trucks and coaches.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "transport-route"
+        ],
+        "geographic-feature-id": [
+          "27652077-7009-56d7-b170-0be88001541f"
         ],
         "planet": [
           "Nacre"
@@ -504,8 +642,14 @@
     {
       "description": "Bidirectional service between Plateau Terminal and Steppe Yard using trucks.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "transport-route"
+        ],
+        "geographic-feature-id": [
+          "775d3cfe-408b-59c9-899f-9a0bf444af4e"
         ],
         "planet": [
           "Nacre"
@@ -539,8 +683,14 @@
     {
       "description": "Bidirectional service between Steppe Yard and Delta Port using trucks and coaches.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "transport-route"
+        ],
+        "geographic-feature-id": [
+          "2bf5584a-0f40-5258-b8a7-b9fb9250788d"
         ],
         "planet": [
           "Nacre"
@@ -575,8 +725,14 @@
     {
       "description": "Bidirectional service between Corridor Interchange and Orchard Market Terminal using trucks and coaches.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "transport-route"
+        ],
+        "geographic-feature-id": [
+          "24530724-25ed-5089-9201-997a393a3dbd"
         ],
         "planet": [
           "Nacre"
@@ -611,8 +767,14 @@
     {
       "description": "Bidirectional service between Coast Terminal and Delta Port using trucks and coaches.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "transport-route"
+        ],
+        "geographic-feature-id": [
+          "23ec3324-f72e-56f4-8e61-f62856c68e29"
         ],
         "planet": [
           "Nacre"
@@ -647,8 +809,14 @@
     {
       "description": "Bidirectional service between Basin Junction and Corridor Interchange using freight trains and passenger trains.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "transport-route"
+        ],
+        "geographic-feature-id": [
+          "7f57b5b3-9eef-5e32-a3a8-1f0879612e9b"
         ],
         "planet": [
           "Nacre"
@@ -683,8 +851,14 @@
     {
       "description": "Bidirectional service between Corridor Interchange and Delta Port using freight trains and passenger trains.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "transport-route"
+        ],
+        "geographic-feature-id": [
+          "0b2220ac-6e02-578b-a8ba-d10c46c7434c"
         ],
         "planet": [
           "Nacre"
@@ -714,13 +888,19 @@
         }
       ],
       "uuid": "0b2220ac-6e02-578b-a8ba-d10c46c7434c",
-      "value": "Corridor\u2013Delta Railway"
+      "value": "Corridor–Delta Railway"
     },
     {
       "description": "Bidirectional service between Corridor Interchange and Coast Terminal using freight trains.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "transport-route"
+        ],
+        "geographic-feature-id": [
+          "2e249902-72e4-5619-8309-a7dc01a77897"
         ],
         "planet": [
           "Nacre"
@@ -754,8 +934,14 @@
     {
       "description": "Bidirectional service between Basin Junction and Plateau Terminal using passenger trains.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "transport-route"
+        ],
+        "geographic-feature-id": [
+          "82562067-cabc-5744-a6f1-3532f2dbd5d0"
         ],
         "planet": [
           "Nacre"
@@ -789,8 +975,14 @@
     {
       "description": "Bidirectional service between North Quay and Sound Harbor using coastal cargo boats.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "transport-route"
+        ],
+        "geographic-feature-id": [
+          "e16b8557-349f-5780-ada4-828eedac41e3"
         ],
         "planet": [
           "Nacre"
@@ -824,8 +1016,14 @@
     {
       "description": "Bidirectional service between Sound Harbor and Delta Port using vehicle and passenger ferries.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "transport-route"
+        ],
+        "geographic-feature-id": [
+          "567cca8f-c3f5-58ab-be55-71b4cc0493d7"
         ],
         "planet": [
           "Nacre"
@@ -860,8 +1058,14 @@
     {
       "description": "Bidirectional service between Sound Harbor and Coast Terminal using foot-passenger ferries.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "transport-route"
+        ],
+        "geographic-feature-id": [
+          "62e1e333-57d8-5135-983c-3599755f5ffe"
         ],
         "planet": [
           "Nacre"
@@ -893,5 +1097,5 @@
       "value": "Brinax Island Ferry"
     }
   ],
-  "version": 1
+  "version": 2
 }

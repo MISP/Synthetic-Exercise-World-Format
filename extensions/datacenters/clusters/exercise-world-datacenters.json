@@ -52,6 +52,9 @@
     {
       "description": "Financial data hosting and colocation in Velkar Republic.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Velkar Republic",
         "entity-type": [
           "data-center"
@@ -61,6 +64,15 @@
         ],
         "facility-use": [
           "Financial data hosting and colocation"
+        ],
+        "geographic-feature-id": [
+          "30b4cbe6-10ed-5f00-a81b-4de48a1b659c"
+        ],
+        "latitude": [
+          "11.9307"
+        ],
+        "longitude": [
+          "-24.5581"
         ],
         "ownership-model": [
           "jointly-owned"
@@ -113,6 +125,9 @@
     {
       "description": "Carrier colocation and regional hosting in Caelum Protectorate.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Caelum Protectorate",
         "entity-type": [
           "data-center"
@@ -122,6 +137,15 @@
         ],
         "facility-use": [
           "Carrier colocation and regional hosting"
+        ],
+        "geographic-feature-id": [
+          "6e951297-c83c-5a5b-9ecf-ab1e49a4acbe"
+        ],
+        "latitude": [
+          "49.6485"
+        ],
+        "longitude": [
+          "11.5175"
         ],
         "ownership-model": [
           "telecom-owned"
@@ -166,6 +190,9 @@
     {
       "description": "Carrier-neutral colocation and continuity hosting in Ilyndor.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Ilyndor",
         "entity-type": [
           "data-center"
@@ -175,6 +202,15 @@
         ],
         "facility-use": [
           "Carrier-neutral colocation and continuity hosting"
+        ],
+        "geographic-feature-id": [
+          "c64864e0-14cb-5172-b05a-8a2b4489b1a6"
+        ],
+        "latitude": [
+          "-4.1111"
+        ],
+        "longitude": [
+          "-6.415"
         ],
         "ownership-model": [
           "jointly-owned"
@@ -227,6 +263,9 @@
     {
       "description": "Health research hosting in Orinthia.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Orinthia",
         "entity-type": [
           "data-center"
@@ -236,6 +275,15 @@
         ],
         "facility-use": [
           "Health research hosting"
+        ],
+        "geographic-feature-id": [
+          "fad0947b-941a-56e0-b9e4-6f950ad406cb"
+        ],
+        "latitude": [
+          "38.8436"
+        ],
+        "longitude": [
+          "93.4181"
         ],
         "ownership-model": [
           "independently-owned"
@@ -280,6 +328,9 @@
     {
       "description": "Regional cloud hosting in Neruva Federation.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Neruva Federation",
         "entity-type": [
           "data-center"
@@ -289,6 +340,15 @@
         ],
         "facility-use": [
           "Regional cloud hosting"
+        ],
+        "geographic-feature-id": [
+          "21f8d527-4458-516b-944e-810cbe6ef162"
+        ],
+        "latitude": [
+          "-15.5264"
+        ],
+        "longitude": [
+          "80.2288"
         ],
         "ownership-model": [
           "independently-owned"
@@ -333,6 +393,9 @@
     {
       "description": "Port-community colocation in Brinax Collective.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Brinax Collective",
         "entity-type": [
           "data-center"
@@ -342,6 +405,15 @@
         ],
         "facility-use": [
           "Port-community colocation"
+        ],
+        "geographic-feature-id": [
+          "229f3561-e7ee-52cc-a3b0-3636b8719213"
+        ],
+        "latitude": [
+          "-41.1595"
+        ],
+        "longitude": [
+          "47.1796"
         ],
         "ownership-model": [
           "jointly-owned"
@@ -390,6 +462,9 @@
     {
       "description": "Domestic logistics edge services in Thyros Commonwealth.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Thyros Commonwealth",
         "entity-type": [
           "data-center"
@@ -399,6 +474,15 @@
         ],
         "facility-use": [
           "Domestic logistics edge services"
+        ],
+        "geographic-feature-id": [
+          "8a94d3fe-7486-5c4f-94cc-f54650c78f9e"
+        ],
+        "latitude": [
+          "5.3292"
+        ],
+        "longitude": [
+          "52.207"
         ],
         "ownership-model": [
           "independently-owned"
@@ -439,6 +523,9 @@
     {
       "description": "Media archives and content hosting in Quenari League.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Quenari League",
         "entity-type": [
           "data-center"
@@ -448,6 +535,15 @@
         ],
         "facility-use": [
           "Media archives and content hosting"
+        ],
+        "geographic-feature-id": [
+          "164729da-0b44-54b4-a6bf-f600310ea300"
+        ],
+        "latitude": [
+          "-39.0185"
+        ],
+        "longitude": [
+          "-41.7055"
         ],
         "ownership-model": [
           "independently-owned"
@@ -494,11 +590,17 @@
         "circuit-id": [
           "C01"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "facility-fiber-circuit"
         ],
         "facility-entry": [
           "north-entry"
+        ],
+        "geographic-feature-id": [
+          "6f86b61a-481c-54c0-bfc9-feffc0f92420"
         ],
         "planet": [
           "Nacre"
@@ -530,11 +632,17 @@
         "circuit-id": [
           "C02"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "facility-fiber-circuit"
         ],
         "facility-entry": [
           "plateau-entry"
+        ],
+        "geographic-feature-id": [
+          "383fe2d8-3026-5530-b2a7-f421478e10b2"
         ],
         "planet": [
           "Nacre"
@@ -566,11 +674,17 @@
         "circuit-id": [
           "C03"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "facility-fiber-circuit"
         ],
         "facility-entry": [
           "west-entry"
+        ],
+        "geographic-feature-id": [
+          "17441110-af3a-5a5d-9b91-03c69d551d77"
         ],
         "planet": [
           "Nacre"
@@ -602,11 +716,17 @@
         "circuit-id": [
           "C04"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "facility-fiber-circuit"
         ],
         "facility-entry": [
           "south-entry"
+        ],
+        "geographic-feature-id": [
+          "d44e2d9c-6b5c-5933-b917-1361d0ad0f6c"
         ],
         "planet": [
           "Nacre"
@@ -638,11 +758,17 @@
         "circuit-id": [
           "C05"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "facility-fiber-circuit"
         ],
         "facility-entry": [
           "trade-entry"
+        ],
+        "geographic-feature-id": [
+          "afbfec89-0c1c-5178-b192-5f8916dfe505"
         ],
         "planet": [
           "Nacre"
@@ -674,11 +800,17 @@
         "circuit-id": [
           "C06"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "facility-fiber-circuit"
         ],
         "facility-entry": [
           "ridge-entry"
+        ],
+        "geographic-feature-id": [
+          "c1ddfdd9-83f8-5e85-a54a-b22e3ff90592"
         ],
         "planet": [
           "Nacre"
@@ -710,11 +842,17 @@
         "circuit-id": [
           "C07"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "facility-fiber-circuit"
         ],
         "facility-entry": [
           "harbor-entry"
+        ],
+        "geographic-feature-id": [
+          "74676de7-01d1-59a5-846f-c5576249c9db"
         ],
         "planet": [
           "Nacre"
@@ -746,11 +884,17 @@
         "circuit-id": [
           "C08"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "facility-fiber-circuit"
         ],
         "facility-entry": [
           "research-entry"
+        ],
+        "geographic-feature-id": [
+          "bf1289a6-a200-51b4-b046-11d3bea61d4c"
         ],
         "planet": [
           "Nacre"
@@ -782,11 +926,17 @@
         "circuit-id": [
           "C09"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "facility-fiber-circuit"
         ],
         "facility-entry": [
           "delta-entry"
+        ],
+        "geographic-feature-id": [
+          "59c16ea7-9811-55bf-8c3d-ba25d55cdfd6"
         ],
         "planet": [
           "Nacre"
@@ -818,11 +968,17 @@
         "circuit-id": [
           "C10"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "facility-fiber-circuit"
         ],
         "facility-entry": [
           "delta-entry"
+        ],
+        "geographic-feature-id": [
+          "2a8462e5-32b5-5c47-b1b2-3dc9db572ca8"
         ],
         "planet": [
           "Nacre"
@@ -854,11 +1010,17 @@
         "circuit-id": [
           "C11"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "facility-fiber-circuit"
         ],
         "facility-entry": [
           "coast-entry"
+        ],
+        "geographic-feature-id": [
+          "1dac899a-3d50-5344-ab98-dccf1bb48bb9"
         ],
         "planet": [
           "Nacre"
@@ -890,11 +1052,17 @@
         "circuit-id": [
           "C12"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "facility-fiber-circuit"
         ],
         "facility-entry": [
           "reserve-entry"
+        ],
+        "geographic-feature-id": [
+          "45479e92-6b4c-52a2-a02a-b8f34f23327d"
         ],
         "planet": [
           "Nacre"
@@ -926,11 +1094,17 @@
         "circuit-id": [
           "C13"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "facility-fiber-circuit"
         ],
         "facility-entry": [
           "yard-entry"
+        ],
+        "geographic-feature-id": [
+          "a7dec315-0f73-5002-b91a-6234f2d0b1d2"
         ],
         "planet": [
           "Nacre"
@@ -958,11 +1132,17 @@
         "circuit-id": [
           "C14"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "facility-fiber-circuit"
         ],
         "facility-entry": [
           "orchard-entry"
+        ],
+        "geographic-feature-id": [
+          "f2d3e398-fa92-5a12-a0e8-aca702268acf"
         ],
         "planet": [
           "Nacre"
@@ -988,6 +1168,9 @@
     {
       "description": "Normal utility feeder to Basin Compute Campus from the Velkar Distribution Area.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "facility-power-feed"
         ],
@@ -996,6 +1179,9 @@
         ],
         "feed-role": [
           "normal"
+        ],
+        "geographic-feature-id": [
+          "10bc67f2-558f-54a6-91a6-69825e746b44"
         ],
         "planet": [
           "Nacre"
@@ -1017,6 +1203,9 @@
     {
       "description": "Standby utility feeder to Basin Compute Campus from the Velkar Distribution Area.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "facility-power-feed"
         ],
@@ -1025,6 +1214,9 @@
         ],
         "feed-role": [
           "standby"
+        ],
+        "geographic-feature-id": [
+          "44437064-e67c-53f6-bce2-a36eefb17153"
         ],
         "planet": [
           "Nacre"
@@ -1046,6 +1238,9 @@
     {
       "description": "Normal utility feeder to Plateau Colocation from the Caelum Distribution Area.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "facility-power-feed"
         ],
@@ -1054,6 +1249,9 @@
         ],
         "feed-role": [
           "normal"
+        ],
+        "geographic-feature-id": [
+          "d9416767-4efb-59af-865e-76a3070bb685"
         ],
         "planet": [
           "Nacre"
@@ -1075,6 +1273,9 @@
     {
       "description": "Normal utility feeder to Corridor Exchange Hall from the Ilyndor Distribution Area.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "facility-power-feed"
         ],
@@ -1083,6 +1284,9 @@
         ],
         "feed-role": [
           "normal"
+        ],
+        "geographic-feature-id": [
+          "c1dca4da-7ddd-53b7-9a71-2d98355ecca4"
         ],
         "planet": [
           "Nacre"
@@ -1104,6 +1308,9 @@
     {
       "description": "Standby utility feeder to Corridor Exchange Hall from the Ilyndor Distribution Area.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "facility-power-feed"
         ],
@@ -1112,6 +1319,9 @@
         ],
         "feed-role": [
           "standby"
+        ],
+        "geographic-feature-id": [
+          "0523fc0c-c9ce-5a97-89d8-310875a7b8e8"
         ],
         "planet": [
           "Nacre"
@@ -1133,6 +1343,9 @@
     {
       "description": "Normal utility feeder to Sound Research Vault from the Orinthia Distribution Area.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "facility-power-feed"
         ],
@@ -1141,6 +1354,9 @@
         ],
         "feed-role": [
           "normal"
+        ],
+        "geographic-feature-id": [
+          "b4ae4cb6-8106-5d19-8254-1cd3070b50d5"
         ],
         "planet": [
           "Nacre"
@@ -1162,6 +1378,9 @@
     {
       "description": "Normal utility feeder to Delta Cloud Campus from the Neruva Distribution Area.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "facility-power-feed"
         ],
@@ -1170,6 +1389,9 @@
         ],
         "feed-role": [
           "normal"
+        ],
+        "geographic-feature-id": [
+          "6ef4607b-fc3f-50ee-989c-f60af56516c4"
         ],
         "planet": [
           "Nacre"
@@ -1191,6 +1413,9 @@
     {
       "description": "Normal utility feeder to Tideport Colocation from the Brinax Distribution Area.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "facility-power-feed"
         ],
@@ -1199,6 +1424,9 @@
         ],
         "feed-role": [
           "normal"
+        ],
+        "geographic-feature-id": [
+          "a242bc8e-bd0c-5bf6-909b-36843aad9fc7"
         ],
         "planet": [
           "Nacre"
@@ -1220,6 +1448,9 @@
     {
       "description": "Normal utility feeder to Steppe Edge Room from the Thyros Distribution Area.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "facility-power-feed"
         ],
@@ -1228,6 +1459,9 @@
         ],
         "feed-role": [
           "normal"
+        ],
+        "geographic-feature-id": [
+          "e32d1e2b-3088-55dc-90a1-9326f9a618f2"
         ],
         "planet": [
           "Nacre"
@@ -1249,6 +1483,9 @@
     {
       "description": "Normal utility feeder to Equator Media Vault from the Quenari Distribution Area.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "facility-power-feed"
         ],
@@ -1257,6 +1494,9 @@
         ],
         "feed-role": [
           "normal"
+        ],
+        "geographic-feature-id": [
+          "f161408a-55b4-5144-9e8f-64f0f1d0cbd7"
         ],
         "planet": [
           "Nacre"
@@ -1276,5 +1516,5 @@
       "value": "Equator Media Vault feed E10"
     }
   ],
-  "version": 1
+  "version": 2
 }

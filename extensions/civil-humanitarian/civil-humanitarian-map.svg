@@ -1,0 +1,306 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" viewBox="0 0 1540 1300" role="img" aria-labelledby="title description">
+  <title id="title">Nacre civil and humanitarian services</title>
+  <desc id="description">Twelve civil and humanitarian facilities across six districts, with site types and links to local water and electricity.</desc>
+  <defs>
+    <linearGradient id="sea" x2="0" y2="1">
+      <stop stop-color="#1f3e50"/>
+      <stop offset="1" stop-color="#172b3b"/>
+    </linearGradient>
+    <pattern id="graticule" width="66" height="66" patternUnits="userSpaceOnUse">
+      <path d="M 66,0 H 0 V 66" fill="none" stroke="#bdd0d7" stroke-opacity=".11"/>
+    </pattern>
+    <clipPath id="map-frame"><rect x="48" y="171" width="1052" height="786" rx="12"/></clipPath>
+    <marker id="water-arrow" viewBox="0 0 8 8" refX="13" refY="4" markerWidth="5" markerHeight="5" orient="auto">
+      <path d="M 0,0 8,4 0,8 Z" fill="#9ce8d9"/>
+    </marker>
+    <marker id="aid-arrow" viewBox="0 0 8 8" refX="13" refY="4" markerWidth="5" markerHeight="5" orient="auto">
+      <path d="M 0,0 8,4 0,8 Z" fill="#ffdbab"/>
+    </marker>
+    <marker id="flow-arrow" viewBox="0 0 8 8" refX="6" refY="4" markerWidth="5" markerHeight="5" orient="auto">
+      <path d="M 0,0 8,4 0,8 Z" fill="#376976"/>
+    </marker>
+    <style>
+      text { font-family: 'DejaVu Sans', sans-serif; }
+      .ink { fill: #253947; }
+      .muted { fill: #506575; }
+      .light { fill: #f4f7f7; }
+      .caps { font-size: 13px; font-weight: 700; letter-spacing: 2px; }
+      .title { font-size: 54px; font-weight: 700; letter-spacing: -2px; }
+      .subtitle { font-size: 18px; }
+      .body { font-size: 15px; font-weight: 700; }
+      .support { font-size: 13px; }
+      .small { font-size: 12px; }
+      .place { fill: #fff8ee; stroke: #1c2e3c; stroke-width: 4px; stroke-linejoin: round; paint-order: stroke fill; font-weight: 700; font-size: 16px; }
+      .sidebar { fill: #fffcf6; stroke: #cbd1d2; }
+      .divider { stroke: #cbd1d2; }
+      .main, .aid, .supply { fill: none; stroke-width: 3.1; stroke-linejoin: round; stroke-linecap: round; }
+      .main { stroke: #9ce8d9; }
+      .aid { stroke: #ffdbab; stroke-dasharray: 8 5; }
+      .supply { stroke: #d9e9ee; stroke-width: 1.8; stroke-dasharray: 2 5; }
+      .route-id { fill: #eff6f6; font: 700 11px 'DejaVu Sans Mono', monospace; text-anchor: middle; }
+    </style>
+  </defs>
+  <rect width="1540" height="1300" fill="#f3f0e8"/>
+  <text x="48" y="56" class="caps muted">SYNTHETIC EXERCISE WORLD ATLAS</text>
+  <text x="48" y="115" class="title ink">Nacre civil and humanitarian services</text>
+  <text x="51" y="145" class="subtitle muted">Hospitals, schools, relief services, and their water and power dependencies</text>
+  <text x="1492" y="56" text-anchor="end" class="caps muted">WORLD EXTENSION</text>
+  <path d="M 48,1268 H 1492" class="divider"/>
+  <text x="48" y="1286" class="support muted">Schematic locations and connections · Basemap adapted from the Synthetic Exercise World atlas</text>
+  <text x="1492" y="1286" text-anchor="end" class="support muted">CC BY 4.0</text>
+
+  <g id="nacre-basemap" inkscape:groupmode="layer" inkscape:label="Nacre basemap" clip-path="url(#map-frame)">
+    <rect x="48" y="171" width="1052" height="786" fill="url(#sea)"/>
+    <rect x="48" y="171" width="1052" height="786" fill="url(#graticule)"/>
+    <g transform="translate(-172 151) scale(1.47)" stroke="#97aab3" stroke-width=".75" stroke-linejoin="round">
+      <path d="M 179.14 505.81 L 207.84 430.48 L 211.43 315.69 L 186.32 226.02 L 236.54 139.92 L 329.80 71.77 L 469.70 43.07 L 595.25 53.83 L 666.99 93.29 L 684.93 143.51 L 742.32 197.32 L 792.54 269.06 L 821.24 344.39 L 817.65 448.42 L 771.02 516.57 L 677.75 559.62 L 512.75 563.21 L 315.45 548.86 z" fill="#365d70" opacity=".4"/>
+      <path d="M 211.43 226.02 L 229.36 179.38 L 265.23 132.75 L 301.10 104.05 L 365.67 93.29 L 426.65 114.81 L 484.05 165.03 L 437.42 200.91 L 347.74 287.00 L 275.99 261.89 L 232.95 240.36 z" fill="#405961"/>
+      <path d="M 365.67 93.29 L 415.89 68.18 L 491.22 57.42 L 570.14 68.18 L 634.71 100.47 L 641.88 132.75 L 580.90 136.34 L 498.40 129.16 L 426.65 114.81 z" fill="#425667"/>
+      <path d="M 437.42 200.91 L 484.05 165.03 L 580.90 136.34 L 641.88 154.27 L 656.23 197.32 L 634.71 240.36 L 555.79 243.95 L 476.87 233.19 z" fill="#4f5269"/>
+      <path d="M 347.74 287.00 L 437.42 200.91 L 476.87 233.19 L 555.79 243.95 L 534.27 279.82 L 509.16 337.22 L 419.48 351.57 L 354.91 333.63 L 304.69 312.11 z" fill="#554e4c"/>
+      <path d="M 555.79 243.95 L 634.71 240.36 L 656.23 197.32 L 724.39 240.36 L 763.85 308.52 L 735.15 365.91 L 702.86 387.44 L 598.84 373.09 L 534.27 279.82 z" fill="#4c564e"/>
+      <path d="M 258.06 391.02 L 304.69 312.11 L 354.91 333.63 L 419.48 351.57 L 509.16 337.22 L 598.84 373.09 L 631.12 408.96 L 559.38 437.66 L 426.65 416.13 L 326.21 423.31 z" fill="#515952"/>
+      <path d="M 200.66 477.12 L 258.06 391.02 L 326.21 423.31 L 426.65 416.13 L 559.38 437.66 L 570.14 512.99 L 469.70 538.10 L 329.80 527.34 L 232.95 505.81 z" fill="#3c5c4f"/>
+      <path d="M 570.14 512.99 L 559.38 437.66 L 631.12 408.96 L 695.69 430.48 L 735.15 477.12 L 692.10 527.34 L 609.60 534.51 z" fill="#355e5a"/>
+      <path d="M 598.84 373.09 L 702.86 387.44 L 763.85 416.13 L 778.19 462.77 L 735.15 477.12 L 695.69 430.48 L 631.12 408.96 z" fill="#3d5c70"/>
+      <path d="M 681.34 172.21 L 699.28 147.10 L 735.15 154.27 L 749.50 179.38 L 731.56 204.49 L 695.69 200.91 z" fill="#5b5065"/>
+      <path d="M 745.91 136.34 L 771.02 125.58 L 792.54 143.51 L 785.37 168.62 L 756.67 172.21 z" fill="#5b5065"/>
+      <path d="M 717.21 111.23 L 735.15 93.29 L 763.85 100.47 L 771.02 121.99 L 749.50 136.34 L 724.39 132.75 z" fill="#5b5065"/>
+      <path d="M 663.41 125.58 L 681.34 111.23 L 702.86 118.40 L 695.69 139.92 L 670.58 143.51 z" fill="#5b5065"/>
+      <path d="M 788.96 211.67 L 814.07 200.91 L 828.41 222.43 L 810.48 243.95 L 785.37 236.78 z" fill="#5b5065"/>
+      <path d="M 699.28 240.36 L 724.39 222.43 L 749.50 233.19 L 742.32 254.71 L 710.04 258.30 z" fill="#5b5065"/>
+      <path d="M 638.30 182.97 L 656.23 168.62 L 670.58 182.97 L 663.41 200.91 L 641.88 200.91 z" fill="#5b5065"/>
+    </g>
+    <g transform="translate(91 254)" fill="#eaf1f5">
+      <text y="-20" x="0" text-anchor="middle" font-size="15" font-weight="700">N</text>
+      <path d="M 0,-12 8,11 0,6 -8,11 Z M 0,14 V 26" stroke="#eaf1f5" stroke-width="1.5"/>
+    </g>
+  </g>
+  <g id="water-transfers-layer" inkscape:groupmode="layer" inkscape:label="Treated-water transfers" opacity="0.66">
+    <g id="route-W01" data-state="in-service">
+      <title>W01 · Plateau Treated-Water Main</title>
+      <path d="M 608,444 C 609,539 575,645 536,714" class="main" marker-end="url(#water-arrow)"/>
+      <rect x="571" y="569" width="36" height="18" rx="4" fill="#233c4a" stroke="#a3bcc6" stroke-opacity=".8"/>
+      <text x="589" y="582" class="route-id">W01</text>
+    </g>
+    <g id="route-W02" data-state="normally-closed">
+      <title>W02 · Delta Mutual Aid Tie</title>
+      <path d="M 536,714 C 653,707 761,727 868,774" class="aid" marker-end="url(#aid-arrow)"/>
+      <rect x="679" y="718" width="36" height="18" rx="4" fill="#233c4a" stroke="#a3bcc6" stroke-opacity=".8"/>
+      <text x="697" y="731" class="route-id">W02</text>
+    </g>
+    <g id="route-W03" data-state="in-service">
+      <title>W03 · Coastal Treated-Water Main</title>
+      <path d="M 777,847 Q 837,833 868,774" class="main" marker-end="url(#water-arrow)"/>
+      <rect x="808" y="809" width="36" height="18" rx="4" fill="#233c4a" stroke="#a3bcc6" stroke-opacity=".8"/>
+      <text x="826" y="822" class="route-id">W03</text>
+    </g>
+  </g>
+  <g id="water-districts-layer" inkscape:groupmode="layer" inkscape:label="Local water districts">
+    <g id="district-CAE">
+      <title>Caelum Water District · Mesa Waterworks</title>
+      <g transform="translate(608 444)"><circle r="9" fill="#d7f4ed" stroke="#183643" stroke-width="2"/><path d="M -4,1 Q -2,-2 0,1 T 4,1 M -3,4 H 3" fill="none" stroke="#275967" stroke-width="1.3"/></g>
+    </g>
+    <g id="district-ILY">
+      <title>Ilyndor Water District · Corridor Waterworks</title>
+      <g transform="translate(536 714)"><circle r="9" fill="#d7f4ed" stroke="#183643" stroke-width="2"/><path d="M -4,1 Q -2,-2 0,1 T 4,1 M -3,4 H 3" fill="none" stroke="#275967" stroke-width="1.3"/></g>
+    </g>
+    <g id="district-NER">
+      <title>Neruva Water District · Delta Waterworks</title>
+      <g transform="translate(868 774)"><circle r="9" fill="#d7f4ed" stroke="#183643" stroke-width="2"/><path d="M -4,1 Q -2,-2 0,1 T 4,1 M -3,4 H 3" fill="none" stroke="#275967" stroke-width="1.3"/></g>
+    </g>
+    <g id="district-BRI">
+      <title>Brinax Water District · Tidegate Desalination Plant</title>
+      <g transform="translate(777 847)"><circle r="9" fill="#d7f4ed" stroke="#183643" stroke-width="2"/><path d="M -4,1 Q -2,-2 0,1 T 4,1 M -3,4 H 3" fill="none" stroke="#275967" stroke-width="1.3"/></g>
+    </g>
+    <g id="district-ORI">
+      <title>Orinthia Water District · Sound Waterworks</title>
+      <g transform="translate(896 426)"><circle r="9" fill="#d7f4ed" stroke="#183643" stroke-width="2"/><path d="M -4,1 Q -2,-2 0,1 T 4,1 M -3,4 H 3" fill="none" stroke="#275967" stroke-width="1.3"/></g>
+    </g>
+    <g id="district-QUE">
+      <title>Quenari Water District · Orchard Waterworks</title>
+      <g transform="translate(320 834)"><circle r="9" fill="#d7f4ed" stroke="#183643" stroke-width="2"/><path d="M -4,1 Q -2,-2 0,1 T 4,1 M -3,4 H 3" fill="none" stroke="#275967" stroke-width="1.3"/></g>
+    </g>
+  </g>
+  <g id="civil-facilities-layer" inkscape:groupmode="layer" inkscape:label="Civil and humanitarian facilities">
+    <g id="facility-CS01" data-type="hospital" data-district="CAE">
+      <title>Plateau General Hospital</title>
+      <path d="M 608,444 L 538,403" class="supply"/>
+      <g transform="translate(538 403)"><circle r="9" fill="#ffc4b8" stroke="#192b38" stroke-width="1.7"/><g fill="none" stroke="#2e4050" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><path d="M -4,0 H 4 M 0,-4 V 4"/></g></g>
+      <text x="525" y="404" text-anchor="end" class="place">Plateau General</text>
+    </g>
+    <g id="facility-CS02" data-type="school" data-district="CAE">
+      <title>Ridge Secondary School</title>
+      <path d="M 608,444 L 662,379" class="supply"/>
+      <g transform="translate(662 379)"><circle r="9" fill="#bad9ff" stroke="#192b38" stroke-width="1.7"/><g fill="none" stroke="#2e4050" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><path d="M -4,-3 H 4 V 3 H -4 Z M 0,-3 V 3"/></g></g>
+      <text x="676" y="379" text-anchor="start" class="place">Ridge Secondary</text>
+    </g>
+    <g id="facility-CS03" data-type="relief-depot" data-district="ILY">
+      <title>Corridor Relief Depot</title>
+      <path d="M 536,714 L 458,686" class="supply"/>
+      <g transform="translate(458 686)"><circle r="9" fill="#ffe0a7" stroke="#192b38" stroke-width="1.7"/><g fill="none" stroke="#2e4050" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><path d="M -4,-3 H 4 V 4 H -4 Z M -4,0 H 4"/></g></g>
+      <text x="445" y="690" text-anchor="end" class="place">Corridor Relief Depot</text>
+    </g>
+    <g id="facility-CS04" data-type="school" data-district="ILY">
+      <title>Corridor Technical School</title>
+      <path d="M 536,714 L 560.3,650.0" class="supply"/>
+      <g transform="translate(560.3 650.0)"><circle r="9" fill="#bad9ff" stroke="#192b38" stroke-width="1.7"/><g fill="none" stroke="#2e4050" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><path d="M -4,-3 H 4 V 3 H -4 Z M 0,-3 V 3"/></g></g>
+      <text x="546.3" y="653.0" text-anchor="end" class="place">Corridor Technical</text>
+    </g>
+    <g id="facility-CS05" data-type="hospital" data-district="NER">
+      <title>Delta General Hospital</title>
+      <path d="M 868,774 L 893.5,736.4" class="supply"/>
+      <g transform="translate(893.5 736.4)"><circle r="9" fill="#ffc4b8" stroke="#192b38" stroke-width="1.7"/><g fill="none" stroke="#2e4050" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><path d="M -4,0 H 4 M 0,-4 V 4"/></g></g>
+      <text x="906.5" y="739.4" text-anchor="start" class="place">Delta General</text>
+    </g>
+    <g id="facility-CS06" data-type="shelter" data-district="NER">
+      <title>Riverbank Emergency Shelter</title>
+      <path d="M 868,774 L 921,812" class="supply"/>
+      <g transform="translate(921 812)"><circle r="9" fill="#d8c3ff" stroke="#192b38" stroke-width="1.7"/><g fill="none" stroke="#2e4050" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><path d="M -5,0 0,-4 5,0 M -3,0 V 4 H 3 V 0"/></g></g>
+      <text x="934" y="817" text-anchor="start" class="place">Riverbank</text>
+    </g>
+    <g id="facility-CS07" data-type="clinic" data-district="BRI">
+      <title>Tideport Community Clinic</title>
+      <path d="M 777,847 L 738,906" class="supply"/>
+      <g transform="translate(738 906)"><circle r="9" fill="#ffdec8" stroke="#192b38" stroke-width="1.7"/><g fill="none" stroke="#2e4050" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><path d="M -5,1 H -3 L -1,-3 1,3 3,0 H 5"/></g></g>
+      <text x="738" y="929" text-anchor="middle" class="place">Tideport Clinic</text>
+    </g>
+    <g id="facility-CS08" data-type="community-kitchen" data-district="BRI">
+      <title>Brinax Community Kitchen</title>
+      <path d="M 777,847 L 708,811" class="supply"/>
+      <g transform="translate(708 811)"><circle r="9" fill="#c1ecd2" stroke="#192b38" stroke-width="1.7"/><g fill="none" stroke="#2e4050" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><path d="M -5,0 H 5 Q 4,4 0,4 T -5,0 M 0,-3 V -1"/></g></g>
+      <text x="694" y="816" text-anchor="end" class="place">Brinax Kitchen</text>
+    </g>
+    <g id="facility-CS09" data-type="hospital" data-district="ORI">
+      <title>Sound Community Hospital</title>
+      <path d="M 896,426 L 871,371" class="supply"/>
+      <g transform="translate(871 371)"><circle r="9" fill="#ffc4b8" stroke="#192b38" stroke-width="1.7"/><g fill="none" stroke="#2e4050" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><path d="M -4,0 H 4 M 0,-4 V 4"/></g></g>
+      <text x="871" y="353" text-anchor="middle" class="place">Sound Hospital</text>
+    </g>
+    <g id="facility-CS10" data-type="school" data-district="ORI">
+      <title>Sound Primary School</title>
+      <path d="M 896,426 L 916.2,431.6" class="supply"/>
+      <g transform="translate(916.2 431.6)"><circle r="9" fill="#bad9ff" stroke="#192b38" stroke-width="1.7"/><g fill="none" stroke="#2e4050" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><path d="M -4,-3 H 4 V 3 H -4 Z M 0,-3 V 3"/></g></g>
+      <text x="929.2" y="435.6" text-anchor="start" class="place">Sound Primary</text>
+    </g>
+    <g id="facility-CS11" data-type="school" data-district="QUE">
+      <title>Orchard Learning Center</title>
+      <path d="M 320,834 L 275,782" class="supply"/>
+      <g transform="translate(275 782)"><circle r="9" fill="#bad9ff" stroke="#192b38" stroke-width="1.7"/><g fill="none" stroke="#2e4050" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><path d="M -4,-3 H 4 V 3 H -4 Z M 0,-3 V 3"/></g></g>
+      <text x="275" y="766" text-anchor="middle" class="place">Orchard Learning</text>
+    </g>
+    <g id="facility-CS12" data-type="relief-depot" data-district="QUE">
+      <title>Quenari Relief Store</title>
+      <path d="M 320,834 L 364,864" class="supply"/>
+      <g transform="translate(364 864)"><circle r="9" fill="#ffe0a7" stroke="#192b38" stroke-width="1.7"/><g fill="none" stroke="#2e4050" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><path d="M -4,-3 H 4 V 4 H -4 Z M -4,0 H 4"/></g></g>
+      <text x="377" y="868" text-anchor="start" class="place">Quenari Relief Store</text>
+    </g>
+  </g>
+  <rect x="48" y="171" width="1052" height="786" rx="12" fill="none" stroke="#9aafb7"/>
+  <rect x="1122" y="171" width="370" height="786" rx="12" class="sidebar"/>
+  <text x="1146" y="208" class="caps muted">SERVICES AND FACILITIES</text>
+  <g transform="translate(1155 237)"><circle r="9" fill="#ffc4b8" stroke="#192b38" stroke-width="1.7"/><g fill="none" stroke="#2e4050" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><path d="M -4,0 H 4 M 0,-4 V 4"/></g></g>
+  <text x="1174" y="241" class="body ink">Plateau General Hospital</text>
+  <text x="1174" y="257" class="small muted">Caelum · Hospital</text>
+  <text x="1468" y="241" text-anchor="end" class="small muted">CS01</text>
+  <g transform="translate(1155 280)"><circle r="9" fill="#bad9ff" stroke="#192b38" stroke-width="1.7"/><g fill="none" stroke="#2e4050" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><path d="M -4,-3 H 4 V 3 H -4 Z M 0,-3 V 3"/></g></g>
+  <text x="1174" y="284" class="body ink">Ridge Secondary School</text>
+  <text x="1174" y="300" class="small muted">Caelum · School</text>
+  <text x="1468" y="284" text-anchor="end" class="small muted">CS02</text>
+  <g transform="translate(1155 323)"><circle r="9" fill="#ffe0a7" stroke="#192b38" stroke-width="1.7"/><g fill="none" stroke="#2e4050" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><path d="M -4,-3 H 4 V 4 H -4 Z M -4,0 H 4"/></g></g>
+  <text x="1174" y="327" class="body ink">Corridor Relief Depot</text>
+  <text x="1174" y="343" class="small muted">Ilyndor · Relief depot</text>
+  <text x="1468" y="327" text-anchor="end" class="small muted">CS03</text>
+  <g transform="translate(1155 366)"><circle r="9" fill="#bad9ff" stroke="#192b38" stroke-width="1.7"/><g fill="none" stroke="#2e4050" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><path d="M -4,-3 H 4 V 3 H -4 Z M 0,-3 V 3"/></g></g>
+  <text x="1174" y="370" class="body ink">Corridor Technical School</text>
+  <text x="1174" y="386" class="small muted">Ilyndor · School</text>
+  <text x="1468" y="370" text-anchor="end" class="small muted">CS04</text>
+  <g transform="translate(1155 409)"><circle r="9" fill="#ffc4b8" stroke="#192b38" stroke-width="1.7"/><g fill="none" stroke="#2e4050" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><path d="M -4,0 H 4 M 0,-4 V 4"/></g></g>
+  <text x="1174" y="413" class="body ink">Delta General Hospital</text>
+  <text x="1174" y="429" class="small muted">Neruva · Hospital</text>
+  <text x="1468" y="413" text-anchor="end" class="small muted">CS05</text>
+  <g transform="translate(1155 452)"><circle r="9" fill="#d8c3ff" stroke="#192b38" stroke-width="1.7"/><g fill="none" stroke="#2e4050" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><path d="M -5,0 0,-4 5,0 M -3,0 V 4 H 3 V 0"/></g></g>
+  <text x="1174" y="456" class="body ink">Riverbank Emergency Shelter</text>
+  <text x="1174" y="472" class="small muted">Neruva · Shelter</text>
+  <text x="1468" y="456" text-anchor="end" class="small muted">CS06</text>
+  <g transform="translate(1155 495)"><circle r="9" fill="#ffdec8" stroke="#192b38" stroke-width="1.7"/><g fill="none" stroke="#2e4050" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><path d="M -5,1 H -3 L -1,-3 1,3 3,0 H 5"/></g></g>
+  <text x="1174" y="499" class="body ink">Tideport Community Clinic</text>
+  <text x="1174" y="515" class="small muted">Brinax · Clinic</text>
+  <text x="1468" y="499" text-anchor="end" class="small muted">CS07</text>
+  <g transform="translate(1155 538)"><circle r="9" fill="#c1ecd2" stroke="#192b38" stroke-width="1.7"/><g fill="none" stroke="#2e4050" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><path d="M -5,0 H 5 Q 4,4 0,4 T -5,0 M 0,-3 V -1"/></g></g>
+  <text x="1174" y="542" class="body ink">Brinax Community Kitchen</text>
+  <text x="1174" y="558" class="small muted">Brinax · Community kitchen</text>
+  <text x="1468" y="542" text-anchor="end" class="small muted">CS08</text>
+  <g transform="translate(1155 581)"><circle r="9" fill="#ffc4b8" stroke="#192b38" stroke-width="1.7"/><g fill="none" stroke="#2e4050" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><path d="M -4,0 H 4 M 0,-4 V 4"/></g></g>
+  <text x="1174" y="585" class="body ink">Sound Community Hospital</text>
+  <text x="1174" y="601" class="small muted">Orinthia · Hospital</text>
+  <text x="1468" y="585" text-anchor="end" class="small muted">CS09</text>
+  <g transform="translate(1155 624)"><circle r="9" fill="#bad9ff" stroke="#192b38" stroke-width="1.7"/><g fill="none" stroke="#2e4050" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><path d="M -4,-3 H 4 V 3 H -4 Z M 0,-3 V 3"/></g></g>
+  <text x="1174" y="628" class="body ink">Sound Primary School</text>
+  <text x="1174" y="644" class="small muted">Orinthia · School</text>
+  <text x="1468" y="628" text-anchor="end" class="small muted">CS10</text>
+  <g transform="translate(1155 667)"><circle r="9" fill="#bad9ff" stroke="#192b38" stroke-width="1.7"/><g fill="none" stroke="#2e4050" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><path d="M -4,-3 H 4 V 3 H -4 Z M 0,-3 V 3"/></g></g>
+  <text x="1174" y="671" class="body ink">Orchard Learning Center</text>
+  <text x="1174" y="687" class="small muted">Quenari · School</text>
+  <text x="1468" y="671" text-anchor="end" class="small muted">CS11</text>
+  <g transform="translate(1155 710)"><circle r="9" fill="#ffe0a7" stroke="#192b38" stroke-width="1.7"/><g fill="none" stroke="#2e4050" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><path d="M -4,-3 H 4 V 4 H -4 Z M -4,0 H 4"/></g></g>
+  <text x="1174" y="714" class="body ink">Quenari Relief Store</text>
+  <text x="1174" y="730" class="small muted">Quenari · Relief depot</text>
+  <text x="1468" y="714" text-anchor="end" class="small muted">CS12</text>
+  <path d="M 1146,748 H 1468" class="divider"/>
+  <text x="1146" y="779" class="caps muted">WATER CONNECTIONS</text>
+  <rect x="1146" y="793" width="66" height="92" rx="7" fill="#254153"/>
+  <path d="M 1156,813 H 1201" class="main" marker-end="url(#water-arrow)"/>
+  <path d="M 1156,838 H 1201" class="aid" marker-end="url(#aid-arrow)"/>
+  <path d="M 1156,863 H 1201" class="supply"/>
+  <text x="1227" y="818" class="support ink">In-service transfer</text>
+  <text x="1227" y="843" class="support ink">Mutual aid tie · normally closed</text>
+  <text x="1227" y="868" class="support ink">Local facility supply</text>
+  <text x="1146" y="916" class="small muted">The panel below shows each pair's utility areas.</text>
+
+  <g id="facility-utilities-layer" inkscape:groupmode="layer" inkscape:label="Facility water and electricity dependency directory">
+    <text x="48" y="975" class="caps muted">WATER AND POWER DEPENDENCIES BY DISTRICT</text>
+    <g id="utilities-CAE">
+      <rect x="48" y="993" width="464" height="106" rx="10" class="sidebar"/>
+      <text x="69" y="1020" class="body ink">Caelum Protectorate</text>
+      <text x="491" y="1020" text-anchor="end" class="small muted">CS01 · CS02</text>
+      <text x="69" y="1049" class="support ink">Water · Caelum Water District</text>
+      <text x="69" y="1073" class="support ink">Power · Caelum Distribution Area</text>
+    </g>
+    <g id="utilities-ILY">
+      <rect x="538" y="993" width="464" height="106" rx="10" class="sidebar"/>
+      <text x="559" y="1020" class="body ink">Ilyndor</text>
+      <text x="981" y="1020" text-anchor="end" class="small muted">CS03 · CS04</text>
+      <text x="559" y="1049" class="support ink">Water · Ilyndor Water District</text>
+      <text x="559" y="1073" class="support ink">Power · Ilyndor Distribution Area</text>
+    </g>
+    <g id="utilities-NER">
+      <rect x="1028" y="993" width="464" height="106" rx="10" class="sidebar"/>
+      <text x="1049" y="1020" class="body ink">Neruva Federation</text>
+      <text x="1471" y="1020" text-anchor="end" class="small muted">CS05 · CS06</text>
+      <text x="1049" y="1049" class="support ink">Water · Neruva Water District</text>
+      <text x="1049" y="1073" class="support ink">Power · Neruva Distribution Area</text>
+    </g>
+    <g id="utilities-BRI">
+      <rect x="48" y="1115" width="464" height="106" rx="10" class="sidebar"/>
+      <text x="69" y="1142" class="body ink">Brinax Collective</text>
+      <text x="491" y="1142" text-anchor="end" class="small muted">CS07 · CS08</text>
+      <text x="69" y="1171" class="support ink">Water · Brinax Water District</text>
+      <text x="69" y="1195" class="support ink">Power · Brinax Distribution Area</text>
+    </g>
+    <g id="utilities-ORI">
+      <rect x="538" y="1115" width="464" height="106" rx="10" class="sidebar"/>
+      <text x="559" y="1142" class="body ink">Orinthia</text>
+      <text x="981" y="1142" text-anchor="end" class="small muted">CS09 · CS10</text>
+      <text x="559" y="1171" class="support ink">Water · Orinthia Water District</text>
+      <text x="559" y="1195" class="support ink">Power · Orinthia Distribution Area</text>
+    </g>
+    <g id="utilities-QUE">
+      <rect x="1028" y="1115" width="464" height="106" rx="10" class="sidebar"/>
+      <text x="1049" y="1142" class="body ink">Quenari League</text>
+      <text x="1471" y="1142" text-anchor="end" class="small muted">CS11 · CS12</text>
+      <text x="1049" y="1171" class="support ink">Water · Quenari Water District</text>
+      <text x="1049" y="1195" class="support ink">Power · Quenari Distribution Area</text>
+    </g>
+  </g>
+</svg>

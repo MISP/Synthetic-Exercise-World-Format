@@ -63,6 +63,8 @@ The JSON format follows the standard MISP galaxy structure, making it directly c
 
 # Geography of the Synthetic Exercise World
 
+The shared Nacre coordinate grid registers country boundaries, capitals, and extension sites, routes, and coverage. Explore the interactive atlas or download the GeoJSON through the [geographic atlas guide](geography/README.md).
+
 ## Synthetic Exercise World Map — Planet Nacre
 
 This field guide accompanies the revised fictional atlas map. The map is designed for neutral cyber-exercise planning and keeps the original synthetic country, company, and threat-actor relationships while making the visual layout easier to read.
@@ -259,6 +261,7 @@ Each extension lives under `extensions/<name>/` and adds an editable visual, a g
 - **Electricity** covers renewable, nuclear, and fossil generation, cross-border transmission, local distribution, and an island supply shortfall exercise. [Electricity extension](extensions/electricity/README.md)
 - **Oil production and refining** covers country capabilities, offshore and onshore crude supply, pipelines, refineries, and fuel dependencies with the electricity grid. [Oil production and refining extension](extensions/oil-refining/README.md)
 - **Water supply** covers raw sources, treatment, local water districts, and treated-water transfers across part of Nacre. [Water supply extension](extensions/water-supply/README.md)
+- **Civil and humanitarian services** covers hospitals, schools, shelters, and relief facilities with links to water, electricity, telecom, and transport. [Civil and humanitarian extension](extensions/civil-humanitarian/README.md)
 - **Data centers** covers facility ownership and operation, carrier circuits, shared fiber entrances, and connections to the electricity grid. [Data center extension](extensions/datacenters/README.md)
 - **Transport and logistics** covers truck and coach roads, freight and passenger rail, cargo boats, ferries, and a tabletop case on rerouting after a berth closure. [Transport extension](extensions/transport/README.md)
 - **Civil aviation** covers aircraft types, airports, air traffic control, scheduled passenger and cargo routes, and an airport diversion exercise. [Aviation extension](extensions/aviation/README.md)

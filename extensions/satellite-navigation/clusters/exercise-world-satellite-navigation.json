@@ -163,8 +163,14 @@
     {
       "description": "Representative Waymark navigation satellite with a modeled visibility footprint in WAYMARK-A.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "navigation-satellite"
+        ],
+        "geographic-feature-id": [
+          "f3e428cb-3854-5d18-8ce4-1835af9d17e9"
         ],
         "orbit-class": [
           "MEO"
@@ -215,8 +221,14 @@
     {
       "description": "Representative Waymark navigation satellite with a modeled visibility footprint in WAYMARK-A.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "navigation-satellite"
+        ],
+        "geographic-feature-id": [
+          "59d32384-2264-5032-9821-ad6a3d2663ef"
         ],
         "orbit-class": [
           "MEO"
@@ -271,8 +283,14 @@
     {
       "description": "Representative Waymark navigation satellite with a modeled visibility footprint in WAYMARK-A.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "navigation-satellite"
+        ],
+        "geographic-feature-id": [
+          "48958c08-a61a-52c0-8c1b-8b4855eb5543"
         ],
         "orbit-class": [
           "MEO"
@@ -331,8 +349,14 @@
     {
       "description": "Representative Waymark navigation satellite with a modeled visibility footprint in WAYMARK-A.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "navigation-satellite"
+        ],
+        "geographic-feature-id": [
+          "d917bd5e-a1f0-55d5-9c3d-65e6f004471e"
         ],
         "orbit-class": [
           "MEO"
@@ -387,8 +411,14 @@
     {
       "description": "Representative Waymark navigation satellite with a modeled visibility footprint in WAYMARK-A.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "navigation-satellite"
+        ],
+        "geographic-feature-id": [
+          "fd03e88b-a110-5587-be68-3c590a3a3d42"
         ],
         "orbit-class": [
           "MEO"
@@ -443,8 +473,14 @@
     {
       "description": "Representative Waymark navigation satellite with a modeled visibility footprint in WAYMARK-A.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "navigation-satellite"
+        ],
+        "geographic-feature-id": [
+          "15ad64dd-426a-5b96-b543-6b434ca9a91d"
         ],
         "orbit-class": [
           "MEO"
@@ -495,9 +531,21 @@
     {
       "description": "Waymark integrity monitor associated with Northreach Airport.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Asterin Union",
         "entity-type": [
           "navigation-ground-site"
+        ],
+        "geographic-feature-id": [
+          "e0c25c08-fd65-5139-ad06-d235f96ffa20"
+        ],
+        "latitude": [
+          "54.2397"
+        ],
+        "longitude": [
+          "-43.8655"
         ],
         "planet": [
           "Nacre"
@@ -540,9 +588,21 @@
     {
       "description": "Waymark integrity monitor associated with BasinLink.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Velkar Republic",
         "entity-type": [
           "navigation-ground-site"
+        ],
+        "geographic-feature-id": [
+          "f32ac579-0f9a-56f5-b9b7-7a1bb7e5c769"
+        ],
+        "latitude": [
+          "17.9992"
+        ],
+        "longitude": [
+          "-9.5764"
         ],
         "planet": [
           "Nacre"
@@ -597,9 +657,21 @@
     {
       "description": "Waymark integrity monitor associated with Plateau Airport.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Caelum Protectorate",
         "entity-type": [
           "navigation-ground-site"
+        ],
+        "geographic-feature-id": [
+          "9837f40a-51fa-55a1-9a62-4f5b25487eba"
+        ],
+        "latitude": [
+          "42.5313"
+        ],
+        "longitude": [
+          "17.4647"
         ],
         "planet": [
           "Nacre"
@@ -650,9 +722,21 @@
     {
       "description": "Waymark service receiver associated with Sound Airport.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Orinthia",
         "entity-type": [
           "navigation-ground-site"
+        ],
+        "geographic-feature-id": [
+          "3aadf22d-7371-5394-a138-cc2594a574c8"
+        ],
+        "latitude": [
+          "47.828"
+        ],
+        "longitude": [
+          "75.7283"
         ],
         "planet": [
           "Nacre"
@@ -695,9 +779,21 @@
     {
       "description": "Waymark service receiver associated with Steppe Yard.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Thyros Commonwealth",
         "entity-type": [
           "navigation-ground-site"
+        ],
+        "geographic-feature-id": [
+          "5c662e28-baf1-5baa-b9dc-1d03d05dbd4b"
+        ],
+        "latitude": [
+          "11.5874"
+        ],
+        "longitude": [
+          "61.2321"
         ],
         "planet": [
           "Nacre"
@@ -748,9 +844,21 @@
     {
       "description": "Waymark integrity monitor associated with Corridor Exchange.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Ilyndor",
         "entity-type": [
           "navigation-ground-site"
+        ],
+        "geographic-feature-id": [
+          "df3a5056-da11-5692-b097-b22faa07fb00"
+        ],
+        "latitude": [
+          "-8.763"
+        ],
+        "longitude": [
+          "6.8713"
         ],
         "planet": [
           "Nacre"
@@ -805,9 +913,21 @@
     {
       "description": "Waymark service receiver associated with Delta Port.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Neruva Federation",
         "entity-type": [
           "navigation-ground-site"
+        ],
+        "geographic-feature-id": [
+          "b0711dfd-9692-5afb-a9c1-111f41f08914"
+        ],
+        "latitude": [
+          "-25.4894"
+        ],
+        "longitude": [
+          "85.4854"
         ],
         "planet": [
           "Nacre"
@@ -854,9 +974,21 @@
     {
       "description": "Waymark service receiver associated with Coast Terminal.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Brinax Collective",
         "entity-type": [
           "navigation-ground-site"
+        ],
+        "geographic-feature-id": [
+          "88995bb0-e5f8-5258-8838-3ab96d8ecdac"
+        ],
+        "latitude": [
+          "-36.9192"
+        ],
+        "longitude": [
+          "55.0991"
         ],
         "planet": [
           "Nacre"
@@ -899,9 +1031,21 @@
     {
       "description": "Waymark service receiver associated with Orchard Market Terminal.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Quenari League",
         "entity-type": [
           "navigation-ground-site"
+        ],
+        "geographic-feature-id": [
+          "d83e5552-53f5-55bf-8a1c-2cd38acc2117"
+        ],
+        "latitude": [
+          "-33.5739"
+        ],
+        "longitude": [
+          "-34.666"
         ],
         "planet": [
           "Nacre"
@@ -944,9 +1088,21 @@
     {
       "description": "Waymark integrity monitor associated with Tundra Airfield.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Soreth Dominion",
         "entity-type": [
           "navigation-ground-site"
+        ],
+        "geographic-feature-id": [
+          "01bfea67-d7c4-5b5f-9b42-a459e9b45531"
+        ],
+        "latitude": [
+          "70.6874"
+        ],
+        "longitude": [
+          "17.4647"
         ],
         "planet": [
           "Nacre"
@@ -1034,5 +1190,5 @@
       "value": "Delta Port Interference Exercise"
     }
   ],
-  "version": 1
+  "version": 2
 }
