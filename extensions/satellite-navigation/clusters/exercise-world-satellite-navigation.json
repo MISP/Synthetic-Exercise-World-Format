@@ -1,0 +1,1038 @@
+{
+  "authors": [
+    "MISP Project"
+  ],
+  "category": "context",
+  "description": "Fictional one-way navigation and timing broadcasts, coverage footprints, and an interference response exercise on Nacre.",
+  "name": "Synthetic Exercise World - Satellite Navigation",
+  "source": "https://github.com/MISP/Synthetic-Exercise-World-Format",
+  "type": "exercise-world-satellite-navigation",
+  "uuid": "acd15587-c91c-581a-bc01-3f8cce89c1e6",
+  "values": [
+    {
+      "description": "Fictional positioning, navigation, and timing service using one-way broadcasts from medium-orbit satellites.",
+      "meta": {
+        "entity-type": [
+          "satellite-navigation-service"
+        ],
+        "orbit-class": [
+          "MEO"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "signal-model": [
+          "one-way-broadcast"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "f3e428cb-3854-5d18-8ce4-1835af9d17e9",
+          "type": "uses-satellite"
+        },
+        {
+          "dest-uuid": "59d32384-2264-5032-9821-ad6a3d2663ef",
+          "type": "uses-satellite"
+        },
+        {
+          "dest-uuid": "48958c08-a61a-52c0-8c1b-8b4855eb5543",
+          "type": "uses-satellite"
+        },
+        {
+          "dest-uuid": "d917bd5e-a1f0-55d5-9c3d-65e6f004471e",
+          "type": "uses-satellite"
+        },
+        {
+          "dest-uuid": "fd03e88b-a110-5587-be68-3c590a3a3d42",
+          "type": "uses-satellite"
+        },
+        {
+          "dest-uuid": "15ad64dd-426a-5b96-b543-6b434ca9a91d",
+          "type": "uses-satellite"
+        },
+        {
+          "dest-uuid": "e0c25c08-fd65-5139-ad06-d235f96ffa20",
+          "type": "monitored-by"
+        },
+        {
+          "dest-uuid": "f32ac579-0f9a-56f5-b9b7-7a1bb7e5c769",
+          "type": "monitored-by"
+        },
+        {
+          "dest-uuid": "9837f40a-51fa-55a1-9a62-4f5b25487eba",
+          "type": "monitored-by"
+        },
+        {
+          "dest-uuid": "df3a5056-da11-5692-b097-b22faa07fb00",
+          "type": "monitored-by"
+        },
+        {
+          "dest-uuid": "01bfea67-d7c4-5b5f-9b42-a459e9b45531",
+          "type": "monitored-by"
+        }
+      ],
+      "uuid": "dbb7f07f-235b-5790-846b-ec27510d542e",
+      "value": "Waymark Navigation Service"
+    },
+    {
+      "description": "Schematic moment in which projected visibility and overlap are evaluated at representative Nacre ground sites.",
+      "meta": {
+        "entity-type": [
+          "navigation-coverage-snapshot"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "snapshot-id": [
+          "WAYMARK-A"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "dbb7f07f-235b-5790-846b-ec27510d542e",
+          "type": "models-service"
+        },
+        {
+          "dest-uuid": "f3e428cb-3854-5d18-8ce4-1835af9d17e9",
+          "type": "includes-satellite"
+        },
+        {
+          "dest-uuid": "59d32384-2264-5032-9821-ad6a3d2663ef",
+          "type": "includes-satellite"
+        },
+        {
+          "dest-uuid": "48958c08-a61a-52c0-8c1b-8b4855eb5543",
+          "type": "includes-satellite"
+        },
+        {
+          "dest-uuid": "d917bd5e-a1f0-55d5-9c3d-65e6f004471e",
+          "type": "includes-satellite"
+        },
+        {
+          "dest-uuid": "fd03e88b-a110-5587-be68-3c590a3a3d42",
+          "type": "includes-satellite"
+        },
+        {
+          "dest-uuid": "15ad64dd-426a-5b96-b543-6b434ca9a91d",
+          "type": "includes-satellite"
+        },
+        {
+          "dest-uuid": "e0c25c08-fd65-5139-ad06-d235f96ffa20",
+          "type": "samples-site"
+        },
+        {
+          "dest-uuid": "f32ac579-0f9a-56f5-b9b7-7a1bb7e5c769",
+          "type": "samples-site"
+        },
+        {
+          "dest-uuid": "9837f40a-51fa-55a1-9a62-4f5b25487eba",
+          "type": "samples-site"
+        },
+        {
+          "dest-uuid": "3aadf22d-7371-5394-a138-cc2594a574c8",
+          "type": "samples-site"
+        },
+        {
+          "dest-uuid": "5c662e28-baf1-5baa-b9dc-1d03d05dbd4b",
+          "type": "samples-site"
+        },
+        {
+          "dest-uuid": "df3a5056-da11-5692-b097-b22faa07fb00",
+          "type": "samples-site"
+        },
+        {
+          "dest-uuid": "b0711dfd-9692-5afb-a9c1-111f41f08914",
+          "type": "samples-site"
+        },
+        {
+          "dest-uuid": "88995bb0-e5f8-5258-8838-3ab96d8ecdac",
+          "type": "samples-site"
+        },
+        {
+          "dest-uuid": "d83e5552-53f5-55bf-8a1c-2cd38acc2117",
+          "type": "samples-site"
+        },
+        {
+          "dest-uuid": "01bfea67-d7c4-5b5f-9b42-a459e9b45531",
+          "type": "samples-site"
+        }
+      ],
+      "uuid": "3128144e-5257-5d21-97a8-4c76d064b77e",
+      "value": "Waymark Coverage Snapshot A"
+    },
+    {
+      "description": "Representative Waymark navigation satellite with a modeled visibility footprint in WAYMARK-A.",
+      "meta": {
+        "entity-type": [
+          "navigation-satellite"
+        ],
+        "orbit-class": [
+          "MEO"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "satellite-id": [
+          "WM01"
+        ],
+        "snapshot-id": [
+          "WAYMARK-A"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "dbb7f07f-235b-5790-846b-ec27510d542e",
+          "type": "part-of"
+        },
+        {
+          "dest-uuid": "e0c25c08-fd65-5139-ad06-d235f96ffa20",
+          "type": "visible-at"
+        },
+        {
+          "dest-uuid": "f32ac579-0f9a-56f5-b9b7-7a1bb7e5c769",
+          "type": "visible-at"
+        },
+        {
+          "dest-uuid": "9837f40a-51fa-55a1-9a62-4f5b25487eba",
+          "type": "visible-at"
+        },
+        {
+          "dest-uuid": "df3a5056-da11-5692-b097-b22faa07fb00",
+          "type": "visible-at"
+        },
+        {
+          "dest-uuid": "d83e5552-53f5-55bf-8a1c-2cd38acc2117",
+          "type": "visible-at"
+        },
+        {
+          "dest-uuid": "01bfea67-d7c4-5b5f-9b42-a459e9b45531",
+          "type": "visible-at"
+        }
+      ],
+      "uuid": "f3e428cb-3854-5d18-8ce4-1835af9d17e9",
+      "value": "Waymark N1"
+    },
+    {
+      "description": "Representative Waymark navigation satellite with a modeled visibility footprint in WAYMARK-A.",
+      "meta": {
+        "entity-type": [
+          "navigation-satellite"
+        ],
+        "orbit-class": [
+          "MEO"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "satellite-id": [
+          "WM02"
+        ],
+        "snapshot-id": [
+          "WAYMARK-A"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "dbb7f07f-235b-5790-846b-ec27510d542e",
+          "type": "part-of"
+        },
+        {
+          "dest-uuid": "f32ac579-0f9a-56f5-b9b7-7a1bb7e5c769",
+          "type": "visible-at"
+        },
+        {
+          "dest-uuid": "9837f40a-51fa-55a1-9a62-4f5b25487eba",
+          "type": "visible-at"
+        },
+        {
+          "dest-uuid": "3aadf22d-7371-5394-a138-cc2594a574c8",
+          "type": "visible-at"
+        },
+        {
+          "dest-uuid": "5c662e28-baf1-5baa-b9dc-1d03d05dbd4b",
+          "type": "visible-at"
+        },
+        {
+          "dest-uuid": "df3a5056-da11-5692-b097-b22faa07fb00",
+          "type": "visible-at"
+        },
+        {
+          "dest-uuid": "b0711dfd-9692-5afb-a9c1-111f41f08914",
+          "type": "visible-at"
+        },
+        {
+          "dest-uuid": "01bfea67-d7c4-5b5f-9b42-a459e9b45531",
+          "type": "visible-at"
+        }
+      ],
+      "uuid": "59d32384-2264-5032-9821-ad6a3d2663ef",
+      "value": "Waymark N2"
+    },
+    {
+      "description": "Representative Waymark navigation satellite with a modeled visibility footprint in WAYMARK-A.",
+      "meta": {
+        "entity-type": [
+          "navigation-satellite"
+        ],
+        "orbit-class": [
+          "MEO"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "satellite-id": [
+          "WM03"
+        ],
+        "snapshot-id": [
+          "WAYMARK-A"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "dbb7f07f-235b-5790-846b-ec27510d542e",
+          "type": "part-of"
+        },
+        {
+          "dest-uuid": "e0c25c08-fd65-5139-ad06-d235f96ffa20",
+          "type": "visible-at"
+        },
+        {
+          "dest-uuid": "f32ac579-0f9a-56f5-b9b7-7a1bb7e5c769",
+          "type": "visible-at"
+        },
+        {
+          "dest-uuid": "9837f40a-51fa-55a1-9a62-4f5b25487eba",
+          "type": "visible-at"
+        },
+        {
+          "dest-uuid": "5c662e28-baf1-5baa-b9dc-1d03d05dbd4b",
+          "type": "visible-at"
+        },
+        {
+          "dest-uuid": "df3a5056-da11-5692-b097-b22faa07fb00",
+          "type": "visible-at"
+        },
+        {
+          "dest-uuid": "b0711dfd-9692-5afb-a9c1-111f41f08914",
+          "type": "visible-at"
+        },
+        {
+          "dest-uuid": "88995bb0-e5f8-5258-8838-3ab96d8ecdac",
+          "type": "visible-at"
+        },
+        {
+          "dest-uuid": "d83e5552-53f5-55bf-8a1c-2cd38acc2117",
+          "type": "visible-at"
+        }
+      ],
+      "uuid": "48958c08-a61a-52c0-8c1b-8b4855eb5543",
+      "value": "Waymark N3"
+    },
+    {
+      "description": "Representative Waymark navigation satellite with a modeled visibility footprint in WAYMARK-A.",
+      "meta": {
+        "entity-type": [
+          "navigation-satellite"
+        ],
+        "orbit-class": [
+          "MEO"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "satellite-id": [
+          "WM04"
+        ],
+        "snapshot-id": [
+          "WAYMARK-A"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "dbb7f07f-235b-5790-846b-ec27510d542e",
+          "type": "part-of"
+        },
+        {
+          "dest-uuid": "f32ac579-0f9a-56f5-b9b7-7a1bb7e5c769",
+          "type": "visible-at"
+        },
+        {
+          "dest-uuid": "9837f40a-51fa-55a1-9a62-4f5b25487eba",
+          "type": "visible-at"
+        },
+        {
+          "dest-uuid": "3aadf22d-7371-5394-a138-cc2594a574c8",
+          "type": "visible-at"
+        },
+        {
+          "dest-uuid": "5c662e28-baf1-5baa-b9dc-1d03d05dbd4b",
+          "type": "visible-at"
+        },
+        {
+          "dest-uuid": "df3a5056-da11-5692-b097-b22faa07fb00",
+          "type": "visible-at"
+        },
+        {
+          "dest-uuid": "b0711dfd-9692-5afb-a9c1-111f41f08914",
+          "type": "visible-at"
+        },
+        {
+          "dest-uuid": "88995bb0-e5f8-5258-8838-3ab96d8ecdac",
+          "type": "visible-at"
+        }
+      ],
+      "uuid": "d917bd5e-a1f0-55d5-9c3d-65e6f004471e",
+      "value": "Waymark N4"
+    },
+    {
+      "description": "Representative Waymark navigation satellite with a modeled visibility footprint in WAYMARK-A.",
+      "meta": {
+        "entity-type": [
+          "navigation-satellite"
+        ],
+        "orbit-class": [
+          "MEO"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "satellite-id": [
+          "WM05"
+        ],
+        "snapshot-id": [
+          "WAYMARK-A"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "dbb7f07f-235b-5790-846b-ec27510d542e",
+          "type": "part-of"
+        },
+        {
+          "dest-uuid": "e0c25c08-fd65-5139-ad06-d235f96ffa20",
+          "type": "visible-at"
+        },
+        {
+          "dest-uuid": "f32ac579-0f9a-56f5-b9b7-7a1bb7e5c769",
+          "type": "visible-at"
+        },
+        {
+          "dest-uuid": "9837f40a-51fa-55a1-9a62-4f5b25487eba",
+          "type": "visible-at"
+        },
+        {
+          "dest-uuid": "3aadf22d-7371-5394-a138-cc2594a574c8",
+          "type": "visible-at"
+        },
+        {
+          "dest-uuid": "5c662e28-baf1-5baa-b9dc-1d03d05dbd4b",
+          "type": "visible-at"
+        },
+        {
+          "dest-uuid": "df3a5056-da11-5692-b097-b22faa07fb00",
+          "type": "visible-at"
+        },
+        {
+          "dest-uuid": "01bfea67-d7c4-5b5f-9b42-a459e9b45531",
+          "type": "visible-at"
+        }
+      ],
+      "uuid": "fd03e88b-a110-5587-be68-3c590a3a3d42",
+      "value": "Waymark N5"
+    },
+    {
+      "description": "Representative Waymark navigation satellite with a modeled visibility footprint in WAYMARK-A.",
+      "meta": {
+        "entity-type": [
+          "navigation-satellite"
+        ],
+        "orbit-class": [
+          "MEO"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "satellite-id": [
+          "WM06"
+        ],
+        "snapshot-id": [
+          "WAYMARK-A"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "dbb7f07f-235b-5790-846b-ec27510d542e",
+          "type": "part-of"
+        },
+        {
+          "dest-uuid": "f32ac579-0f9a-56f5-b9b7-7a1bb7e5c769",
+          "type": "visible-at"
+        },
+        {
+          "dest-uuid": "5c662e28-baf1-5baa-b9dc-1d03d05dbd4b",
+          "type": "visible-at"
+        },
+        {
+          "dest-uuid": "df3a5056-da11-5692-b097-b22faa07fb00",
+          "type": "visible-at"
+        },
+        {
+          "dest-uuid": "b0711dfd-9692-5afb-a9c1-111f41f08914",
+          "type": "visible-at"
+        },
+        {
+          "dest-uuid": "88995bb0-e5f8-5258-8838-3ab96d8ecdac",
+          "type": "visible-at"
+        },
+        {
+          "dest-uuid": "d83e5552-53f5-55bf-8a1c-2cd38acc2117",
+          "type": "visible-at"
+        }
+      ],
+      "uuid": "15ad64dd-426a-5b96-b543-6b434ca9a91d",
+      "value": "Waymark N6"
+    },
+    {
+      "description": "Waymark integrity monitor associated with Northreach Airport.",
+      "meta": {
+        "country": "Asterin Union",
+        "entity-type": [
+          "navigation-ground-site"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "site-id": [
+          "AST"
+        ],
+        "site-role": [
+          "integrity-monitor"
+        ],
+        "snapshot-id": [
+          "WAYMARK-A"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "cb97ba71-e477-4acb-9470-10f3e6c9e1a9",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "1d4fe652-d202-5cc3-a501-9feca5d26a6a",
+          "type": "associated-with"
+        },
+        {
+          "dest-uuid": "f3e428cb-3854-5d18-8ce4-1835af9d17e9",
+          "type": "sees-in-snapshot"
+        },
+        {
+          "dest-uuid": "48958c08-a61a-52c0-8c1b-8b4855eb5543",
+          "type": "sees-in-snapshot"
+        },
+        {
+          "dest-uuid": "fd03e88b-a110-5587-be68-3c590a3a3d42",
+          "type": "sees-in-snapshot"
+        }
+      ],
+      "uuid": "e0c25c08-fd65-5139-ad06-d235f96ffa20",
+      "value": "Northreach Navigation Monitor"
+    },
+    {
+      "description": "Waymark integrity monitor associated with BasinLink.",
+      "meta": {
+        "country": "Velkar Republic",
+        "entity-type": [
+          "navigation-ground-site"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "site-id": [
+          "VEL"
+        ],
+        "site-role": [
+          "integrity-monitor"
+        ],
+        "snapshot-id": [
+          "WAYMARK-A"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "e4cd09cc-7be7-46ef-8989-5b9a812b49fe",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "7bf88fa9-be22-5b6a-bcd1-40879dd64602",
+          "type": "associated-with"
+        },
+        {
+          "dest-uuid": "f3e428cb-3854-5d18-8ce4-1835af9d17e9",
+          "type": "sees-in-snapshot"
+        },
+        {
+          "dest-uuid": "59d32384-2264-5032-9821-ad6a3d2663ef",
+          "type": "sees-in-snapshot"
+        },
+        {
+          "dest-uuid": "48958c08-a61a-52c0-8c1b-8b4855eb5543",
+          "type": "sees-in-snapshot"
+        },
+        {
+          "dest-uuid": "d917bd5e-a1f0-55d5-9c3d-65e6f004471e",
+          "type": "sees-in-snapshot"
+        },
+        {
+          "dest-uuid": "fd03e88b-a110-5587-be68-3c590a3a3d42",
+          "type": "sees-in-snapshot"
+        },
+        {
+          "dest-uuid": "15ad64dd-426a-5b96-b543-6b434ca9a91d",
+          "type": "sees-in-snapshot"
+        }
+      ],
+      "uuid": "f32ac579-0f9a-56f5-b9b7-7a1bb7e5c769",
+      "value": "Basin Timing Monitor"
+    },
+    {
+      "description": "Waymark integrity monitor associated with Plateau Airport.",
+      "meta": {
+        "country": "Caelum Protectorate",
+        "entity-type": [
+          "navigation-ground-site"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "site-id": [
+          "CAE"
+        ],
+        "site-role": [
+          "integrity-monitor"
+        ],
+        "snapshot-id": [
+          "WAYMARK-A"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "4a600b9f-b843-446f-a234-415aded47e1b",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "da6f38c1-48d5-59ba-a828-efe34e48301b",
+          "type": "associated-with"
+        },
+        {
+          "dest-uuid": "f3e428cb-3854-5d18-8ce4-1835af9d17e9",
+          "type": "sees-in-snapshot"
+        },
+        {
+          "dest-uuid": "59d32384-2264-5032-9821-ad6a3d2663ef",
+          "type": "sees-in-snapshot"
+        },
+        {
+          "dest-uuid": "48958c08-a61a-52c0-8c1b-8b4855eb5543",
+          "type": "sees-in-snapshot"
+        },
+        {
+          "dest-uuid": "d917bd5e-a1f0-55d5-9c3d-65e6f004471e",
+          "type": "sees-in-snapshot"
+        },
+        {
+          "dest-uuid": "fd03e88b-a110-5587-be68-3c590a3a3d42",
+          "type": "sees-in-snapshot"
+        }
+      ],
+      "uuid": "9837f40a-51fa-55a1-9a62-4f5b25487eba",
+      "value": "Plateau Reference Station"
+    },
+    {
+      "description": "Waymark service receiver associated with Sound Airport.",
+      "meta": {
+        "country": "Orinthia",
+        "entity-type": [
+          "navigation-ground-site"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "site-id": [
+          "ORI"
+        ],
+        "site-role": [
+          "service-receiver"
+        ],
+        "snapshot-id": [
+          "WAYMARK-A"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "74d2286a-1b87-4984-8dd1-c5bd466ecca5",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "227f9efe-a050-5e5a-948f-2c19c29d29ff",
+          "type": "associated-with"
+        },
+        {
+          "dest-uuid": "59d32384-2264-5032-9821-ad6a3d2663ef",
+          "type": "sees-in-snapshot"
+        },
+        {
+          "dest-uuid": "d917bd5e-a1f0-55d5-9c3d-65e6f004471e",
+          "type": "sees-in-snapshot"
+        },
+        {
+          "dest-uuid": "fd03e88b-a110-5587-be68-3c590a3a3d42",
+          "type": "sees-in-snapshot"
+        }
+      ],
+      "uuid": "3aadf22d-7371-5394-a138-cc2594a574c8",
+      "value": "Sound Airport Receiver"
+    },
+    {
+      "description": "Waymark service receiver associated with Steppe Yard.",
+      "meta": {
+        "country": "Thyros Commonwealth",
+        "entity-type": [
+          "navigation-ground-site"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "site-id": [
+          "THY"
+        ],
+        "site-role": [
+          "service-receiver"
+        ],
+        "snapshot-id": [
+          "WAYMARK-A"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "970fd807-b09e-4379-9a44-bebc5d0b9869",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "f0c047c4-b145-59cc-83f8-f2e15a7cb74d",
+          "type": "associated-with"
+        },
+        {
+          "dest-uuid": "59d32384-2264-5032-9821-ad6a3d2663ef",
+          "type": "sees-in-snapshot"
+        },
+        {
+          "dest-uuid": "48958c08-a61a-52c0-8c1b-8b4855eb5543",
+          "type": "sees-in-snapshot"
+        },
+        {
+          "dest-uuid": "d917bd5e-a1f0-55d5-9c3d-65e6f004471e",
+          "type": "sees-in-snapshot"
+        },
+        {
+          "dest-uuid": "fd03e88b-a110-5587-be68-3c590a3a3d42",
+          "type": "sees-in-snapshot"
+        },
+        {
+          "dest-uuid": "15ad64dd-426a-5b96-b543-6b434ca9a91d",
+          "type": "sees-in-snapshot"
+        }
+      ],
+      "uuid": "5c662e28-baf1-5baa-b9dc-1d03d05dbd4b",
+      "value": "Steppe Yard Receiver"
+    },
+    {
+      "description": "Waymark integrity monitor associated with Corridor Exchange.",
+      "meta": {
+        "country": "Ilyndor",
+        "entity-type": [
+          "navigation-ground-site"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "site-id": [
+          "ILY"
+        ],
+        "site-role": [
+          "integrity-monitor"
+        ],
+        "snapshot-id": [
+          "WAYMARK-A"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "1e875520-fb3e-4d26-a982-44a5fb7f9375",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "69aa2d21-8251-52f8-91c0-c33b1f684040",
+          "type": "associated-with"
+        },
+        {
+          "dest-uuid": "f3e428cb-3854-5d18-8ce4-1835af9d17e9",
+          "type": "sees-in-snapshot"
+        },
+        {
+          "dest-uuid": "59d32384-2264-5032-9821-ad6a3d2663ef",
+          "type": "sees-in-snapshot"
+        },
+        {
+          "dest-uuid": "48958c08-a61a-52c0-8c1b-8b4855eb5543",
+          "type": "sees-in-snapshot"
+        },
+        {
+          "dest-uuid": "d917bd5e-a1f0-55d5-9c3d-65e6f004471e",
+          "type": "sees-in-snapshot"
+        },
+        {
+          "dest-uuid": "fd03e88b-a110-5587-be68-3c590a3a3d42",
+          "type": "sees-in-snapshot"
+        },
+        {
+          "dest-uuid": "15ad64dd-426a-5b96-b543-6b434ca9a91d",
+          "type": "sees-in-snapshot"
+        }
+      ],
+      "uuid": "df3a5056-da11-5692-b097-b22faa07fb00",
+      "value": "Corridor Timing Monitor"
+    },
+    {
+      "description": "Waymark service receiver associated with Delta Port.",
+      "meta": {
+        "country": "Neruva Federation",
+        "entity-type": [
+          "navigation-ground-site"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "site-id": [
+          "NER"
+        ],
+        "site-role": [
+          "service-receiver"
+        ],
+        "snapshot-id": [
+          "WAYMARK-A"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "cfe1b22e-38b5-4077-bb90-b2bc5fedb965",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "7bd507fe-b88c-59b9-a4d1-d290020147f6",
+          "type": "associated-with"
+        },
+        {
+          "dest-uuid": "59d32384-2264-5032-9821-ad6a3d2663ef",
+          "type": "sees-in-snapshot"
+        },
+        {
+          "dest-uuid": "48958c08-a61a-52c0-8c1b-8b4855eb5543",
+          "type": "sees-in-snapshot"
+        },
+        {
+          "dest-uuid": "d917bd5e-a1f0-55d5-9c3d-65e6f004471e",
+          "type": "sees-in-snapshot"
+        },
+        {
+          "dest-uuid": "15ad64dd-426a-5b96-b543-6b434ca9a91d",
+          "type": "sees-in-snapshot"
+        }
+      ],
+      "uuid": "b0711dfd-9692-5afb-a9c1-111f41f08914",
+      "value": "Delta Port Receiver"
+    },
+    {
+      "description": "Waymark service receiver associated with Coast Terminal.",
+      "meta": {
+        "country": "Brinax Collective",
+        "entity-type": [
+          "navigation-ground-site"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "site-id": [
+          "BRI"
+        ],
+        "site-role": [
+          "service-receiver"
+        ],
+        "snapshot-id": [
+          "WAYMARK-A"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "91f273f8-66c0-446f-bdb2-4233fd0c55ef",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "a6a29bca-7989-509d-a8dc-d112e18747e6",
+          "type": "associated-with"
+        },
+        {
+          "dest-uuid": "48958c08-a61a-52c0-8c1b-8b4855eb5543",
+          "type": "sees-in-snapshot"
+        },
+        {
+          "dest-uuid": "d917bd5e-a1f0-55d5-9c3d-65e6f004471e",
+          "type": "sees-in-snapshot"
+        },
+        {
+          "dest-uuid": "15ad64dd-426a-5b96-b543-6b434ca9a91d",
+          "type": "sees-in-snapshot"
+        }
+      ],
+      "uuid": "88995bb0-e5f8-5258-8838-3ab96d8ecdac",
+      "value": "Coast Terminal Receiver"
+    },
+    {
+      "description": "Waymark service receiver associated with Orchard Market Terminal.",
+      "meta": {
+        "country": "Quenari League",
+        "entity-type": [
+          "navigation-ground-site"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "site-id": [
+          "QUE"
+        ],
+        "site-role": [
+          "service-receiver"
+        ],
+        "snapshot-id": [
+          "WAYMARK-A"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "54670ad5-49fe-4d0c-8a81-84b06a8b5050",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "a4788601-2f69-5810-ae59-aa6df5d19041",
+          "type": "associated-with"
+        },
+        {
+          "dest-uuid": "f3e428cb-3854-5d18-8ce4-1835af9d17e9",
+          "type": "sees-in-snapshot"
+        },
+        {
+          "dest-uuid": "48958c08-a61a-52c0-8c1b-8b4855eb5543",
+          "type": "sees-in-snapshot"
+        },
+        {
+          "dest-uuid": "15ad64dd-426a-5b96-b543-6b434ca9a91d",
+          "type": "sees-in-snapshot"
+        }
+      ],
+      "uuid": "d83e5552-53f5-55bf-8a1c-2cd38acc2117",
+      "value": "Orchard Freight Receiver"
+    },
+    {
+      "description": "Waymark integrity monitor associated with Tundra Airfield.",
+      "meta": {
+        "country": "Soreth Dominion",
+        "entity-type": [
+          "navigation-ground-site"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "site-id": [
+          "SOR"
+        ],
+        "site-role": [
+          "integrity-monitor"
+        ],
+        "snapshot-id": [
+          "WAYMARK-A"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "c4be7f53-6d08-4472-8480-49ccb7946e78",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "235ac41b-25f2-5b1b-8ebc-4e412765b945",
+          "type": "associated-with"
+        },
+        {
+          "dest-uuid": "f3e428cb-3854-5d18-8ce4-1835af9d17e9",
+          "type": "sees-in-snapshot"
+        },
+        {
+          "dest-uuid": "59d32384-2264-5032-9821-ad6a3d2663ef",
+          "type": "sees-in-snapshot"
+        },
+        {
+          "dest-uuid": "fd03e88b-a110-5587-be68-3c590a3a3d42",
+          "type": "sees-in-snapshot"
+        }
+      ],
+      "uuid": "01bfea67-d7c4-5b5f-9b42-a459e9b45531",
+      "value": "Tundra Reference Station"
+    },
+    {
+      "description": "Suspected local interference degrades Waymark reception at Delta Port while reference monitors report normal service.",
+      "meta": {
+        "entity-type": [
+          "navigation-interference-exercise"
+        ],
+        "incident": [
+          "suspected-local-interference"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "position-state": [
+          "unavailable"
+        ],
+        "snapshot-id": [
+          "WAYMARK-A"
+        ],
+        "timing-state": [
+          "holdover"
+        ],
+        "usable-satellite-ids": [
+          "WM02",
+          "WM04"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "3128144e-5257-5d21-97a8-4c76d064b77e",
+          "type": "uses-snapshot"
+        },
+        {
+          "dest-uuid": "b0711dfd-9692-5afb-a9c1-111f41f08914",
+          "type": "observed-at"
+        },
+        {
+          "dest-uuid": "9837f40a-51fa-55a1-9a62-4f5b25487eba",
+          "type": "compares-with"
+        },
+        {
+          "dest-uuid": "df3a5056-da11-5692-b097-b22faa07fb00",
+          "type": "compares-with"
+        }
+      ],
+      "uuid": "35f46364-8b25-512e-a00d-2d4a2c614daa",
+      "value": "Delta Port Interference Exercise"
+    }
+  ],
+  "version": 1
+}
