@@ -1,0 +1,1289 @@
+{
+  "authors": [
+    "MISP Project"
+  ],
+  "category": "context",
+  "description": "Fictional GEO VSAT, MEO backhaul, and low-latency LEO mesh services linked to Nacre telecom networks.",
+  "name": "Synthetic Exercise World - Satellite Communications",
+  "source": "https://github.com/MISP/Synthetic-Exercise-World-Format",
+  "type": "exercise-world-satellite-communications",
+  "uuid": "e4224460-bd0a-5286-9ad7-5c5c08ff2587",
+  "values": [
+    {
+      "description": "Managed clinic dispatch over a fixed-relay GEO service.",
+      "meta": {
+        "entity-type": [
+          "satellite-service"
+        ],
+        "orbit-class": [
+          "GEO"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "topology": [
+          "fixed-relay"
+        ],
+        "traffic-class": [
+          "Managed clinic dispatch"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "bdedb620-f78e-5312-8e97-032668788d5c",
+          "type": "uses-satellite"
+        },
+        {
+          "dest-uuid": "8b0b1eeb-13f3-54af-a3b0-0ca1283a7b49",
+          "type": "uses-site"
+        },
+        {
+          "dest-uuid": "c81861c0-d4d5-574b-907b-cb0bd5a4771e",
+          "type": "uses-site"
+        },
+        {
+          "dest-uuid": "118dc29b-9f44-5a23-8626-ebaeac6a7556",
+          "type": "uses-link"
+        },
+        {
+          "dest-uuid": "dd6ed717-6eb6-57f1-8a66-bf28e9708b66",
+          "type": "uses-link"
+        }
+      ],
+      "uuid": "ea139803-dd7b-59fa-a3bd-58f8f05b1fe1",
+      "value": "Anchor GEO VSAT"
+    },
+    {
+      "description": "Managed medical backhaul over a tracked-relay MEO service.",
+      "meta": {
+        "entity-type": [
+          "satellite-service"
+        ],
+        "orbit-class": [
+          "MEO"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "topology": [
+          "tracked-relay"
+        ],
+        "traffic-class": [
+          "Managed medical backhaul"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "8d8daf9a-c402-5e6f-8c57-b04fdcece3a0",
+          "type": "uses-satellite"
+        },
+        {
+          "dest-uuid": "ef918e9e-703c-50ae-9453-99b5ef3d86f4",
+          "type": "uses-satellite"
+        },
+        {
+          "dest-uuid": "994dbc62-4b7f-5e64-93cd-5cff346729d2",
+          "type": "uses-site"
+        },
+        {
+          "dest-uuid": "a03e6843-a202-51cb-9f33-411c663ca1ef",
+          "type": "uses-site"
+        },
+        {
+          "dest-uuid": "fcc9c85e-f42b-500e-9f5d-eebdd3f44cc2",
+          "type": "uses-link"
+        },
+        {
+          "dest-uuid": "2032e72d-9e3d-5f4f-a6e8-d6a75cb8d0e3",
+          "type": "uses-link"
+        },
+        {
+          "dest-uuid": "d37a8d46-7139-54e4-90b2-84cd7ff5a490",
+          "type": "uses-link"
+        },
+        {
+          "dest-uuid": "5c5513b3-446a-58ad-b899-5f1fb5c58486",
+          "type": "uses-link"
+        },
+        {
+          "dest-uuid": "b709765b-19e0-5d76-a936-b47bade6518f",
+          "type": "provides-fallback-for"
+        }
+      ],
+      "uuid": "f463a785-cea7-5d96-a00a-093e2fc76074",
+      "value": "Arc MEO Backhaul"
+    },
+    {
+      "description": "Priority shared transit over a optical-mesh LEO service.",
+      "meta": {
+        "entity-type": [
+          "satellite-service"
+        ],
+        "orbit-class": [
+          "LEO"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "topology": [
+          "optical-mesh"
+        ],
+        "traffic-class": [
+          "Priority shared transit"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "6b333ae1-67e4-5df3-ad6c-0fc5c221fb1a",
+          "type": "uses-satellite"
+        },
+        {
+          "dest-uuid": "b9d391f3-0139-5a71-bfe0-405d6c453c7f",
+          "type": "uses-satellite"
+        },
+        {
+          "dest-uuid": "928ed7aa-738c-5f2b-a97c-866c19a68afb",
+          "type": "uses-satellite"
+        },
+        {
+          "dest-uuid": "df62471d-14ed-5b6c-99e2-3dac174e06dd",
+          "type": "uses-satellite"
+        },
+        {
+          "dest-uuid": "bdb0c627-5b96-5c96-8cab-56f990bdaec0",
+          "type": "uses-site"
+        },
+        {
+          "dest-uuid": "bde855a2-cfcc-558e-a107-cf2b11282a03",
+          "type": "uses-site"
+        },
+        {
+          "dest-uuid": "2482ebc6-6246-55ec-b62a-bc89034cef5a",
+          "type": "uses-site"
+        },
+        {
+          "dest-uuid": "6757eedc-f223-5f5f-a14f-3b024c8b6d93",
+          "type": "uses-link"
+        },
+        {
+          "dest-uuid": "8a7c5ecf-fa7f-5853-8f9b-8b6998cd6f34",
+          "type": "uses-link"
+        },
+        {
+          "dest-uuid": "e9260d98-a822-53fe-adea-cbc0fcdd4d54",
+          "type": "uses-link"
+        },
+        {
+          "dest-uuid": "c33f6920-f2c2-5639-bacd-1b010d6dcae1",
+          "type": "uses-link"
+        },
+        {
+          "dest-uuid": "3406daa4-4849-549f-ae41-0c1c5805891f",
+          "type": "uses-link"
+        },
+        {
+          "dest-uuid": "87a068eb-56b6-562e-9a0d-77a097646a4b",
+          "type": "uses-link"
+        },
+        {
+          "dest-uuid": "6a428d10-da33-5f05-99b4-56d4a2a6a07f",
+          "type": "uses-link"
+        },
+        {
+          "dest-uuid": "4e0a9fab-bc49-561b-ae7b-e2d5321ced7f",
+          "type": "uses-link"
+        },
+        {
+          "dest-uuid": "b709765b-19e0-5d76-a936-b47bade6518f",
+          "type": "provides-fallback-for"
+        }
+      ],
+      "uuid": "b623a0c7-77e5-52a2-8e6b-65053c3e54cc",
+      "value": "Swift LEO Mesh"
+    },
+    {
+      "description": "Representative GEO satellite in the Anchor GEO VSAT service.",
+      "meta": {
+        "entity-type": [
+          "satellite"
+        ],
+        "footprint-kind": [
+          "fixed-regional-beam"
+        ],
+        "orbit-class": [
+          "GEO"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "ea139803-dd7b-59fa-a3bd-58f8f05b1fe1",
+          "type": "part-of"
+        },
+        {
+          "dest-uuid": "118dc29b-9f44-5a23-8626-ebaeac6a7556",
+          "type": "terminates"
+        },
+        {
+          "dest-uuid": "dd6ed717-6eb6-57f1-8a66-bf28e9708b66",
+          "type": "terminates"
+        },
+        {
+          "dest-uuid": "8b0b1eeb-13f3-54af-a3b0-0ca1283a7b49",
+          "type": "covers-site"
+        },
+        {
+          "dest-uuid": "c81861c0-d4d5-574b-907b-cb0bd5a4771e",
+          "type": "covers-site"
+        }
+      ],
+      "uuid": "bdedb620-f78e-5312-8e97-032668788d5c",
+      "value": "Anchor G1"
+    },
+    {
+      "description": "Representative MEO satellite in the Arc MEO Backhaul service.",
+      "meta": {
+        "entity-type": [
+          "satellite"
+        ],
+        "footprint-kind": [
+          "moving-regional-beam"
+        ],
+        "footprint-window": [
+          "A"
+        ],
+        "orbit-class": [
+          "MEO"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "f463a785-cea7-5d96-a00a-093e2fc76074",
+          "type": "part-of"
+        },
+        {
+          "dest-uuid": "fcc9c85e-f42b-500e-9f5d-eebdd3f44cc2",
+          "type": "terminates"
+        },
+        {
+          "dest-uuid": "2032e72d-9e3d-5f4f-a6e8-d6a75cb8d0e3",
+          "type": "terminates"
+        },
+        {
+          "dest-uuid": "994dbc62-4b7f-5e64-93cd-5cff346729d2",
+          "type": "covers-site"
+        },
+        {
+          "dest-uuid": "a03e6843-a202-51cb-9f33-411c663ca1ef",
+          "type": "covers-site"
+        }
+      ],
+      "uuid": "8d8daf9a-c402-5e6f-8c57-b04fdcece3a0",
+      "value": "Arc M1"
+    },
+    {
+      "description": "Representative MEO satellite in the Arc MEO Backhaul service.",
+      "meta": {
+        "entity-type": [
+          "satellite"
+        ],
+        "footprint-kind": [
+          "moving-regional-beam"
+        ],
+        "footprint-window": [
+          "B"
+        ],
+        "orbit-class": [
+          "MEO"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "f463a785-cea7-5d96-a00a-093e2fc76074",
+          "type": "part-of"
+        },
+        {
+          "dest-uuid": "d37a8d46-7139-54e4-90b2-84cd7ff5a490",
+          "type": "terminates"
+        },
+        {
+          "dest-uuid": "5c5513b3-446a-58ad-b899-5f1fb5c58486",
+          "type": "terminates"
+        },
+        {
+          "dest-uuid": "994dbc62-4b7f-5e64-93cd-5cff346729d2",
+          "type": "covers-site"
+        },
+        {
+          "dest-uuid": "a03e6843-a202-51cb-9f33-411c663ca1ef",
+          "type": "covers-site"
+        }
+      ],
+      "uuid": "ef918e9e-703c-50ae-9453-99b5ef3d86f4",
+      "value": "Arc M2"
+    },
+    {
+      "description": "Representative LEO satellite in the Swift LEO Mesh service.",
+      "meta": {
+        "entity-type": [
+          "satellite"
+        ],
+        "footprint-kind": [
+          "moving-spot-beam"
+        ],
+        "orbit-class": [
+          "LEO"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "b623a0c7-77e5-52a2-8e6b-65053c3e54cc",
+          "type": "part-of"
+        },
+        {
+          "dest-uuid": "6757eedc-f223-5f5f-a14f-3b024c8b6d93",
+          "type": "terminates"
+        },
+        {
+          "dest-uuid": "c33f6920-f2c2-5639-bacd-1b010d6dcae1",
+          "type": "terminates"
+        },
+        {
+          "dest-uuid": "6a428d10-da33-5f05-99b4-56d4a2a6a07f",
+          "type": "terminates"
+        },
+        {
+          "dest-uuid": "bdb0c627-5b96-5c96-8cab-56f990bdaec0",
+          "type": "covers-site"
+        }
+      ],
+      "uuid": "6b333ae1-67e4-5df3-ad6c-0fc5c221fb1a",
+      "value": "Swift L1"
+    },
+    {
+      "description": "Representative LEO satellite in the Swift LEO Mesh service.",
+      "meta": {
+        "entity-type": [
+          "satellite"
+        ],
+        "footprint-kind": [
+          "moving-spot-beam"
+        ],
+        "orbit-class": [
+          "LEO"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "b623a0c7-77e5-52a2-8e6b-65053c3e54cc",
+          "type": "part-of"
+        },
+        {
+          "dest-uuid": "8a7c5ecf-fa7f-5853-8f9b-8b6998cd6f34",
+          "type": "terminates"
+        },
+        {
+          "dest-uuid": "c33f6920-f2c2-5639-bacd-1b010d6dcae1",
+          "type": "terminates"
+        },
+        {
+          "dest-uuid": "3406daa4-4849-549f-ae41-0c1c5805891f",
+          "type": "terminates"
+        },
+        {
+          "dest-uuid": "4e0a9fab-bc49-561b-ae7b-e2d5321ced7f",
+          "type": "terminates"
+        },
+        {
+          "dest-uuid": "bde855a2-cfcc-558e-a107-cf2b11282a03",
+          "type": "covers-site"
+        }
+      ],
+      "uuid": "b9d391f3-0139-5a71-bfe0-405d6c453c7f",
+      "value": "Swift L2"
+    },
+    {
+      "description": "Representative LEO satellite in the Swift LEO Mesh service.",
+      "meta": {
+        "entity-type": [
+          "satellite"
+        ],
+        "footprint-kind": [
+          "moving-spot-beam"
+        ],
+        "orbit-class": [
+          "LEO"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "b623a0c7-77e5-52a2-8e6b-65053c3e54cc",
+          "type": "part-of"
+        },
+        {
+          "dest-uuid": "3406daa4-4849-549f-ae41-0c1c5805891f",
+          "type": "terminates"
+        },
+        {
+          "dest-uuid": "87a068eb-56b6-562e-9a0d-77a097646a4b",
+          "type": "terminates"
+        }
+      ],
+      "uuid": "928ed7aa-738c-5f2b-a97c-866c19a68afb",
+      "value": "Swift L3"
+    },
+    {
+      "description": "Representative LEO satellite in the Swift LEO Mesh service.",
+      "meta": {
+        "entity-type": [
+          "satellite"
+        ],
+        "footprint-kind": [
+          "moving-spot-beam"
+        ],
+        "orbit-class": [
+          "LEO"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "b623a0c7-77e5-52a2-8e6b-65053c3e54cc",
+          "type": "part-of"
+        },
+        {
+          "dest-uuid": "e9260d98-a822-53fe-adea-cbc0fcdd4d54",
+          "type": "terminates"
+        },
+        {
+          "dest-uuid": "87a068eb-56b6-562e-9a0d-77a097646a4b",
+          "type": "terminates"
+        },
+        {
+          "dest-uuid": "6a428d10-da33-5f05-99b4-56d4a2a6a07f",
+          "type": "terminates"
+        },
+        {
+          "dest-uuid": "4e0a9fab-bc49-561b-ae7b-e2d5321ced7f",
+          "type": "terminates"
+        },
+        {
+          "dest-uuid": "2482ebc6-6246-55ec-b62a-bc89034cef5a",
+          "type": "covers-site"
+        }
+      ],
+      "uuid": "df62471d-14ed-5b6c-99e2-3dac174e06dd",
+      "value": "Swift L4"
+    },
+    {
+      "description": "GEO user terminal in Soreth Dominion, with a telecom handoff to Polar Relay.",
+      "meta": {
+        "country": "Soreth Dominion",
+        "entity-type": [
+          "satellite-ground-site"
+        ],
+        "ground-role": [
+          "user-terminal"
+        ],
+        "orbit-class": [
+          "GEO"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "c4be7f53-6d08-4472-8480-49ccb7946e78",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "8f31b6a5-fa95-5e4b-bdc0-7e2c7ba3d6d6",
+          "type": "hands-off-to"
+        },
+        {
+          "dest-uuid": "ea139803-dd7b-59fa-a3bd-58f8f05b1fe1",
+          "type": "part-of"
+        },
+        {
+          "dest-uuid": "118dc29b-9f44-5a23-8626-ebaeac6a7556",
+          "type": "terminates"
+        }
+      ],
+      "uuid": "8b0b1eeb-13f3-54af-a3b0-0ca1283a7b49",
+      "value": "Polar Clinic VSAT"
+    },
+    {
+      "description": "GEO gateway in Velkar Republic, with a telecom handoff to BasinLink.",
+      "meta": {
+        "country": "Velkar Republic",
+        "entity-type": [
+          "satellite-ground-site"
+        ],
+        "ground-role": [
+          "gateway"
+        ],
+        "orbit-class": [
+          "GEO"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "e4cd09cc-7be7-46ef-8989-5b9a812b49fe",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "7bf88fa9-be22-5b6a-bcd1-40879dd64602",
+          "type": "hands-off-to"
+        },
+        {
+          "dest-uuid": "ea139803-dd7b-59fa-a3bd-58f8f05b1fe1",
+          "type": "part-of"
+        },
+        {
+          "dest-uuid": "dd6ed717-6eb6-57f1-8a66-bf28e9708b66",
+          "type": "terminates"
+        }
+      ],
+      "uuid": "c81861c0-d4d5-574b-907b-cb0bd5a4771e",
+      "value": "Velkar Teleport"
+    },
+    {
+      "description": "MEO user terminal in Orinthia, with a telecom handoff to Pelagic Radio.",
+      "meta": {
+        "country": "Orinthia",
+        "entity-type": [
+          "satellite-ground-site"
+        ],
+        "ground-role": [
+          "user-terminal"
+        ],
+        "orbit-class": [
+          "MEO"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "74d2286a-1b87-4984-8dd1-c5bd466ecca5",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "9df1eaab-6203-51c4-bd84-c7343ae224c1",
+          "type": "hands-off-to"
+        },
+        {
+          "dest-uuid": "f463a785-cea7-5d96-a00a-093e2fc76074",
+          "type": "part-of"
+        },
+        {
+          "dest-uuid": "fcc9c85e-f42b-500e-9f5d-eebdd3f44cc2",
+          "type": "terminates"
+        },
+        {
+          "dest-uuid": "d37a8d46-7139-54e4-90b2-84cd7ff5a490",
+          "type": "terminates"
+        }
+      ],
+      "uuid": "994dbc62-4b7f-5e64-93cd-5cff346729d2",
+      "value": "Orinthia MEO Terminal"
+    },
+    {
+      "description": "MEO gateway in Caelum Protectorate, with a telecom handoff to BlueBridge Networks.",
+      "meta": {
+        "country": "Caelum Protectorate",
+        "entity-type": [
+          "satellite-ground-site"
+        ],
+        "ground-role": [
+          "gateway"
+        ],
+        "orbit-class": [
+          "MEO"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "4a600b9f-b843-446f-a234-415aded47e1b",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "9547d310-1b5d-554f-95d7-1c1e2b223adb",
+          "type": "hands-off-to"
+        },
+        {
+          "dest-uuid": "f463a785-cea7-5d96-a00a-093e2fc76074",
+          "type": "part-of"
+        },
+        {
+          "dest-uuid": "2032e72d-9e3d-5f4f-a6e8-d6a75cb8d0e3",
+          "type": "terminates"
+        },
+        {
+          "dest-uuid": "5c5513b3-446a-58ad-b899-5f1fb5c58486",
+          "type": "terminates"
+        }
+      ],
+      "uuid": "a03e6843-a202-51cb-9f33-411c663ca1ef",
+      "value": "Caelum MEO Gateway"
+    },
+    {
+      "description": "LEO user terminal in Orinthia, with a telecom handoff to Pelagic Radio.",
+      "meta": {
+        "country": "Orinthia",
+        "entity-type": [
+          "satellite-ground-site"
+        ],
+        "ground-role": [
+          "user-terminal"
+        ],
+        "orbit-class": [
+          "LEO"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "74d2286a-1b87-4984-8dd1-c5bd466ecca5",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "9df1eaab-6203-51c4-bd84-c7343ae224c1",
+          "type": "hands-off-to"
+        },
+        {
+          "dest-uuid": "b623a0c7-77e5-52a2-8e6b-65053c3e54cc",
+          "type": "part-of"
+        },
+        {
+          "dest-uuid": "6757eedc-f223-5f5f-a14f-3b024c8b6d93",
+          "type": "terminates"
+        }
+      ],
+      "uuid": "bdb0c627-5b96-5c96-8cab-56f990bdaec0",
+      "value": "Orinthia LEO Access Site"
+    },
+    {
+      "description": "LEO gateway in Caelum Protectorate, with a telecom handoff to BlueBridge Networks.",
+      "meta": {
+        "country": "Caelum Protectorate",
+        "entity-type": [
+          "satellite-ground-site"
+        ],
+        "ground-role": [
+          "gateway"
+        ],
+        "orbit-class": [
+          "LEO"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "4a600b9f-b843-446f-a234-415aded47e1b",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "9547d310-1b5d-554f-95d7-1c1e2b223adb",
+          "type": "hands-off-to"
+        },
+        {
+          "dest-uuid": "b623a0c7-77e5-52a2-8e6b-65053c3e54cc",
+          "type": "part-of"
+        },
+        {
+          "dest-uuid": "8a7c5ecf-fa7f-5853-8f9b-8b6998cd6f34",
+          "type": "terminates"
+        }
+      ],
+      "uuid": "bde855a2-cfcc-558e-a107-cf2b11282a03",
+      "value": "Caelum LEO Gateway"
+    },
+    {
+      "description": "LEO gateway in Ilyndor, with a telecom handoff to Corridor Exchange.",
+      "meta": {
+        "country": "Ilyndor",
+        "entity-type": [
+          "satellite-ground-site"
+        ],
+        "ground-role": [
+          "gateway"
+        ],
+        "orbit-class": [
+          "LEO"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "1e875520-fb3e-4d26-a982-44a5fb7f9375",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "69aa2d21-8251-52f8-91c0-c33b1f684040",
+          "type": "hands-off-to"
+        },
+        {
+          "dest-uuid": "b623a0c7-77e5-52a2-8e6b-65053c3e54cc",
+          "type": "part-of"
+        },
+        {
+          "dest-uuid": "e9260d98-a822-53fe-adea-cbc0fcdd4d54",
+          "type": "terminates"
+        }
+      ],
+      "uuid": "2482ebc6-6246-55ec-b62a-bc89034cef5a",
+      "value": "Ilyndor LEO Gateway"
+    },
+    {
+      "description": "Ground radio link between Polar Clinic VSAT and Anchor G1.",
+      "meta": {
+        "entity-type": [
+          "satellite-link"
+        ],
+        "link-kind": [
+          "ground-radio"
+        ],
+        "orbit-class": [
+          "GEO"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "route-id": [
+          "G01"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "ea139803-dd7b-59fa-a3bd-58f8f05b1fe1",
+          "type": "part-of"
+        },
+        {
+          "dest-uuid": "8b0b1eeb-13f3-54af-a3b0-0ca1283a7b49",
+          "type": "terminated-by"
+        },
+        {
+          "dest-uuid": "bdedb620-f78e-5312-8e97-032668788d5c",
+          "type": "terminated-by"
+        }
+      ],
+      "uuid": "118dc29b-9f44-5a23-8626-ebaeac6a7556",
+      "value": "Polar Clinic Access"
+    },
+    {
+      "description": "Ground radio link between Anchor G1 and Velkar Teleport.",
+      "meta": {
+        "entity-type": [
+          "satellite-link"
+        ],
+        "link-kind": [
+          "ground-radio"
+        ],
+        "orbit-class": [
+          "GEO"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "route-id": [
+          "G02"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "ea139803-dd7b-59fa-a3bd-58f8f05b1fe1",
+          "type": "part-of"
+        },
+        {
+          "dest-uuid": "bdedb620-f78e-5312-8e97-032668788d5c",
+          "type": "terminated-by"
+        },
+        {
+          "dest-uuid": "c81861c0-d4d5-574b-907b-cb0bd5a4771e",
+          "type": "terminated-by"
+        }
+      ],
+      "uuid": "dd6ed717-6eb6-57f1-8a66-bf28e9708b66",
+      "value": "Velkar Teleport Feeder"
+    },
+    {
+      "description": "Ground radio link between Orinthia MEO Terminal and Arc M1.",
+      "meta": {
+        "contact-window": [
+          "A"
+        ],
+        "entity-type": [
+          "satellite-link"
+        ],
+        "link-kind": [
+          "ground-radio"
+        ],
+        "orbit-class": [
+          "MEO"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "route-id": [
+          "M01"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "f463a785-cea7-5d96-a00a-093e2fc76074",
+          "type": "part-of"
+        },
+        {
+          "dest-uuid": "994dbc62-4b7f-5e64-93cd-5cff346729d2",
+          "type": "terminated-by"
+        },
+        {
+          "dest-uuid": "8d8daf9a-c402-5e6f-8c57-b04fdcece3a0",
+          "type": "terminated-by"
+        }
+      ],
+      "uuid": "fcc9c85e-f42b-500e-9f5d-eebdd3f44cc2",
+      "value": "Orinthia Tracked Access A"
+    },
+    {
+      "description": "Ground radio link between Arc M1 and Caelum MEO Gateway.",
+      "meta": {
+        "contact-window": [
+          "A"
+        ],
+        "entity-type": [
+          "satellite-link"
+        ],
+        "link-kind": [
+          "ground-radio"
+        ],
+        "orbit-class": [
+          "MEO"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "route-id": [
+          "M02"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "f463a785-cea7-5d96-a00a-093e2fc76074",
+          "type": "part-of"
+        },
+        {
+          "dest-uuid": "8d8daf9a-c402-5e6f-8c57-b04fdcece3a0",
+          "type": "terminated-by"
+        },
+        {
+          "dest-uuid": "a03e6843-a202-51cb-9f33-411c663ca1ef",
+          "type": "terminated-by"
+        }
+      ],
+      "uuid": "2032e72d-9e3d-5f4f-a6e8-d6a75cb8d0e3",
+      "value": "Caelum Tracked Feeder A"
+    },
+    {
+      "description": "Ground radio link between Orinthia MEO Terminal and Arc M2.",
+      "meta": {
+        "contact-window": [
+          "B"
+        ],
+        "entity-type": [
+          "satellite-link"
+        ],
+        "link-kind": [
+          "ground-radio"
+        ],
+        "orbit-class": [
+          "MEO"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "route-id": [
+          "M03"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "f463a785-cea7-5d96-a00a-093e2fc76074",
+          "type": "part-of"
+        },
+        {
+          "dest-uuid": "994dbc62-4b7f-5e64-93cd-5cff346729d2",
+          "type": "terminated-by"
+        },
+        {
+          "dest-uuid": "ef918e9e-703c-50ae-9453-99b5ef3d86f4",
+          "type": "terminated-by"
+        }
+      ],
+      "uuid": "d37a8d46-7139-54e4-90b2-84cd7ff5a490",
+      "value": "Orinthia Tracked Access B"
+    },
+    {
+      "description": "Ground radio link between Arc M2 and Caelum MEO Gateway.",
+      "meta": {
+        "contact-window": [
+          "B"
+        ],
+        "entity-type": [
+          "satellite-link"
+        ],
+        "link-kind": [
+          "ground-radio"
+        ],
+        "orbit-class": [
+          "MEO"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "route-id": [
+          "M04"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "f463a785-cea7-5d96-a00a-093e2fc76074",
+          "type": "part-of"
+        },
+        {
+          "dest-uuid": "ef918e9e-703c-50ae-9453-99b5ef3d86f4",
+          "type": "terminated-by"
+        },
+        {
+          "dest-uuid": "a03e6843-a202-51cb-9f33-411c663ca1ef",
+          "type": "terminated-by"
+        }
+      ],
+      "uuid": "5c5513b3-446a-58ad-b899-5f1fb5c58486",
+      "value": "Caelum Tracked Feeder B"
+    },
+    {
+      "description": "Ground radio link between Orinthia LEO Access Site and Swift L1.",
+      "meta": {
+        "entity-type": [
+          "satellite-link"
+        ],
+        "link-kind": [
+          "ground-radio"
+        ],
+        "orbit-class": [
+          "LEO"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "route-id": [
+          "L01"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "b623a0c7-77e5-52a2-8e6b-65053c3e54cc",
+          "type": "part-of"
+        },
+        {
+          "dest-uuid": "bdb0c627-5b96-5c96-8cab-56f990bdaec0",
+          "type": "terminated-by"
+        },
+        {
+          "dest-uuid": "6b333ae1-67e4-5df3-ad6c-0fc5c221fb1a",
+          "type": "terminated-by"
+        }
+      ],
+      "uuid": "6757eedc-f223-5f5f-a14f-3b024c8b6d93",
+      "value": "Orinthia LEO Access"
+    },
+    {
+      "description": "Ground radio link between Swift L2 and Caelum LEO Gateway.",
+      "meta": {
+        "entity-type": [
+          "satellite-link"
+        ],
+        "link-kind": [
+          "ground-radio"
+        ],
+        "orbit-class": [
+          "LEO"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "route-id": [
+          "L02"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "b623a0c7-77e5-52a2-8e6b-65053c3e54cc",
+          "type": "part-of"
+        },
+        {
+          "dest-uuid": "b9d391f3-0139-5a71-bfe0-405d6c453c7f",
+          "type": "terminated-by"
+        },
+        {
+          "dest-uuid": "bde855a2-cfcc-558e-a107-cf2b11282a03",
+          "type": "terminated-by"
+        }
+      ],
+      "uuid": "8a7c5ecf-fa7f-5853-8f9b-8b6998cd6f34",
+      "value": "Caelum LEO Feeder"
+    },
+    {
+      "description": "Ground radio link between Swift L4 and Ilyndor LEO Gateway.",
+      "meta": {
+        "entity-type": [
+          "satellite-link"
+        ],
+        "link-kind": [
+          "ground-radio"
+        ],
+        "orbit-class": [
+          "LEO"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "route-id": [
+          "L03"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "b623a0c7-77e5-52a2-8e6b-65053c3e54cc",
+          "type": "part-of"
+        },
+        {
+          "dest-uuid": "df62471d-14ed-5b6c-99e2-3dac174e06dd",
+          "type": "terminated-by"
+        },
+        {
+          "dest-uuid": "2482ebc6-6246-55ec-b62a-bc89034cef5a",
+          "type": "terminated-by"
+        }
+      ],
+      "uuid": "e9260d98-a822-53fe-adea-cbc0fcdd4d54",
+      "value": "Ilyndor LEO Feeder"
+    },
+    {
+      "description": "Optical crosslink link between Swift L1 and Swift L2.",
+      "meta": {
+        "entity-type": [
+          "satellite-link"
+        ],
+        "link-kind": [
+          "optical-crosslink"
+        ],
+        "orbit-class": [
+          "LEO"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "route-id": [
+          "X01"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "b623a0c7-77e5-52a2-8e6b-65053c3e54cc",
+          "type": "part-of"
+        },
+        {
+          "dest-uuid": "6b333ae1-67e4-5df3-ad6c-0fc5c221fb1a",
+          "type": "terminated-by"
+        },
+        {
+          "dest-uuid": "b9d391f3-0139-5a71-bfe0-405d6c453c7f",
+          "type": "terminated-by"
+        }
+      ],
+      "uuid": "c33f6920-f2c2-5639-bacd-1b010d6dcae1",
+      "value": "Swift L1\u2013L2 Crosslink"
+    },
+    {
+      "description": "Optical crosslink link between Swift L2 and Swift L3.",
+      "meta": {
+        "entity-type": [
+          "satellite-link"
+        ],
+        "link-kind": [
+          "optical-crosslink"
+        ],
+        "orbit-class": [
+          "LEO"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "route-id": [
+          "X02"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "b623a0c7-77e5-52a2-8e6b-65053c3e54cc",
+          "type": "part-of"
+        },
+        {
+          "dest-uuid": "b9d391f3-0139-5a71-bfe0-405d6c453c7f",
+          "type": "terminated-by"
+        },
+        {
+          "dest-uuid": "928ed7aa-738c-5f2b-a97c-866c19a68afb",
+          "type": "terminated-by"
+        }
+      ],
+      "uuid": "3406daa4-4849-549f-ae41-0c1c5805891f",
+      "value": "Swift L2\u2013L3 Crosslink"
+    },
+    {
+      "description": "Optical crosslink link between Swift L3 and Swift L4.",
+      "meta": {
+        "entity-type": [
+          "satellite-link"
+        ],
+        "link-kind": [
+          "optical-crosslink"
+        ],
+        "orbit-class": [
+          "LEO"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "route-id": [
+          "X03"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "b623a0c7-77e5-52a2-8e6b-65053c3e54cc",
+          "type": "part-of"
+        },
+        {
+          "dest-uuid": "928ed7aa-738c-5f2b-a97c-866c19a68afb",
+          "type": "terminated-by"
+        },
+        {
+          "dest-uuid": "df62471d-14ed-5b6c-99e2-3dac174e06dd",
+          "type": "terminated-by"
+        }
+      ],
+      "uuid": "87a068eb-56b6-562e-9a0d-77a097646a4b",
+      "value": "Swift L3\u2013L4 Crosslink"
+    },
+    {
+      "description": "Optical crosslink link between Swift L4 and Swift L1.",
+      "meta": {
+        "entity-type": [
+          "satellite-link"
+        ],
+        "link-kind": [
+          "optical-crosslink"
+        ],
+        "orbit-class": [
+          "LEO"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "route-id": [
+          "X04"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "b623a0c7-77e5-52a2-8e6b-65053c3e54cc",
+          "type": "part-of"
+        },
+        {
+          "dest-uuid": "df62471d-14ed-5b6c-99e2-3dac174e06dd",
+          "type": "terminated-by"
+        },
+        {
+          "dest-uuid": "6b333ae1-67e4-5df3-ad6c-0fc5c221fb1a",
+          "type": "terminated-by"
+        }
+      ],
+      "uuid": "6a428d10-da33-5f05-99b4-56d4a2a6a07f",
+      "value": "Swift L4\u2013L1 Crosslink"
+    },
+    {
+      "description": "Optical crosslink link between Swift L2 and Swift L4.",
+      "meta": {
+        "entity-type": [
+          "satellite-link"
+        ],
+        "link-kind": [
+          "optical-crosslink"
+        ],
+        "orbit-class": [
+          "LEO"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "route-id": [
+          "X05"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "b623a0c7-77e5-52a2-8e6b-65053c3e54cc",
+          "type": "part-of"
+        },
+        {
+          "dest-uuid": "b9d391f3-0139-5a71-bfe0-405d6c453c7f",
+          "type": "terminated-by"
+        },
+        {
+          "dest-uuid": "df62471d-14ed-5b6c-99e2-3dac174e06dd",
+          "type": "terminated-by"
+        }
+      ],
+      "uuid": "4e0a9fab-bc49-561b-ae7b-e2d5321ced7f",
+      "value": "Swift L2\u2013L4 Crosslink"
+    }
+  ],
+  "version": 1
+}
