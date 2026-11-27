@@ -1,0 +1,344 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" viewBox="0 0 1540 1008" role="img" aria-labelledby="title description">
+  <title id="title">Nacre transport and logistics — road, rail, and sea</title>
+  <desc id="description">Fourteen freight and passenger routes connect ten Nacre terminals. Roads, railways, and sea routes use different line styles. Freight-only and passenger-only routes are labeled, and diamond markers indicate intermodal transfer terminals.</desc>
+  <defs>
+    <linearGradient id="sea" x2="0" y2="1">
+      <stop stop-color="#1d3d4c"/>
+      <stop offset="1" stop-color="#132634"/>
+    </linearGradient>
+    <pattern id="graticule" width="66" height="66" patternUnits="userSpaceOnUse">
+      <path d="M 66,0 H 0 V 66" fill="none" stroke="#bfd3d5" stroke-opacity=".12"/>
+    </pattern>
+    <clipPath id="map-frame"><rect x="48" y="171" width="1052" height="786" rx="12"/></clipPath>
+    <style>
+      text { font-family: 'DejaVu Sans', sans-serif; }
+      .ink { fill: #203442; }
+      .muted { fill: #50636c; }
+      .light { fill: #f6f5e8; }
+      .sea-label { fill: #b9ced5; font-size: 14px; letter-spacing: 3px; }
+      .caps { font-size: 13px; font-weight: 700; letter-spacing: 2.2px; }
+      .title { font-size: 58px; font-weight: 700; letter-spacing: -2px; }
+      .subhead { font-size: 18px; }
+      .place { fill: #fff9eb; stroke: #142a36; stroke-width: 4px; stroke-linejoin: round; paint-order: stroke fill; font-weight: 700; font-size: 18px; }
+      .body { font-size: 15px; font-weight: 700; }
+      .support { font-size: 13px; }
+      .small { font-size: 12px; }
+      .sidebar { fill: #fffdf7; stroke: #cfcec6; }
+      .divider { stroke: #cfcec6; }
+      .road, .rail, .rail-center, .sea-route, .route-outline { fill: none; stroke-linecap: round; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
+      .route-outline { stroke: #162b36; stroke-width: 7; }
+      .road { stroke: #ffcd82; stroke-width: 3.1; }
+      .rail { stroke: #90e8c4; stroke-width: 4.8; }
+      .rail-center { stroke: #2b5354; stroke-width: 1.3; }
+      .sea-route { stroke: #bcbdff; stroke-width: 3.2; stroke-dasharray: 10 6; }
+      .terminal { fill: #fff4d7; stroke: #122633; stroke-width: 2.2; }
+      .route-id { font: 700 11.5px 'DejaVu Sans Mono', monospace; text-anchor: middle; }
+    </style>
+  </defs>
+
+  <rect width="1540" height="1008" fill="#f4f0e7"/>
+  <text x="48" y="56" class="caps muted">SYNTHETIC EXERCISE WORLD ATLAS</text>
+  <text x="48" y="115" class="title ink">Nacre transport &amp; logistics</text>
+  <text x="51" y="145" class="subhead muted">Truck and coach roads, railways, cargo boats, and passenger ferries</text>
+  <text x="1492" y="114" text-anchor="end" class="caps muted">WORLD EXTENSION</text>
+  <path d="M 48,975 H 1492" class="divider"/>
+  <text x="48" y="993" class="support muted">Schematic routes and terminals · Basemap adapted from the Synthetic Exercise World atlas</text>
+  <text x="1492" y="993" text-anchor="end" class="support muted">CC BY 4.0</text>
+
+  <g id="nacre-basemap" inkscape:groupmode="layer" inkscape:label="Nacre basemap" clip-path="url(#map-frame)">
+    <rect x="48" y="171" width="1052" height="786" fill="url(#sea)"/>
+    <rect x="48" y="171" width="1052" height="786" fill="url(#graticule)"/>
+    <g transform="translate(-172 151) scale(1.47)" stroke="#9eafaf" stroke-width=".85" stroke-linejoin="round">
+      <path d="M 179.14 505.81 L 207.84 430.48 L 211.43 315.69 L 186.32 226.02 L 236.54 139.92 L 329.80 71.77 L 469.70 43.07 L 595.25 53.83 L 666.99 93.29 L 684.93 143.51 L 742.32 197.32 L 792.54 269.06 L 821.24 344.39 L 817.65 448.42 L 771.02 516.57 L 677.75 559.62 L 512.75 563.21 L 315.45 548.86 z" fill="#3b6278" stroke="#50798a" opacity=".42"/>
+      <path d="M 211.43 226.02 L 229.36 179.38 L 265.23 132.75 L 301.10 104.05 L 365.67 93.29 L 426.65 114.81 L 484.05 165.03 L 437.42 200.91 L 347.74 287.00 L 275.99 261.89 L 232.95 240.36 z" fill="#405965"/>
+      <path d="M 365.67 93.29 L 415.89 68.18 L 491.22 57.42 L 570.14 68.18 L 634.71 100.47 L 641.88 132.75 L 580.90 136.34 L 498.40 129.16 L 426.65 114.81 z" fill="#455867"/>
+      <path d="M 437.42 200.91 L 484.05 165.03 L 580.90 136.34 L 641.88 154.27 L 656.23 197.32 L 634.71 240.36 L 555.79 243.95 L 476.87 233.19 z" fill="#514d62"/>
+      <path d="M 347.74 287.00 L 437.42 200.91 L 476.87 233.19 L 555.79 243.95 L 534.27 279.82 L 509.16 337.22 L 419.48 351.57 L 354.91 333.63 L 304.69 312.11 z" fill="#594e4a"/>
+      <path d="M 555.79 243.95 L 634.71 240.36 L 656.23 197.32 L 724.39 240.36 L 763.85 308.52 L 735.15 365.91 L 702.86 387.44 L 598.84 373.09 L 534.27 279.82 z" fill="#515542"/>
+      <path d="M 258.06 391.02 L 304.69 312.11 L 354.91 333.63 L 419.48 351.57 L 509.16 337.22 L 598.84 373.09 L 631.12 408.96 L 559.38 437.66 L 426.65 416.13 L 326.21 423.31 z" fill="#57554c"/>
+      <path d="M 200.66 477.12 L 258.06 391.02 L 326.21 423.31 L 426.65 416.13 L 559.38 437.66 L 570.14 512.99 L 469.70 538.10 L 329.80 527.34 L 232.95 505.81 z" fill="#425e50"/>
+      <path d="M 570.14 512.99 L 559.38 437.66 L 631.12 408.96 L 695.69 430.48 L 735.15 477.12 L 692.10 527.34 L 609.60 534.51 z" fill="#3a615b"/>
+      <path d="M 598.84 373.09 L 702.86 387.44 L 763.85 416.13 L 778.19 462.77 L 735.15 477.12 L 695.69 430.48 L 631.12 408.96 z" fill="#3b586c"/>
+      <path d="M 681.34 172.21 L 699.28 147.10 L 735.15 154.27 L 749.50 179.38 L 731.56 204.49 L 695.69 200.91 z" fill="#5d4b5b"/>
+      <path d="M 745.91 136.34 L 771.02 125.58 L 792.54 143.51 L 785.37 168.62 L 756.67 172.21 z" fill="#5d4b5b"/>
+      <path d="M 717.21 111.23 L 735.15 93.29 L 763.85 100.47 L 771.02 121.99 L 749.50 136.34 L 724.39 132.75 z" fill="#5d4b5b"/>
+      <path d="M 663.41 125.58 L 681.34 111.23 L 702.86 118.40 L 695.69 139.92 L 670.58 143.51 z" fill="#5d4b5b"/>
+      <path d="M 788.96 211.67 L 814.07 200.91 L 828.41 222.43 L 810.48 243.95 L 785.37 236.78 z" fill="#5d4b5b"/>
+      <path d="M 699.28 240.36 L 724.39 222.43 L 749.50 233.19 L 742.32 254.71 L 710.04 258.30 z" fill="#5d4b5b"/>
+      <path d="M 638.30 182.97 L 656.23 168.62 L 670.58 182.97 L 663.41 200.91 L 641.88 200.91 z" fill="#5d4b5b"/>
+    </g>
+    <text x="77" y="204" class="caps light">NACRE · TRANSPORT NETWORK</text>
+    <g transform="translate(92 260)" fill="#e8efe9">
+      <text y="-20" x="0" text-anchor="middle" font-size="15" font-weight="700">N</text>
+      <path d="M 0,-12 8,11 0,6 -8,11 Z M 0,14 V 26" stroke="#e8efe9" stroke-width="1.5"/>
+    </g>
+    <text x="1069" y="212" text-anchor="end" class="sea-label">NORTHERN AZURE</text>
+    <text x="83" y="783" class="sea-label">SOUTHERN</text>
+    <text x="83" y="807" class="sea-label">AZURE</text>
+  </g>
+
+  <g id="road-layer" inkscape:groupmode="layer" inkscape:label="Truck and coach roads" clip-path="url(#map-frame)">
+    <g transform="translate(-172 151) scale(1.47)">
+      <g id="route-D01" data-mode="road" data-services="freight passengers">
+        <title>D01 · Northern Highway</title>
+        <path d="M 294,159 C 329,193 364,244 421,287" class="route-outline"/>
+        <path d="M 294,159 C 329,193 364,244 421,287" class="road"/>
+      </g>
+      <g id="route-D02" data-mode="road" data-services="freight passengers">
+        <title>D02 · Plateau Highway</title>
+        <path d="M 421,287 C 430,253 458,207 518,199" class="route-outline"/>
+        <path d="M 421,287 C 430,253 458,207 518,199" class="road"/>
+      </g>
+      <g id="route-D03" data-mode="road" data-services="freight passengers">
+        <title>D03 · Polar Pass</title>
+        <path d="M 518,199 Q 547,171 581,136 Q 543,106 518,76" class="route-outline"/>
+        <path d="M 518,199 Q 547,171 581,136 Q 543,106 518,76" class="road"/>
+      </g>
+      <g id="route-D04" data-mode="road" data-services="freight">
+        <title>D04 · Steppe Haul Road</title>
+        <path d="M 518,199 C 590,197 631,256 678,310" class="route-outline"/>
+        <path d="M 518,199 C 590,197 631,256 678,310" class="road"/>
+      </g>
+      <g id="route-D05" data-mode="road" data-services="freight passengers">
+        <title>D05 · Delta Highway</title>
+        <path d="M 678,310 Q 683,350 689,384 Q 704,400 762,443" class="route-outline"/>
+        <path d="M 678,310 Q 683,350 689,384 Q 704,400 762,443" class="road"/>
+      </g>
+      <g id="route-D06" data-mode="road" data-services="freight passengers">
+        <title>D06 · Orchard Road</title>
+        <path d="M 481,385 Q 388,449 335,465" class="route-outline"/>
+        <path d="M 481,385 Q 388,449 335,465" class="road"/>
+      </g>
+      <g id="route-D07" data-mode="road" data-services="freight passengers">
+        <title>D07 · Coast Highway</title>
+        <path d="M 690,509 Q 731,483 762,443" class="route-outline"/>
+        <path d="M 690,509 Q 731,483 762,443" class="road"/>
+      </g>
+    </g>
+    <g transform="translate(344.0 478.8)">
+      <rect x="-17" y="-9" width="34" height="18" rx="4" fill="#203943" stroke="#a7bbc1" stroke-opacity=".88"/>
+      <text x="0" y="4" class="route-id light">D01</text>
+    </g>
+    <g transform="translate(489.5 487.6)">
+      <rect x="-17" y="-9" width="34" height="18" rx="4" fill="#203943" stroke="#a7bbc1" stroke-opacity=".88"/>
+      <text x="0" y="4" class="route-id light">D02</text>
+    </g>
+    <g transform="translate(664.4 340.6)">
+      <rect x="-17" y="-9" width="34" height="18" rx="4" fill="#203943" stroke="#a7bbc1" stroke-opacity=".88"/>
+      <text x="0" y="4" class="route-id light">D03</text>
+    </g>
+    <g transform="translate(707.1 489.1)">
+      <rect x="-27" y="-9" width="54" height="18" rx="4" fill="#203943" stroke="#a7bbc1" stroke-opacity=".88"/>
+      <text x="-9" y="4" class="route-id light">D04</text>
+      <rect x="9" y="-8" width="17" height="16" rx="3" fill="#e8efef"/>
+      <text x="17.5" y="4" class="route-id ink">F</text>
+    </g>
+    <g transform="translate(840.8 706.7)">
+      <rect x="-17" y="-9" width="34" height="18" rx="4" fill="#203943" stroke="#a7bbc1" stroke-opacity=".88"/>
+      <text x="0" y="4" class="route-id light">D05</text>
+    </g>
+    <g transform="translate(418.9 790.4)">
+      <rect x="-17" y="-9" width="34" height="18" rx="4" fill="#203943" stroke="#a7bbc1" stroke-opacity=".88"/>
+      <text x="0" y="4" class="route-id light">D06</text>
+    </g>
+    <g transform="translate(902.6 855.1)">
+      <rect x="-17" y="-9" width="34" height="18" rx="4" fill="#203943" stroke="#a7bbc1" stroke-opacity=".88"/>
+      <text x="0" y="4" class="route-id light">D07</text>
+    </g>
+  </g>
+
+  <g id="rail-layer" inkscape:groupmode="layer" inkscape:label="Railways" clip-path="url(#map-frame)">
+    <g transform="translate(-172 151) scale(1.47)">
+      <g id="route-R01" data-mode="rail" data-services="freight passengers">
+        <title>R01 · Basin Main Line</title>
+        <path d="M 421,287 C 417,328 454,346 481,385" class="route-outline"/>
+        <path d="M 421,287 C 417,328 454,346 481,385" class="rail"/>
+        <path d="M 421,287 C 417,328 454,346 481,385" class="rail-center"/>
+      </g>
+      <g id="route-R02" data-mode="rail" data-services="freight passengers">
+        <title>R02 · Corridor–Delta Railway</title>
+        <path d="M 481,385 C 585,382 665,407 762,443" class="route-outline"/>
+        <path d="M 481,385 C 585,382 665,407 762,443" class="rail"/>
+        <path d="M 481,385 C 585,382 665,407 762,443" class="rail-center"/>
+      </g>
+      <g id="route-R03" data-mode="rail" data-services="freight">
+        <title>R03 · Brinax Freight Line</title>
+        <path d="M 481,385 C 550,427 623,437 690,509" class="route-outline"/>
+        <path d="M 481,385 C 550,427 623,437 690,509" class="rail"/>
+        <path d="M 481,385 C 550,427 623,437 690,509" class="rail-center"/>
+      </g>
+      <g id="route-R04" data-mode="rail" data-services="passengers">
+        <title>R04 · Plateau Express</title>
+        <path d="M 421,287 C 471,281 509,250 518,199" class="route-outline"/>
+        <path d="M 421,287 C 471,281 509,250 518,199" class="rail"/>
+        <path d="M 421,287 C 471,281 509,250 518,199" class="rail-center"/>
+      </g>
+    </g>
+    <g transform="translate(485.1 655.2)">
+      <rect x="-17" y="-9" width="34" height="18" rx="4" fill="#203943" stroke="#a7bbc1" stroke-opacity=".88"/>
+      <text x="0" y="4" class="route-id light">R01</text>
+    </g>
+    <g transform="translate(746.8 741.9)">
+      <rect x="-17" y="-9" width="34" height="18" rx="4" fill="#203943" stroke="#a7bbc1" stroke-opacity=".88"/>
+      <text x="0" y="4" class="route-id light">R02</text>
+    </g>
+    <g transform="translate(705.6 811.0)">
+      <rect x="-27" y="-9" width="54" height="18" rx="4" fill="#203943" stroke="#a7bbc1" stroke-opacity=".88"/>
+      <text x="-9" y="4" class="route-id light">R03</text>
+      <rect x="9" y="-8" width="17" height="16" rx="3" fill="#e8efef"/>
+      <text x="17.5" y="4" class="route-id ink">F</text>
+    </g>
+    <g transform="translate(555.6 522.9)">
+      <rect x="-27" y="-9" width="54" height="18" rx="4" fill="#203943" stroke="#a7bbc1" stroke-opacity=".88"/>
+      <text x="-9" y="4" class="route-id light">R04</text>
+      <rect x="9" y="-8" width="17" height="16" rx="3" fill="#e8efef"/>
+      <text x="17.5" y="4" class="route-id ink">P</text>
+    </g>
+  </g>
+
+  <g id="sea-layer" inkscape:groupmode="layer" inkscape:label="Sea routes" clip-path="url(#map-frame)">
+    <g transform="translate(-172 151) scale(1.47)">
+      <g id="route-S01" data-mode="sea" data-services="freight">
+        <title>S01 · Northern Supply Run</title>
+        <path d="M 518,76 C 556,40 615,38 665,53 C 768,68 822,86 811,150 Q 805,183 735,179" class="route-outline"/>
+        <path d="M 518,76 C 556,40 615,38 665,53 C 768,68 822,86 811,150 Q 805,183 735,179" class="sea-route"/>
+      </g>
+      <g id="route-S02" data-mode="sea" data-services="freight passengers">
+        <title>S02 · Azure Ro-Pax Route</title>
+        <path d="M 735,179 C 761,210 774,244 785,277 S 798,350 804,386 Q 819,425 762,443" class="route-outline"/>
+        <path d="M 735,179 C 761,210 774,244 785,277 S 798,350 804,386 Q 819,425 762,443" class="sea-route"/>
+      </g>
+      <g id="route-S03" data-mode="sea" data-services="passengers">
+        <title>S03 · Brinax Island Ferry</title>
+        <path d="M 735,179 C 773,191 797,180 823,196 C 859,217 855,279 848,329 S 856,476 793,515 Q 750,546 690,509" class="route-outline"/>
+        <path d="M 735,179 C 773,191 797,180 823,196 C 859,217 855,279 848,329 S 856,476 793,515 Q 750,546 690,509" class="sea-route"/>
+      </g>
+    </g>
+    <g transform="translate(786.4 224.5)">
+      <rect x="-27" y="-9" width="54" height="18" rx="4" fill="#203943" stroke="#a7bbc1" stroke-opacity=".88"/>
+      <text x="-9" y="4" class="route-id light">S01</text>
+      <rect x="9" y="-8" width="17" height="16" rx="3" fill="#e8efef"/>
+      <text x="17.5" y="4" class="route-id ink">F</text>
+    </g>
+    <g transform="translate(999.6 665.5)">
+      <rect x="-17" y="-9" width="34" height="18" rx="4" fill="#203943" stroke="#a7bbc1" stroke-opacity=".88"/>
+      <text x="0" y="4" class="route-id light">S02</text>
+    </g>
+    <g transform="translate(1051.0 858.1)">
+      <rect x="-27" y="-9" width="54" height="18" rx="4" fill="#203943" stroke="#a7bbc1" stroke-opacity=".88"/>
+      <text x="-9" y="4" class="route-id light">S03</text>
+      <rect x="9" y="-8" width="17" height="16" rx="3" fill="#e8efef"/>
+      <text x="17.5" y="4" class="route-id ink">P</text>
+    </g>
+  </g>
+
+  <g id="terminal-layer" inkscape:groupmode="layer" inkscape:label="Terminals and transfers" clip-path="url(#map-frame)">
+    <g id="terminal-AST" data-intermodal="false" transform="translate(260.2 384.7)">
+      <title>North Gate Terminal · Asterin Union</title>
+      <circle cx="0" cy="0" r="6.3" class="terminal"/>
+      <text x="0" y="-19" text-anchor="middle" class="place">Asterin</text>
+    </g>
+    <g id="terminal-VEL" data-intermodal="true" transform="translate(446.9 572.9)">
+      <title>Basin Junction · Velkar Republic</title>
+      <path d="M 0,-9 9,0 0,9 -9,0 Z" class="terminal"/>
+      <text x="-17" y="18" text-anchor="end" class="place">Velkar</text>
+    </g>
+    <g id="terminal-CAE" data-intermodal="true" transform="translate(589.5 443.5)">
+      <title>Plateau Terminal · Caelum Protectorate</title>
+      <path d="M 0,-9 9,0 0,9 -9,0 Z" class="terminal"/>
+      <text x="17" y="-10" text-anchor="start" class="place">Caelum</text>
+    </g>
+    <g id="terminal-ORI" data-intermodal="false" transform="translate(908.5 414.1)">
+      <title>Sound Harbor · Orinthia</title>
+      <circle cx="0" cy="0" r="6.3" class="terminal"/>
+      <text x="-16" y="16" text-anchor="end" class="place">Orinthia</text>
+    </g>
+    <g id="terminal-THY" data-intermodal="false" transform="translate(824.7 606.7)">
+      <title>Steppe Yard · Thyros Commonwealth</title>
+      <circle cx="0" cy="0" r="6.3" class="terminal"/>
+      <text x="16" y="4" text-anchor="start" class="place">Thyros</text>
+    </g>
+    <g id="terminal-ILY" data-intermodal="true" transform="translate(535.1 717.0)">
+      <title>Corridor Interchange · Ilyndor</title>
+      <path d="M 0,-9 9,0 0,9 -9,0 Z" class="terminal"/>
+      <text x="-14" y="-9" text-anchor="end" class="place">Ilyndor</text>
+    </g>
+    <g id="terminal-NER" data-intermodal="true" transform="translate(948.1 802.2)">
+      <title>Delta Port · Neruva Federation</title>
+      <path d="M 0,-9 9,0 0,9 -9,0 Z" class="terminal"/>
+      <text x="13" y="-15" text-anchor="start" class="place">Neruva</text>
+    </g>
+    <g id="terminal-BRI" data-intermodal="true" transform="translate(842.3 899.2)">
+      <title>Coast Terminal · Brinax Collective</title>
+      <path d="M 0,-9 9,0 0,9 -9,0 Z" class="terminal"/>
+      <text x="-16" y="22" text-anchor="end" class="place">Brinax</text>
+    </g>
+    <g id="terminal-QUE" data-intermodal="false" transform="translate(320.4 834.5)">
+      <title>Orchard Market Terminal · Quenari League</title>
+      <circle cx="0" cy="0" r="6.3" class="terminal"/>
+      <text x="0" y="23" text-anchor="middle" class="place">Quenari</text>
+    </g>
+    <g id="terminal-SOR" data-intermodal="true" transform="translate(589.5 262.7)">
+      <title>North Quay · Soreth Dominion</title>
+      <path d="M 0,-9 9,0 0,9 -9,0 Z" class="terminal"/>
+      <text x="-16" y="9" text-anchor="end" class="place">Soreth</text>
+    </g>
+  </g>
+  <rect x="48" y="171" width="1052" height="786" rx="12" fill="none" stroke="#9aaeb6"/>
+
+  <rect x="1122" y="171" width="370" height="786" rx="12" class="sidebar"/>
+  <text x="1146" y="208" class="caps muted">ROUTE MODES</text>
+  <rect x="1146" y="224" width="65" height="111" rx="7" fill="#203943"/>
+  <path d="M 1156,248 H 1201" class="road"/>
+  <text x="1226" y="253" class="body ink">Road · trucks and coaches</text>
+  <path d="M 1156,279 H 1201" class="rail"/>
+  <path d="M 1156,279 H 1201" class="rail-center"/>
+  <text x="1226" y="284" class="body ink">Rail · freight and passenger</text>
+  <path d="M 1156,310 H 1201" class="sea-route"/>
+  <text x="1226" y="315" class="body ink">Sea · cargo boats and ferries</text>
+
+  <rect x="1146" y="352" width="20" height="20" rx="4" fill="#dce8e9"/>
+  <text x="1156" y="366" class="route-id ink">F</text>
+  <text x="1174" y="367" class="support ink">Freight only</text>
+  <rect x="1285" y="352" width="20" height="20" rx="4" fill="#dce8e9"/>
+  <text x="1295" y="366" class="route-id ink">P</text>
+  <text x="1313" y="367" class="support ink">Passengers only</text>
+  <text x="1146" y="393" class="support muted">Routes without F or P carry both services.</text>
+  <circle cx="1156" cy="419" r="6.3" class="terminal"/>
+  <text x="1174" y="423" class="support ink">Terminal</text>
+  <path d="M 1295,410 1304,419 1295,428 1286,419 Z" class="terminal"/>
+  <text x="1313" y="423" class="support ink">Intermodal transfer</text>
+  <path d="M 1146,444 H 1468" class="divider"/>
+  <text x="1146" y="474" class="caps muted">TERMINAL DIRECTORY</text>
+  <text x="1146" y="511" class="body ink">North Gate Terminal</text>
+  <text x="1146" y="527" class="support muted">Asterin Union</text>
+  <text x="1468" y="516" text-anchor="end" class="small muted">Road</text>
+  <text x="1146" y="551" class="body ink">Basin Junction</text>
+  <text x="1146" y="567" class="support muted">Velkar Republic</text>
+  <text x="1468" y="556" text-anchor="end" class="small muted">Road · Rail</text>
+  <text x="1146" y="591" class="body ink">Plateau Terminal</text>
+  <text x="1146" y="607" class="support muted">Caelum Protectorate</text>
+  <text x="1468" y="596" text-anchor="end" class="small muted">Road · Rail</text>
+  <text x="1146" y="631" class="body ink">Sound Harbor</text>
+  <text x="1146" y="647" class="support muted">Orinthia</text>
+  <text x="1468" y="636" text-anchor="end" class="small muted">Sea</text>
+  <text x="1146" y="671" class="body ink">Steppe Yard</text>
+  <text x="1146" y="687" class="support muted">Thyros Commonwealth</text>
+  <text x="1468" y="676" text-anchor="end" class="small muted">Road</text>
+  <text x="1146" y="711" class="body ink">Corridor Interchange</text>
+  <text x="1146" y="727" class="support muted">Ilyndor</text>
+  <text x="1468" y="716" text-anchor="end" class="small muted">Road · Rail</text>
+  <text x="1146" y="751" class="body ink">Delta Port</text>
+  <text x="1146" y="767" class="support muted">Neruva Federation</text>
+  <text x="1468" y="756" text-anchor="end" class="small muted">Road · Rail · Sea</text>
+  <text x="1146" y="791" class="body ink">Coast Terminal</text>
+  <text x="1146" y="807" class="support muted">Brinax Collective</text>
+  <text x="1468" y="796" text-anchor="end" class="small muted">Road · Rail · Sea</text>
+  <text x="1146" y="831" class="body ink">Orchard Market Terminal</text>
+  <text x="1146" y="847" class="support muted">Quenari League</text>
+  <text x="1468" y="836" text-anchor="end" class="small muted">Road</text>
+  <text x="1146" y="871" class="body ink">North Quay</text>
+  <text x="1146" y="887" class="support muted">Soreth Dominion</text>
+  <text x="1468" y="876" text-anchor="end" class="small muted">Road · Sea</text>
+  <text x="1146" y="927" class="small muted">See the guide for transfer services by terminal.</text>
+</svg>
