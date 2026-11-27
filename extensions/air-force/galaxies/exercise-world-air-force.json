@@ -1,0 +1,9 @@
+{
+  "description": "Fictional Nacre air force organizations and their geographic liaison points.",
+  "icon": "plane",
+  "name": "Synthetic Exercise World - Air Force",
+  "namespace": "misp",
+  "type": "exercise-world-air-force",
+  "uuid": "555e9fbd-8f28-507f-a6e0-205bdf35ac9c",
+  "version": 1
+}

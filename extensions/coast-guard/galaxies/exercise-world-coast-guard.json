@@ -1,0 +1,9 @@
+{
+  "description": "Fictional Nacre coast guard organizations and their geographic liaison points.",
+  "icon": "life-ring",
+  "name": "Synthetic Exercise World - Coast Guard",
+  "namespace": "misp",
+  "type": "exercise-world-coast-guard",
+  "uuid": "f881a09e-3914-52cd-a875-245a25f9fc42",
+  "version": 1
+}

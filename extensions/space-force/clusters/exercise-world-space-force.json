@@ -1,0 +1,173 @@
+{
+  "authors": [
+    "MISP Project"
+  ],
+  "category": "context",
+  "description": "Fictional Nacre space force organizations and their geographic liaison points.",
+  "name": "Synthetic Exercise World - Space Force",
+  "source": "https://github.com/MISP/Synthetic-Exercise-World-Format",
+  "type": "exercise-world-space-force",
+  "uuid": "eae8137f-6a76-5eac-989b-e3228d0744f7",
+  "values": [
+    {
+      "description": "Consolidates civilian timing service notices and reports local navigation observations.",
+      "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
+        "country": "Asterin Union",
+        "entity-type": [
+          "force-organization"
+        ],
+        "force-type": [
+          "space-force"
+        ],
+        "geographic-feature-id": [
+          "12571858-c6d1-564e-9795-8feb519cd599"
+        ],
+        "latitude": [
+          "54.2397"
+        ],
+        "liaison-site": [
+          "Northreach Navigation Monitor"
+        ],
+        "longitude": [
+          "-43.8655"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "service-model": [
+          "Independent space force"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "cb97ba71-e477-4acb-9470-10f3e6c9e1a9",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "e0c25c08-fd65-5139-ad06-d235f96ffa20",
+          "type": "has-liaison-at"
+        },
+        {
+          "dest-uuid": "dbb7f07f-235b-5790-846b-ec27510d542e",
+          "type": "liaises-with"
+        },
+        {
+          "dest-uuid": "3fdc8b9b-8698-5bd7-80f7-496b68af26ac",
+          "type": "coordinates-with"
+        },
+        {
+          "dest-uuid": "d1346620-7683-58d8-9242-40051fd8ea8c",
+          "type": "coordinates-with"
+        }
+      ],
+      "uuid": "12571858-c6d1-564e-9795-8feb519cd599",
+      "value": "Asterin Orbital Service"
+    },
+    {
+      "description": "Shares reference monitor status and consolidates plateau service advisories.",
+      "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
+        "country": "Caelum Protectorate",
+        "entity-type": [
+          "force-organization"
+        ],
+        "force-type": [
+          "space-force"
+        ],
+        "geographic-feature-id": [
+          "3fdc8b9b-8698-5bd7-80f7-496b68af26ac"
+        ],
+        "latitude": [
+          "42.5313"
+        ],
+        "liaison-site": [
+          "Plateau Reference Station"
+        ],
+        "longitude": [
+          "17.4647"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "service-model": [
+          "Air force space component"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "4a600b9f-b843-446f-a234-415aded47e1b",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "9837f40a-51fa-55a1-9a62-4f5b25487eba",
+          "type": "has-liaison-at"
+        },
+        {
+          "dest-uuid": "2c7594b9-296b-5325-93bb-bd30bf0a4e7f",
+          "type": "part-of"
+        },
+        {
+          "dest-uuid": "dbb7f07f-235b-5790-846b-ec27510d542e",
+          "type": "liaises-with"
+        }
+      ],
+      "uuid": "3fdc8b9b-8698-5bd7-80f7-496b68af26ac",
+      "value": "Caelum Space Coordination Wing"
+    },
+    {
+      "description": "Coordinates timing advisories and service reporting with the Basin monitor.",
+      "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
+        "country": "Velkar Republic",
+        "entity-type": [
+          "force-organization"
+        ],
+        "force-type": [
+          "space-force"
+        ],
+        "geographic-feature-id": [
+          "d1346620-7683-58d8-9242-40051fd8ea8c"
+        ],
+        "latitude": [
+          "17.9992"
+        ],
+        "liaison-site": [
+          "Basin Timing Monitor"
+        ],
+        "longitude": [
+          "-9.5764"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "service-model": [
+          "Joint defence office"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "e4cd09cc-7be7-46ef-8989-5b9a812b49fe",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "f32ac579-0f9a-56f5-b9b7-7a1bb7e5c769",
+          "type": "has-liaison-at"
+        },
+        {
+          "dest-uuid": "dbb7f07f-235b-5790-846b-ec27510d542e",
+          "type": "liaises-with"
+        }
+      ],
+      "uuid": "d1346620-7683-58d8-9242-40051fd8ea8c",
+      "value": "Velkar Orbital Liaison Office"
+    }
+  ],
+  "version": 1
+}

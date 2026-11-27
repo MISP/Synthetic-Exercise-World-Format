@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1320 758" role="img" aria-labelledby="title description">
+  <title id="title">Nacre · Coast guard</title>
+  <desc id="description">Coast guard liaison locations across 4 countries on Nacre. Numbered map markers correspond to the directory.</desc>
+  <style>
+    text { font-family: "DejaVu Sans", sans-serif; fill: #eef5f4; }
+    .tick text { font-size: 13px; fill: #a6bcc9; }
+    .tick path { stroke: #567384; stroke-opacity: .46; stroke-dasharray: 3 5; }
+    .land { stroke-width: 1.6; stroke-linejoin: round; fill-rule: evenodd; }
+    .marker circle { stroke: #101e29; stroke-width: 3; }
+    .marker text, .badge text { text-anchor: middle; fill: #0c1b24; font-size: 13px; font-weight: 800; }
+    .service { font-size: 21px; font-weight: 700; }
+    .country { font-size: 15px; fill: #c5d6df; }
+    .host { font-size: 15px; fill: #f8c97d; }
+    .caption { font-size: 15px; fill: #b0c3d0; }
+  </style>
+  <rect width="1320" height="758" fill="#101b25"/>
+  <path d="M 40,39 H 126" stroke="#f8c97d" stroke-width="4"/>
+  <text x="40" y="95" font-size="54" font-weight="750">Nacre · Coast guard</text>
+  <text x="41" y="126" font-size="19" fill="#c5d6df">Military and civilian coast guard models, with rescue, safety, and port reception links.</text>
+  <text x="1280" y="93" text-anchor="end" font-size="18" fill="#f8c97d">4 countries</text>
+  <rect x="40" y="149" width="766" height="548" rx="14" fill="#182c3b" stroke="#3b5666"/>
+  <g class="tick">
+    <path d="M 138,170 V 675"/><text x="138" y="171" text-anchor="middle">60°W</text>
+    <path d="M 247.5,170 V 675"/><text x="247.5" y="171" text-anchor="middle">30°W</text>
+    <path d="M 357,170 V 675"/><text x="357" y="171" text-anchor="middle">0°</text>
+    <path d="M 466.5,170 V 675"/><text x="466.5" y="171" text-anchor="middle">30°E</text>
+    <path d="M 576,170 V 675"/><text x="576" y="171" text-anchor="middle">60°E</text>
+    <path d="M 685.5,170 V 675"/><text x="685.5" y="171" text-anchor="middle">90°E</text>
+    <path d="M 55,586.5 H 794"/><text x="57" y="582.5">30°S</text>
+    <path d="M 55,477 H 794"/><text x="57" y="473">0°</text>
+    <path d="M 55,367.5 H 794"/><text x="57" y="363.5">30°N</text>
+    <path d="M 55,258 H 794"/><text x="57" y="254">60°N</text>
+  </g>
+  <g class="land">
+    <path id="land-cb97ba71-e477-4acb-9470-10f3e6c9e1a9" d="M 108.80,349.25 L 130.70,363.85 L 174.50,385.75 L 247.50,411.30 L 338.75,323.70 L 386.20,287.20 L 327.80,236.10 L 265.75,214.20 L 200.05,225.15 L 163.55,254.35 L 127.05,301.80 Z" fill="#263c4b" stroke="#69818f"><title>Asterin Union</title></path>
+    <path id="land-c4be7f53-6d08-4472-8480-49ccb7946e78" d="M 265.75,214.20 L 327.80,236.10 L 400.80,250.70 L 484.75,258.00 L 546.80,254.35 L 539.50,221.50 L 473.80,188.65 L 393.50,177.70 L 316.85,188.65 Z" fill="#3e5b61" stroke="#f8c97d"><title>Soreth Dominion</title></path>
+    <path id="land-4a600b9f-b843-446f-a234-415aded47e1b" d="M 338.75,323.70 L 378.90,356.55 L 459.20,367.50 L 539.50,363.85 L 561.40,320.05 L 546.80,276.25 L 484.75,258.00 L 386.20,287.20 Z" fill="#263c4b" stroke="#69818f"><title>Caelum Protectorate</title></path>
+    <path id="land-74d2286a-1b87-4984-8dd1-c5bd466ecca5" d="M 586.95,294.50 L 601.55,323.70 L 638.05,327.35 L 656.30,301.80 L 641.70,276.25 L 605.20,268.95 Z M 652.65,258.00 L 663.60,294.50 L 692.80,290.85 L 700.10,265.30 L 678.20,247.05 Z M 623.45,232.45 L 630.75,254.35 L 656.30,258.00 L 678.20,243.40 L 670.90,221.50 L 641.70,214.20 Z M 568.70,247.05 L 576.00,265.30 L 601.55,261.65 L 608.85,239.75 L 586.95,232.45 Z M 696.45,334.65 L 692.80,360.20 L 718.35,367.50 L 736.60,345.60 L 722.00,323.70 Z M 605.20,363.85 L 616.15,382.10 L 649.00,378.45 L 656.30,356.55 L 630.75,345.60 Z M 543.15,305.45 L 546.80,323.70 L 568.70,323.70 L 576.00,305.45 L 561.40,290.85 Z" fill="#3e5b61" stroke="#f8c97d"><title>Orinthia</title></path>
+    <path id="land-e4cd09cc-7be7-46ef-8989-5b9a812b49fe" d="M 247.50,411.30 L 203.70,436.85 L 254.80,458.75 L 320.50,477.00 L 411.75,462.40 L 437.30,404.00 L 459.20,367.50 L 378.90,356.55 L 338.75,323.70 Z" fill="#263c4b" stroke="#69818f"><title>Velkar Republic</title></path>
+    <path id="land-970fd807-b09e-4379-9a44-bebc5d0b9869" d="M 459.20,367.50 L 437.30,404.00 L 503.00,498.90 L 608.85,513.50 L 641.70,491.60 L 670.90,433.20 L 630.75,363.85 L 561.40,320.05 L 539.50,363.85 Z" fill="#263c4b" stroke="#69818f"><title>Thyros Commonwealth</title></path>
+    <path id="land-1e875520-fb3e-4d26-a982-44a5fb7f9375" d="M 156.25,517.15 L 225.60,550.00 L 327.80,542.70 L 462.85,564.60 L 535.85,535.40 L 503.00,498.90 L 411.75,462.40 L 320.50,477.00 L 254.80,458.75 L 203.70,436.85 Z" fill="#263c4b" stroke="#69818f"><title>Ilyndor</title></path>
+    <path id="land-cfe1b22e-38b5-4077-bb90-b2bc5fedb965" d="M 503.00,498.90 L 535.85,535.40 L 601.55,557.30 L 641.70,604.75 L 685.50,590.15 L 670.90,542.70 L 608.85,513.50 Z" fill="#3e5b61" stroke="#f8c97d"><title>Neruva Federation</title></path>
+    <path id="land-91f273f8-66c0-446f-bdb2-4233fd0c55ef" d="M 473.80,641.25 L 513.95,663.15 L 597.90,655.85 L 641.70,604.75 L 601.55,557.30 L 535.85,535.40 L 462.85,564.60 Z" fill="#3e5b61" stroke="#f8c97d"><title>Brinax Collective</title></path>
+    <path id="land-54670ad5-49fe-4d0c-8a81-84b06a8b5050" d="M 97.85,604.75 L 130.70,633.95 L 229.25,655.85 L 371.60,666.80 L 473.80,641.25 L 462.85,564.60 L 327.80,542.70 L 225.60,550.00 L 156.25,517.15 Z" fill="#263c4b" stroke="#69818f"><title>Quenari League</title></path>
+  </g>
+  <g class="marker">
+    <g id="site-f33a6eca-8186-5b48-8e1e-ea4c041f7f52" transform="translate(641.55 301.41)"><title>Sound Coastal Rescue Authority · Sound Harbor</title><circle r="13" fill="#f8c97d"/><text y="4.5">1</text></g>
+    <g id="site-7f120bd9-1eb2-59f6-a8d8-f91b7048fa74" transform="translate(595.76 637.19)"><title>Brinax Maritime Safety Guard · Coast Terminal</title><circle r="13" fill="#f8c97d"/><text y="4.5">2</text></g>
+    <g id="site-63bb5053-c72b-5d3e-a113-973cd392930c" transform="translate(669.02 570.04)"><title>Delta Coast Safety Authority · Delta Port</title><circle r="13" fill="#f8c97d"/><text y="4.5">3</text></g>
+    <g id="site-1671aadb-66fa-5f28-b6cc-441d8832e8a8" transform="translate(420.75 196.61)"><title>Soreth Polar Coast Guard · North Quay</title><circle r="13" fill="#f8c97d"/><text y="4.5">4</text></g>
+  </g>
+  <rect x="828" y="149" width="452" height="548" rx="14" fill="#162632" stroke="#3b5666"/>
+  <text x="852" y="193" font-size="24" font-weight="700">Liaison directory</text>
+  <g>
+    <g class="badge" transform="translate(868 231)"><circle r="13" fill="#f8c97d"/><text y="4.5">1</text></g>
+    <text class="service" x="894" y="232">Sound Coastal Rescue Authority</text>
+    <text class="country" x="894" y="257">Orinthia · Civilian coast guard</text>
+    <text class="host" x="894" y="280">Sound Harbor</text>
+    <path d="M 852,298 H 1254" stroke="#334957"/>
+    <g class="badge" transform="translate(868 322)"><circle r="13" fill="#f8c97d"/><text y="4.5">2</text></g>
+    <text class="service" x="894" y="323">Brinax Maritime Safety Guard</text>
+    <text class="country" x="894" y="348">Brinax Collective · Uniformed coast guard</text>
+    <text class="host" x="894" y="371">Coast Terminal</text>
+    <path d="M 852,389 H 1254" stroke="#334957"/>
+    <g class="badge" transform="translate(868 413)"><circle r="13" fill="#f8c97d"/><text y="4.5">3</text></g>
+    <text class="service" x="894" y="414">Delta Coast Safety Authority</text>
+    <text class="country" x="894" y="439">Neruva Federation · Civilian coast guard</text>
+    <text class="host" x="894" y="462">Delta Port</text>
+    <path d="M 852,480 H 1254" stroke="#334957"/>
+    <g class="badge" transform="translate(868 504)"><circle r="13" fill="#f8c97d"/><text y="4.5">4</text></g>
+    <text class="service" x="894" y="505">Soreth Polar Coast Guard</text>
+    <text class="country" x="894" y="530">Soreth Dominion · Naval coast guard component</text>
+    <text class="host" x="894" y="553">North Quay</text>
+  </g>
+  <circle cx="48" cy="725" r="6" fill="#f8c97d"/>
+  <text class="caption" x="63" y="730">Liaison location</text>
+  <rect x="232" y="719" width="12" height="12" fill="#3e5b61" stroke="#f8c97d"/>
+  <text class="caption" x="255" y="730">Country in this roster</text>
+  <text class="caption" x="1280" y="730" text-anchor="end">Nacre atlas coordinates · CC BY 4.0</text>
+</svg>

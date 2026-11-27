@@ -1,0 +1,9 @@
+{
+  "description": "Fictional Nacre army organizations and their geographic liaison points.",
+  "icon": "truck",
+  "name": "Synthetic Exercise World - Army",
+  "namespace": "misp",
+  "type": "exercise-world-army",
+  "uuid": "5ab1b509-5180-5eef-a4e9-af5b2a652684",
+  "version": 1
+}
