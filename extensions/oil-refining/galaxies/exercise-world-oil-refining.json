@@ -1,0 +1,9 @@
+{
+  "description": "Fictional oil production, crude and refined fuel distribution, and an associated natural gas dependency on Nacre.",
+  "icon": "oil-can",
+  "name": "Synthetic Exercise World - Oil Production and Refining",
+  "namespace": "misp",
+  "type": "exercise-world-oil-refining",
+  "uuid": "0e6eedc8-5820-5df0-b2e6-8ff61b51d6a2",
+  "version": 1
+}
