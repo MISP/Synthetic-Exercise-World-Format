@@ -1,0 +1,9 @@
+{
+  "description": "Invented ethnic identities and religions with illustrative cross-border associations on Nacre.",
+  "icon": "users",
+  "name": "Synthetic Exercise World - Fictional Communities",
+  "namespace": "misp",
+  "type": "exercise-world-communities",
+  "uuid": "381fe5aa-1947-56e0-bc50-54b349a4ddb1",
+  "version": 1
+}
