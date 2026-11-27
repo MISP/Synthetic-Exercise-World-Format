@@ -1,0 +1,9 @@
+{
+  "description": "Fictional military transport aircraft, airfields, radar reporting, and aviation fuel and logistics links on Nacre.",
+  "icon": "plane",
+  "name": "Synthetic Exercise World - Military Aviation",
+  "namespace": "misp",
+  "type": "exercise-world-military-aviation",
+  "uuid": "e64a521b-2ecd-5aad-9c88-87c14f6a496b",
+  "version": 1
+}

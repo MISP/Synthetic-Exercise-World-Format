@@ -253,6 +253,7 @@ Each extension lives under `extensions/<name>/` and adds a map layer, a guide wi
 - **Electricity** covers renewable, nuclear, and fossil generation, cross-border transmission, local distribution, and an island supply shortfall exercise. [Electricity extension](extensions/electricity/README.md)
 - **Transport and logistics** covers truck and coach roads, freight and passenger rail, cargo boats, ferries, and a tabletop case on rerouting after a berth closure. [Transport extension](extensions/transport/README.md)
 - **Civil aviation** covers aircraft types, airports, air traffic control, scheduled passenger and cargo routes, and an airport diversion exercise. [Aviation extension](extensions/aviation/README.md)
+- **Military aviation** covers military transport aircraft, airfields, radar reporting, aviation kerosene pipelines, and relief logistics coordinated with civil aviation. [Military aviation extension](extensions/military-aviation/README.md)
 
 ## Community integrations
 
