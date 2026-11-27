@@ -59,6 +59,58 @@ def contains(geometry, point):
     return any(inside_polygon(point, polygon) for polygon in polygons(geometry))
 
 
+def segments_intersect(a, b, c, d):
+    def turn(p, q, r):
+        return (q[0] - p[0]) * (r[1] - p[1]) - (q[1] - p[1]) * (r[0] - p[0])
+
+    overlap = all(
+        max(min(a[i], b[i]), min(c[i], d[i])) <= min(max(a[i], b[i]), max(c[i], d[i]))
+        for i in (0, 1)
+    )
+    return overlap and turn(a, b, c) * turn(a, b, d) <= 0 and turn(c, d, a) * turn(c, d, b) <= 0
+
+
+def check_seismic(feature, countries, features, records):
+    props = feature["properties"]
+    record = records[feature["id"]]
+    meta = record["meta"]
+    coordinates = feature["geometry"]["coordinates"]
+    setting = props["setting"]
+    assert setting in {"onshore", "offshore"} and meta["setting"] == [setting], props
+    assert meta["map-id"] == [props["map_id"]], record
+    offshore = setting == "offshore"
+    country = props["near_country"] if offshore else props["country"]
+    region = countries[country]
+    country_relation = "near-country" if offshore else "located-in"
+    assert meta["near-country" if offshore else "country"] == ([country] if offshore else country), record
+    assert targets(record, country_relation) == [region["id"]], record
+    assert all(link["dest-uuid"] in records or link["dest-uuid"] == region["id"]
+               for link in record["related"]), record
+
+    is_trace = props["kind"] == "fault-trace"
+    assert feature["geometry"]["type"] == ("LineString" if is_trace else "Point"), props
+    land = [item["geometry"] for item in countries.values()] if offshore else [region["geometry"]]
+    vertices = coordinates if is_trace else [coordinates]
+    for point in vertices:
+        assert any(contains(shape, point) for shape in land) != offshore, props
+
+    if is_trace:
+        assert meta["fault-motion"] == [props["fault_motion"]], record
+        # A segment can cross a coast even when both of its vertices are at sea.
+        for shape in land:
+            for polygon in polygons(shape):
+                for ring in polygon:
+                    assert not any(segments_intersect(a, b, c, d)
+                                   for a, b in zip(coordinates, coordinates[1:])
+                                   for c, d in zip(ring, ring[1:])), props
+    if props["kind"] == "exercise-earthquake":
+        source_id, = targets(record, "models-source-on")
+        source = features[source_id]
+        assert source["properties"]["kind"] == "fault-trace", props
+        assert coordinates in source["geometry"]["coordinates"], props
+        assert float(meta["magnitude-mw"][0]) == props["magnitude_mw"], record
+
+
 def validate_geometry(geometry):
     kind = geometry["type"]
     coordinates = geometry["coordinates"]
@@ -191,7 +243,9 @@ def main():
             assert targets(record, "has-liaison-at") == host_targets, record
             assert all(link["dest-uuid"] in records or link["dest-uuid"] == props["country_id"]
                        for link in record["related"]), record
-        if geometry["type"] == "LineString":
+        if props["layer"] == "seismic":
+            check_seismic(feature, countries, features, records)
+        if geometry["type"] == "LineString" and props["kind"] != "fault-trace":
             start, end = props["endpoint_ids"]
             assert props["direction"] in {"one-way", "bidirectional"}, props
             assert coordinates[0] == features[start]["geometry"]["coordinates"], props

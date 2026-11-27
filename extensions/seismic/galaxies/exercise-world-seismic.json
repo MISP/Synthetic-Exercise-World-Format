@@ -1,0 +1,9 @@
+{
+  "description": "Fictional seismic faults, land and sea monitoring sites, one volcano, and an offshore earthquake exercise on Nacre.",
+  "icon": "wave-square",
+  "name": "Synthetic Exercise World - Seismic Hazards",
+  "namespace": "misp",
+  "type": "exercise-world-seismic",
+  "uuid": "99b9b5a2-9a43-5257-8ac8-d32d4e888a08",
+  "version": 1
+}

@@ -23,6 +23,8 @@
     .country { fill:#486564; stroke:#a1b8bc; stroke-width:1; vector-effect:non-scaling-stroke; }
     .route { fill:none; stroke-width:1.6; opacity:.76; vector-effect:non-scaling-stroke; }
     .logical { stroke-dasharray:4 3; }
+    .fault { fill:none; stroke-width:2.2; stroke-linecap:round; stroke-linejoin:round; vector-effect:non-scaling-stroke; }
+    .fault.offshore { stroke-dasharray:7 4; }
     .footprint { fill-opacity:.09; stroke-opacity:.65; stroke-width:1; vector-effect:non-scaling-stroke; }
     .point { stroke:#1e3541; stroke-width:1.2; vector-effect:non-scaling-stroke; }
     .selected { stroke:#fff3aa; stroke-width:3; opacity:1; vector-effect:non-scaling-stroke; }
@@ -56,7 +58,7 @@
 <body>
 <main>
   <header>
-    <div><h1>Nacre geographic atlas</h1><p>Country boundaries, facilities, routes, and satellite footprints on the same fictional grid.</p></div>
+    <div><h1>Nacre geographic atlas</h1><p>Country boundaries, facilities, routes, seismic hazards, and satellite footprints on the same fictional grid.</p></div>
     <a href="nacre.geojson" download>Download GeoJSON</a>
   </header>
   <div class="layout">
@@ -69,11 +71,11 @@
         <title id="map-title">Nacre map with selectable geographic layers</title>
         <g id="grid"></g><g id="geometry"></g><g id="labels"></g>
       </svg>
-      <p class="map-caption">Drag to pan. Select a site or use search to see its location. Dashed routes show logical, standby, or subsurface connections.</p>
+      <p class="map-caption">Drag to pan. Select a feature or use search to see its location. Dashed faults are offshore. Dashed routes show logical, standby, or subsurface connections.</p>
     </section>
     <aside class="controls" aria-label="Atlas controls">
       <h2><label for="search">Find a feature</label></h2>
-      <input id="search" type="search" placeholder="Name, country, or route ID">
+      <input id="search" type="search" placeholder="Name, country, or ID">
       <ul id="results" aria-label="Search results"></ul>
       <section id="details" aria-live="polite"><p>Select a feature for details.</p></section>
       <h2>Layers</h2>
@@ -116,6 +118,7 @@
     "oil-refining": "Oil production and refining",
     "satellite-communications": "Satellite communications",
     "satellite-navigation": "Satellite navigation",
+    "seismic": "Seismic hazards",
     "telecom": "Telecommunications",
     "transport": "Transport and logistics",
     "veyra": "Veyra",
@@ -430,7 +433,21 @@
     {"type":"Feature","id":"f33a6eca-8186-5b48-8e1e-ea4c041f7f52","geometry":{"type":"Point","coordinates":[77.9585,48.1067]},"properties":{"name":"Sound Coastal Rescue Authority","layer":"coast-guard","kind":"force-liaison","country":"Orinthia","country_id":"74d2286a-1b87-4984-8dd1-c5bd466ecca5","placement":"liaison-at-atlas-host","host_id":"bf7e40db-7e91-5671-8a6e-af8e49c7d32d","service_model":"Civilian coast guard"}},
     {"type":"Feature","id":"7f120bd9-1eb2-59f6-a8d8-f91b7048fa74","geometry":{"type":"Point","coordinates":[65.4137,-43.8885]},"properties":{"name":"Brinax Maritime Safety Guard","layer":"coast-guard","kind":"force-liaison","country":"Brinax Collective","country_id":"91f273f8-66c0-446f-bdb2-4233fd0c55ef","placement":"liaison-at-atlas-host","host_id":"a6a29bca-7989-509d-a8dc-d112e18747e6","service_model":"Uniformed coast guard"}},
     {"type":"Feature","id":"63bb5053-c72b-5d3e-a113-973cd392930c","geometry":{"type":"Point","coordinates":[85.4854,-25.4894]},"properties":{"name":"Delta Coast Safety Authority","layer":"coast-guard","kind":"force-liaison","country":"Neruva Federation","country_id":"cfe1b22e-38b5-4077-bb90-b2bc5fedb965","placement":"liaison-at-atlas-host","host_id":"7bd507fe-b88c-59b9-a4d1-d290020147f6","service_model":"Civilian coast guard"}},
-    {"type":"Feature","id":"1671aadb-66fa-5f28-b6cc-441d8832e8a8","geometry":{"type":"Point","coordinates":[17.4647,76.8204]},"properties":{"name":"Soreth Polar Coast Guard","layer":"coast-guard","kind":"force-liaison","country":"Soreth Dominion","country_id":"c4be7f53-6d08-4472-8480-49ccb7946e78","placement":"liaison-at-atlas-host","host_id":"7dc0c17e-8526-5503-a94b-faf0973d49a1","service_model":"Naval coast guard component"}}
+    {"type":"Feature","id":"1671aadb-66fa-5f28-b6cc-441d8832e8a8","geometry":{"type":"Point","coordinates":[17.4647,76.8204]},"properties":{"name":"Soreth Polar Coast Guard","layer":"coast-guard","kind":"force-liaison","country":"Soreth Dominion","country_id":"c4be7f53-6d08-4472-8480-49ccb7946e78","placement":"liaison-at-atlas-host","host_id":"7dc0c17e-8526-5503-a94b-faf0973d49a1","service_model":"Naval coast guard component"}},
+    {"type":"Feature","id":"94b1b91e-377f-5763-afa4-b7b29a303970","geometry":{"type":"LineString","coordinates":[[-35,12],[-25,9],[-13,10],[-3,13],[9,16],[16,21]]},"properties":{"name":"Basin Fold Fault","layer":"seismic","kind":"fault-trace","map_id":"F01","setting":"onshore","placement":"schematic-fault-trace","country":"Velkar Republic","fault_motion":"reverse"}},
+    {"type":"Feature","id":"7bc47faa-5a43-5f44-883c-fab7b7a8990a","geometry":{"type":"LineString","coordinates":[[2,43],[13,40],[24,42],[38,47],[49,49]]},"properties":{"name":"Plateau Rift Fault","layer":"seismic","kind":"fault-trace","map_id":"F02","setting":"onshore","placement":"schematic-fault-trace","country":"Caelum Protectorate","fault_motion":"normal"}},
+    {"type":"Feature","id":"ac6f660d-1b34-585f-a100-ac2d056d05f6","geometry":{"type":"LineString","coordinates":[[36,27],[46,19],[55,16],[66,15],[75,10],[80,4]]},"properties":{"name":"Steppe Shear Fault","layer":"seismic","kind":"fault-trace","map_id":"F03","setting":"onshore","placement":"schematic-fault-trace","country":"Thyros Commonwealth","fault_motion":"strike-slip"}},
+    {"type":"Feature","id":"2e19069e-0726-569d-82e9-2790839aaecd","geometry":{"type":"LineString","coordinates":[[111,72],[115,62],[119,50],[121,40],[120,29],[116,23]]},"properties":{"name":"Sound Forearc Fault","layer":"seismic","kind":"fault-trace","map_id":"F04","setting":"offshore","placement":"schematic-fault-trace","near_country":"Orinthia","fault_motion":"thrust"}},
+    {"type":"Feature","id":"1de0687a-e38b-5804-acec-a661ea9d2c35","geometry":{"type":"LineString","coordinates":[[91,-34],[97,-29],[102,-22],[104,-15],[103,-9]]},"properties":{"name":"Neruva Outer Shelf Fault","layer":"seismic","kind":"fault-trace","map_id":"F05","setting":"offshore","placement":"schematic-fault-trace","near_country":"Neruva Federation","fault_motion":"normal"}},
+    {"type":"Feature","id":"136173a9-535c-5fe0-ae3e-8abb32d24776","geometry":{"type":"Point","coordinates":[-12,16]},"properties":{"name":"Velkar Basin Seismic Station","layer":"seismic","kind":"seismic-station","map_id":"S01","setting":"onshore","placement":"registered-seismic-site","country":"Velkar Republic","instruments":["Broadband seismometer"]}},
+    {"type":"Feature","id":"7dd384c4-32f4-5cf9-897c-29f6ff50683e","geometry":{"type":"Point","coordinates":[27,46]},"properties":{"name":"Mesa Seismic Station","layer":"seismic","kind":"seismic-station","map_id":"S02","setting":"onshore","placement":"registered-seismic-site","country":"Caelum Protectorate","instruments":["Broadband seismometer"]}},
+    {"type":"Feature","id":"eaf89ca4-3aa7-56c8-a3d3-b7114067c4df","geometry":{"type":"Point","coordinates":[63,10]},"properties":{"name":"Steppe Seismic Station","layer":"seismic","kind":"seismic-station","map_id":"S03","setting":"onshore","placement":"registered-seismic-site","country":"Thyros Commonwealth","instruments":["Broadband seismometer"]}},
+    {"type":"Feature","id":"0c438a2b-e778-5212-93b3-874ed2902b0a","geometry":{"type":"Point","coordinates":[84,65]},"properties":{"name":"Vireth Observatory","layer":"seismic","kind":"seismic-station","map_id":"S04","setting":"onshore","placement":"registered-seismic-site","country":"Orinthia","instruments":["Seismometer","GNSS receiver","Gas sampler"]}},
+    {"type":"Feature","id":"5feb97d9-ae67-5772-bea9-d8843eadc40c","geometry":{"type":"Point","coordinates":[108,55]},"properties":{"name":"Sound Shelf Seismometer","layer":"seismic","kind":"seismic-station","map_id":"S05","setting":"offshore","placement":"registered-seismic-site","near_country":"Orinthia","instruments":["Ocean-bottom seismometer"]}},
+    {"type":"Feature","id":"dbc4713d-f416-597d-b0b1-ff1ac3cd104d","geometry":{"type":"Point","coordinates":[77.9585,48.1067]},"properties":{"name":"Sound Harbor Tide Gauge","layer":"seismic","kind":"seismic-station","map_id":"S06","setting":"onshore","placement":"registered-seismic-site","country":"Orinthia","instruments":["Water-level gauge"],"host_id":"bf7e40db-7e91-5671-8a6e-af8e49c7d32d"}},
+    {"type":"Feature","id":"b4ae1fa3-4dbc-5a74-baca-2c7e6f83e4c7","geometry":{"type":"Point","coordinates":[95,-22]},"properties":{"name":"Delta Shelf Seismometer","layer":"seismic","kind":"seismic-station","map_id":"S07","setting":"offshore","placement":"registered-seismic-site","near_country":"Neruva Federation","instruments":["Ocean-bottom seismometer"]}},
+    {"type":"Feature","id":"6adf3620-ecc1-5ebc-bc39-beea48f08831","geometry":{"type":"Point","coordinates":[80,67]},"properties":{"name":"Mount Vireth","layer":"seismic","kind":"volcano","map_id":"V01","setting":"onshore","placement":"registered-seismic-site","country":"Orinthia","activity_baseline":"background","summit_elevation_m":2480,"volcano_type":"stratovolcano"}},
+    {"type":"Feature","id":"47d1f189-1f65-57c6-83f9-5e63795ff470","geometry":{"type":"Point","coordinates":[119,50]},"properties":{"name":"Sound offshore exercise earthquake","layer":"seismic","kind":"exercise-earthquake","map_id":"E01","setting":"offshore","placement":"exercise-epicenter","near_country":"Orinthia","depth_km":18,"magnitude_mw":7.1}}
   ]
 }
 </script>
@@ -452,6 +469,7 @@
     army: "#c1dc8a", navy: "#79d7eb", "air-force": "#a4c5ff", "space-force": "#dbb8f7",
     marines: "#ffb399", "coast-guard": "#f8c97d",
     "oil-refining": "#ffc1a0", "satellite-communications": "#a3dec6", "satellite-navigation": "#bdbaff",
+    seismic: "#f6bd79",
     telecom: "#91e5d0", transport: "#add2f7", veyra: "#c6e995", "water-supply": "#8ccfe8"
   };
   const featureById = new Map(data.features.map(feature => [feature.id, feature]));
@@ -483,7 +501,7 @@
   function visible(feature) {
     const {layer, kind} = feature.properties;
     return layerControls.get(layer).checked &&
-      (feature.geometry.type !== "LineString" || routes.checked) &&
+      (kind !== "route" || routes.checked) &&
       (kind !== "coverage-footprint" || coverage.checked);
   }
 
@@ -499,8 +517,19 @@
     if (type === "Point" || type === "MultiPoint") {
       for (const coordinate of type === "Point" ? [coordinates] : coordinates) {
         const [cx, cy] = project(coordinate);
-        group.append(element("circle", {cx, cy, r: Math.max(.24, view[2] / 215), fill: color, class: "point" + selectedClass}));
+        const r = Math.max(.24, view[2] / 215);
+        const attributes = {fill: color, class: "point" + selectedClass};
+        if (kind === "volcano") {
+          const points = `${cx},${cy - r} ${cx + r},${cy + r} ${cx - r},${cy + r}`;
+          group.append(element("polygon", {...attributes, points, fill: "#ff9d86"}));
+        } else {
+          group.append(element("circle", {...attributes, cx, cy, r}));
+        }
       }
+    } else if (kind === "fault-trace") {
+      const offshore = setting === "offshore";
+      group.append(element("path", {d: path(coordinates), stroke: offshore ? "#75dbe1" : color,
+        class: "fault" + (offshore ? " offshore" : "") + selectedClass}));
     } else if (type === "LineString") {
       const dashed = placement.startsWith("logical-") || setting === "subsurface" ||
         [service_state, grid_state, transfer_state].some(state => ["dark-fiber", "private-only", "normally-open", "normally-closed"].includes(state));
@@ -522,12 +551,11 @@
     labels.replaceChildren();
     const shown = data.features.filter(visible);
     const selectedPoint = shown.find(feature => feature.id === selected && feature.geometry.type === "Point");
-    for (const kinds of [["country"], ["coverage-footprint"], ["route"], ["capital"], []]) {
-      shown.filter(feature => feature !== selectedPoint && (kinds.length
-        ? kinds.includes(feature.properties.kind)
-        : !["country", "coverage-footprint", "route", "capital"].includes(feature.properties.kind)
-      )).forEach(drawFeature);
+    const orderedKinds = ["country", "coverage-footprint", "route", "fault-trace", "capital"];
+    for (const kind of orderedKinds) {
+      shown.filter(feature => feature !== selectedPoint && feature.properties.kind === kind).forEach(drawFeature);
     }
+    shown.filter(feature => feature !== selectedPoint && !orderedKinds.includes(feature.properties.kind)).forEach(drawFeature);
     if (selectedPoint) drawFeature(selectedPoint);
     if (layerControls.get("world").checked && view[2] > 185) {
       for (const feature of shown.filter(item => item.properties.kind === "capital")) {
@@ -567,13 +595,26 @@
     selected = feature.id;
     const props = feature.properties;
     layerControls.get(props.layer).checked = true;
-    if (feature.geometry.type === "LineString") routes.checked = true;
+    if (props.kind === "route") routes.checked = true;
     if (props.kind === "coverage-footprint") coverage.checked = true;
     const heading = document.createElement("strong");
     heading.textContent = props.name;
     const list = document.createElement("dl");
     addDetail(list, "Layer", data.layers[props.layer]);
     if (props.country) addDetail(list, "Country", props.country);
+    if (props.map_id) addDetail(list, "Map ID", props.map_id);
+    if (props.layer === "seismic") {
+      addDetail(list, "Setting", props.setting);
+      if (props.near_country) addDetail(list, "Nearby country", props.near_country);
+      if (props.fault_motion) addDetail(list, "Fault motion", props.fault_motion);
+      if (props.instruments) addDetail(list, "Instruments", props.instruments.join(", "));
+      if (props.volcano_type) {
+        addDetail(list, "Volcano type", props.volcano_type);
+        addDetail(list, "Summit elevation", props.summit_elevation_m.toLocaleString("en") + " m");
+        addDetail(list, "Activity baseline", props.activity_baseline);
+      }
+      if (props.magnitude_mw !== undefined) addDetail(list, "Simulated magnitude", "Mw " + props.magnitude_mw);
+    }
     if (props.service_model) {
       addDetail(list, "Organization", props.service_model);
       addDetail(list, "Liaison site", featureById.get(props.host_id).properties.name);
@@ -586,6 +627,9 @@
     if (feature.geometry.type === "Point") {
       addDetail(list, "Latitude", first[1] + "°");
       addDetail(list, "Longitude", first[0] + "°");
+    } else if (props.kind === "fault-trace") {
+      const last = feature.geometry.coordinates.at(-1);
+      addDetail(list, "Trace ends [lon, lat]", "[" + first.join(", ") + "] to [" + last.join(", ") + "]");
     } else if (props.endpoint_ids) {
       const separator = props.direction === "one-way" ? " → " : " ↔ ";
       addDetail(list, "Endpoints", props.endpoint_ids.map(id => featureById.get(id).properties.name).join(separator));
@@ -593,7 +637,7 @@
       addDetail(list, "Geometry", feature.geometry.type);
     }
     if (props.depth_range_km) addDetail(list, "Depth range", props.depth_range_km.join("–") + " km");
-    else if (props.depth_km !== undefined) addDetail(list, "Depth", props.depth_km + " km");
+    else if (props.depth_km !== undefined) addDetail(list, "Depth", props.depth_km + (props.kind === "exercise-earthquake" ? " km below seafloor" : " km"));
     addDetail(list, "Placement", props.placement.replaceAll("-", " "));
     const id = document.createElement("code");
     id.textContent = feature.id;
@@ -617,7 +661,8 @@
     results.replaceChildren();
     if (!query) return;
     const matches = data.features.filter(({id, properties}) =>
-      [id, properties.name, properties.country, data.layers[properties.layer], properties.route_id, properties.circuit_id, properties.feed_id]
+      [id, properties.name, properties.country, properties.near_country, data.layers[properties.layer],
+        properties.map_id, properties.route_id, properties.circuit_id, properties.feed_id]
         .some(value => value && value.toLowerCase().includes(query)));
     for (const feature of matches.slice(0, 40)) {
       const item = document.createElement("li");
