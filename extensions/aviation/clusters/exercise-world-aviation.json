@@ -140,9 +140,21 @@
         "airport-id": [
           "NAC-AST"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Asterin Union",
         "entity-type": [
           "airport"
+        ],
+        "geographic-feature-id": [
+          "1d4fe652-d202-5cc3-a501-9feca5d26a6a"
+        ],
+        "latitude": [
+          "54.2397"
+        ],
+        "longitude": [
+          "-43.8655"
         ],
         "planet": [
           "Nacre"
@@ -179,8 +191,20 @@
         "control-role": [
           "local-tower"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "air-traffic-control-unit"
+        ],
+        "geographic-feature-id": [
+          "33f59468-e1e6-5c8f-acf1-a48763d0d0e1"
+        ],
+        "latitude": [
+          "54.2397"
+        ],
+        "longitude": [
+          "-43.8655"
         ],
         "planet": [
           "Nacre"
@@ -205,9 +229,21 @@
         "airport-id": [
           "NAC-VEL"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Velkar Republic",
         "entity-type": [
           "airport"
+        ],
+        "geographic-feature-id": [
+          "7d25284c-266d-586d-b450-7c10b8bc2621"
+        ],
+        "latitude": [
+          "17.9992"
+        ],
+        "longitude": [
+          "-9.5764"
         ],
         "planet": [
           "Nacre"
@@ -252,8 +288,20 @@
         "control-role": [
           "local-tower"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "air-traffic-control-unit"
+        ],
+        "geographic-feature-id": [
+          "afe42e26-7c0c-5392-95d7-23887907c3c3"
+        ],
+        "latitude": [
+          "17.9992"
+        ],
+        "longitude": [
+          "-9.5764"
         ],
         "planet": [
           "Nacre"
@@ -278,9 +326,21 @@
         "airport-id": [
           "NAC-CAE"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Caelum Protectorate",
         "entity-type": [
           "airport"
+        ],
+        "geographic-feature-id": [
+          "da6f38c1-48d5-59ba-a828-efe34e48301b"
+        ],
+        "latitude": [
+          "42.5313"
+        ],
+        "longitude": [
+          "17.4647"
         ],
         "planet": [
           "Nacre"
@@ -333,8 +393,20 @@
         "control-role": [
           "local-tower"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "air-traffic-control-unit"
+        ],
+        "geographic-feature-id": [
+          "dde4f532-0fc4-5a12-b4cf-3ed368fb118e"
+        ],
+        "latitude": [
+          "42.5313"
+        ],
+        "longitude": [
+          "17.4647"
         ],
         "planet": [
           "Nacre"
@@ -359,9 +431,21 @@
         "airport-id": [
           "NAC-ORI"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Orinthia",
         "entity-type": [
           "airport"
+        ],
+        "geographic-feature-id": [
+          "227f9efe-a050-5e5a-948f-2c19c29d29ff"
+        ],
+        "latitude": [
+          "47.828"
+        ],
+        "longitude": [
+          "75.7283"
         ],
         "planet": [
           "Nacre"
@@ -406,8 +490,20 @@
         "control-role": [
           "local-tower"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "air-traffic-control-unit"
+        ],
+        "geographic-feature-id": [
+          "fb191c9a-8449-5066-a8da-0a9fa6f5bb5d"
+        ],
+        "latitude": [
+          "47.828"
+        ],
+        "longitude": [
+          "75.7283"
         ],
         "planet": [
           "Nacre"
@@ -432,9 +528,21 @@
         "airport-id": [
           "NAC-THY"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Thyros Commonwealth",
         "entity-type": [
           "airport"
+        ],
+        "geographic-feature-id": [
+          "1e653f40-3e70-5b8b-88e9-ee1959a3e838"
+        ],
+        "latitude": [
+          "11.5874"
+        ],
+        "longitude": [
+          "61.2321"
         ],
         "planet": [
           "Nacre"
@@ -479,8 +587,20 @@
         "control-role": [
           "local-tower"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "air-traffic-control-unit"
+        ],
+        "geographic-feature-id": [
+          "95e68bf8-ffc9-5f5c-a279-7198e22b4b57"
+        ],
+        "latitude": [
+          "11.5874"
+        ],
+        "longitude": [
+          "61.2321"
         ],
         "planet": [
           "Nacre"
@@ -505,9 +625,21 @@
         "airport-id": [
           "NAC-ILY"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Ilyndor",
         "entity-type": [
           "airport"
+        ],
+        "geographic-feature-id": [
+          "cffbae5f-b340-5c62-b68f-65f6b7294e21"
+        ],
+        "latitude": [
+          "-8.763"
+        ],
+        "longitude": [
+          "6.8713"
         ],
         "planet": [
           "Nacre"
@@ -568,8 +700,20 @@
         "control-role": [
           "local-tower"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "air-traffic-control-unit"
+        ],
+        "geographic-feature-id": [
+          "7c55cdb7-14c9-5fe4-bc40-dbb44c17ce47"
+        ],
+        "latitude": [
+          "-8.763"
+        ],
+        "longitude": [
+          "6.8713"
         ],
         "planet": [
           "Nacre"
@@ -594,9 +738,21 @@
         "airport-id": [
           "NAC-NER"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Neruva Federation",
         "entity-type": [
           "airport"
+        ],
+        "geographic-feature-id": [
+          "394252c7-1651-5a3a-86b0-75cc07a89819"
+        ],
+        "latitude": [
+          "-21.5866"
+        ],
+        "longitude": [
+          "78.516"
         ],
         "planet": [
           "Nacre"
@@ -649,8 +805,20 @@
         "control-role": [
           "local-tower"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "air-traffic-control-unit"
+        ],
+        "geographic-feature-id": [
+          "ad774566-dc7f-5e63-b7dc-999b1ccda1a4"
+        ],
+        "latitude": [
+          "-21.5866"
+        ],
+        "longitude": [
+          "78.516"
         ],
         "planet": [
           "Nacre"
@@ -675,9 +843,21 @@
         "airport-id": [
           "NAC-BRI"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Brinax Collective",
         "entity-type": [
           "airport"
+        ],
+        "geographic-feature-id": [
+          "5692cfee-c114-5885-94cd-f7d649a39802"
+        ],
+        "latitude": [
+          "-36.9192"
+        ],
+        "longitude": [
+          "55.0991"
         ],
         "planet": [
           "Nacre"
@@ -714,8 +894,20 @@
         "control-role": [
           "local-tower"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "air-traffic-control-unit"
+        ],
+        "geographic-feature-id": [
+          "3801a18b-002c-5152-b879-3fe0b9947dbe"
+        ],
+        "latitude": [
+          "-36.9192"
+        ],
+        "longitude": [
+          "55.0991"
         ],
         "planet": [
           "Nacre"
@@ -740,9 +932,21 @@
         "airport-id": [
           "NAC-QUE"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Quenari League",
         "entity-type": [
           "airport"
+        ],
+        "geographic-feature-id": [
+          "fc9a633d-9390-5609-81e7-134fb2d85054"
+        ],
+        "latitude": [
+          "-33.5739"
+        ],
+        "longitude": [
+          "-34.666"
         ],
         "planet": [
           "Nacre"
@@ -779,8 +983,20 @@
         "control-role": [
           "local-tower"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "air-traffic-control-unit"
+        ],
+        "geographic-feature-id": [
+          "64bedec8-c65c-588a-b022-07e9815e365a"
+        ],
+        "latitude": [
+          "-33.5739"
+        ],
+        "longitude": [
+          "-34.666"
         ],
         "planet": [
           "Nacre"
@@ -805,9 +1021,21 @@
         "airport-id": [
           "NAC-SOR"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Soreth Dominion",
         "entity-type": [
           "airport"
+        ],
+        "geographic-feature-id": [
+          "235ac41b-25f2-5b1b-8ebc-4e412765b945"
+        ],
+        "latitude": [
+          "70.6874"
+        ],
+        "longitude": [
+          "17.4647"
         ],
         "planet": [
           "Nacre"
@@ -844,8 +1072,20 @@
         "control-role": [
           "local-tower"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "air-traffic-control-unit"
+        ],
+        "geographic-feature-id": [
+          "5fb784b0-e046-5cd4-9773-b72325e50453"
+        ],
+        "latitude": [
+          "70.6874"
+        ],
+        "longitude": [
+          "17.4647"
         ],
         "planet": [
           "Nacre"
@@ -873,8 +1113,20 @@
         "control-role": [
           "en-route-center"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "air-traffic-control-unit"
+        ],
+        "geographic-feature-id": [
+          "3c98c2b1-4553-593f-bd31-fb83ffc83edf"
+        ],
+        "latitude": [
+          "42.5313"
+        ],
+        "longitude": [
+          "17.4647"
         ],
         "planet": [
           "Nacre"
@@ -930,8 +1182,20 @@
         "control-role": [
           "en-route-center"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "air-traffic-control-unit"
+        ],
+        "geographic-feature-id": [
+          "156bf5c7-67a6-5067-8721-9f07d50e80ca"
+        ],
+        "latitude": [
+          "-8.763"
+        ],
+        "longitude": [
+          "6.8713"
         ],
         "planet": [
           "Nacre"
@@ -987,8 +1251,20 @@
         "control-role": [
           "en-route-center"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "air-traffic-control-unit"
+        ],
+        "geographic-feature-id": [
+          "063b1752-29db-57cc-86bc-7f6524847a08"
+        ],
+        "latitude": [
+          "-21.5866"
+        ],
+        "longitude": [
+          "78.516"
         ],
         "planet": [
           "Nacre"
@@ -1022,8 +1298,14 @@
     {
       "description": "Bidirectional passengers service between Northreach Airport and Basin Airport using the Lark 42.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "scheduled-air-route"
+        ],
+        "geographic-feature-id": [
+          "b0fbf3f3-9ad2-5dac-a672-5d050edd0652"
         ],
         "planet": [
           "Nacre"
@@ -1055,8 +1337,14 @@
     {
       "description": "Bidirectional passengers service between Basin Airport and Corridor Airport using the Meridian 108.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "scheduled-air-route"
+        ],
+        "geographic-feature-id": [
+          "70fff314-ebec-5424-8f6c-e4f208b3f149"
         ],
         "planet": [
           "Nacre"
@@ -1088,8 +1376,14 @@
     {
       "description": "Bidirectional passengers service between Corridor Airport and Equator Airport using the Lark 42.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "scheduled-air-route"
+        ],
+        "geographic-feature-id": [
+          "4898fc56-65f8-5753-9e1b-7f0605e57ed8"
         ],
         "planet": [
           "Nacre"
@@ -1121,8 +1415,14 @@
     {
       "description": "Bidirectional passengers service between Plateau Airport and Tundra Airfield using the Lark 42.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "scheduled-air-route"
+        ],
+        "geographic-feature-id": [
+          "ab7ce0d5-4666-5c5b-be2f-97a6aeae0878"
         ],
         "planet": [
           "Nacre"
@@ -1154,8 +1454,14 @@
     {
       "description": "Bidirectional passengers service between Plateau Airport and Sound Airport using the Lark 42.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "scheduled-air-route"
+        ],
+        "geographic-feature-id": [
+          "c5d9e554-007e-5a88-a312-1ef06ca41f97"
         ],
         "planet": [
           "Nacre"
@@ -1187,8 +1493,14 @@
     {
       "description": "Bidirectional passengers service between Sound Airport and Delta Gateway using the Meridian 108.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "scheduled-air-route"
+        ],
+        "geographic-feature-id": [
+          "8741f6c3-6d1d-5963-8e91-daed89446dcf"
         ],
         "planet": [
           "Nacre"
@@ -1220,8 +1532,14 @@
     {
       "description": "Bidirectional cargo service between Plateau Airport and Delta Gateway using the Wayfarer C12.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "scheduled-air-route"
+        ],
+        "geographic-feature-id": [
+          "1b6117f4-7280-5416-bc37-fb9ce2bfc03e"
         ],
         "planet": [
           "Nacre"
@@ -1253,8 +1571,14 @@
     {
       "description": "Bidirectional passengers service between Corridor Airport and Coast Airport using the Meridian 108.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "scheduled-air-route"
+        ],
+        "geographic-feature-id": [
+          "a9477a55-5c49-5380-872b-502d7f9e68df"
         ],
         "planet": [
           "Nacre"
@@ -1286,8 +1610,14 @@
     {
       "description": "Bidirectional cargo service between Plateau Airport and Corridor Airport using the Wayfarer C12.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "scheduled-air-route"
+        ],
+        "geographic-feature-id": [
+          "b67523a4-19b8-51e3-b973-a919de6fa312"
         ],
         "planet": [
           "Nacre"
@@ -1319,8 +1649,14 @@
     {
       "description": "Bidirectional passengers service between Steppe Airport and Delta Gateway using the Lark 42.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "scheduled-air-route"
+        ],
+        "geographic-feature-id": [
+          "8c4b1089-f295-52ac-a5a0-53bf83e50051"
         ],
         "planet": [
           "Nacre"
@@ -1352,8 +1688,14 @@
     {
       "description": "Bidirectional cargo service between Steppe Airport and Corridor Airport using the Wayfarer C12.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "scheduled-air-route"
+        ],
+        "geographic-feature-id": [
+          "b3b4c733-69a1-5e6b-a810-8427c2f27ff5"
         ],
         "planet": [
           "Nacre"
@@ -1383,5 +1725,5 @@
       "value": "Steppe Cargo Link"
     }
   ],
-  "version": 1
+  "version": 2
 }

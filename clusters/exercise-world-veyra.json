@@ -22,6 +22,12 @@
         ],
         "world": [
           "Veyra"
+        ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
+        "geographic-feature-id": [
+          "48e6c9eb-f3a3-47ff-81d6-0bd8446ce970"
         ]
       }
     },
@@ -41,6 +47,21 @@
         ],
         "depth": [
           "0 to 1.2 km below the surface"
+        ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
+        "geographic-feature-id": [
+          "6431b08d-c7dc-4a47-b0e8-bead7ab13ce7"
+        ],
+        "longitude": [
+          "11.0529"
+        ],
+        "latitude": [
+          "-10.4357"
+        ],
+        "depth-km": [
+          "0"
         ]
       },
       "related": [
@@ -70,6 +91,21 @@
         ],
         "depth": [
           "1.2 km below the surface"
+        ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
+        "geographic-feature-id": [
+          "73d2926d-d632-4f42-82b1-cdc5b66a81b3"
+        ],
+        "longitude": [
+          "11.0529"
+        ],
+        "latitude": [
+          "-10.4357"
+        ],
+        "depth-km": [
+          "1.2"
         ]
       },
       "related": [
@@ -103,6 +139,21 @@
         ],
         "depth": [
           "1.6 km below the surface"
+        ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
+        "geographic-feature-id": [
+          "7e35306b-28b1-4b73-9669-795c4dd41c97"
+        ],
+        "longitude": [
+          "17.4647"
+        ],
+        "latitude": [
+          "-16.8475"
+        ],
+        "depth-km": [
+          "1.6"
         ]
       },
       "related": [
@@ -140,6 +191,21 @@
         ],
         "depth": [
           "2.1 km below the surface"
+        ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
+        "geographic-feature-id": [
+          "7650bcb4-01cc-4554-ba52-108690b364b4"
+        ],
+        "longitude": [
+          "19.9736"
+        ],
+        "latitude": [
+          "-19.0777"
+        ],
+        "depth-km": [
+          "2.1"
         ]
       },
       "related": [
@@ -165,6 +231,21 @@
         ],
         "depth": [
           "0 to 1.6 km below the surface"
+        ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
+        "geographic-feature-id": [
+          "731a7f05-709c-4ccf-85ae-a6102ff50306"
+        ],
+        "longitude": [
+          "66.8075"
+        ],
+        "latitude": [
+          "-43.8885"
+        ],
+        "depth-km": [
+          "0"
         ]
       },
       "related": [
@@ -197,6 +278,21 @@
         ],
         "surface-site": [
           "Kestrel Island"
+        ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
+        "geographic-feature-id": [
+          "78c054f5-db78-4dd1-899c-035bf519a0a4"
+        ],
+        "longitude": [
+          "55.6566"
+        ],
+        "latitude": [
+          "46.9916"
+        ],
+        "depth-km": [
+          "0"
         ]
       },
       "related": [
@@ -211,5 +307,5 @@
       ]
     }
   ],
-  "version": 2
+  "version": 3
 }

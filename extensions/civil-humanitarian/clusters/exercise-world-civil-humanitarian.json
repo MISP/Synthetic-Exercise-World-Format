@@ -12,6 +12,9 @@
     {
       "description": "Inpatient hospital and emergency care in Caelum Protectorate.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Caelum Protectorate",
         "entity-type": [
           "civil-humanitarian-facility"
@@ -21,6 +24,15 @@
         ],
         "facility-type": [
           "hospital"
+        ],
+        "geographic-feature-id": [
+          "8816d546-9b3a-56fc-a7ea-eff612294939"
+        ],
+        "latitude": [
+          "50.2174"
+        ],
+        "longitude": [
+          "7.7057"
         ],
         "planet": [
           "Nacre"
@@ -53,6 +65,9 @@
     {
       "description": "Secondary education and a family assistance desk during emergencies in Caelum Protectorate.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Caelum Protectorate",
         "entity-type": [
           "civil-humanitarian-facility"
@@ -62,6 +77,15 @@
         ],
         "facility-type": [
           "school"
+        ],
+        "geographic-feature-id": [
+          "7a0f8670-744b-585e-9921-cef7c8216774"
+        ],
+        "latitude": [
+          "54.7688"
+        ],
+        "longitude": [
+          "31.2213"
         ],
         "planet": [
           "Nacre"
@@ -94,6 +118,9 @@
     {
       "description": "Regional storage and dispatch of relief supplies in Ilyndor.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Ilyndor",
         "entity-type": [
           "civil-humanitarian-facility"
@@ -103,6 +130,15 @@
         ],
         "facility-type": [
           "relief-depot"
+        ],
+        "geographic-feature-id": [
+          "329a021d-2be4-5006-801c-29b9e12dd864"
+        ],
+        "latitude": [
+          "-3.4512"
+        ],
+        "longitude": [
+          "-7.4657"
         ],
         "planet": [
           "Nacre"
@@ -139,6 +175,9 @@
     {
       "description": "Technical education and a designated overflow reception site in Ilyndor.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Ilyndor",
         "entity-type": [
           "civil-humanitarian-facility"
@@ -148,6 +187,15 @@
         ],
         "facility-type": [
           "school"
+        ],
+        "geographic-feature-id": [
+          "3405a0c1-08ff-5520-95bb-ab83c348f09d"
+        ],
+        "latitude": [
+          "3.3703"
+        ],
+        "longitude": [
+          "11.9341"
         ],
         "planet": [
           "Nacre"
@@ -180,6 +228,9 @@
     {
       "description": "Inpatient hospital and emergency care in Neruva Federation.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Neruva Federation",
         "entity-type": [
           "civil-humanitarian-facility"
@@ -189,6 +240,15 @@
         ],
         "facility-type": [
           "hospital"
+        ],
+        "geographic-feature-id": [
+          "5a56b77c-ccd1-5fc2-aaeb-46787d4244a8"
+        ],
+        "latitude": [
+          "-13.0152"
+        ],
+        "longitude": [
+          "75.1186"
         ],
         "planet": [
           "Nacre"
@@ -221,6 +281,9 @@
     {
       "description": "Temporary reception, drinking water, and family support in Neruva Federation.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Neruva Federation",
         "entity-type": [
           "civil-humanitarian-facility"
@@ -230,6 +293,15 @@
         ],
         "facility-type": [
           "shelter"
+        ],
+        "geographic-feature-id": [
+          "897e79a4-6495-54a5-87e2-cda8a8b82782"
+        ],
+        "latitude": [
+          "-27.346"
+        ],
+        "longitude": [
+          "80.3385"
         ],
         "planet": [
           "Nacre"
@@ -266,6 +338,9 @@
     {
       "description": "Outpatient care and referrals in Brinax Collective.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Brinax Collective",
         "entity-type": [
           "civil-humanitarian-facility"
@@ -275,6 +350,15 @@
         ],
         "facility-type": [
           "clinic"
+        ],
+        "geographic-feature-id": [
+          "e0ee3b96-1eba-5d69-a944-b40d2ee61bd3"
+        ],
+        "latitude": [
+          "-45.1724"
+        ],
+        "longitude": [
+          "45.634"
         ],
         "planet": [
           "Nacre"
@@ -307,6 +391,9 @@
     {
       "description": "Meal preparation and distribution for relief operations in Brinax Collective.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Brinax Collective",
         "entity-type": [
           "civil-humanitarian-facility"
@@ -316,6 +403,15 @@
         ],
         "facility-type": [
           "community-kitchen"
+        ],
+        "geographic-feature-id": [
+          "70d2ffcc-5030-517d-b496-fde3085529af"
+        ],
+        "latitude": [
+          "-27.1564"
+        ],
+        "longitude": [
+          "39.9448"
         ],
         "planet": [
           "Nacre"
@@ -352,6 +448,9 @@
     {
       "description": "Inpatient and island emergency care in Orinthia.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Orinthia",
         "entity-type": [
           "civil-humanitarian-facility"
@@ -361,6 +460,15 @@
         ],
         "facility-type": [
           "hospital"
+        ],
+        "geographic-feature-id": [
+          "624d469d-f640-58c5-a4e4-58496d97aa03"
+        ],
+        "latitude": [
+          "56.286"
+        ],
+        "longitude": [
+          "70.8564"
         ],
         "planet": [
           "Nacre"
@@ -393,6 +501,9 @@
     {
       "description": "Primary education and a family reunification point in Orinthia.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Orinthia",
         "entity-type": [
           "civil-humanitarian-facility"
@@ -402,6 +513,15 @@
         ],
         "facility-type": [
           "school"
+        ],
+        "geographic-feature-id": [
+          "398122d1-ff15-551e-be34-cbd78be6d739"
+        ],
+        "latitude": [
+          "44.789"
+        ],
+        "longitude": [
+          "79.4232"
         ],
         "planet": [
           "Nacre"
@@ -434,6 +554,9 @@
     {
       "description": "Primary education and community learning in Quenari League.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Quenari League",
         "entity-type": [
           "civil-humanitarian-facility"
@@ -443,6 +566,15 @@
         ],
         "facility-type": [
           "school"
+        ],
+        "geographic-feature-id": [
+          "ee87470d-5286-52b6-a2f1-fa5362e6b698"
+        ],
+        "latitude": [
+          "-21.6568"
+        ],
+        "longitude": [
+          "-42.1701"
         ],
         "planet": [
           "Nacre"
@@ -475,6 +607,9 @@
     {
       "description": "Local staging of water and essential supplies in Quenari League.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Quenari League",
         "entity-type": [
           "civil-humanitarian-facility"
@@ -484,6 +619,15 @@
         ],
         "facility-type": [
           "relief-depot"
+        ],
+        "geographic-feature-id": [
+          "3fd35d50-0700-54a8-bf6a-018e6107c290"
+        ],
+        "latitude": [
+          "-37.2074"
+        ],
+        "longitude": [
+          "-25.292"
         ],
         "planet": [
           "Nacre"
@@ -524,8 +668,14 @@
           "packaged drinking water",
           "essential supplies"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "humanitarian-support-arrangement"
+        ],
+        "geographic-feature-id": [
+          "5f5789fd-a170-5ca5-8696-7a4635a37197"
         ],
         "planet": [
           "Nacre"
@@ -546,8 +696,8 @@
         }
       ],
       "uuid": "5f5789fd-a170-5ca5-8696-7a4635a37197",
-      "value": "Corridor\u2013Delta Relief Supply Arrangement"
+      "value": "Corridor–Delta Relief Supply Arrangement"
     }
   ],
-  "version": 1
+  "version": 2
 }

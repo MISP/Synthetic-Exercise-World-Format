@@ -63,6 +63,8 @@ The JSON format follows the standard MISP galaxy structure, making it directly c
 
 # Geography of the Synthetic Exercise World
 
+The shared Nacre coordinate grid registers country boundaries, capitals, and extension sites, routes, and coverage. Explore the interactive atlas or download the GeoJSON through the [geographic atlas guide](geography/README.md).
+
 ## Synthetic Exercise World Map — Planet Nacre
 
 This field guide accompanies the revised fictional atlas map. The map is designed for neutral cyber-exercise planning and keeps the original synthetic country, company, and threat-actor relationships while making the visual layout easier to read.

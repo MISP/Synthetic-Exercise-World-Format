@@ -15,9 +15,21 @@
         "access-networks": [
           "fixed"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Asterin Union",
         "entity-type": [
           "telecom-operator"
+        ],
+        "geographic-feature-id": [
+          "3d83a50d-7976-5da1-b751-203087492f8a"
+        ],
+        "latitude": [
+          "53.961"
+        ],
+        "longitude": [
+          "-43.8655"
         ],
         "planet": [
           "Nacre"
@@ -43,9 +55,21 @@
           "fixed",
           "radio"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Velkar Republic",
         "entity-type": [
           "telecom-operator"
+        ],
+        "geographic-feature-id": [
+          "7bf88fa9-be22-5b6a-bcd1-40879dd64602"
+        ],
+        "latitude": [
+          "17.9992"
+        ],
+        "longitude": [
+          "-9.5764"
         ],
         "planet": [
           "Nacre"
@@ -79,9 +103,21 @@
           "fixed",
           "radio"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Caelum Protectorate",
         "entity-type": [
           "telecom-operator"
+        ],
+        "geographic-feature-id": [
+          "9547d310-1b5d-554f-95d7-1c1e2b223adb"
+        ],
+        "latitude": [
+          "42.2525"
+        ],
+        "longitude": [
+          "20.8099"
         ],
         "planet": [
           "Nacre"
@@ -118,9 +154,21 @@
         "access-networks": [
           "radio"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Orinthia",
         "entity-type": [
           "telecom-operator"
+        ],
+        "geographic-feature-id": [
+          "9df1eaab-6203-51c4-bd84-c7343ae224c1"
+        ],
+        "latitude": [
+          "47.5492"
+        ],
+        "longitude": [
+          "75.7283"
         ],
         "planet": [
           "Nacre"
@@ -149,9 +197,21 @@
         "access-networks": [
           "radio"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Thyros Commonwealth",
         "entity-type": [
           "telecom-operator"
+        ],
+        "geographic-feature-id": [
+          "4bf278fc-f88d-5335-bd29-a1aa6326adff"
+        ],
+        "latitude": [
+          "11.5874"
+        ],
+        "longitude": [
+          "62.0684"
         ],
         "planet": [
           "Nacre"
@@ -173,9 +233,21 @@
           "fixed",
           "radio"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Ilyndor",
         "entity-type": [
           "telecom-operator"
+        ],
+        "geographic-feature-id": [
+          "69aa2d21-8251-52f8-91c0-c33b1f684040"
+        ],
+        "latitude": [
+          "-9.0418"
+        ],
+        "longitude": [
+          "7.4288"
         ],
         "planet": [
           "Nacre"
@@ -217,9 +289,21 @@
           "fixed",
           "radio"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Neruva Federation",
         "entity-type": [
           "telecom-operator"
+        ],
+        "geographic-feature-id": [
+          "a8a57b75-e769-5ba1-b6b2-fdff1caa2b30"
+        ],
+        "latitude": [
+          "-20.4715"
+        ],
+        "longitude": [
+          "70.7104"
         ],
         "planet": [
           "Nacre"
@@ -248,9 +332,21 @@
         "access-networks": [
           "fixed"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Brinax Collective",
         "entity-type": [
           "telecom-operator"
+        ],
+        "geographic-feature-id": [
+          "ef987a45-cb47-50b2-a795-a561af0e2b8a"
+        ],
+        "latitude": [
+          "-33.5739"
+        ],
+        "longitude": [
+          "52.8689"
         ],
         "planet": [
           "Nacre"
@@ -279,9 +375,21 @@
         "access-networks": [
           "radio"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Quenari League",
         "entity-type": [
           "telecom-operator"
+        ],
+        "geographic-feature-id": [
+          "1747fb93-72b2-54dd-add1-8852bb420adb"
+        ],
+        "latitude": [
+          "-31.6225"
+        ],
+        "longitude": [
+          "-33.5509"
         ],
         "planet": [
           "Nacre"
@@ -306,9 +414,21 @@
         "access-networks": [
           "radio"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Soreth Dominion",
         "entity-type": [
           "telecom-operator"
+        ],
+        "geographic-feature-id": [
+          "8f31b6a5-fa95-5e4b-bdc0-7e2c7ba3d6d6"
+        ],
+        "latitude": [
+          "70.1298"
+        ],
+        "longitude": [
+          "17.4647"
         ],
         "planet": [
           "Nacre"
@@ -330,11 +450,17 @@
     {
       "description": "Carries shared transit between Asterin Union and Velkar Republic.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "fiber-route"
         ],
         "fiber-medium": [
           "terrestrial"
+        ],
+        "geographic-feature-id": [
+          "0c013e27-f94c-598b-b9fc-244d02e14480"
         ],
         "planet": [
           "Nacre"
@@ -362,11 +488,17 @@
     {
       "description": "The direct shared-transit link between Velkar Republic and Caelum Protectorate.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "fiber-route"
         ],
         "fiber-medium": [
           "terrestrial"
+        ],
+        "geographic-feature-id": [
+          "ac81ac9d-f3aa-5af8-8bef-6926bbb82c92"
         ],
         "planet": [
           "Nacre"
@@ -394,11 +526,17 @@
     {
       "description": "Connects Velkar Republic and Ilyndor. It forms an alternate transit path with the Ridge Bypass.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "fiber-route"
         ],
         "fiber-medium": [
           "terrestrial"
+        ],
+        "geographic-feature-id": [
+          "a6529ad8-d658-5197-b88f-42a302ed9480"
         ],
         "planet": [
           "Nacre"
@@ -426,11 +564,17 @@
     {
       "description": "Connects Caelum Protectorate and Ilyndor and provides a second mainland path to Velkar Republic.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "fiber-route"
         ],
         "fiber-medium": [
           "terrestrial"
+        ],
+        "geographic-feature-id": [
+          "0afd5e79-9716-5ad5-8d66-8dc5427efd4e"
         ],
         "planet": [
           "Nacre"
@@ -458,11 +602,17 @@
     {
       "description": "Orinthia's only shared-transit fiber link. Its island radio access uses this fiber for shared transit.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "fiber-route"
         ],
         "fiber-medium": [
           "subsea"
+        ],
+        "geographic-feature-id": [
+          "b709765b-19e0-5d76-a936-b47bade6518f"
         ],
         "planet": [
           "Nacre"
@@ -490,11 +640,17 @@
     {
       "description": "Carries shared transit between Ilyndor and Neruva Federation.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "fiber-route"
         ],
         "fiber-medium": [
           "terrestrial"
+        ],
+        "geographic-feature-id": [
+          "70f10d9c-d4f5-5119-8027-fd33016c7e8c"
         ],
         "planet": [
           "Nacre"
@@ -522,11 +678,17 @@
     {
       "description": "Carries shared transit between the delta and Brinax Collective.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "fiber-route"
         ],
         "fiber-medium": [
           "terrestrial"
+        ],
+        "geographic-feature-id": [
+          "fd569323-0057-5ac0-af7c-a2858501f7c4"
         ],
         "planet": [
           "Nacre"
@@ -554,11 +716,17 @@
     {
       "description": "Installed spare fiber between Ilyndor and Brinax Collective. It carries no traffic until both operators approve and commission it.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "fiber-route"
         ],
         "fiber-medium": [
           "terrestrial"
+        ],
+        "geographic-feature-id": [
+          "1e2a886d-6ea3-5a60-bb93-f3cadf295127"
         ],
         "planet": [
           "Nacre"
@@ -586,11 +754,17 @@
     {
       "description": "Carries approved research traffic between Orinthia and Soreth Dominion. It provides no public transit.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "fiber-route"
         ],
         "fiber-medium": [
           "subsea"
+        ],
+        "geographic-feature-id": [
+          "6dc91d2f-d1e2-54d7-ab6c-5183780cf6e4"
         ],
         "planet": [
           "Nacre"
@@ -618,11 +792,17 @@
     {
       "description": "Carries shared transit between the Ilyndor trade corridor and Quenari League's radio operator.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "fiber-route"
         ],
         "fiber-medium": [
           "terrestrial"
+        ],
+        "geographic-feature-id": [
+          "5d7fce06-d462-54a0-8fb7-9b5e3cccdf8b"
         ],
         "planet": [
           "Nacre"
@@ -648,5 +828,5 @@
       "value": "Orchard Spur"
     }
   ],
-  "version": 1
+  "version": 2
 }

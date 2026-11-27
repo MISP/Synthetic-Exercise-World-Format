@@ -15,11 +15,17 @@
         "aspect-ratio": [
           "3:2"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "country-flag"
         ],
         "flag-path": [
           "extensions/country-flags/flags/asterin-union.svg"
+        ],
+        "geographic-feature-id": [
+          "cb97ba71-e477-4acb-9470-10f3e6c9e1a9"
         ],
         "planet": [
           "Nacre"
@@ -40,11 +46,17 @@
         "aspect-ratio": [
           "3:2"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "country-flag"
         ],
         "flag-path": [
           "extensions/country-flags/flags/velkar-republic.svg"
+        ],
+        "geographic-feature-id": [
+          "e4cd09cc-7be7-46ef-8989-5b9a812b49fe"
         ],
         "planet": [
           "Nacre"
@@ -65,11 +77,17 @@
         "aspect-ratio": [
           "3:2"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "country-flag"
         ],
         "flag-path": [
           "extensions/country-flags/flags/orinthia.svg"
+        ],
+        "geographic-feature-id": [
+          "74d2286a-1b87-4984-8dd1-c5bd466ecca5"
         ],
         "planet": [
           "Nacre"
@@ -90,11 +108,17 @@
         "aspect-ratio": [
           "3:2"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "country-flag"
         ],
         "flag-path": [
           "extensions/country-flags/flags/caelum-protectorate.svg"
+        ],
+        "geographic-feature-id": [
+          "4a600b9f-b843-446f-a234-415aded47e1b"
         ],
         "planet": [
           "Nacre"
@@ -115,11 +139,17 @@
         "aspect-ratio": [
           "3:2"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "country-flag"
         ],
         "flag-path": [
           "extensions/country-flags/flags/neruva-federation.svg"
+        ],
+        "geographic-feature-id": [
+          "cfe1b22e-38b5-4077-bb90-b2bc5fedb965"
         ],
         "planet": [
           "Nacre"
@@ -140,11 +170,17 @@
         "aspect-ratio": [
           "3:2"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "country-flag"
         ],
         "flag-path": [
           "extensions/country-flags/flags/thyros-commonwealth.svg"
+        ],
+        "geographic-feature-id": [
+          "970fd807-b09e-4379-9a44-bebc5d0b9869"
         ],
         "planet": [
           "Nacre"
@@ -165,11 +201,17 @@
         "aspect-ratio": [
           "3:2"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "country-flag"
         ],
         "flag-path": [
           "extensions/country-flags/flags/ilyndor.svg"
+        ],
+        "geographic-feature-id": [
+          "1e875520-fb3e-4d26-a982-44a5fb7f9375"
         ],
         "planet": [
           "Nacre"
@@ -190,11 +232,17 @@
         "aspect-ratio": [
           "3:2"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "country-flag"
         ],
         "flag-path": [
           "extensions/country-flags/flags/brinax-collective.svg"
+        ],
+        "geographic-feature-id": [
+          "91f273f8-66c0-446f-bdb2-4233fd0c55ef"
         ],
         "planet": [
           "Nacre"
@@ -215,11 +263,17 @@
         "aspect-ratio": [
           "3:2"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "country-flag"
         ],
         "flag-path": [
           "extensions/country-flags/flags/soreth-dominion.svg"
+        ],
+        "geographic-feature-id": [
+          "c4be7f53-6d08-4472-8480-49ccb7946e78"
         ],
         "planet": [
           "Nacre"
@@ -240,11 +294,17 @@
         "aspect-ratio": [
           "3:2"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "country-flag"
         ],
         "flag-path": [
           "extensions/country-flags/flags/quenari-league.svg"
+        ],
+        "geographic-feature-id": [
+          "54670ad5-49fe-4d0c-8a81-84b06a8b5050"
         ],
         "planet": [
           "Nacre"
@@ -260,5 +320,5 @@
       "value": "Flag of Quenari League"
     }
   ],
-  "version": 1
+  "version": 2
 }

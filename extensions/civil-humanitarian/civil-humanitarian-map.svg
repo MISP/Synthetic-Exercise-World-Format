@@ -143,15 +143,15 @@
     </g>
     <g id="facility-CS04" data-type="school" data-district="ILY">
       <title>Corridor Technical School</title>
-      <path d="M 536,714 L 558,637" class="supply"/>
-      <g transform="translate(558 637)"><circle r="9" fill="#bad9ff" stroke="#192b38" stroke-width="1.7"/><g fill="none" stroke="#2e4050" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><path d="M -4,-3 H 4 V 3 H -4 Z M 0,-3 V 3"/></g></g>
-      <text x="544" y="640" text-anchor="end" class="place">Corridor Technical</text>
+      <path d="M 536,714 L 560.3,650.0" class="supply"/>
+      <g transform="translate(560.3 650.0)"><circle r="9" fill="#bad9ff" stroke="#192b38" stroke-width="1.7"/><g fill="none" stroke="#2e4050" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><path d="M -4,-3 H 4 V 3 H -4 Z M 0,-3 V 3"/></g></g>
+      <text x="546.3" y="653.0" text-anchor="end" class="place">Corridor Technical</text>
     </g>
     <g id="facility-CS05" data-type="hospital" data-district="NER">
       <title>Delta General Hospital</title>
-      <path d="M 868,774 L 898,724" class="supply"/>
-      <g transform="translate(898 724)"><circle r="9" fill="#ffc4b8" stroke="#192b38" stroke-width="1.7"/><g fill="none" stroke="#2e4050" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><path d="M -4,0 H 4 M 0,-4 V 4"/></g></g>
-      <text x="911" y="727" text-anchor="start" class="place">Delta General</text>
+      <path d="M 868,774 L 893.5,736.4" class="supply"/>
+      <g transform="translate(893.5 736.4)"><circle r="9" fill="#ffc4b8" stroke="#192b38" stroke-width="1.7"/><g fill="none" stroke="#2e4050" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><path d="M -4,0 H 4 M 0,-4 V 4"/></g></g>
+      <text x="906.5" y="739.4" text-anchor="start" class="place">Delta General</text>
     </g>
     <g id="facility-CS06" data-type="shelter" data-district="NER">
       <title>Riverbank Emergency Shelter</title>
@@ -179,9 +179,9 @@
     </g>
     <g id="facility-CS10" data-type="school" data-district="ORI">
       <title>Sound Primary School</title>
-      <path d="M 896,426 L 948,450" class="supply"/>
-      <g transform="translate(948 450)"><circle r="9" fill="#bad9ff" stroke="#192b38" stroke-width="1.7"/><g fill="none" stroke="#2e4050" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><path d="M -4,-3 H 4 V 3 H -4 Z M 0,-3 V 3"/></g></g>
-      <text x="961" y="454" text-anchor="start" class="place">Sound Primary</text>
+      <path d="M 896,426 L 916.2,431.6" class="supply"/>
+      <g transform="translate(916.2 431.6)"><circle r="9" fill="#bad9ff" stroke="#192b38" stroke-width="1.7"/><g fill="none" stroke="#2e4050" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><path d="M -4,-3 H 4 V 3 H -4 Z M 0,-3 V 3"/></g></g>
+      <text x="929.2" y="435.6" text-anchor="start" class="place">Sound Primary</text>
     </g>
     <g id="facility-CS11" data-type="school" data-district="QUE">
       <title>Orchard Learning Center</title>

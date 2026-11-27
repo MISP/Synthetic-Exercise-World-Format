@@ -204,11 +204,17 @@
     {
       "description": "Representative GEO satellite in the Anchor GEO VSAT service.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "satellite"
         ],
         "footprint-kind": [
           "fixed-regional-beam"
+        ],
+        "geographic-feature-id": [
+          "bdedb620-f78e-5312-8e97-032668788d5c"
         ],
         "orbit-class": [
           "GEO"
@@ -245,6 +251,9 @@
     {
       "description": "Representative MEO satellite in the Arc MEO Backhaul service.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "satellite"
         ],
@@ -253,6 +262,9 @@
         ],
         "footprint-window": [
           "A"
+        ],
+        "geographic-feature-id": [
+          "8d8daf9a-c402-5e6f-8c57-b04fdcece3a0"
         ],
         "orbit-class": [
           "MEO"
@@ -289,6 +301,9 @@
     {
       "description": "Representative MEO satellite in the Arc MEO Backhaul service.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "satellite"
         ],
@@ -297,6 +312,9 @@
         ],
         "footprint-window": [
           "B"
+        ],
+        "geographic-feature-id": [
+          "ef918e9e-703c-50ae-9453-99b5ef3d86f4"
         ],
         "orbit-class": [
           "MEO"
@@ -333,11 +351,17 @@
     {
       "description": "Representative LEO satellite in the Swift LEO Mesh service.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "satellite"
         ],
         "footprint-kind": [
           "moving-spot-beam"
+        ],
+        "geographic-feature-id": [
+          "6b333ae1-67e4-5df3-ad6c-0fc5c221fb1a"
         ],
         "orbit-class": [
           "LEO"
@@ -374,11 +398,17 @@
     {
       "description": "Representative LEO satellite in the Swift LEO Mesh service.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "satellite"
         ],
         "footprint-kind": [
           "moving-spot-beam"
+        ],
+        "geographic-feature-id": [
+          "b9d391f3-0139-5a71-bfe0-405d6c453c7f"
         ],
         "orbit-class": [
           "LEO"
@@ -419,11 +449,17 @@
     {
       "description": "Representative LEO satellite in the Swift LEO Mesh service.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "satellite"
         ],
         "footprint-kind": [
           "moving-spot-beam"
+        ],
+        "geographic-feature-id": [
+          "928ed7aa-738c-5f2b-a97c-866c19a68afb"
         ],
         "orbit-class": [
           "LEO"
@@ -452,11 +488,17 @@
     {
       "description": "Representative LEO satellite in the Swift LEO Mesh service.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "satellite"
         ],
         "footprint-kind": [
           "moving-spot-beam"
+        ],
+        "geographic-feature-id": [
+          "df62471d-14ed-5b6c-99e2-3dac174e06dd"
         ],
         "orbit-class": [
           "LEO"
@@ -497,12 +539,24 @@
     {
       "description": "GEO user terminal in Soreth Dominion, with a telecom handoff to Polar Relay.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Soreth Dominion",
         "entity-type": [
           "satellite-ground-site"
         ],
+        "geographic-feature-id": [
+          "8b0b1eeb-13f3-54af-a3b0-0ca1283a7b49"
+        ],
         "ground-role": [
           "user-terminal"
+        ],
+        "latitude": [
+          "70.1298"
+        ],
+        "longitude": [
+          "17.4647"
         ],
         "orbit-class": [
           "GEO"
@@ -535,12 +589,24 @@
     {
       "description": "GEO gateway in Velkar Republic, with a telecom handoff to BasinLink.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Velkar Republic",
         "entity-type": [
           "satellite-ground-site"
         ],
+        "geographic-feature-id": [
+          "c81861c0-d4d5-574b-907b-cb0bd5a4771e"
+        ],
         "ground-role": [
           "gateway"
+        ],
+        "latitude": [
+          "17.9992"
+        ],
+        "longitude": [
+          "-9.5764"
         ],
         "orbit-class": [
           "GEO"
@@ -573,12 +639,24 @@
     {
       "description": "MEO user terminal in Orinthia, with a telecom handoff to Pelagic Radio.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Orinthia",
         "entity-type": [
           "satellite-ground-site"
         ],
+        "geographic-feature-id": [
+          "994dbc62-4b7f-5e64-93cd-5cff346729d2"
+        ],
         "ground-role": [
           "user-terminal"
+        ],
+        "latitude": [
+          "47.5492"
+        ],
+        "longitude": [
+          "76.0071"
         ],
         "orbit-class": [
           "MEO"
@@ -615,12 +693,24 @@
     {
       "description": "MEO gateway in Caelum Protectorate, with a telecom handoff to BlueBridge Networks.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Caelum Protectorate",
         "entity-type": [
           "satellite-ground-site"
         ],
+        "geographic-feature-id": [
+          "a03e6843-a202-51cb-9f33-411c663ca1ef"
+        ],
         "ground-role": [
           "gateway"
+        ],
+        "latitude": [
+          "42.2525"
+        ],
+        "longitude": [
+          "28.8944"
         ],
         "orbit-class": [
           "MEO"
@@ -657,12 +747,24 @@
     {
       "description": "LEO user terminal in Orinthia, with a telecom handoff to Pelagic Radio.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Orinthia",
         "entity-type": [
           "satellite-ground-site"
         ],
+        "geographic-feature-id": [
+          "bdb0c627-5b96-5c96-8cab-56f990bdaec0"
+        ],
         "ground-role": [
           "user-terminal"
+        ],
+        "latitude": [
+          "47.5492"
+        ],
+        "longitude": [
+          "76.0071"
         ],
         "orbit-class": [
           "LEO"
@@ -695,12 +797,24 @@
     {
       "description": "LEO gateway in Caelum Protectorate, with a telecom handoff to BlueBridge Networks.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Caelum Protectorate",
         "entity-type": [
           "satellite-ground-site"
         ],
+        "geographic-feature-id": [
+          "bde855a2-cfcc-558e-a107-cf2b11282a03"
+        ],
         "ground-role": [
           "gateway"
+        ],
+        "latitude": [
+          "42.2525"
+        ],
+        "longitude": [
+          "28.8944"
         ],
         "orbit-class": [
           "LEO"
@@ -733,12 +847,24 @@
     {
       "description": "LEO gateway in Ilyndor, with a telecom handoff to Corridor Exchange.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Ilyndor",
         "entity-type": [
           "satellite-ground-site"
         ],
+        "geographic-feature-id": [
+          "2482ebc6-6246-55ec-b62a-bc89034cef5a"
+        ],
         "ground-role": [
           "gateway"
+        ],
+        "latitude": [
+          "-9.0418"
+        ],
+        "longitude": [
+          "6.8713"
         ],
         "orbit-class": [
           "LEO"
@@ -1138,7 +1264,7 @@
         }
       ],
       "uuid": "c33f6920-f2c2-5639-bacd-1b010d6dcae1",
-      "value": "Swift L1\u2013L2 Crosslink"
+      "value": "Swift L1–L2 Crosslink"
     },
     {
       "description": "Optical crosslink link between Swift L2 and Swift L3.",
@@ -1174,7 +1300,7 @@
         }
       ],
       "uuid": "3406daa4-4849-549f-ae41-0c1c5805891f",
-      "value": "Swift L2\u2013L3 Crosslink"
+      "value": "Swift L2–L3 Crosslink"
     },
     {
       "description": "Optical crosslink link between Swift L3 and Swift L4.",
@@ -1210,7 +1336,7 @@
         }
       ],
       "uuid": "87a068eb-56b6-562e-9a0d-77a097646a4b",
-      "value": "Swift L3\u2013L4 Crosslink"
+      "value": "Swift L3–L4 Crosslink"
     },
     {
       "description": "Optical crosslink link between Swift L4 and Swift L1.",
@@ -1246,7 +1372,7 @@
         }
       ],
       "uuid": "6a428d10-da33-5f05-99b4-56d4a2a6a07f",
-      "value": "Swift L4\u2013L1 Crosslink"
+      "value": "Swift L4–L1 Crosslink"
     },
     {
       "description": "Optical crosslink link between Swift L2 and Swift L4.",
@@ -1282,8 +1408,8 @@
         }
       ],
       "uuid": "4e0a9fab-bc49-561b-ae7b-e2d5321ced7f",
-      "value": "Swift L2\u2013L4 Crosslink"
+      "value": "Swift L2–L4 Crosslink"
     }
   ],
-  "version": 1
+  "version": 2
 }

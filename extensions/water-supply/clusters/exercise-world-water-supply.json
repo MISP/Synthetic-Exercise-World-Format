@@ -12,9 +12,21 @@
     {
       "description": "Raw water source for Mesa Waterworks.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Caelum Protectorate",
         "entity-type": [
           "water-source"
+        ],
+        "geographic-feature-id": [
+          "ee04b3a0-3e55-5238-9c8c-775ff75dfd42"
+        ],
+        "latitude": [
+          "45.7874"
+        ],
+        "longitude": [
+          "15.4051"
         ],
         "planet": [
           "Nacre"
@@ -39,9 +51,21 @@
     {
       "description": "Treats raw water for Caelum Water District.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Caelum Protectorate",
         "entity-type": [
           "water-treatment-plant"
+        ],
+        "geographic-feature-id": [
+          "a8bc5888-8a10-5163-9443-5c2c807660a3"
+        ],
+        "latitude": [
+          "39.9332"
+        ],
+        "longitude": [
+          "18.7504"
         ],
         "planet": [
           "Nacre"
@@ -71,12 +95,24 @@
     {
       "description": "Representative local distribution mains in Caelum Protectorate.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Caelum Protectorate",
         "district-id": [
           "CAE"
         ],
         "entity-type": [
           "water-distribution-district"
+        ],
+        "geographic-feature-id": [
+          "515b3bb8-c927-57dd-a5a5-9525bc30ab60"
+        ],
+        "latitude": [
+          "42.4421"
+        ],
+        "longitude": [
+          "20.9806"
         ],
         "planet": [
           "Nacre"
@@ -102,9 +138,21 @@
     {
       "description": "Raw water source for Corridor Waterworks.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Ilyndor",
         "entity-type": [
           "water-source"
+        ],
+        "geographic-feature-id": [
+          "878b7b43-3650-568b-9a33-d81990ee6a86"
+        ],
+        "latitude": [
+          "-5.4159"
+        ],
+        "longitude": [
+          "1.7509"
         ],
         "planet": [
           "Nacre"
@@ -129,9 +177,21 @@
     {
       "description": "Treats raw water for Ilyndor Water District.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Ilyndor",
         "entity-type": [
           "water-treatment-plant"
+        ],
+        "geographic-feature-id": [
+          "6eb82037-6248-5e6a-95b2-aa321a569b09"
+        ],
+        "latitude": [
+          "-11.2701"
+        ],
+        "longitude": [
+          "5.0962"
         ],
         "planet": [
           "Nacre"
@@ -161,12 +221,24 @@
     {
       "description": "Representative local distribution mains in Ilyndor.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Ilyndor",
         "district-id": [
           "ILY"
         ],
         "entity-type": [
           "water-distribution-district"
+        ],
+        "geographic-feature-id": [
+          "31c6340b-f548-53a8-b107-20a6ea249021"
+        ],
+        "latitude": [
+          "-8.7611"
+        ],
+        "longitude": [
+          "7.3264"
         ],
         "planet": [
           "Nacre"
@@ -196,9 +268,21 @@
     {
       "description": "Raw water source for Delta Waterworks.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Neruva Federation",
         "entity-type": [
           "water-source"
+        ],
+        "geographic-feature-id": [
+          "ea709ab8-c77a-53a6-9765-2767dc973194"
+        ],
+        "latitude": [
+          "-16.7944"
+        ],
+        "longitude": [
+          "64.712"
         ],
         "planet": [
           "Nacre"
@@ -223,9 +307,21 @@
     {
       "description": "Treats raw water for Neruva Water District.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Neruva Federation",
         "entity-type": [
           "water-treatment-plant"
+        ],
+        "geographic-feature-id": [
+          "56cedd0d-327e-5097-b3f1-86960c599a4b"
+        ],
+        "latitude": [
+          "-22.6486"
+        ],
+        "longitude": [
+          "68.0573"
         ],
         "planet": [
           "Nacre"
@@ -255,12 +351,24 @@
     {
       "description": "Representative local distribution mains in Neruva Federation.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Neruva Federation",
         "district-id": [
           "NER"
         ],
         "entity-type": [
           "water-distribution-district"
+        ],
+        "geographic-feature-id": [
+          "fd510da1-f942-5112-bbdf-888da49b8b0b"
+        ],
+        "latitude": [
+          "-20.1397"
+        ],
+        "longitude": [
+          "70.2875"
         ],
         "planet": [
           "Nacre"
@@ -290,9 +398,21 @@
     {
       "description": "Raw water source for Tidegate Desalination Plant.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Brinax Collective",
         "entity-type": [
           "water-source"
+        ],
+        "geographic-feature-id": [
+          "9ff91a7a-ac40-5796-a73d-a8e397c7c4d3"
+        ],
+        "latitude": [
+          "-47.5125"
+        ],
+        "longitude": [
+          "69.8741"
         ],
         "planet": [
           "Nacre"
@@ -317,9 +437,21 @@
     {
       "description": "Treats raw water for Brinax Water District.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Brinax Collective",
         "entity-type": [
           "water-treatment-plant"
+        ],
+        "geographic-feature-id": [
+          "65ee96b1-0597-516d-9eec-6db673d1b7bd"
+        ],
+        "latitude": [
+          "-36.4925"
+        ],
+        "longitude": [
+          "50.7999"
         ],
         "planet": [
           "Nacre"
@@ -349,12 +481,24 @@
     {
       "description": "Representative local distribution mains in Brinax Collective.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Brinax Collective",
         "district-id": [
           "BRI"
         ],
         "entity-type": [
           "water-distribution-district"
+        ],
+        "geographic-feature-id": [
+          "2d14cd2a-a810-55cc-bf98-46e813c3221f"
+        ],
+        "latitude": [
+          "-33.9835"
+        ],
+        "longitude": [
+          "53.0301"
         ],
         "planet": [
           "Nacre"
@@ -380,9 +524,21 @@
     {
       "description": "Raw water source for Sound Waterworks.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Orinthia",
         "entity-type": [
           "water-source"
+        ],
+        "geographic-feature-id": [
+          "cd41dc26-da16-5822-bf1e-4e189a9184fb"
+        ],
+        "latitude": [
+          "49.201"
+        ],
+        "longitude": [
+          "70.022"
         ],
         "planet": [
           "Nacre"
@@ -407,9 +563,21 @@
     {
       "description": "Treats raw water for Orinthia Water District.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Orinthia",
         "entity-type": [
           "water-treatment-plant"
+        ],
+        "geographic-feature-id": [
+          "3109e71c-6dcb-5269-931f-5641f94b9054"
+        ],
+        "latitude": [
+          "43.3467"
+        ],
+        "longitude": [
+          "73.3673"
         ],
         "planet": [
           "Nacre"
@@ -439,12 +607,24 @@
     {
       "description": "Representative local distribution mains in Orinthia.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Orinthia",
         "district-id": [
           "ORI"
         ],
         "entity-type": [
           "water-distribution-district"
+        ],
+        "geographic-feature-id": [
+          "73ca00e7-02ce-5b60-8832-dec02c43b624"
+        ],
+        "latitude": [
+          "45.8557"
+        ],
+        "longitude": [
+          "75.5974"
         ],
         "planet": [
           "Nacre"
@@ -466,9 +646,21 @@
     {
       "description": "Raw water source for Orchard Waterworks.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Quenari League",
         "entity-type": [
           "water-source"
+        ],
+        "geographic-feature-id": [
+          "a0a45b39-9d97-51af-b40d-850e1b32ef21"
+        ],
+        "latitude": [
+          "-28.1729"
+        ],
+        "longitude": [
+          "-39.2117"
         ],
         "planet": [
           "Nacre"
@@ -493,9 +685,21 @@
     {
       "description": "Treats raw water for Quenari Water District.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Quenari League",
         "entity-type": [
           "water-treatment-plant"
+        ],
+        "geographic-feature-id": [
+          "c10c96dd-fd08-5964-9261-8550e21f349c"
+        ],
+        "latitude": [
+          "-34.0271"
+        ],
+        "longitude": [
+          "-35.8664"
         ],
         "planet": [
           "Nacre"
@@ -525,12 +729,24 @@
     {
       "description": "Representative local distribution mains in Quenari League.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Quenari League",
         "district-id": [
           "QUE"
         ],
         "entity-type": [
           "water-distribution-district"
+        ],
+        "geographic-feature-id": [
+          "38bc0273-5b09-5f11-a263-ab83ce549fe2"
+        ],
+        "latitude": [
+          "-31.5182"
+        ],
+        "longitude": [
+          "-33.6362"
         ],
         "planet": [
           "Nacre"
@@ -552,8 +768,14 @@
     {
       "description": "One-way treated-water transfer from Caelum to Ilyndor.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "treated-water-transfer"
+        ],
+        "geographic-feature-id": [
+          "70e02821-f439-5c55-bab7-8ce0bca9e4fc"
         ],
         "planet": [
           "Nacre"
@@ -581,8 +803,14 @@
     {
       "description": "One-way treated-water transfer from Ilyndor to Neruva.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "treated-water-transfer"
+        ],
+        "geographic-feature-id": [
+          "121cc602-9ec9-5277-b1b9-c5087d8d6c10"
         ],
         "planet": [
           "Nacre"
@@ -610,8 +838,14 @@
     {
       "description": "One-way treated-water transfer from Brinax to Neruva.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "treated-water-transfer"
+        ],
+        "geographic-feature-id": [
+          "551bf442-82a6-5efa-8d5c-d74f7b275231"
         ],
         "planet": [
           "Nacre"
@@ -637,5 +871,5 @@
       "value": "Coastal Treated-Water Main"
     }
   ],
-  "version": 1
+  "version": 2
 }

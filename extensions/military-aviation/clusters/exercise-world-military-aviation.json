@@ -110,9 +110,21 @@
         "airfield-id": [
           "NAC-MIL-MES"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Caelum Protectorate",
         "entity-type": [
           "military-airfield"
+        ],
+        "geographic-feature-id": [
+          "41711bf5-d46a-5e6c-8c53-9a3fe972f690"
+        ],
+        "latitude": [
+          "39.4648"
+        ],
+        "longitude": [
+          "31.1246"
         ],
         "planet": [
           "Nacre"
@@ -161,9 +173,21 @@
         "airfield-id": [
           "NAC-MIL-COR"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Ilyndor",
         "entity-type": [
           "military-airfield"
+        ],
+        "geographic-feature-id": [
+          "46daf5c1-7b9f-56bf-8a1b-fd162de8b6b5"
+        ],
+        "latitude": [
+          "-9.8781"
+        ],
+        "longitude": [
+          "-5.116"
         ],
         "planet": [
           "Nacre"
@@ -216,9 +240,21 @@
         "airfield-id": [
           "NAC-MIL-COP"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Brinax Collective",
         "entity-type": [
           "military-airfield"
+        ],
+        "geographic-feature-id": [
+          "8a6b5411-9044-5185-ac39-6ad030d81376"
+        ],
+        "latitude": [
+          "-44.7248"
+        ],
+        "longitude": [
+          "52.0326"
         ],
         "planet": [
           "Nacre"
@@ -271,9 +307,21 @@
         "airfield-id": [
           "NAC-MIL-SND"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Orinthia",
         "entity-type": [
           "military-airfield"
+        ],
+        "geographic-feature-id": [
+          "11bb1437-26a7-57ee-8468-c55352ff1d45"
+        ],
+        "latitude": [
+          "46.1553"
+        ],
+        "longitude": [
+          "70.1528"
         ],
         "planet": [
           "Nacre"
@@ -315,9 +363,21 @@
     {
       "description": "Radar reporting site supporting High Mesa Air Base. It shares availability and air traffic reports with North Control.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Caelum Protectorate",
         "entity-type": [
           "radar-reporting-site"
+        ],
+        "geographic-feature-id": [
+          "949ff91a-2d92-5a51-87ef-25fc1af9bf74"
+        ],
+        "latitude": [
+          "50.8945"
+        ],
+        "longitude": [
+          "28.3368"
         ],
         "planet": [
           "Nacre"
@@ -346,9 +406,21 @@
     {
       "description": "Radar reporting site supporting Corridor Support Airfield. It shares availability and air traffic reports with Continental Control.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Ilyndor",
         "entity-type": [
           "radar-reporting-site"
+        ],
+        "geographic-feature-id": [
+          "6e4bc029-7d9c-5e7f-9236-d472f7cf9fce"
+        ],
+        "latitude": [
+          "-4.3027"
+        ],
+        "longitude": [
+          "-17.6608"
         ],
         "planet": [
           "Nacre"
@@ -377,9 +449,21 @@
     {
       "description": "Radar reporting site supporting Copper Shoal Air Base. It shares availability and air traffic reports with Coastal Control.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Brinax Collective",
         "entity-type": [
           "radar-reporting-site"
+        ],
+        "geographic-feature-id": [
+          "fb926018-32a1-5126-9429-11a4476159a7"
+        ],
+        "latitude": [
+          "-36.3616"
+        ],
+        "longitude": [
+          "41.7179"
         ],
         "planet": [
           "Nacre"
@@ -408,9 +492,21 @@
     {
       "description": "Radar reporting site supporting Sound Rescue Field. It shares availability and air traffic reports with North Control.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Orinthia",
         "entity-type": [
           "radar-reporting-site"
+        ],
+        "geographic-feature-id": [
+          "00236d80-5ba5-5980-bf70-c9565eb72462"
+        ],
+        "latitude": [
+          "65.9482"
+        ],
+        "longitude": [
+          "80.4674"
         ],
         "planet": [
           "Nacre"
@@ -439,12 +535,24 @@
     {
       "description": "Bulk aviation kerosene terminal in Velkar Republic.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Velkar Republic",
         "entity-type": [
           "aviation-fuel-terminal"
         ],
         "fuel": [
           "aviation kerosene"
+        ],
+        "geographic-feature-id": [
+          "7446b0c9-2116-5b97-bb91-e236012bf18e"
+        ],
+        "latitude": [
+          "18.8355"
+        ],
+        "longitude": [
+          "-12.9216"
         ],
         "planet": [
           "Nacre"
@@ -466,12 +574,24 @@
     {
       "description": "Bulk aviation kerosene terminal in Brinax Collective.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Brinax Collective",
         "entity-type": [
           "aviation-fuel-terminal"
         ],
         "fuel": [
           "aviation kerosene"
+        ],
+        "geographic-feature-id": [
+          "6cfb4f82-7f97-5db5-ba18-7b6d4539fc60"
+        ],
+        "latitude": [
+          "-45.8399"
+        ],
+        "longitude": [
+          "62.9047"
         ],
         "planet": [
           "Nacre"
@@ -497,11 +617,17 @@
     {
       "description": "Aviation kerosene supply from North Basin Fuel Terminal to High Mesa Air Base.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "aviation-fuel-pipeline"
         ],
         "fuel": [
           "aviation kerosene"
+        ],
+        "geographic-feature-id": [
+          "cdc0cdb8-f916-5a9d-8f8e-a67d8867266d"
         ],
         "planet": [
           "Nacre"
@@ -526,11 +652,17 @@
     {
       "description": "Aviation kerosene supply from Brinax Fuel Terminal to Copper Shoal Air Base.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "aviation-fuel-pipeline"
         ],
         "fuel": [
           "aviation kerosene"
+        ],
+        "geographic-feature-id": [
+          "7175e23f-f3b2-5226-94ca-9339b9aa9a74"
         ],
         "planet": [
           "Nacre"
@@ -555,11 +687,17 @@
     {
       "description": "Aviation kerosene supply from Brinax Fuel Terminal to Corridor Support Airfield.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "aviation-fuel-pipeline"
         ],
         "fuel": [
           "aviation kerosene"
+        ],
+        "geographic-feature-id": [
+          "b7112426-093b-5e5b-9abf-252a886a4296"
         ],
         "planet": [
           "Nacre"
@@ -588,8 +726,14 @@
           "relief supplies",
           "maintenance stores"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "military-logistics-route"
+        ],
+        "geographic-feature-id": [
+          "bb6a78d1-ba25-58d2-b03b-1a8f60d7c72a"
         ],
         "planet": [
           "Nacre"
@@ -612,7 +756,7 @@
         }
       ],
       "uuid": "bb6a78d1-ba25-58d2-b03b-1a8f60d7c72a",
-      "value": "Corridor\u2013Mesa Road"
+      "value": "Corridor–Mesa Road"
     },
     {
       "description": "Bidirectional road logistics service between Copper Shoal Air Base and Corridor Support Airfield.",
@@ -621,8 +765,14 @@
           "relief supplies",
           "ground equipment"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "military-logistics-route"
+        ],
+        "geographic-feature-id": [
+          "10e2ef65-d256-552d-85b4-5a7a6c1246e4"
         ],
         "planet": [
           "Nacre"
@@ -645,7 +795,7 @@
         }
       ],
       "uuid": "10e2ef65-d256-552d-85b4-5a7a6c1246e4",
-      "value": "Brinax\u2013Corridor Supply Road"
+      "value": "Brinax–Corridor Supply Road"
     },
     {
       "description": "Bidirectional sea logistics service between Copper Shoal Air Base and Sound Rescue Field.",
@@ -654,8 +804,14 @@
           "relief supplies",
           "aviation kerosene"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "military-logistics-route"
+        ],
+        "geographic-feature-id": [
+          "7a065cd1-983d-5b0f-97b9-827f32035765"
         ],
         "planet": [
           "Nacre"
@@ -681,5 +837,5 @@
       "value": "Sound Stores Service"
     }
   ],
-  "version": 1
+  "version": 2
 }

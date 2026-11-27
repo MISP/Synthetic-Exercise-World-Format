@@ -12,9 +12,15 @@
     {
       "description": "Country's modeled role in the Nacre petroleum supply network: production and refining.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Asterin Union",
         "entity-type": [
           "petroleum-country-profile"
+        ],
+        "geographic-feature-id": [
+          "cb97ba71-e477-4acb-9470-10f3e6c9e1a9"
         ],
         "planet": [
           "Nacre"
@@ -47,9 +53,15 @@
     {
       "description": "Country's modeled role in the Nacre petroleum supply network: production and refining.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Neruva Federation",
         "entity-type": [
           "petroleum-country-profile"
+        ],
+        "geographic-feature-id": [
+          "cfe1b22e-38b5-4077-bb90-b2bc5fedb965"
         ],
         "planet": [
           "Nacre"
@@ -78,9 +90,15 @@
     {
       "description": "Country's modeled role in the Nacre petroleum supply network: production only.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Brinax Collective",
         "entity-type": [
           "petroleum-country-profile"
+        ],
+        "geographic-feature-id": [
+          "91f273f8-66c0-446f-bdb2-4233fd0c55ef"
         ],
         "planet": [
           "Nacre"
@@ -105,9 +123,15 @@
     {
       "description": "Country's modeled role in the Nacre petroleum supply network: production only.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Thyros Commonwealth",
         "entity-type": [
           "petroleum-country-profile"
+        ],
+        "geographic-feature-id": [
+          "970fd807-b09e-4379-9a44-bebc5d0b9869"
         ],
         "planet": [
           "Nacre"
@@ -132,9 +156,15 @@
     {
       "description": "Country's modeled role in the Nacre petroleum supply network: refining only.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Ilyndor",
         "entity-type": [
           "petroleum-country-profile"
+        ],
+        "geographic-feature-id": [
+          "1e875520-fb3e-4d26-a982-44a5fb7f9375"
         ],
         "planet": [
           "Nacre"
@@ -159,9 +189,15 @@
     {
       "description": "Country's modeled role in the Nacre petroleum supply network: refining only.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Velkar Republic",
         "entity-type": [
           "petroleum-country-profile"
+        ],
+        "geographic-feature-id": [
+          "e4cd09cc-7be7-46ef-8989-5b9a812b49fe"
         ],
         "planet": [
           "Nacre"
@@ -186,9 +222,15 @@
     {
       "description": "Country's modeled role in the Nacre petroleum supply network: consumer only.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Caelum Protectorate",
         "entity-type": [
           "petroleum-country-profile"
+        ],
+        "geographic-feature-id": [
+          "4a600b9f-b843-446f-a234-415aded47e1b"
         ],
         "planet": [
           "Nacre"
@@ -213,9 +255,15 @@
     {
       "description": "Country's modeled role in the Nacre petroleum supply network: consumer only.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Orinthia",
         "entity-type": [
           "petroleum-country-profile"
+        ],
+        "geographic-feature-id": [
+          "74d2286a-1b87-4984-8dd1-c5bd466ecca5"
         ],
         "planet": [
           "Nacre"
@@ -240,9 +288,15 @@
     {
       "description": "Country's modeled role in the Nacre petroleum supply network: consumer only.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Quenari League",
         "entity-type": [
           "petroleum-country-profile"
+        ],
+        "geographic-feature-id": [
+          "54670ad5-49fe-4d0c-8a81-84b06a8b5050"
         ],
         "planet": [
           "Nacre"
@@ -267,9 +321,15 @@
     {
       "description": "Country's modeled role in the Nacre petroleum supply network: consumer only.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Soreth Dominion",
         "entity-type": [
           "petroleum-country-profile"
+        ],
+        "geographic-feature-id": [
+          "c4be7f53-6d08-4472-8480-49ccb7946e78"
         ],
         "planet": [
           "Nacre"
@@ -294,9 +354,21 @@
     {
       "description": "Fictional offshore platform in Asterin Union.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Asterin Union",
         "entity-type": [
           "petroleum-site"
+        ],
+        "geographic-feature-id": [
+          "218cc224-9e1e-5ecd-945d-2fed74c7e1c0"
+        ],
+        "latitude": [
+          "49.2218"
+        ],
+        "longitude": [
+          "-76.482"
         ],
         "planet": [
           "Nacre"
@@ -331,9 +403,21 @@
     {
       "description": "Fictional crude terminal in Asterin Union.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Asterin Union",
         "entity-type": [
           "petroleum-site"
+        ],
+        "geographic-feature-id": [
+          "7d4dcaec-7016-50ae-b135-af4d90d7db73"
+        ],
+        "latitude": [
+          "44.4827"
+        ],
+        "longitude": [
+          "-63.1009"
         ],
         "planet": [
           "Nacre"
@@ -377,9 +461,21 @@
     {
       "description": "Fictional oil refinery in Asterin Union.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Asterin Union",
         "entity-type": [
           "petroleum-site"
+        ],
+        "geographic-feature-id": [
+          "b2808252-399f-5d62-8817-22978603eca8"
+        ],
+        "latitude": [
+          "58.9789"
+        ],
+        "longitude": [
+          "-43.5867"
         ],
         "planet": [
           "Nacre"
@@ -422,9 +518,21 @@
     {
       "description": "Fictional oil refinery in Velkar Republic.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Velkar Republic",
         "entity-type": [
           "petroleum-site"
+        ],
+        "geographic-feature-id": [
+          "f5033e86-9c17-54ea-953c-110d45cc0f03"
+        ],
+        "latitude": [
+          "18.278"
+        ],
+        "longitude": [
+          "-9.2976"
         ],
         "planet": [
           "Nacre"
@@ -467,9 +575,21 @@
     {
       "description": "Fictional onshore oil field in Thyros Commonwealth.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Thyros Commonwealth",
         "entity-type": [
           "petroleum-site"
+        ],
+        "geographic-feature-id": [
+          "55f71688-4758-5a39-9fb7-64924adc6b04"
+        ],
+        "latitude": [
+          "13.2601"
+        ],
+        "longitude": [
+          "62.6259"
         ],
         "planet": [
           "Nacre"
@@ -508,9 +628,21 @@
     {
       "description": "Fictional oil refinery in Ilyndor.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Ilyndor",
         "entity-type": [
           "petroleum-site"
+        ],
+        "geographic-feature-id": [
+          "4be929f0-5526-5aa6-a76b-a831e71a40fb"
+        ],
+        "latitude": [
+          "-7.0904"
+        ],
+        "longitude": [
+          "4.9199"
         ],
         "planet": [
           "Nacre"
@@ -553,9 +685,21 @@
     {
       "description": "Fictional offshore platform in Neruva Federation.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Neruva Federation",
         "entity-type": [
           "petroleum-site"
+        ],
+        "geographic-feature-id": [
+          "51e8b49c-22f5-5025-a67c-3ad214ea2517"
+        ],
+        "latitude": [
+          "-20.4715"
+        ],
+        "longitude": [
+          "104.1632"
         ],
         "planet": [
           "Nacre"
@@ -595,9 +739,21 @@
     {
       "description": "Fictional offshore platform in Brinax Collective.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Brinax Collective",
         "entity-type": [
           "petroleum-site"
+        ],
+        "geographic-feature-id": [
+          "d550d18f-6ba7-5bea-9a31-5270e0ba703c"
+        ],
+        "latitude": [
+          "-50.0215"
+        ],
+        "longitude": [
+          "77.9585"
         ],
         "planet": [
           "Nacre"
@@ -632,9 +788,21 @@
     {
       "description": "Fictional oil refinery in Neruva Federation.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Neruva Federation",
         "entity-type": [
           "petroleum-site"
+        ],
+        "geographic-feature-id": [
+          "10c97512-8748-50a9-acd6-e0f8b875bf41"
+        ],
+        "latitude": [
+          "-19.6352"
+        ],
+        "longitude": [
+          "74.3344"
         ],
         "planet": [
           "Nacre"
@@ -681,9 +849,21 @@
     {
       "description": "Fictional fuel depot in Caelum Protectorate.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Caelum Protectorate",
         "entity-type": [
           "petroleum-site"
+        ],
+        "geographic-feature-id": [
+          "70aec774-d6c4-50d6-8b96-ba4e4adbf2d0"
+        ],
+        "latitude": [
+          "42.81"
+        ],
+        "longitude": [
+          "28.3368"
         ],
         "planet": [
           "Nacre"
@@ -718,9 +898,21 @@
     {
       "description": "Fictional fuel depot in Orinthia.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Orinthia",
         "entity-type": [
           "petroleum-site"
+        ],
+        "geographic-feature-id": [
+          "bae148de-df2e-5bbb-8bae-91eee07955f4"
+        ],
+        "latitude": [
+          "47.5492"
+        ],
+        "longitude": [
+          "76.0071"
         ],
         "planet": [
           "Nacre"
@@ -755,9 +947,21 @@
     {
       "description": "Fictional fuel depot in Quenari League.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Quenari League",
         "entity-type": [
           "petroleum-site"
+        ],
+        "geographic-feature-id": [
+          "619b816a-668a-5982-b538-b9e09aa06106"
+        ],
+        "latitude": [
+          "-33.0163"
+        ],
+        "longitude": [
+          "-32.9933"
         ],
         "planet": [
           "Nacre"
@@ -792,9 +996,21 @@
     {
       "description": "Fictional fuel depot in Soreth Dominion.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Soreth Dominion",
         "entity-type": [
           "petroleum-site"
+        ],
+        "geographic-feature-id": [
+          "2e66c078-e36a-53b5-ad00-e828ae4d9704"
+        ],
+        "latitude": [
+          "75.1477"
+        ],
+        "longitude": [
+          "16.3496"
         ],
         "planet": [
           "Nacre"
@@ -832,8 +1048,14 @@
         "commodity": [
           "crude oil"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "petroleum-supply-route"
+        ],
+        "geographic-feature-id": [
+          "5b3082d4-4573-5b6c-a263-d66c1eef7867"
         ],
         "planet": [
           "Nacre"
@@ -864,8 +1086,14 @@
         "commodity": [
           "crude oil"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "petroleum-supply-route"
+        ],
+        "geographic-feature-id": [
+          "806e0d85-e191-5141-a8f7-1ac9fde73b42"
         ],
         "planet": [
           "Nacre"
@@ -896,8 +1124,14 @@
         "commodity": [
           "crude oil"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "petroleum-supply-route"
+        ],
+        "geographic-feature-id": [
+          "979ed59c-a0fe-5139-a692-08ac1fd4e281"
         ],
         "planet": [
           "Nacre"
@@ -928,8 +1162,14 @@
         "commodity": [
           "crude oil"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "petroleum-supply-route"
+        ],
+        "geographic-feature-id": [
+          "7e890bfa-a7a7-59d4-ba0a-b9504b41d43e"
         ],
         "planet": [
           "Nacre"
@@ -960,8 +1200,14 @@
         "commodity": [
           "crude oil"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "petroleum-supply-route"
+        ],
+        "geographic-feature-id": [
+          "1d2add88-9d92-58f6-bc08-e26ce4c0ea07"
         ],
         "planet": [
           "Nacre"
@@ -992,8 +1238,14 @@
         "commodity": [
           "crude oil"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "petroleum-supply-route"
+        ],
+        "geographic-feature-id": [
+          "4db5e3d4-9b37-5d01-a139-452221eb57dd"
         ],
         "planet": [
           "Nacre"
@@ -1024,8 +1276,14 @@
         "commodity": [
           "diesel"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "petroleum-supply-route"
+        ],
+        "geographic-feature-id": [
+          "6a66a19a-b2e9-5d9b-868d-b59e63c89c2c"
         ],
         "planet": [
           "Nacre"
@@ -1056,8 +1314,14 @@
         "commodity": [
           "diesel"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "petroleum-supply-route"
+        ],
+        "geographic-feature-id": [
+          "3441e764-362b-5c76-ac83-9dc06d402988"
         ],
         "planet": [
           "Nacre"
@@ -1088,8 +1352,14 @@
         "commodity": [
           "diesel"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "petroleum-supply-route"
+        ],
+        "geographic-feature-id": [
+          "7f2710e8-ebce-5088-a552-13f4397735cf"
         ],
         "planet": [
           "Nacre"
@@ -1120,8 +1390,14 @@
         "commodity": [
           "diesel"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "petroleum-supply-route"
+        ],
+        "geographic-feature-id": [
+          "dcb702e4-19b9-5b6c-b3e3-6f5523d5478e"
         ],
         "planet": [
           "Nacre"
@@ -1152,8 +1428,14 @@
         "commodity": [
           "conditioned natural gas"
         ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "petroleum-supply-route"
+        ],
+        "geographic-feature-id": [
+          "1e6b0cce-b51c-5767-9491-7d314885cead"
         ],
         "planet": [
           "Nacre"
@@ -1179,5 +1461,5 @@
       "value": "Delta Associated Gas Feed"
     }
   ],
-  "version": 1
+  "version": 2
 }

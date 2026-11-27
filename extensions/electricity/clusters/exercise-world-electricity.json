@@ -12,9 +12,21 @@
     {
       "description": "Representative wind generation connected to Asterin Grid Hub.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Asterin Union",
         "entity-type": [
           "generation-source"
+        ],
+        "geographic-feature-id": [
+          "d7fbf9c8-d94c-5d85-a23b-7b7cc81a2362"
+        ],
+        "latitude": [
+          "52.6335"
+        ],
+        "longitude": [
+          "-49.5547"
         ],
         "planet": [
           "Nacre"
@@ -38,12 +50,24 @@
     {
       "description": "Transmission hub for Asterin Union. It connects local generation, cross-border interties, and the distribution area.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Asterin Union",
         "entity-type": [
           "grid-hub"
         ],
+        "geographic-feature-id": [
+          "8a9d5472-77ca-5e66-a4dd-674ae9a0a25b"
+        ],
         "grid-mode": [
           "interconnected"
+        ],
+        "latitude": [
+          "53.961"
+        ],
+        "longitude": [
+          "-43.8655"
         ],
         "planet": [
           "Nacre"
@@ -73,9 +97,21 @@
     {
       "description": "Aggregated distribution feeders from Asterin Grid Hub. Example priority loads include water pumping, district heating.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Asterin Union",
         "entity-type": [
           "distribution-area"
+        ],
+        "geographic-feature-id": [
+          "1eb396ed-ad4d-5f7a-bd73-6f150b6bf567"
+        ],
+        "latitude": [
+          "56.4263"
+        ],
+        "longitude": [
+          "-38.7452"
         ],
         "planet": [
           "Nacre"
@@ -97,9 +133,21 @@
     {
       "description": "Representative nuclear generation connected to Velkar Grid Hub.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Velkar Republic",
         "entity-type": [
           "generation-source"
+        ],
+        "geographic-feature-id": [
+          "6c01f01d-417b-5427-9a49-b324c7c2bd39"
+        ],
+        "latitude": [
+          "17.9992"
+        ],
+        "longitude": [
+          "-15.4553"
         ],
         "planet": [
           "Nacre"
@@ -123,12 +171,24 @@
     {
       "description": "Transmission hub for Velkar Republic. It connects local generation, cross-border interties, and the distribution area.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Velkar Republic",
         "entity-type": [
           "grid-hub"
         ],
+        "geographic-feature-id": [
+          "be9a4418-2329-5f3c-8cb3-364ffe8b5b99"
+        ],
         "grid-mode": [
           "interconnected"
+        ],
+        "latitude": [
+          "17.9992"
+        ],
+        "longitude": [
+          "-9.5764"
         ],
         "planet": [
           "Nacre"
@@ -166,9 +226,21 @@
     {
       "description": "Aggregated distribution feeders from Velkar Grid Hub. Example priority loads include municipal water, heating plants.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Velkar Republic",
         "entity-type": [
           "distribution-area"
+        ],
+        "geographic-feature-id": [
+          "1f79396a-6b4e-5c6c-bdd4-2653746bda20"
+        ],
+        "latitude": [
+          "15.1546"
+        ],
+        "longitude": [
+          "-4.456"
         ],
         "planet": [
           "Nacre"
@@ -190,9 +262,21 @@
     {
       "description": "Representative solar generation connected to Caelum Grid Hub.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Caelum Protectorate",
         "entity-type": [
           "generation-source"
+        ],
+        "geographic-feature-id": [
+          "f46064ec-f599-555e-a43a-b3f4ce70d887"
+        ],
+        "latitude": [
+          "47.1832"
+        ],
+        "longitude": [
+          "17.586"
         ],
         "planet": [
           "Nacre"
@@ -216,12 +300,24 @@
     {
       "description": "Transmission hub for Caelum Protectorate. It connects local generation, cross-border interties, and the distribution area.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Caelum Protectorate",
         "entity-type": [
           "grid-hub"
         ],
+        "geographic-feature-id": [
+          "0b312c84-4b60-53b1-9608-17d920877beb"
+        ],
         "grid-mode": [
           "interconnected"
+        ],
+        "latitude": [
+          "42.2525"
+        ],
+        "longitude": [
+          "20.8099"
         ],
         "planet": [
           "Nacre"
@@ -259,9 +355,21 @@
     {
       "description": "Aggregated distribution feeders from Caelum Grid Hub. Example priority loads include telecom relay sites, water treatment.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Caelum Protectorate",
         "entity-type": [
           "distribution-area"
+        ],
+        "geographic-feature-id": [
+          "9bba65c7-9f4c-5436-8a09-d76fe550e776"
+        ],
+        "latitude": [
+          "37.1322"
+        ],
+        "longitude": [
+          "22.896"
         ],
         "planet": [
           "Nacre"
@@ -283,9 +391,21 @@
     {
       "description": "Representative wind generation connected to Orinthia Grid Hub.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Orinthia",
         "entity-type": [
           "generation-source"
+        ],
+        "geographic-feature-id": [
+          "4a70347c-fb7d-5faa-943e-15441d6b1ea9"
+        ],
+        "latitude": [
+          "52.6695"
+        ],
+        "longitude": [
+          "73.4526"
         ],
         "planet": [
           "Nacre"
@@ -309,12 +429,24 @@
     {
       "description": "Transmission hub for Orinthia. It connects local generation, cross-border interties, and the distribution area.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Orinthia",
         "entity-type": [
           "grid-hub"
         ],
+        "geographic-feature-id": [
+          "2956afaa-3205-5714-b0ac-d09cddd52c85"
+        ],
         "grid-mode": [
           "interconnected"
+        ],
+        "latitude": [
+          "47.5492"
+        ],
+        "longitude": [
+          "75.7283"
         ],
         "planet": [
           "Nacre"
@@ -344,9 +476,21 @@
     {
       "description": "Aggregated distribution feeders from Orinthia Grid Hub. Example priority loads include hospital, water pumps, island telecom core.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Orinthia",
         "entity-type": [
           "distribution-area"
+        ],
+        "geographic-feature-id": [
+          "d01782ea-fad6-5ed1-9c9f-5cc21e183de4"
+        ],
+        "latitude": [
+          "45.2736"
+        ],
+        "longitude": [
+          "79.9118"
         ],
         "planet": [
           "Nacre"
@@ -369,9 +513,21 @@
     {
       "description": "Representative natural gas generation connected to Thyros Grid Hub.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Thyros Commonwealth",
         "entity-type": [
           "generation-source"
+        ],
+        "geographic-feature-id": [
+          "50af2032-22a2-5ab3-afae-9b9e32343d03"
+        ],
+        "latitude": [
+          "15.7595"
+        ],
+        "longitude": [
+          "66.2405"
         ],
         "planet": [
           "Nacre"
@@ -395,12 +551,24 @@
     {
       "description": "Transmission hub for Thyros Commonwealth. It connects local generation, cross-border interties, and the distribution area.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Thyros Commonwealth",
         "entity-type": [
           "grid-hub"
         ],
+        "geographic-feature-id": [
+          "51f5a69f-ca48-5ae4-938a-51b4354809b6"
+        ],
         "grid-mode": [
           "interconnected"
+        ],
+        "latitude": [
+          "11.5874"
+        ],
+        "longitude": [
+          "62.0684"
         ],
         "planet": [
           "Nacre"
@@ -434,9 +602,21 @@
     {
       "description": "Aggregated distribution feeders from Thyros Grid Hub. Example priority loads include freight terminals, water pumping.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Thyros Commonwealth",
         "entity-type": [
           "distribution-area"
+        ],
+        "geographic-feature-id": [
+          "d4f819de-4304-59ce-a095-d5e52de53b8d"
+        ],
+        "latitude": [
+          "8.9324"
+        ],
+        "longitude": [
+          "57.517"
         ],
         "planet": [
           "Nacre"
@@ -458,9 +638,21 @@
     {
       "description": "Representative solar generation connected to Ilyndor Grid Hub.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Ilyndor",
         "entity-type": [
           "generation-source"
+        ],
+        "geographic-feature-id": [
+          "77e1e5fb-714a-504d-be7e-13406fa9f6b6"
+        ],
+        "latitude": [
+          "-8.4729"
+        ],
+        "longitude": [
+          "1.1706"
         ],
         "planet": [
           "Nacre"
@@ -484,12 +676,24 @@
     {
       "description": "Transmission hub for Ilyndor. It connects local generation, cross-border interties, and the distribution area.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Ilyndor",
         "entity-type": [
           "grid-hub"
         ],
+        "geographic-feature-id": [
+          "0cb1d12b-5605-5a08-a808-9f638530dc03"
+        ],
         "grid-mode": [
           "interconnected"
+        ],
+        "latitude": [
+          "-9.0418"
+        ],
+        "longitude": [
+          "7.4288"
         ],
         "planet": [
           "Nacre"
@@ -531,9 +735,21 @@
     {
       "description": "Aggregated distribution feeders from Ilyndor Grid Hub. Example priority loads include rail signaling, public service buildings.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Ilyndor",
         "entity-type": [
           "distribution-area"
+        ],
+        "geographic-feature-id": [
+          "993b1bc9-2616-5c0c-be4c-c3b8586dfebd"
+        ],
+        "latitude": [
+          "-14.7311"
+        ],
+        "longitude": [
+          "8.5667"
         ],
         "planet": [
           "Nacre"
@@ -555,9 +771,21 @@
     {
       "description": "Representative natural gas generation connected to Neruva Grid Hub.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Neruva Federation",
         "entity-type": [
           "generation-source"
+        ],
+        "geographic-feature-id": [
+          "11f2b65d-c4d6-564a-a69c-1955faabff55"
+        ],
+        "latitude": [
+          "-16.8683"
+        ],
+        "longitude": [
+          "75.4514"
         ],
         "planet": [
           "Nacre"
@@ -581,12 +809,24 @@
     {
       "description": "Transmission hub for Neruva Federation. It connects local generation, cross-border interties, and the distribution area.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Neruva Federation",
         "entity-type": [
           "grid-hub"
         ],
+        "geographic-feature-id": [
+          "c49f8f68-b3e7-51be-8225-f907f9afe516"
+        ],
         "grid-mode": [
           "interconnected"
+        ],
+        "latitude": [
+          "-20.4715"
+        ],
+        "longitude": [
+          "70.7104"
         ],
         "planet": [
           "Nacre"
@@ -624,9 +864,21 @@
     {
       "description": "Aggregated distribution feeders from Neruva Grid Hub. Example priority loads include flood pumps, port controls.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Neruva Federation",
         "entity-type": [
           "distribution-area"
+        ],
+        "geographic-feature-id": [
+          "16d9efa9-79d3-51fb-9dd2-34f11f87468a"
+        ],
+        "latitude": [
+          "-22.3679"
+        ],
+        "longitude": [
+          "76.5893"
         ],
         "planet": [
           "Nacre"
@@ -648,9 +900,21 @@
     {
       "description": "Representative tidal generation connected to Brinax Grid Hub.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Brinax Collective",
         "entity-type": [
           "generation-source"
+        ],
+        "geographic-feature-id": [
+          "5f5c1931-d8c0-52fb-9442-8762f057bed3"
+        ],
+        "latitude": [
+          "-36.4185"
+        ],
+        "longitude": [
+          "47.5589"
         ],
         "planet": [
           "Nacre"
@@ -674,12 +938,24 @@
     {
       "description": "Transmission hub for Brinax Collective. It connects local generation, cross-border interties, and the distribution area.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Brinax Collective",
         "entity-type": [
           "grid-hub"
         ],
+        "geographic-feature-id": [
+          "68e93c0b-8667-5276-8000-ba02dc70cd94"
+        ],
         "grid-mode": [
           "interconnected"
+        ],
+        "latitude": [
+          "-33.5739"
+        ],
+        "longitude": [
+          "52.8689"
         ],
         "planet": [
           "Nacre"
@@ -713,9 +989,21 @@
     {
       "description": "Aggregated distribution feeders from Brinax Grid Hub. Example priority loads include port refrigeration, cooperative dispatch center.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Brinax Collective",
         "entity-type": [
           "distribution-area"
+        ],
+        "geographic-feature-id": [
+          "d1c53679-81b7-5825-ac54-4d16b05777c9"
+        ],
+        "latitude": [
+          "-35.8496"
+        ],
+        "longitude": [
+          "57.2306"
         ],
         "planet": [
           "Nacre"
@@ -737,9 +1025,21 @@
     {
       "description": "Representative solar generation connected to Quenari Grid Hub.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Quenari League",
         "entity-type": [
           "generation-source"
+        ],
+        "geographic-feature-id": [
+          "e57f4363-b4bc-55ef-b389-fa84089c11b3"
+        ],
+        "latitude": [
+          "-31.0535"
+        ],
+        "longitude": [
+          "-38.8608"
         ],
         "planet": [
           "Nacre"
@@ -763,12 +1063,24 @@
     {
       "description": "Transmission hub for Quenari League. It connects local generation, cross-border interties, and the distribution area.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Quenari League",
         "entity-type": [
           "grid-hub"
         ],
+        "geographic-feature-id": [
+          "ba34fab8-e763-5d5a-8956-264b7effcaca"
+        ],
         "grid-mode": [
           "interconnected"
+        ],
+        "latitude": [
+          "-31.6225"
+        ],
+        "longitude": [
+          "-33.5509"
         ],
         "planet": [
           "Nacre"
@@ -798,9 +1110,21 @@
     {
       "description": "Aggregated distribution feeders from Quenari Grid Hub. Example priority loads include irrigation pumps, food storage.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Quenari League",
         "entity-type": [
           "distribution-area"
+        ],
+        "geographic-feature-id": [
+          "6cd6ca5e-ea24-5cc9-a821-0ea8e8bd65a8"
+        ],
+        "latitude": [
+          "-35.6049"
+        ],
+        "longitude": [
+          "-29.9477"
         ],
         "planet": [
           "Nacre"
@@ -822,9 +1146,21 @@
     {
       "description": "Representative natural gas generation connected to Soreth Grid Hub.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Soreth Dominion",
         "entity-type": [
           "generation-source"
+        ],
+        "geographic-feature-id": [
+          "ca2321c2-f4c4-5003-8658-51945d5ce654"
+        ],
+        "latitude": [
+          "68.6127"
+        ],
+        "longitude": [
+          "11.7754"
         ],
         "planet": [
           "Nacre"
@@ -848,12 +1184,24 @@
     {
       "description": "Transmission and distribution hub for Soreth Dominion. It serves a standalone domestic grid.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Soreth Dominion",
         "entity-type": [
           "grid-hub"
         ],
+        "geographic-feature-id": [
+          "055a7b46-1201-5dd9-bf27-98beca580954"
+        ],
         "grid-mode": [
           "standalone"
+        ],
+        "latitude": [
+          "70.1298"
+        ],
+        "longitude": [
+          "17.4647"
         ],
         "planet": [
           "Nacre"
@@ -879,9 +1227,21 @@
     {
       "description": "Aggregated distribution feeders from Soreth Grid Hub. Example priority loads include heat networks, cold-chain depots.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "country": "Soreth Dominion",
         "entity-type": [
           "distribution-area"
+        ],
+        "geographic-feature-id": [
+          "7c50efd5-c772-58cb-9741-42dc17aadfc1"
+        ],
+        "latitude": [
+          "68.2334"
+        ],
+        "longitude": [
+          "22.585"
         ],
         "planet": [
           "Nacre"
@@ -903,8 +1263,14 @@
     {
       "description": "AC intertie between Asterin Union and Velkar Republic. Available for power exchange in the exercise baseline.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "transmission-intertie"
+        ],
+        "geographic-feature-id": [
+          "e0fbd388-dbfe-5b7c-9338-dc1efa6b2591"
         ],
         "grid-state": [
           "in-service"
@@ -938,8 +1304,14 @@
     {
       "description": "AC intertie between Velkar Republic and Caelum Protectorate. Available for power exchange in the exercise baseline.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "transmission-intertie"
+        ],
+        "geographic-feature-id": [
+          "cae41c00-f7e1-57cc-a30c-9b81241beafc"
         ],
         "grid-state": [
           "in-service"
@@ -973,8 +1345,14 @@
     {
       "description": "AC intertie between Velkar Republic and Ilyndor. Available for power exchange in the exercise baseline.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "transmission-intertie"
+        ],
+        "geographic-feature-id": [
+          "ae86be93-945a-548d-a3e4-115b5397c2cd"
         ],
         "grid-state": [
           "in-service"
@@ -1008,8 +1386,14 @@
     {
       "description": "AC intertie between Caelum Protectorate and Thyros Commonwealth. Available for power exchange in the exercise baseline.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "transmission-intertie"
+        ],
+        "geographic-feature-id": [
+          "8f93c45b-ef8c-58a0-ad20-54836a159185"
         ],
         "grid-state": [
           "in-service"
@@ -1043,8 +1427,14 @@
     {
       "description": "AC intertie between Thyros Commonwealth and Neruva Federation. Available for power exchange in the exercise baseline.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "transmission-intertie"
+        ],
+        "geographic-feature-id": [
+          "6ca7ad3e-7bf9-5b49-82a7-be8421552fd9"
         ],
         "grid-state": [
           "in-service"
@@ -1073,13 +1463,19 @@
         }
       ],
       "uuid": "6ca7ad3e-7bf9-5b49-82a7-be8421552fd9",
-      "value": "Delta\u2013Steppe Line"
+      "value": "Delta–Steppe Line"
     },
     {
       "description": "AC intertie between Ilyndor and Neruva Federation. Available for power exchange in the exercise baseline.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "transmission-intertie"
+        ],
+        "geographic-feature-id": [
+          "104fcb41-040b-5165-b5b5-76d1f2d750d3"
         ],
         "grid-state": [
           "in-service"
@@ -1113,8 +1509,14 @@
     {
       "description": "AC intertie between Neruva Federation and Brinax Collective. Available for power exchange in the exercise baseline.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "transmission-intertie"
+        ],
+        "geographic-feature-id": [
+          "f9cdc53e-f0ba-5931-86ee-5ba516a8e8eb"
         ],
         "grid-state": [
           "in-service"
@@ -1148,8 +1550,14 @@
     {
       "description": "AC intertie between Ilyndor and Quenari League. Available for power exchange in the exercise baseline.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "transmission-intertie"
+        ],
+        "geographic-feature-id": [
+          "1cb86ee6-e73c-5682-b964-0bde1d7d087c"
         ],
         "grid-state": [
           "in-service"
@@ -1183,8 +1591,14 @@
     {
       "description": "HVDC intertie between Caelum Protectorate and Orinthia. Available for power exchange in the exercise baseline.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "transmission-intertie"
+        ],
+        "geographic-feature-id": [
+          "6bf24f85-e8c7-5483-baf3-593690b16a5e"
         ],
         "grid-state": [
           "in-service"
@@ -1218,8 +1632,14 @@
     {
       "description": "AC intertie between Ilyndor and Brinax Collective. The tie is normally open and unavailable for normal power exchange.",
       "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
         "entity-type": [
           "transmission-intertie"
+        ],
+        "geographic-feature-id": [
+          "71290afc-c7e2-5722-9452-623b5db72aee"
         ],
         "grid-state": [
           "normally-open"
@@ -1251,5 +1671,5 @@
       "value": "Cooperative Reserve Tie"
     }
   ],
-  "version": 1
+  "version": 2
 }

@@ -205,8 +205,8 @@
       <title>East Isles Wind → Orinthia Grid Hub → Orinthia Distribution Area</title>
       <path d="M -12,-27 L 0,0" fill="none" stroke="#93ecc7" stroke-width="2.6"/>
       <circle cx="-12" cy="-27" r="10" fill="#93ecc7" stroke="#132b36" stroke-width="1.5"/><text x="-12" y="-23" class="source-letter">R</text>
-      <path d="M 0,0 L 25,12" class="distribution"/>
-      <circle cx="25" cy="12" r="5.5" class="distribution-end"/>
+      <path d="M 0,0 L 22.1,12" class="distribution"/>
+      <circle cx="22.1" cy="12" r="5.5" class="distribution-end"/>
       <rect x="-6" y="-6" width="12" height="12" rx="2" class="hub"/>
       <text x="17" y="-19" text-anchor="start" class="place">Orinthia</text>
     </g>
