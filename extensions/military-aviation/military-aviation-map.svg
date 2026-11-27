@@ -1,0 +1,263 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" viewBox="0 0 1540 1008" role="img" aria-labelledby="title description">
+  <title id="title">Nacre military aviation — airfields and support</title>
+  <desc id="description">Four fictional military transport airfields, their civil airport partners, radar reporting sites, aviation kerosene pipelines, and road and maritime logistics links.</desc>
+  <defs>
+    <linearGradient id="sea" x2="0" y2="1">
+      <stop stop-color="#1b3946"/>
+      <stop offset="1" stop-color="#182932"/>
+    </linearGradient>
+    <pattern id="graticule" width="66" height="66" patternUnits="userSpaceOnUse">
+      <path d="M 66,0 H 0 V 66" fill="none" stroke="#bbcfd4" stroke-opacity=".12"/>
+    </pattern>
+    <clipPath id="map-frame"><rect x="48" y="171" width="1052" height="786" rx="12"/></clipPath>
+    <marker id="fuel-arrow" viewBox="0 0 8 8" refX="11" refY="4" markerWidth="4" markerHeight="4" orient="auto">
+      <path d="M 0,0 8,4 0,8 Z" fill="#fbb792"/>
+    </marker>
+    <style>
+      text { font-family: 'DejaVu Sans', sans-serif; }
+      .ink { fill: #243641; }
+      .muted { fill: #51636c; }
+      .light { fill: #eff4f4; }
+      .caps { font-size: 13px; font-weight: 700; letter-spacing: 2.2px; }
+      .title { font-size: 58px; font-weight: 700; letter-spacing: -2px; }
+      .subhead { font-size: 18px; }
+      .area { fill: #c0d0d7; font-size: 13px; letter-spacing: 2.2px; }
+      .place, .site-name { fill: #fff9ec; stroke: #172b37; stroke-width: 4px; stroke-linejoin: round; paint-order: stroke fill; }
+      .place { font-weight: 700; font-size: 17px; }
+      .site-name { font-size: 13px; }
+      .body { font-size: 15px; font-weight: 700; }
+      .support { font-size: 13px; }
+      .small { font-size: 12px; }
+      .sidebar { fill: #fffcf5; stroke: #d1d0c7; }
+      .divider { stroke: #d1d0c7; }
+      .route-id { fill: #f6f6ef; font: 700 11.5px 'DejaVu Sans Mono', monospace; text-anchor: middle; }
+      .pipeline, .road, .sea-link, .liaison, .route-outline { fill: none; stroke-linecap: round; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
+      .route-outline { stroke: #162c37; stroke-width: 6.4; }
+      .pipeline { stroke: #fbb792; stroke-width: 3.5; }
+      .road { stroke: #98ebcf; stroke-width: 3.3; stroke-dasharray: 8 5; }
+      .sea-link { stroke: #a7d8ff; stroke-width: 3.3; stroke-dasharray: 12 5 2 5; }
+      .liaison { stroke: #e2eced; stroke-width: 1.7; stroke-dasharray: 2 5; }
+    </style>
+  </defs>
+
+  <rect width="1540" height="1008" fill="#f4f0e7"/>
+  <text x="48" y="56" class="caps muted">SYNTHETIC EXERCISE WORLD ATLAS</text>
+  <text x="48" y="115" class="title ink">Nacre military aviation</text>
+  <text x="51" y="145" class="subhead muted">Airfields, radar reporting, fuel supply, and logistics</text>
+  <text x="1492" y="114" text-anchor="end" class="caps muted">WORLD EXTENSION</text>
+  <path d="M 48,975 H 1492" class="divider"/>
+  <text x="48" y="993" class="support muted">Schematic sites and connections · Basemap adapted from the Synthetic Exercise World atlas</text>
+  <text x="1492" y="993" text-anchor="end" class="support muted">CC BY 4.0</text>
+
+  <g id="nacre-basemap" inkscape:groupmode="layer" inkscape:label="Nacre basemap" clip-path="url(#map-frame)">
+    <rect x="48" y="171" width="1052" height="786" fill="url(#sea)"/>
+    <rect x="48" y="171" width="1052" height="786" fill="url(#graticule)"/>
+    <g transform="translate(-172 151) scale(1.47)" stroke="#96a8ae" stroke-width=".8" stroke-linejoin="round">
+      <path d="M 179.14 505.81 L 207.84 430.48 L 211.43 315.69 L 186.32 226.02 L 236.54 139.92 L 329.80 71.77 L 469.70 43.07 L 595.25 53.83 L 666.99 93.29 L 684.93 143.51 L 742.32 197.32 L 792.54 269.06 L 821.24 344.39 L 817.65 448.42 L 771.02 516.57 L 677.75 559.62 L 512.75 563.21 L 315.45 548.86 z" fill="#385e70" stroke="#4a7284" opacity=".38"/>
+      <path d="M 211.43 226.02 L 229.36 179.38 L 265.23 132.75 L 301.10 104.05 L 365.67 93.29 L 426.65 114.81 L 484.05 165.03 L 437.42 200.91 L 347.74 287.00 L 275.99 261.89 L 232.95 240.36 z" fill="#3e5361"/>
+      <path d="M 365.67 93.29 L 415.89 68.18 L 491.22 57.42 L 570.14 68.18 L 634.71 100.47 L 641.88 132.75 L 580.90 136.34 L 498.40 129.16 L 426.65 114.81 z" fill="#435565"/>
+      <path d="M 437.42 200.91 L 484.05 165.03 L 580.90 136.34 L 641.88 154.27 L 656.23 197.32 L 634.71 240.36 L 555.79 243.95 L 476.87 233.19 z" fill="#494d66"/>
+      <path d="M 347.74 287.00 L 437.42 200.91 L 476.87 233.19 L 555.79 243.95 L 534.27 279.82 L 509.16 337.22 L 419.48 351.57 L 354.91 333.63 L 304.69 312.11 z" fill="#594f4b"/>
+      <path d="M 555.79 243.95 L 634.71 240.36 L 656.23 197.32 L 724.39 240.36 L 763.85 308.52 L 735.15 365.91 L 702.86 387.44 L 598.84 373.09 L 534.27 279.82 z" fill="#4c554a"/>
+      <path d="M 258.06 391.02 L 304.69 312.11 L 354.91 333.63 L 419.48 351.57 L 509.16 337.22 L 598.84 373.09 L 631.12 408.96 L 559.38 437.66 L 426.65 416.13 L 326.21 423.31 z" fill="#505b5d"/>
+      <path d="M 200.66 477.12 L 258.06 391.02 L 326.21 423.31 L 426.65 416.13 L 559.38 437.66 L 570.14 512.99 L 469.70 538.10 L 329.80 527.34 L 232.95 505.81 z" fill="#3f5950"/>
+      <path d="M 570.14 512.99 L 559.38 437.66 L 631.12 408.96 L 695.69 430.48 L 735.15 477.12 L 692.10 527.34 L 609.60 534.51 z" fill="#355d5a"/>
+      <path d="M 598.84 373.09 L 702.86 387.44 L 763.85 416.13 L 778.19 462.77 L 735.15 477.12 L 695.69 430.48 L 631.12 408.96 z" fill="#3e5668"/>
+      <path d="M 681.34 172.21 L 699.28 147.10 L 735.15 154.27 L 749.50 179.38 L 731.56 204.49 L 695.69 200.91 z" fill="#5a4b60"/>
+      <path d="M 745.91 136.34 L 771.02 125.58 L 792.54 143.51 L 785.37 168.62 L 756.67 172.21 z" fill="#5a4b60"/>
+      <path d="M 717.21 111.23 L 735.15 93.29 L 763.85 100.47 L 771.02 121.99 L 749.50 136.34 L 724.39 132.75 z" fill="#5a4b60"/>
+      <path d="M 663.41 125.58 L 681.34 111.23 L 702.86 118.40 L 695.69 139.92 L 670.58 143.51 z" fill="#5a4b60"/>
+      <path d="M 788.96 211.67 L 814.07 200.91 L 828.41 222.43 L 810.48 243.95 L 785.37 236.78 z" fill="#5a4b60"/>
+      <path d="M 699.28 240.36 L 724.39 222.43 L 749.50 233.19 L 742.32 254.71 L 710.04 258.30 z" fill="#5a4b60"/>
+      <path d="M 638.30 182.97 L 656.23 168.62 L 670.58 182.97 L 663.41 200.91 L 641.88 200.91 z" fill="#5a4b60"/>
+    </g>
+    <text x="77" y="204" class="caps light">NACRE · AVIATION SUPPORT NETWORK</text>
+    <g transform="translate(92 260)" fill="#e8eef4">
+      <text y="-20" x="0" text-anchor="middle" font-size="15" font-weight="700">N</text>
+      <path d="M 0,-12 8,11 0,6 -8,11 Z M 0,14 V 26" stroke="#e8eef4" stroke-width="1.5"/>
+    </g>
+    <text x="1048" y="270" text-anchor="end" class="area">NORTHERN AZURE</text>
+    <text x="82" y="790" class="area">SOUTHERN</text>
+    <text x="82" y="811" class="area">AZURE</text>
+  </g>
+
+  <g id="pipeline-layer" inkscape:groupmode="layer" inkscape:label="Aviation kerosene pipelines" clip-path="url(#map-frame)">
+    <g transform="translate(-172 151) scale(1.47)">
+      <g id="route-P01" data-medium="pipeline">
+        <title>P01 · Plateau Kerosene Line</title>
+        <path d="M 409,284 C 457,274 517,216 567,210" class="route-outline"/>
+        <path d="M 409,284 C 457,274 517,216 567,210" class="pipeline" marker-end="url(#fuel-arrow)"/>
+      </g>
+      <g id="route-P02" data-medium="pipeline">
+        <title>P02 · Copper Shoal Kerosene Line</title>
+        <path d="M 681,516 Q 660,528 642,512" class="route-outline"/>
+        <path d="M 681,516 Q 660,528 642,512" class="pipeline" marker-end="url(#fuel-arrow)"/>
+      </g>
+      <g id="route-P03" data-medium="pipeline">
+        <title>P03 · Corridor Kerosene Line</title>
+        <path d="M 681,516 C 620,492 519,415 437,387" class="route-outline"/>
+        <path d="M 681,516 C 620,492 519,415 437,387" class="pipeline" marker-end="url(#fuel-arrow)"/>
+      </g>
+    </g>
+    <g transform="translate(524.8 520.0)">
+      <rect x="-17" y="-9" width="34" height="18" rx="4" fill="#233b48" stroke="#b0c3c8" stroke-opacity=".84"/>
+      <text y="4" class="route-id">P01</text>
+    </g>
+    <g transform="translate(801.1 916.9)">
+      <rect x="-17" y="-9" width="34" height="18" rx="4" fill="#233b48" stroke="#b0c3c8" stroke-opacity=".84"/>
+      <text y="4" class="route-id">P02</text>
+    </g>
+    <g transform="translate(633.6 805.1)">
+      <rect x="-17" y="-9" width="34" height="18" rx="4" fill="#233b48" stroke="#b0c3c8" stroke-opacity=".84"/>
+      <text y="4" class="route-id">P03</text>
+    </g>
+  </g>
+
+  <g id="logistics-layer" inkscape:groupmode="layer" inkscape:label="Road and sea logistics" clip-path="url(#map-frame)">
+    <g transform="translate(-172 151) scale(1.47)">
+      <g id="route-L01" data-medium="road">
+        <title>L01 · Corridor–Mesa Road</title>
+        <path d="M 437,387 C 472,358 509,307 518,273 Q 529,235 567,210" class="route-outline"/>
+        <path d="M 437,387 C 472,358 509,307 518,273 Q 529,235 567,210" class="road"/>
+      </g>
+      <g id="route-L02" data-medium="road">
+        <title>L02 · Brinax–Corridor Supply Road</title>
+        <path d="M 642,512 C 566,485 502,445 437,387" class="route-outline"/>
+        <path d="M 642,512 C 566,485 502,445 437,387" class="road"/>
+      </g>
+      <g id="route-L03" data-medium="sea">
+        <title>L03 · Sound Stores Service</title>
+        <path d="M 642,512 C 665,547 727,552 785,507 S 852,392 838,311 C 860,251 852,209 820,190 Q 789,174 767,186 Q 742,200 707,186" class="route-outline"/>
+        <path d="M 642,512 C 665,547 727,552 785,507 S 852,392 838,311 C 860,251 852,209 820,190 Q 789,174 767,186 Q 742,200 707,186" class="sea-link"/>
+      </g>
+    </g>
+    <g transform="translate(582.1 586.1)">
+      <rect x="-17" y="-9" width="34" height="18" rx="4" fill="#233b48" stroke="#b0c3c8" stroke-opacity=".84"/>
+      <text y="4" class="route-id">L01</text>
+    </g>
+    <g transform="translate(588.0 819.9)">
+      <rect x="-17" y="-9" width="34" height="18" rx="4" fill="#233b48" stroke="#b0c3c8" stroke-opacity=".84"/>
+      <text y="4" class="route-id">L02</text>
+    </g>
+    <g transform="translate(1056.9 631.7)">
+      <rect x="-17" y="-9" width="34" height="18" rx="4" fill="#233b48" stroke="#b0c3c8" stroke-opacity=".84"/>
+      <text y="4" class="route-id">L03</text>
+    </g>
+  </g>
+
+  <g id="civil-coordination-layer" inkscape:groupmode="layer" inkscape:label="Civil airport liaison" clip-path="url(#map-frame)">
+    <g id="civil-MES">
+      <title>Plateau Airport · North Control</title>
+      <path d="M 589.5,443.5 L 661.5,459.7" class="liaison"/>
+      <g transform="translate(589.5 443.5)"><rect x="-6" y="-6" width="12" height="12" rx="2" fill="#e3ecf0" stroke="#182d3c" stroke-width="1.5"/><path d="M -3,2 3,-2" stroke="#293e49" stroke-width="1.4"/></g>
+    </g>
+    <g id="civil-COR">
+      <title>Corridor Airport · Continental Control</title>
+      <path d="M 533.6,714.0 L 470.4,719.9" class="liaison"/>
+      <g transform="translate(533.6 714.0)"><rect x="-6" y="-6" width="12" height="12" rx="2" fill="#e3ecf0" stroke="#182d3c" stroke-width="1.5"/><path d="M -3,2 3,-2" stroke="#293e49" stroke-width="1.4"/></g>
+    </g>
+    <g id="civil-COP">
+      <title>Coast Airport · Coastal Control</title>
+      <path d="M 787.9,862.5 L 771.7,903.6" class="liaison"/>
+      <g transform="translate(787.9 862.5)"><rect x="-6" y="-6" width="12" height="12" rx="2" fill="#e3ecf0" stroke="#182d3c" stroke-width="1.5"/><path d="M -3,2 3,-2" stroke="#293e49" stroke-width="1.4"/></g>
+    </g>
+    <g id="civil-SND">
+      <title>Sound Airport · North Control</title>
+      <path d="M 896.7,415.6 L 867.3,424.4" class="liaison"/>
+      <g transform="translate(896.7 415.6)"><rect x="-6" y="-6" width="12" height="12" rx="2" fill="#e3ecf0" stroke="#182d3c" stroke-width="1.5"/><path d="M -3,2 3,-2" stroke="#293e49" stroke-width="1.4"/></g>
+    </g>
+  </g>
+
+  <g id="sites-layer" inkscape:groupmode="layer" inkscape:label="Military airfields, radars and fuel terminals" clip-path="url(#map-frame)">
+    <g id="airfield-MES" transform="translate(661.5 459.7)">
+      <title>High Mesa Air Base · Caelum Protectorate</title>
+      <path d="M 0,-9 9,7 -9,7 Z" fill="#ffe0a2" stroke="#182d3c" stroke-width="1.8"/><path d="M 0,-3 V 4" stroke="#293e49" stroke-width="1.5"/>
+      <text x="15" y="4" text-anchor="start" class="place">High Mesa Air Base</text>
+    </g>
+    <g id="airfield-COR" transform="translate(470.4 719.9)">
+      <title>Corridor Support Airfield · Ilyndor</title>
+      <path d="M 0,-9 9,7 -9,7 Z" fill="#ffe0a2" stroke="#182d3c" stroke-width="1.8"/><path d="M 0,-3 V 4" stroke="#293e49" stroke-width="1.5"/>
+      <text x="-13" y="24" text-anchor="end" class="place">Corridor Support Airfield</text>
+    </g>
+    <g id="airfield-COP" transform="translate(771.7 903.6)">
+      <title>Copper Shoal Air Base · Brinax Collective</title>
+      <path d="M 0,-9 9,7 -9,7 Z" fill="#ffe0a2" stroke="#182d3c" stroke-width="1.8"/><path d="M 0,-3 V 4" stroke="#293e49" stroke-width="1.5"/>
+      <text x="-13" y="24" text-anchor="end" class="place">Copper Shoal Air Base</text>
+    </g>
+    <g id="airfield-SND" transform="translate(867.3 424.4)">
+      <title>Sound Rescue Field · Orinthia</title>
+      <path d="M 0,-9 9,7 -9,7 Z" fill="#ffe0a2" stroke="#182d3c" stroke-width="1.8"/><path d="M 0,-3 V 4" stroke="#293e49" stroke-width="1.5"/>
+      <text x="-15" y="-15" text-anchor="end" class="place">Sound Rescue Field</text>
+    </g>
+    <g id="radar-RM" transform="translate(646.8 399.4)">
+      <title>Mesa Ridge Radar · Caelum Protectorate</title>
+      <path d="M 0,-8 8,0 0,8 -8,0 Z" fill="#d2c5ff" stroke="#182d3c" stroke-width="1.6"/><circle r="2.3" fill="#293e49"/>
+      <text x="-12" y="-11" text-anchor="end" class="site-name">Mesa Ridge Radar</text>
+    </g>
+    <g id="radar-RC" transform="translate(404.2 690.5)">
+      <title>Corridor Ridge Radar · Ilyndor</title>
+      <path d="M 0,-8 8,0 0,8 -8,0 Z" fill="#d2c5ff" stroke="#182d3c" stroke-width="1.6"/><circle r="2.3" fill="#293e49"/>
+      <text x="-12" y="-10" text-anchor="end" class="site-name">Corridor Ridge Radar</text>
+    </g>
+    <g id="radar-RB" transform="translate(717.4 859.5)">
+      <title>Shoal Radar · Brinax Collective</title>
+      <path d="M 0,-8 8,0 0,8 -8,0 Z" fill="#d2c5ff" stroke="#182d3c" stroke-width="1.6"/><circle r="2.3" fill="#293e49"/>
+      <text x="-12" y="1" text-anchor="end" class="site-name">Shoal Radar</text>
+    </g>
+    <g id="radar-RS" transform="translate(921.7 320.0)">
+      <title>Sound Ridge Radar · Orinthia</title>
+      <path d="M 0,-8 8,0 0,8 -8,0 Z" fill="#d2c5ff" stroke="#182d3c" stroke-width="1.6"/><circle r="2.3" fill="#293e49"/>
+      <text x="14" y="-7" text-anchor="start" class="site-name">Sound Ridge Radar</text>
+    </g>
+    <g id="fuel-terminal-NBF" transform="translate(429.2 568.5)">
+      <title>North Basin Fuel Terminal · Velkar Republic</title>
+      <rect x="-7" y="-7" width="14" height="14" rx="3" fill="#fbb792" stroke="#182d3c" stroke-width="1.6"/><path d="M -3,-2 H 3 M -3,2 H 3" stroke="#293e49" stroke-width="1.4"/>
+      <text x="-13" y="2" text-anchor="end" class="site-name">North Basin Fuel Terminal</text>
+    </g>
+    <g id="fuel-terminal-BFT" transform="translate(829.1 909.5)">
+      <title>Brinax Fuel Terminal · Brinax Collective</title>
+      <rect x="-7" y="-7" width="14" height="14" rx="3" fill="#fbb792" stroke="#182d3c" stroke-width="1.6"/><path d="M -3,-2 H 3 M -3,2 H 3" stroke="#293e49" stroke-width="1.4"/>
+      <text x="17" y="6" text-anchor="start" class="site-name">Brinax Fuel Terminal</text>
+    </g>
+  </g>
+  <rect x="48" y="171" width="1052" height="786" rx="12" fill="none" stroke="#99aeb5"/>
+
+  <rect x="1122" y="171" width="370" height="786" rx="12" class="sidebar"/>
+  <text x="1146" y="208" class="caps muted">AIRFIELDS AND CIVIL PARTNERS</text>
+  <text x="1146" y="246" class="body ink">High Mesa Air Base</text>
+  <text x="1146" y="263" class="support muted">Plateau Airport · North Control</text>
+  <text x="1146" y="294" class="body ink">Corridor Support Airfield</text>
+  <text x="1146" y="311" class="support muted">Corridor Airport · Continental Control</text>
+  <text x="1146" y="342" class="body ink">Copper Shoal Air Base</text>
+  <text x="1146" y="359" class="support muted">Coast Airport · Coastal Control</text>
+  <text x="1146" y="390" class="body ink">Sound Rescue Field</text>
+  <text x="1146" y="407" class="support muted">Sound Airport · North Control</text>
+  <path d="M 1146,432 H 1468" class="divider"/>
+  <text x="1146" y="463" class="caps muted">SITES AND CONNECTIONS</text>
+  <rect x="1146" y="478" width="64" height="245" rx="7" fill="#243c49"/>
+  <g transform="translate(1178 499)"><path d="M 0,-9 9,7 -9,7 Z" fill="#ffe0a2" stroke="#182d3c" stroke-width="1.8"/><path d="M 0,-3 V 4" stroke="#293e49" stroke-width="1.5"/></g>
+  <text x="1225" y="504" class="body ink">Military airfield</text>
+  <g transform="translate(1178 528)"><rect x="-6" y="-6" width="12" height="12" rx="2" fill="#e3ecf0" stroke="#182d3c" stroke-width="1.5"/><path d="M -3,2 3,-2" stroke="#293e49" stroke-width="1.4"/></g>
+  <text x="1225" y="533" class="body ink">Civil airport partner</text>
+  <g transform="translate(1178 557)"><path d="M 0,-8 8,0 0,8 -8,0 Z" fill="#d2c5ff" stroke="#182d3c" stroke-width="1.6"/><circle r="2.3" fill="#293e49"/></g>
+  <text x="1225" y="562" class="body ink">Radar reporting site</text>
+  <g transform="translate(1178 586)"><rect x="-7" y="-7" width="14" height="14" rx="3" fill="#fbb792" stroke="#182d3c" stroke-width="1.6"/><path d="M -3,-2 H 3 M -3,2 H 3" stroke="#293e49" stroke-width="1.4"/></g>
+  <text x="1225" y="591" class="body ink">Fuel terminal</text>
+  <path d="M 1157,615 H 1199" class="pipeline"/>
+  <text x="1225" y="620" class="body ink">Aviation kerosene pipeline</text>
+  <path d="M 1157,644 H 1199" class="road"/>
+  <text x="1225" y="649" class="body ink">Road logistics</text>
+  <path d="M 1157,673 H 1199" class="sea-link"/>
+  <text x="1225" y="678" class="body ink">Maritime logistics</text>
+  <path d="M 1157,702 H 1199" class="liaison"/>
+  <text x="1225" y="707" class="body ink">Civil liaison connection</text>
+  <path d="M 1146,746 H 1468" class="divider"/>
+  <text x="1146" y="779" class="caps muted">AIRCRAFT TYPES</text>
+  <text x="1146" y="814" class="body ink">Alder T20</text>
+  <text x="1468" y="814" class="support muted" text-anchor="end">Cargo transport</text>
+  <text x="1146" y="849" class="body ink">Merrow R12</text>
+  <text x="1468" y="849" class="support muted" text-anchor="end">Rescue transport</text>
+  <text x="1146" y="884" class="body ink">Kite U8</text>
+  <text x="1468" y="884" class="support muted" text-anchor="end">Utility aircraft</text>
+  <text x="1146" y="924" class="small muted">See the guide for aircraft accepted at each airfield.</text>
+</svg>

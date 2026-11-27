@@ -1,0 +1,685 @@
+{
+  "authors": [
+    "MISP Project"
+  ],
+  "category": "context",
+  "description": "Fictional military transport aircraft, airfields, radar reporting, and aviation fuel and logistics links on Nacre.",
+  "name": "Synthetic Exercise World - Military Aviation",
+  "source": "https://github.com/MISP/Synthetic-Exercise-World-Format",
+  "type": "exercise-world-military-aviation",
+  "uuid": "b418c4b8-420f-58f3-940f-09ad6cc27b67",
+  "values": [
+    {
+      "description": "Military cargo transport for palletised relief supplies and maintenance stores.",
+      "meta": {
+        "entity-type": [
+          "military-aircraft-type"
+        ],
+        "exercise-use": [
+          "Palletised relief supplies and maintenance stores"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "role": [
+          "cargo transport"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "41711bf5-d46a-5e6c-8c53-9a3fe972f690",
+          "type": "operates-from"
+        },
+        {
+          "dest-uuid": "46daf5c1-7b9f-56bf-8a1b-fd162de8b6b5",
+          "type": "operates-from"
+        },
+        {
+          "dest-uuid": "8a6b5411-9044-5185-ac39-6ad030d81376",
+          "type": "operates-from"
+        }
+      ],
+      "uuid": "94836e21-9db5-5d00-bdd7-34cfd247ebb5",
+      "value": "Alder T20"
+    },
+    {
+      "description": "Military rescue transport for rescue teams, medical transfers, and urgent relief supplies.",
+      "meta": {
+        "entity-type": [
+          "military-aircraft-type"
+        ],
+        "exercise-use": [
+          "Rescue teams, medical transfers, and urgent relief supplies"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "role": [
+          "rescue transport"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "8a6b5411-9044-5185-ac39-6ad030d81376",
+          "type": "operates-from"
+        },
+        {
+          "dest-uuid": "11bb1437-26a7-57ee-8468-c55352ff1d45",
+          "type": "operates-from"
+        }
+      ],
+      "uuid": "c1430c87-483e-59d3-bcb2-e4d505fd5c4b",
+      "value": "Merrow R12"
+    },
+    {
+      "description": "Military utility aircraft for liaison teams and light cargo.",
+      "meta": {
+        "entity-type": [
+          "military-aircraft-type"
+        ],
+        "exercise-use": [
+          "Liaison teams and light cargo"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "role": [
+          "utility aircraft"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "41711bf5-d46a-5e6c-8c53-9a3fe972f690",
+          "type": "operates-from"
+        },
+        {
+          "dest-uuid": "46daf5c1-7b9f-56bf-8a1b-fd162de8b6b5",
+          "type": "operates-from"
+        },
+        {
+          "dest-uuid": "11bb1437-26a7-57ee-8468-c55352ff1d45",
+          "type": "operates-from"
+        }
+      ],
+      "uuid": "e3d1b90b-eb84-515d-b2ad-36f0b4ab4c95",
+      "value": "Kite U8"
+    },
+    {
+      "description": "Northern airlift staging in Caelum Protectorate.",
+      "meta": {
+        "airfield-id": [
+          "NAC-MIL-MES"
+        ],
+        "country": "Caelum Protectorate",
+        "entity-type": [
+          "military-airfield"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "4a600b9f-b843-446f-a234-415aded47e1b",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "da6f38c1-48d5-59ba-a828-efe34e48301b",
+          "type": "liaises-with"
+        },
+        {
+          "dest-uuid": "3c98c2b1-4553-593f-bd31-fb83ffc83edf",
+          "type": "coordinates-with"
+        },
+        {
+          "dest-uuid": "94836e21-9db5-5d00-bdd7-34cfd247ebb5",
+          "type": "accepts-aircraft"
+        },
+        {
+          "dest-uuid": "e3d1b90b-eb84-515d-b2ad-36f0b4ab4c95",
+          "type": "accepts-aircraft"
+        },
+        {
+          "dest-uuid": "cdc0cdb8-f916-5a9d-8f8e-a67d8867266d",
+          "type": "receives-fuel-via"
+        },
+        {
+          "dest-uuid": "bb6a78d1-ba25-58d2-b03b-1a8f60d7c72a",
+          "type": "terminates"
+        },
+        {
+          "dest-uuid": "949ff91a-2d92-5a51-87ef-25fc1af9bf74",
+          "type": "supported-by"
+        }
+      ],
+      "uuid": "41711bf5-d46a-5e6c-8c53-9a3fe972f690",
+      "value": "High Mesa Air Base"
+    },
+    {
+      "description": "Relief freight consolidation in Ilyndor.",
+      "meta": {
+        "airfield-id": [
+          "NAC-MIL-COR"
+        ],
+        "country": "Ilyndor",
+        "entity-type": [
+          "military-airfield"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "1e875520-fb3e-4d26-a982-44a5fb7f9375",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "cffbae5f-b340-5c62-b68f-65f6b7294e21",
+          "type": "liaises-with"
+        },
+        {
+          "dest-uuid": "156bf5c7-67a6-5067-8721-9f07d50e80ca",
+          "type": "coordinates-with"
+        },
+        {
+          "dest-uuid": "94836e21-9db5-5d00-bdd7-34cfd247ebb5",
+          "type": "accepts-aircraft"
+        },
+        {
+          "dest-uuid": "e3d1b90b-eb84-515d-b2ad-36f0b4ab4c95",
+          "type": "accepts-aircraft"
+        },
+        {
+          "dest-uuid": "b7112426-093b-5e5b-9abf-252a886a4296",
+          "type": "receives-fuel-via"
+        },
+        {
+          "dest-uuid": "bb6a78d1-ba25-58d2-b03b-1a8f60d7c72a",
+          "type": "terminates"
+        },
+        {
+          "dest-uuid": "10e2ef65-d256-552d-85b4-5a7a6c1246e4",
+          "type": "terminates"
+        },
+        {
+          "dest-uuid": "6e4bc029-7d9c-5e7f-9236-d472f7cf9fce",
+          "type": "supported-by"
+        }
+      ],
+      "uuid": "46daf5c1-7b9f-56bf-8a1b-fd162de8b6b5",
+      "value": "Corridor Support Airfield"
+    },
+    {
+      "description": "Coastal airlift staging with a stores quay in Brinax Collective.",
+      "meta": {
+        "airfield-id": [
+          "NAC-MIL-COP"
+        ],
+        "country": "Brinax Collective",
+        "entity-type": [
+          "military-airfield"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "91f273f8-66c0-446f-bdb2-4233fd0c55ef",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "5692cfee-c114-5885-94cd-f7d649a39802",
+          "type": "liaises-with"
+        },
+        {
+          "dest-uuid": "063b1752-29db-57cc-86bc-7f6524847a08",
+          "type": "coordinates-with"
+        },
+        {
+          "dest-uuid": "94836e21-9db5-5d00-bdd7-34cfd247ebb5",
+          "type": "accepts-aircraft"
+        },
+        {
+          "dest-uuid": "c1430c87-483e-59d3-bcb2-e4d505fd5c4b",
+          "type": "accepts-aircraft"
+        },
+        {
+          "dest-uuid": "7175e23f-f3b2-5226-94ca-9339b9aa9a74",
+          "type": "receives-fuel-via"
+        },
+        {
+          "dest-uuid": "10e2ef65-d256-552d-85b4-5a7a6c1246e4",
+          "type": "terminates"
+        },
+        {
+          "dest-uuid": "7a065cd1-983d-5b0f-97b9-827f32035765",
+          "type": "terminates"
+        },
+        {
+          "dest-uuid": "fb926018-32a1-5126-9429-11a4476159a7",
+          "type": "supported-by"
+        }
+      ],
+      "uuid": "8a6b5411-9044-5185-ac39-6ad030d81376",
+      "value": "Copper Shoal Air Base"
+    },
+    {
+      "description": "Island rescue and medical transfer field with a stores quay in Orinthia.",
+      "meta": {
+        "airfield-id": [
+          "NAC-MIL-SND"
+        ],
+        "country": "Orinthia",
+        "entity-type": [
+          "military-airfield"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "74d2286a-1b87-4984-8dd1-c5bd466ecca5",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "227f9efe-a050-5e5a-948f-2c19c29d29ff",
+          "type": "liaises-with"
+        },
+        {
+          "dest-uuid": "3c98c2b1-4553-593f-bd31-fb83ffc83edf",
+          "type": "coordinates-with"
+        },
+        {
+          "dest-uuid": "c1430c87-483e-59d3-bcb2-e4d505fd5c4b",
+          "type": "accepts-aircraft"
+        },
+        {
+          "dest-uuid": "e3d1b90b-eb84-515d-b2ad-36f0b4ab4c95",
+          "type": "accepts-aircraft"
+        },
+        {
+          "dest-uuid": "7a065cd1-983d-5b0f-97b9-827f32035765",
+          "type": "terminates"
+        },
+        {
+          "dest-uuid": "00236d80-5ba5-5980-bf70-c9565eb72462",
+          "type": "supported-by"
+        }
+      ],
+      "uuid": "11bb1437-26a7-57ee-8468-c55352ff1d45",
+      "value": "Sound Rescue Field"
+    },
+    {
+      "description": "Radar reporting site supporting High Mesa Air Base. It shares availability and air traffic reports with North Control.",
+      "meta": {
+        "country": "Caelum Protectorate",
+        "entity-type": [
+          "radar-reporting-site"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "reporting-purpose": [
+          "air traffic awareness"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "4a600b9f-b843-446f-a234-415aded47e1b",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "41711bf5-d46a-5e6c-8c53-9a3fe972f690",
+          "type": "supports"
+        },
+        {
+          "dest-uuid": "3c98c2b1-4553-593f-bd31-fb83ffc83edf",
+          "type": "reports-to"
+        }
+      ],
+      "uuid": "949ff91a-2d92-5a51-87ef-25fc1af9bf74",
+      "value": "Mesa Ridge Radar"
+    },
+    {
+      "description": "Radar reporting site supporting Corridor Support Airfield. It shares availability and air traffic reports with Continental Control.",
+      "meta": {
+        "country": "Ilyndor",
+        "entity-type": [
+          "radar-reporting-site"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "reporting-purpose": [
+          "air traffic awareness"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "1e875520-fb3e-4d26-a982-44a5fb7f9375",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "46daf5c1-7b9f-56bf-8a1b-fd162de8b6b5",
+          "type": "supports"
+        },
+        {
+          "dest-uuid": "156bf5c7-67a6-5067-8721-9f07d50e80ca",
+          "type": "reports-to"
+        }
+      ],
+      "uuid": "6e4bc029-7d9c-5e7f-9236-d472f7cf9fce",
+      "value": "Corridor Ridge Radar"
+    },
+    {
+      "description": "Radar reporting site supporting Copper Shoal Air Base. It shares availability and air traffic reports with Coastal Control.",
+      "meta": {
+        "country": "Brinax Collective",
+        "entity-type": [
+          "radar-reporting-site"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "reporting-purpose": [
+          "air traffic awareness"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "91f273f8-66c0-446f-bdb2-4233fd0c55ef",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "8a6b5411-9044-5185-ac39-6ad030d81376",
+          "type": "supports"
+        },
+        {
+          "dest-uuid": "063b1752-29db-57cc-86bc-7f6524847a08",
+          "type": "reports-to"
+        }
+      ],
+      "uuid": "fb926018-32a1-5126-9429-11a4476159a7",
+      "value": "Shoal Radar"
+    },
+    {
+      "description": "Radar reporting site supporting Sound Rescue Field. It shares availability and air traffic reports with North Control.",
+      "meta": {
+        "country": "Orinthia",
+        "entity-type": [
+          "radar-reporting-site"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "reporting-purpose": [
+          "air traffic awareness"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "74d2286a-1b87-4984-8dd1-c5bd466ecca5",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "11bb1437-26a7-57ee-8468-c55352ff1d45",
+          "type": "supports"
+        },
+        {
+          "dest-uuid": "3c98c2b1-4553-593f-bd31-fb83ffc83edf",
+          "type": "reports-to"
+        }
+      ],
+      "uuid": "00236d80-5ba5-5980-bf70-c9565eb72462",
+      "value": "Sound Ridge Radar"
+    },
+    {
+      "description": "Bulk aviation kerosene terminal in Velkar Republic.",
+      "meta": {
+        "country": "Velkar Republic",
+        "entity-type": [
+          "aviation-fuel-terminal"
+        ],
+        "fuel": [
+          "aviation kerosene"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "e4cd09cc-7be7-46ef-8989-5b9a812b49fe",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "cdc0cdb8-f916-5a9d-8f8e-a67d8867266d",
+          "type": "feeds"
+        }
+      ],
+      "uuid": "7446b0c9-2116-5b97-bb91-e236012bf18e",
+      "value": "North Basin Fuel Terminal"
+    },
+    {
+      "description": "Bulk aviation kerosene terminal in Brinax Collective.",
+      "meta": {
+        "country": "Brinax Collective",
+        "entity-type": [
+          "aviation-fuel-terminal"
+        ],
+        "fuel": [
+          "aviation kerosene"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "91f273f8-66c0-446f-bdb2-4233fd0c55ef",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "7175e23f-f3b2-5226-94ca-9339b9aa9a74",
+          "type": "feeds"
+        },
+        {
+          "dest-uuid": "b7112426-093b-5e5b-9abf-252a886a4296",
+          "type": "feeds"
+        }
+      ],
+      "uuid": "6cfb4f82-7f97-5db5-ba18-7b6d4539fc60",
+      "value": "Brinax Fuel Terminal"
+    },
+    {
+      "description": "Aviation kerosene supply from North Basin Fuel Terminal to High Mesa Air Base.",
+      "meta": {
+        "entity-type": [
+          "aviation-fuel-pipeline"
+        ],
+        "fuel": [
+          "aviation kerosene"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "route-id": [
+          "P01"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "7446b0c9-2116-5b97-bb91-e236012bf18e",
+          "type": "originates-at"
+        },
+        {
+          "dest-uuid": "41711bf5-d46a-5e6c-8c53-9a3fe972f690",
+          "type": "supplies"
+        }
+      ],
+      "uuid": "cdc0cdb8-f916-5a9d-8f8e-a67d8867266d",
+      "value": "Plateau Kerosene Line"
+    },
+    {
+      "description": "Aviation kerosene supply from Brinax Fuel Terminal to Copper Shoal Air Base.",
+      "meta": {
+        "entity-type": [
+          "aviation-fuel-pipeline"
+        ],
+        "fuel": [
+          "aviation kerosene"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "route-id": [
+          "P02"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "6cfb4f82-7f97-5db5-ba18-7b6d4539fc60",
+          "type": "originates-at"
+        },
+        {
+          "dest-uuid": "8a6b5411-9044-5185-ac39-6ad030d81376",
+          "type": "supplies"
+        }
+      ],
+      "uuid": "7175e23f-f3b2-5226-94ca-9339b9aa9a74",
+      "value": "Copper Shoal Kerosene Line"
+    },
+    {
+      "description": "Aviation kerosene supply from Brinax Fuel Terminal to Corridor Support Airfield.",
+      "meta": {
+        "entity-type": [
+          "aviation-fuel-pipeline"
+        ],
+        "fuel": [
+          "aviation kerosene"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "route-id": [
+          "P03"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "6cfb4f82-7f97-5db5-ba18-7b6d4539fc60",
+          "type": "originates-at"
+        },
+        {
+          "dest-uuid": "46daf5c1-7b9f-56bf-8a1b-fd162de8b6b5",
+          "type": "supplies"
+        }
+      ],
+      "uuid": "b7112426-093b-5e5b-9abf-252a886a4296",
+      "value": "Corridor Kerosene Line"
+    },
+    {
+      "description": "Bidirectional road logistics service between Corridor Support Airfield and High Mesa Air Base.",
+      "meta": {
+        "cargo": [
+          "relief supplies",
+          "maintenance stores"
+        ],
+        "entity-type": [
+          "military-logistics-route"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "route-id": [
+          "L01"
+        ],
+        "transport-mode": [
+          "road"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "46daf5c1-7b9f-56bf-8a1b-fd162de8b6b5",
+          "type": "terminated-by"
+        },
+        {
+          "dest-uuid": "41711bf5-d46a-5e6c-8c53-9a3fe972f690",
+          "type": "terminated-by"
+        }
+      ],
+      "uuid": "bb6a78d1-ba25-58d2-b03b-1a8f60d7c72a",
+      "value": "Corridor\u2013Mesa Road"
+    },
+    {
+      "description": "Bidirectional road logistics service between Copper Shoal Air Base and Corridor Support Airfield.",
+      "meta": {
+        "cargo": [
+          "relief supplies",
+          "ground equipment"
+        ],
+        "entity-type": [
+          "military-logistics-route"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "route-id": [
+          "L02"
+        ],
+        "transport-mode": [
+          "road"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "8a6b5411-9044-5185-ac39-6ad030d81376",
+          "type": "terminated-by"
+        },
+        {
+          "dest-uuid": "46daf5c1-7b9f-56bf-8a1b-fd162de8b6b5",
+          "type": "terminated-by"
+        }
+      ],
+      "uuid": "10e2ef65-d256-552d-85b4-5a7a6c1246e4",
+      "value": "Brinax\u2013Corridor Supply Road"
+    },
+    {
+      "description": "Bidirectional sea logistics service between Copper Shoal Air Base and Sound Rescue Field.",
+      "meta": {
+        "cargo": [
+          "relief supplies",
+          "aviation kerosene"
+        ],
+        "entity-type": [
+          "military-logistics-route"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "route-id": [
+          "L03"
+        ],
+        "transport-mode": [
+          "sea"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "8a6b5411-9044-5185-ac39-6ad030d81376",
+          "type": "terminated-by"
+        },
+        {
+          "dest-uuid": "11bb1437-26a7-57ee-8468-c55352ff1d45",
+          "type": "terminated-by"
+        }
+      ],
+      "uuid": "7a065cd1-983d-5b0f-97b9-827f32035765",
+      "value": "Sound Stores Service"
+    }
+  ],
+  "version": 1
+}
