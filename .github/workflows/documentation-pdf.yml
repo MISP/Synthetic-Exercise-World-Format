@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           persist-credentials: false
 
@@ -28,7 +28,7 @@ jobs:
         run: python3 scripts/build_pdf.py --revision "$GITHUB_SHA"
 
       - name: Upload PDF
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: synthetic-exercise-world-pdf
           path: _book/synthetic-exercise-world.pdf
