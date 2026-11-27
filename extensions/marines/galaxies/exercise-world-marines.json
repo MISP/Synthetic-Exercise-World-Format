@@ -1,0 +1,9 @@
+{
+  "description": "Fictional Nacre marines organizations and their geographic liaison points.",
+  "icon": "anchor",
+  "name": "Synthetic Exercise World - Marines",
+  "namespace": "misp",
+  "type": "exercise-world-marines",
+  "uuid": "c736f707-09d8-596e-beb2-f476a508b5bd",
+  "version": 1
+}

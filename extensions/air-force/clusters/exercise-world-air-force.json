@@ -1,0 +1,271 @@
+{
+  "authors": [
+    "MISP Project"
+  ],
+  "category": "context",
+  "description": "Fictional Nacre air force organizations and their geographic liaison points.",
+  "name": "Synthetic Exercise World - Air Force",
+  "source": "https://github.com/MISP/Synthetic-Exercise-World-Format",
+  "type": "exercise-world-air-force",
+  "uuid": "39aef20a-32d3-5623-8ad6-7e579d326682",
+  "values": [
+    {
+      "description": "Maintains airlift and rescue liaison with northern civilian aviation.",
+      "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
+        "country": "Asterin Union",
+        "entity-type": [
+          "force-organization"
+        ],
+        "force-type": [
+          "air-force"
+        ],
+        "geographic-feature-id": [
+          "600faa07-27bc-5260-b4db-2b43498f0c7a"
+        ],
+        "latitude": [
+          "54.2397"
+        ],
+        "liaison-site": [
+          "Northreach Airport"
+        ],
+        "longitude": [
+          "-43.8655"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "service-model": [
+          "Independent air force"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "cb97ba71-e477-4acb-9470-10f3e6c9e1a9",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "1d4fe652-d202-5cc3-a501-9feca5d26a6a",
+          "type": "has-liaison-at"
+        },
+        {
+          "dest-uuid": "33f59468-e1e6-5c8f-acf1-a48763d0d0e1",
+          "type": "coordinates-with"
+        }
+      ],
+      "uuid": "600faa07-27bc-5260-b4db-2b43498f0c7a",
+      "value": "Asterin Air Service"
+    },
+    {
+      "description": "Coordinates airlift staging and shared-airspace requests for the plateau.",
+      "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
+        "country": "Caelum Protectorate",
+        "entity-type": [
+          "force-organization"
+        ],
+        "force-type": [
+          "air-force"
+        ],
+        "geographic-feature-id": [
+          "2c7594b9-296b-5325-93bb-bd30bf0a4e7f"
+        ],
+        "latitude": [
+          "39.4648"
+        ],
+        "liaison-site": [
+          "High Mesa Air Base"
+        ],
+        "longitude": [
+          "31.1246"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "service-model": [
+          "Independent air force"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "4a600b9f-b843-446f-a234-415aded47e1b",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "41711bf5-d46a-5e6c-8c53-9a3fe972f690",
+          "type": "has-liaison-at"
+        },
+        {
+          "dest-uuid": "3c98c2b1-4553-593f-bd31-fb83ffc83edf",
+          "type": "coordinates-with"
+        }
+      ],
+      "uuid": "2c7594b9-296b-5325-93bb-bd30bf0a4e7f",
+      "value": "Caelum Air Service"
+    },
+    {
+      "description": "Coordinates civil support flights for the territorial reserve.",
+      "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
+        "country": "Ilyndor",
+        "entity-type": [
+          "force-organization"
+        ],
+        "force-type": [
+          "air-force"
+        ],
+        "geographic-feature-id": [
+          "649a0848-4d0b-55d7-9f12-46d3281b36f8"
+        ],
+        "latitude": [
+          "-9.8781"
+        ],
+        "liaison-site": [
+          "Corridor Support Airfield"
+        ],
+        "longitude": [
+          "-5.116"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "service-model": [
+          "Army air component"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "1e875520-fb3e-4d26-a982-44a5fb7f9375",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "46daf5c1-7b9f-56bf-8a1b-fd162de8b6b5",
+          "type": "has-liaison-at"
+        },
+        {
+          "dest-uuid": "98a2e790-c5c4-54aa-8709-492d7df2d0a7",
+          "type": "part-of"
+        },
+        {
+          "dest-uuid": "156bf5c7-67a6-5067-8721-9f07d50e80ca",
+          "type": "coordinates-with"
+        }
+      ],
+      "uuid": "649a0848-4d0b-55d7-9f12-46d3281b36f8",
+      "value": "Ilyndor Reserve Air Wing"
+    },
+    {
+      "description": "Coordinates airlift dispatch and civil reporting for the southern coast.",
+      "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
+        "country": "Brinax Collective",
+        "entity-type": [
+          "force-organization"
+        ],
+        "force-type": [
+          "air-force"
+        ],
+        "geographic-feature-id": [
+          "61293b1e-c3b0-59b8-b7f5-72114d17da00"
+        ],
+        "latitude": [
+          "-44.7248"
+        ],
+        "liaison-site": [
+          "Copper Shoal Air Base"
+        ],
+        "longitude": [
+          "52.0326"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "service-model": [
+          "Independent air force"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "91f273f8-66c0-446f-bdb2-4233fd0c55ef",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "8a6b5411-9044-5185-ac39-6ad030d81376",
+          "type": "has-liaison-at"
+        },
+        {
+          "dest-uuid": "063b1752-29db-57cc-86bc-7f6524847a08",
+          "type": "coordinates-with"
+        },
+        {
+          "dest-uuid": "4394c6cd-c7c5-501c-9869-fe4961832f36",
+          "type": "coordinates-with"
+        }
+      ],
+      "uuid": "61293b1e-c3b0-59b8-b7f5-72114d17da00",
+      "value": "Copper Coast Air Service"
+    },
+    {
+      "description": "Coordinates island rescue aviation and arrival status with the civil airport.",
+      "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
+        "country": "Orinthia",
+        "entity-type": [
+          "force-organization"
+        ],
+        "force-type": [
+          "air-force"
+        ],
+        "geographic-feature-id": [
+          "4394c6cd-c7c5-501c-9869-fe4961832f36"
+        ],
+        "latitude": [
+          "46.1553"
+        ],
+        "liaison-site": [
+          "Sound Rescue Field"
+        ],
+        "longitude": [
+          "70.1528"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "service-model": [
+          "Independent air force"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "74d2286a-1b87-4984-8dd1-c5bd466ecca5",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "11bb1437-26a7-57ee-8468-c55352ff1d45",
+          "type": "has-liaison-at"
+        },
+        {
+          "dest-uuid": "227f9efe-a050-5e5a-948f-2c19c29d29ff",
+          "type": "coordinates-with"
+        },
+        {
+          "dest-uuid": "61293b1e-c3b0-59b8-b7f5-72114d17da00",
+          "type": "coordinates-with"
+        }
+      ],
+      "uuid": "4394c6cd-c7c5-501c-9869-fe4961832f36",
+      "value": "Orinthia Air Rescue Service"
+    }
+  ],
+  "version": 1
+}

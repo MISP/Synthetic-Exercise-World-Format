@@ -1,0 +1,202 @@
+{
+  "authors": [
+    "MISP Project"
+  ],
+  "category": "context",
+  "description": "Fictional Nacre navy organizations and their geographic liaison points.",
+  "name": "Synthetic Exercise World - Navy",
+  "source": "https://github.com/MISP/Synthetic-Exercise-World-Format",
+  "type": "exercise-world-navy",
+  "uuid": "c84616b2-aaed-5806-925e-0badf3948e03",
+  "values": [
+    {
+      "description": "Coordinates island port liaison and maritime relief consignments departing Sound Harbor.",
+      "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
+        "country": "Orinthia",
+        "entity-type": [
+          "force-organization"
+        ],
+        "force-type": [
+          "navy"
+        ],
+        "geographic-feature-id": [
+          "ac0920a9-1b8f-544a-91ff-90c2221d80f9"
+        ],
+        "latitude": [
+          "48.1067"
+        ],
+        "liaison-site": [
+          "Sound Harbor"
+        ],
+        "longitude": [
+          "77.9585"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "service-model": [
+          "Independent navy"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "74d2286a-1b87-4984-8dd1-c5bd466ecca5",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "bf7e40db-7e91-5671-8a6e-af8e49c7d32d",
+          "type": "has-liaison-at"
+        },
+        {
+          "dest-uuid": "74800ce5-12f6-58bd-ad38-9b3892b76b47",
+          "type": "coordinates-with"
+        }
+      ],
+      "uuid": "ac0920a9-1b8f-544a-91ff-90c2221d80f9",
+      "value": "Orinthia Sound Navy"
+    },
+    {
+      "description": "Coordinates terminal access and receiving arrangements for maritime relief cargo.",
+      "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
+        "country": "Brinax Collective",
+        "entity-type": [
+          "force-organization"
+        ],
+        "force-type": [
+          "navy"
+        ],
+        "geographic-feature-id": [
+          "498553df-c9fb-5b9f-8694-38851604379e"
+        ],
+        "latitude": [
+          "-43.8885"
+        ],
+        "liaison-site": [
+          "Coast Terminal"
+        ],
+        "longitude": [
+          "65.4137"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "service-model": [
+          "Independent navy"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "91f273f8-66c0-446f-bdb2-4233fd0c55ef",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "a6a29bca-7989-509d-a8dc-d112e18747e6",
+          "type": "has-liaison-at"
+        }
+      ],
+      "uuid": "498553df-c9fb-5b9f-8694-38851604379e",
+      "value": "Brinax Cooperative Navy"
+    },
+    {
+      "description": "Maintains fleet administration and liaises with Delta Port on incoming relief manifests.",
+      "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
+        "country": "Neruva Federation",
+        "entity-type": [
+          "force-organization"
+        ],
+        "force-type": [
+          "navy"
+        ],
+        "geographic-feature-id": [
+          "74800ce5-12f6-58bd-ad38-9b3892b76b47"
+        ],
+        "latitude": [
+          "-25.4894"
+        ],
+        "liaison-site": [
+          "Delta Port"
+        ],
+        "longitude": [
+          "85.4854"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "service-model": [
+          "Independent navy"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "cfe1b22e-38b5-4077-bb90-b2bc5fedb965",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "7bd507fe-b88c-59b9-a4d1-d290020147f6",
+          "type": "has-liaison-at"
+        },
+        {
+          "dest-uuid": "ac0920a9-1b8f-544a-91ff-90c2221d80f9",
+          "type": "coordinates-with"
+        }
+      ],
+      "uuid": "74800ce5-12f6-58bd-ad38-9b3892b76b47",
+      "value": "Neruva Delta Navy"
+    },
+    {
+      "description": "Coordinates cold-chain and port availability updates for northern supply services.",
+      "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
+        "country": "Soreth Dominion",
+        "entity-type": [
+          "force-organization"
+        ],
+        "force-type": [
+          "navy"
+        ],
+        "geographic-feature-id": [
+          "61f36f5a-ea92-57c1-bc31-a8dddadf6586"
+        ],
+        "latitude": [
+          "76.8204"
+        ],
+        "liaison-site": [
+          "North Quay"
+        ],
+        "longitude": [
+          "17.4647"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "service-model": [
+          "Independent naval service"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "c4be7f53-6d08-4472-8480-49ccb7946e78",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "7dc0c17e-8526-5503-a94b-faf0973d49a1",
+          "type": "has-liaison-at"
+        }
+      ],
+      "uuid": "61f36f5a-ea92-57c1-bc31-a8dddadf6586",
+      "value": "Soreth Northern Fleet"
+    }
+  ],
+  "version": 1
+}

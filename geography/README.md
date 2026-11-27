@@ -1,6 +1,6 @@
 # Nacre geographic atlas
 
-The atlas registers country boundaries, capitals, and extension features to the latitude and longitude grid printed on the clear Nacre map. The [GeoJSON](nacre.geojson) covers 285 features across 13 layers. Open the [standalone atlas](atlas.html) in a browser to filter layers, search for a site or route, and inspect its coordinates or endpoints. Browsers that require HTTP can load the atlas through `python3 -m http.server --directory geography` from the repository root.
+The atlas registers country boundaries, capitals, and extension features to the latitude and longitude grid printed on the clear Nacre map. The [GeoJSON](nacre.geojson) covers 309 features across 19 layers. Open the [standalone atlas](atlas.html) in a browser to filter layers, search for a site or route, and inspect its coordinates or endpoints. Browsers that require HTTP can load the atlas through `python3 -m http.server --directory geography` from the repository root.
 
 ## Coordinate reference
 
@@ -15,6 +15,7 @@ The clear SVG atlas is the reference artwork. Its zero meridian and equator are 
 | Countries and capitals | Country boundaries trace the clear atlas and use the original MISP country UUIDs. Capital locations come from the atlas star markers. Orinthia has seven polygon parts. |
 | Ground facilities | A point places each site on the shared grid. Existing markers were registered to the grid, with placements adjusted where needed to fit the named country. Water sources and plants have representative locations near their districts. |
 | Utility districts and hubs | A point identifies each district's representative anchor. |
+| Force liaison points | Each point uses an existing host facility or capital. The service model identifies whether the organization is independent, a component, a reserve, or a civilian authority. |
 | Transport and utility routes | LineStrings follow the schematic corridors and terminate at registered endpoints. Data center circuits and feeds show logical handoffs, with the underlying assets identified by UUID. |
 | Veyra | Surface coordinates register the three crossings and underground landmarks. Depths remain separate. The Veyra access entry shows the known surface entrances. |
 | Satellite footprints | Polygons register the illustrated coverage windows or snapshot. They describe surface visibility. |

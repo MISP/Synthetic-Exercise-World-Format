@@ -1,0 +1,9 @@
+{
+  "description": "Fictional Nacre navy organizations and their geographic liaison points.",
+  "icon": "ship",
+  "name": "Synthetic Exercise World - Navy",
+  "namespace": "misp",
+  "type": "exercise-world-navy",
+  "uuid": "4300a813-b35f-53f9-be51-ab277f971de0",
+  "version": 1
+}

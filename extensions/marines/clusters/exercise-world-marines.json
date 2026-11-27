@@ -1,0 +1,173 @@
+{
+  "authors": [
+    "MISP Project"
+  ],
+  "category": "context",
+  "description": "Fictional Nacre marines organizations and their geographic liaison points.",
+  "name": "Synthetic Exercise World - Marines",
+  "source": "https://github.com/MISP/Synthetic-Exercise-World-Format",
+  "type": "exercise-world-marines",
+  "uuid": "4fd1d9d6-c064-5ad7-a39c-bc46c4495646",
+  "values": [
+    {
+      "description": "Coordinates island relief transfers between Sound Harbor and civil receiving teams.",
+      "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
+        "country": "Orinthia",
+        "entity-type": [
+          "force-organization"
+        ],
+        "force-type": [
+          "marines"
+        ],
+        "geographic-feature-id": [
+          "a573cbcc-489f-5aeb-a913-69fb0449c7f6"
+        ],
+        "latitude": [
+          "47.0"
+        ],
+        "liaison-site": [
+          "Orinthia Prime"
+        ],
+        "longitude": [
+          "75.0"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "service-model": [
+          "Naval marine component"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "74d2286a-1b87-4984-8dd1-c5bd466ecca5",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "ac0920a9-1b8f-544a-91ff-90c2221d80f9",
+          "type": "part-of"
+        },
+        {
+          "dest-uuid": "bf7e40db-7e91-5671-8a6e-af8e49c7d32d",
+          "type": "coordinates-with"
+        },
+        {
+          "dest-uuid": "624d469d-f640-58c5-a4e4-58496d97aa03",
+          "type": "coordinates-with"
+        }
+      ],
+      "uuid": "a573cbcc-489f-5aeb-a913-69fb0449c7f6",
+      "value": "Sound Marines Group"
+    },
+    {
+      "description": "Coordinates ship-to-shore cargo custody and receiving confirmations.",
+      "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
+        "country": "Brinax Collective",
+        "entity-type": [
+          "force-organization"
+        ],
+        "force-type": [
+          "marines"
+        ],
+        "geographic-feature-id": [
+          "37dea153-755d-55d6-b9f5-bb539dfa9af3"
+        ],
+        "latitude": [
+          "-37.0"
+        ],
+        "liaison-site": [
+          "Brinax Prime"
+        ],
+        "longitude": [
+          "55.0"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "service-model": [
+          "Naval marine component"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "91f273f8-66c0-446f-bdb2-4233fd0c55ef",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "498553df-c9fb-5b9f-8694-38851604379e",
+          "type": "part-of"
+        },
+        {
+          "dest-uuid": "a6a29bca-7989-509d-a8dc-d112e18747e6",
+          "type": "coordinates-with"
+        },
+        {
+          "dest-uuid": "e0ee3b96-1eba-5d69-a944-b40d2ee61bd3",
+          "type": "coordinates-with"
+        }
+      ],
+      "uuid": "37dea153-755d-55d6-b9f5-bb539dfa9af3",
+      "value": "Brinax Marine Support Corps"
+    },
+    {
+      "description": "Reconciles maritime relief manifests with shore and shelter receiving teams.",
+      "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
+        "country": "Neruva Federation",
+        "entity-type": [
+          "force-organization"
+        ],
+        "force-type": [
+          "marines"
+        ],
+        "geographic-feature-id": [
+          "80a78e34-f558-506b-874f-cfee4d4e1fe1"
+        ],
+        "latitude": [
+          "-25.0"
+        ],
+        "liaison-site": [
+          "Neruva Prime"
+        ],
+        "longitude": [
+          "73.0"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "service-model": [
+          "Naval marine component"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "cfe1b22e-38b5-4077-bb90-b2bc5fedb965",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "74800ce5-12f6-58bd-ad38-9b3892b76b47",
+          "type": "part-of"
+        },
+        {
+          "dest-uuid": "7bd507fe-b88c-59b9-a4d1-d290020147f6",
+          "type": "coordinates-with"
+        },
+        {
+          "dest-uuid": "897e79a4-6495-54a5-87e2-cda8a8b82782",
+          "type": "coordinates-with"
+        }
+      ],
+      "uuid": "80a78e34-f558-506b-874f-cfee4d4e1fe1",
+      "value": "Delta Marines Detachment"
+    }
+  ],
+  "version": 1
+}

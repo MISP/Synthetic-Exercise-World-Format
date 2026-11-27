@@ -176,6 +176,21 @@ def main():
             capitals[country] = feature
         if props.get("host_id"):
             assert coordinates == features[props["host_id"]]["geometry"]["coordinates"], props
+        if props["kind"] == "force-liaison":
+            record = records[ident]
+            meta = record["meta"]
+            host = features[props["host_id"]]["properties"]
+            assert host["country"] == country == meta["country"], props
+            assert props["country_id"] == countries[country]["id"], props
+            assert targets(record, "located-in") == [props["country_id"]], record
+            assert meta["entity-type"] == ["force-organization"], record
+            assert meta["force-type"] == [props["layer"]], record
+            assert meta["service-model"] == [props["service_model"]], record
+            assert meta["liaison-site"] == [host["name"]], record
+            host_targets = [] if host["kind"] == "capital" else [props["host_id"]]
+            assert targets(record, "has-liaison-at") == host_targets, record
+            assert all(link["dest-uuid"] in records or link["dest-uuid"] == props["country_id"]
+                       for link in record["related"]), record
         if geometry["type"] == "LineString":
             start, end = props["endpoint_ids"]
             assert props["direction"] in {"one-way", "bidirectional"}, props

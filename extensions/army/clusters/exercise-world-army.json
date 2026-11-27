@@ -1,0 +1,255 @@
+{
+  "authors": [
+    "MISP Project"
+  ],
+  "category": "context",
+  "description": "Fictional Nacre army organizations and their geographic liaison points.",
+  "name": "Synthetic Exercise World - Army",
+  "source": "https://github.com/MISP/Synthetic-Exercise-World-Format",
+  "type": "exercise-world-army",
+  "uuid": "b6df10aa-52f1-5c14-83fc-ccd5a82dad1c",
+  "values": [
+    {
+      "description": "Coordinates engineering support requests and tracks relief freight leaving the northern terminal.",
+      "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
+        "country": "Asterin Union",
+        "entity-type": [
+          "force-organization"
+        ],
+        "force-type": [
+          "army"
+        ],
+        "geographic-feature-id": [
+          "402beeeb-5b4b-5859-bf62-294b788c1a8f"
+        ],
+        "latitude": [
+          "53.6822"
+        ],
+        "liaison-site": [
+          "North Gate Terminal"
+        ],
+        "longitude": [
+          "-44.9806"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "service-model": [
+          "Independent army"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "cb97ba71-e477-4acb-9470-10f3e6c9e1a9",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "e0f89568-0d0e-5036-b6bd-d764e9e30055",
+          "type": "has-liaison-at"
+        }
+      ],
+      "uuid": "402beeeb-5b4b-5859-bf62-294b788c1a8f",
+      "value": "Asterin Land Service"
+    },
+    {
+      "description": "Coordinates heavy freight documentation and handoffs between rail and road carriers.",
+      "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
+        "country": "Velkar Republic",
+        "entity-type": [
+          "force-organization"
+        ],
+        "force-type": [
+          "army"
+        ],
+        "geographic-feature-id": [
+          "3fcabad6-8095-5429-beb9-0c8260090ae2"
+        ],
+        "latitude": [
+          "17.9992"
+        ],
+        "liaison-site": [
+          "Basin Junction"
+        ],
+        "longitude": [
+          "-9.5764"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "service-model": [
+          "Independent army"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "e4cd09cc-7be7-46ef-8989-5b9a812b49fe",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "4a93ab65-0a43-5658-9486-b9afa7ce4533",
+          "type": "has-liaison-at"
+        },
+        {
+          "dest-uuid": "98a2e790-c5c4-54aa-8709-492d7df2d0a7",
+          "type": "coordinates-with"
+        }
+      ],
+      "uuid": "3fcabad6-8095-5429-beb9-0c8260090ae2",
+      "value": "Velkar Land Service"
+    },
+    {
+      "description": "Coordinates road-clearance requests and civil freight staging in the steppe.",
+      "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
+        "country": "Thyros Commonwealth",
+        "entity-type": [
+          "force-organization"
+        ],
+        "force-type": [
+          "army"
+        ],
+        "geographic-feature-id": [
+          "8140a4c5-7cff-54d0-a6d6-d0bccf74831f"
+        ],
+        "latitude": [
+          "11.5874"
+        ],
+        "liaison-site": [
+          "Steppe Yard"
+        ],
+        "longitude": [
+          "62.0684"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "service-model": [
+          "Independent army"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "970fd807-b09e-4379-9a44-bebc5d0b9869",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "f0c047c4-b145-59cc-83f8-f2e15a7cb74d",
+          "type": "has-liaison-at"
+        }
+      ],
+      "uuid": "8140a4c5-7cff-54d0-a6d6-d0bccf74831f",
+      "value": "Thyros Field Service"
+    },
+    {
+      "description": "Receives requests for civil engineering support and coordinates cross-border relief handoffs.",
+      "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
+        "country": "Ilyndor",
+        "entity-type": [
+          "force-organization"
+        ],
+        "force-type": [
+          "army"
+        ],
+        "geographic-feature-id": [
+          "98a2e790-c5c4-54aa-8709-492d7df2d0a7"
+        ],
+        "latitude": [
+          "-3.4512"
+        ],
+        "liaison-site": [
+          "Corridor Relief Depot"
+        ],
+        "longitude": [
+          "-7.4657"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "service-model": [
+          "Territorial reserve"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "1e875520-fb3e-4d26-a982-44a5fb7f9375",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "329a021d-2be4-5006-801c-29b9e12dd864",
+          "type": "has-liaison-at"
+        },
+        {
+          "dest-uuid": "0dbdda68-7b32-5cd8-866f-298ec948c46f",
+          "type": "coordinates-with"
+        },
+        {
+          "dest-uuid": "3fcabad6-8095-5429-beb9-0c8260090ae2",
+          "type": "coordinates-with"
+        }
+      ],
+      "uuid": "98a2e790-c5c4-54aa-8709-492d7df2d0a7",
+      "value": "Ilyndor Territorial Reserve"
+    },
+    {
+      "description": "Reconciles emergency stores and connects district requests to civilian relief dispatch.",
+      "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
+        "country": "Quenari League",
+        "entity-type": [
+          "force-organization"
+        ],
+        "force-type": [
+          "army"
+        ],
+        "geographic-feature-id": [
+          "678d3541-3b8d-577c-bf09-636e05d8ddf6"
+        ],
+        "latitude": [
+          "-37.2074"
+        ],
+        "liaison-site": [
+          "Quenari Relief Store"
+        ],
+        "longitude": [
+          "-25.292"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "service-model": [
+          "National reserve service"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "54670ad5-49fe-4d0c-8a81-84b06a8b5050",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "3fd35d50-0700-54a8-bf6a-018e6107c290",
+          "type": "has-liaison-at"
+        },
+        {
+          "dest-uuid": "a4788601-2f69-5810-ae59-aa6df5d19041",
+          "type": "coordinates-with"
+        }
+      ],
+      "uuid": "678d3541-3b8d-577c-bf09-636e05d8ddf6",
+      "value": "Quenari Land Reserve"
+    }
+  ],
+  "version": 1
+}

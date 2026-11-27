@@ -1,0 +1,9 @@
+{
+  "description": "Fictional Nacre space force organizations and their geographic liaison points.",
+  "icon": "satellite",
+  "name": "Synthetic Exercise World - Space Force",
+  "namespace": "misp",
+  "type": "exercise-world-space-force",
+  "uuid": "90715522-9d38-537e-a7d9-7ec643d9aaef",
+  "version": 1
+}
