@@ -1,0 +1,313 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+     viewBox="0 0 1540 1165" role="img" aria-labelledby="title description">
+  <title id="title">Nacre oil production and refining — petroleum network and electricity dependency</title>
+  <desc id="description">Ten countries are grouped by production, refining, and consumption roles. Directional links show offshore and onshore crude supply, delivery of refined diesel, and an associated natural gas feed to a generator.</desc>
+  <defs>
+    <linearGradient id="sea" x2="0" y2="1">
+      <stop stop-color="#1e3949"/>
+      <stop offset="1" stop-color="#182c3a"/>
+    </linearGradient>
+    <pattern id="graticule" width="62" height="62" patternUnits="userSpaceOnUse">
+      <path d="M 62,0 H 0 V 62" fill="none" stroke="#b9cad2" stroke-opacity=".12"/>
+    </pattern>
+    <clipPath id="map-frame"><rect x="48" y="171" width="1052" height="786" rx="12"/></clipPath>
+    <marker id="arrow-crude" viewBox="0 0 8 8" refX="11" refY="4" markerWidth="5" markerHeight="5" orient="auto">
+      <path d="M 0,0 8,4 0,8 Z" fill="#ffd195"/>
+    </marker>
+    <marker id="arrow-product" viewBox="0 0 8 8" refX="11" refY="4" markerWidth="5" markerHeight="5" orient="auto">
+      <path d="M 0,0 8,4 0,8 Z" fill="#a2e7c9"/>
+    </marker>
+    <marker id="arrow-tanker" viewBox="0 0 8 8" refX="11" refY="4" markerWidth="5" markerHeight="5" orient="auto">
+      <path d="M 0,0 8,4 0,8 Z" fill="#a9dcff"/>
+    </marker>
+    <marker id="arrow-gas" viewBox="0 0 8 8" refX="11" refY="4" markerWidth="5" markerHeight="5" orient="auto">
+      <path d="M 0,0 8,4 0,8 Z" fill="#e2c5ff"/>
+    </marker>
+    <style>
+      text { font-family: 'DejaVu Sans', sans-serif; }
+      .ink { fill: #253845; }
+      .muted { fill: #4e656f; }
+      .light { fill: #edf5f4; }
+      .caps { font-size: 13px; font-weight: 700; letter-spacing: 2px; }
+      .title { font-size: 55px; font-weight: 700; letter-spacing: -2px; }
+      .subtitle { font-size: 18px; }
+      .body { font-size: 15px; font-weight: 700; }
+      .support { font-size: 13px; }
+      .small { font-size: 12px; }
+      .place { fill: #fff8eb; stroke: #192e3b; stroke-width: 4px; stroke-linejoin: round; paint-order: stroke fill; font-weight: 700; font-size: 15px; }
+      .route-id { fill: #eff6f4; font: 700 11px 'DejaVu Sans Mono', monospace; text-anchor: middle; }
+      .area { fill: #bbced6; font-size: 13px; letter-spacing: 2px; }
+      .card { fill: #fffcf6; stroke: #cbd3d0; }
+      .divider { stroke: #cbd3d0; }
+      .route { fill: none; stroke-width: 3.1; stroke-linecap: round; stroke-linejoin: round; }
+      .outline { fill: none; stroke: #1a303d; stroke-width: 5.8; stroke-linecap: round; }
+    </style>
+  </defs>
+  <rect width="1540" height="1165" fill="#f3f0e7"/>
+  <text x="48" y="56" class="caps muted">SYNTHETIC EXERCISE WORLD ATLAS</text>
+  <text x="48" y="115" class="title ink">Nacre oil production and refining</text>
+  <text x="51" y="145" class="subtitle muted">Crude oil flows, refined fuel deliveries, and a fossil electricity link</text>
+  <text x="1492" y="56" text-anchor="end" class="caps muted">WORLD EXTENSION</text>
+  <path d="M 48,1132 H 1492" class="divider"/>
+  <text x="48" y="1150" class="support muted">Schematic locations and routes · Basemap adapted from the Synthetic Exercise World atlas</text>
+  <text x="1492" y="1150" text-anchor="end" class="support muted">CC BY 4.0</text>
+
+  <g id="country-capabilities-layer" inkscape:groupmode="layer" inkscape:label="Country capability areas" clip-path="url(#map-frame)">
+    <rect x="48" y="171" width="1052" height="786" fill="url(#sea)"/>
+    <rect x="48" y="171" width="1052" height="786" fill="url(#graticule)"/>
+    <g transform="translate(-172 151) scale(1.47)" stroke="#9babb2" stroke-width=".85" stroke-linejoin="round">
+      <path d="M 179.14 505.81 L 207.84 430.48 L 211.43 315.69 L 186.32 226.02 L 236.54 139.92 L 329.80 71.77 L 469.70 43.07 L 595.25 53.83 L 666.99 93.29 L 684.93 143.51 L 742.32 197.32 L 792.54 269.06 L 821.24 344.39 L 817.65 448.42 L 771.02 516.57 L 677.75 559.62 L 512.75 563.21 L 315.45 548.86 z" fill="#365e71" opacity=".36"/>
+      <path d="M 211.43 226.02 L 229.36 179.38 L 265.23 132.75 L 301.10 104.05 L 365.67 93.29 L 426.65 114.81 L 484.05 165.03 L 437.42 200.91 L 347.74 287.00 L 275.99 261.89 L 232.95 240.36 z" fill="#526a60" data-country="Asterin Union" data-role="production-and-refining"/>
+      <path d="M 365.67 93.29 L 415.89 68.18 L 491.22 57.42 L 570.14 68.18 L 634.71 100.47 L 641.88 132.75 L 580.90 136.34 L 498.40 129.16 L 426.65 114.81 z" fill="#425461" data-country="Soreth Dominion" data-role="consumer-only"/>
+      <path d="M 437.42 200.91 L 484.05 165.03 L 580.90 136.34 L 641.88 154.27 L 656.23 197.32 L 634.71 240.36 L 555.79 243.95 L 476.87 233.19 z" fill="#425461" data-country="Caelum Protectorate" data-role="consumer-only"/>
+      <path d="M 347.74 287.00 L 437.42 200.91 L 476.87 233.19 L 555.79 243.95 L 534.27 279.82 L 509.16 337.22 L 419.48 351.57 L 354.91 333.63 L 304.69 312.11 z" fill="#506175" data-country="Velkar Republic" data-role="refining-only"/>
+      <path d="M 555.79 243.95 L 634.71 240.36 L 656.23 197.32 L 724.39 240.36 L 763.85 308.52 L 735.15 365.91 L 702.86 387.44 L 598.84 373.09 L 534.27 279.82 z" fill="#665061" data-country="Thyros Commonwealth" data-role="production-only"/>
+      <path d="M 258.06 391.02 L 304.69 312.11 L 354.91 333.63 L 419.48 351.57 L 509.16 337.22 L 598.84 373.09 L 631.12 408.96 L 559.38 437.66 L 426.65 416.13 L 326.21 423.31 z" fill="#506175" data-country="Ilyndor" data-role="refining-only"/>
+      <path d="M 200.66 477.12 L 258.06 391.02 L 326.21 423.31 L 426.65 416.13 L 559.38 437.66 L 570.14 512.99 L 469.70 538.10 L 329.80 527.34 L 232.95 505.81 z" fill="#425461" data-country="Quenari League" data-role="consumer-only"/>
+      <path d="M 570.14 512.99 L 559.38 437.66 L 631.12 408.96 L 695.69 430.48 L 735.15 477.12 L 692.10 527.34 L 609.60 534.51 z" fill="#665061" data-country="Brinax Collective" data-role="production-only"/>
+      <path d="M 598.84 373.09 L 702.86 387.44 L 763.85 416.13 L 778.19 462.77 L 735.15 477.12 L 695.69 430.48 L 631.12 408.96 z" fill="#526a60" data-country="Neruva Federation" data-role="production-and-refining"/>
+      <path d="M 681.34 172.21 L 699.28 147.10 L 735.15 154.27 L 749.50 179.38 L 731.56 204.49 L 695.69 200.91 z" fill="#425461" data-country="Orinthia" data-role="consumer-only"/>
+      <path d="M 745.91 136.34 L 771.02 125.58 L 792.54 143.51 L 785.37 168.62 L 756.67 172.21 z" fill="#425461" data-country="Orinthia" data-role="consumer-only"/>
+      <path d="M 717.21 111.23 L 735.15 93.29 L 763.85 100.47 L 771.02 121.99 L 749.50 136.34 L 724.39 132.75 z" fill="#425461" data-country="Orinthia" data-role="consumer-only"/>
+      <path d="M 663.41 125.58 L 681.34 111.23 L 702.86 118.40 L 695.69 139.92 L 670.58 143.51 z" fill="#425461" data-country="Orinthia" data-role="consumer-only"/>
+      <path d="M 788.96 211.67 L 814.07 200.91 L 828.41 222.43 L 810.48 243.95 L 785.37 236.78 z" fill="#425461" data-country="Orinthia" data-role="consumer-only"/>
+      <path d="M 699.28 240.36 L 724.39 222.43 L 749.50 233.19 L 742.32 254.71 L 710.04 258.30 z" fill="#425461" data-country="Orinthia" data-role="consumer-only"/>
+      <path d="M 638.30 182.97 L 656.23 168.62 L 670.58 182.97 L 663.41 200.91 L 641.88 200.91 z" fill="#425461" data-country="Orinthia" data-role="consumer-only"/>
+    </g>
+    <g transform="translate(93 253)" fill="#e9eff1">
+      <text y="-20" x="0" text-anchor="middle" font-size="15" font-weight="700">N</text>
+      <path d="M 0,-12 8,11 0,6 -8,11 Z M 0,14 V 26" stroke="#e9eff1" stroke-width="1.5"/>
+    </g>
+    <text x="1066" y="235" text-anchor="end" class="area">NORTHERN AZURE</text>
+    <text x="79" y="790" class="area">SOUTHERN</text>
+    <text x="79" y="811" class="area">AZURE</text>
+  </g>
+
+  <g id="oil-routes-layer" inkscape:groupmode="layer" inkscape:label="Pipeline, tanker and gas links" clip-path="url(#map-frame)">
+    <g transform="translate(-172 151) scale(1.47)">
+      <g id="route-P01" data-commodity="crude oil" data-mode="pipeline">
+        <title>P01 · Northstar Landing Line</title>
+        <path d="M 181,175 Q 199,176 229,192" class="outline"/>
+        <path d="M 181,175 Q 199,176 229,192" class="route" stroke="#ffd195" stroke-width="2.1" marker-end="url(#arrow-crude)"/>
+      </g>
+      <g id="route-P02" data-commodity="crude oil" data-mode="pipeline">
+        <title>P02 · Northhaven Feed Line</title>
+        <path d="M 229,192 Q 253,157 299,140" class="outline"/>
+        <path d="M 229,192 Q 253,157 299,140" class="route" stroke="#ffd195" stroke-width="2.1" marker-end="url(#arrow-crude)"/>
+      </g>
+      <g id="route-P03" data-commodity="crude oil" data-mode="pipeline">
+        <title>P03 · Basin Crude Line</title>
+        <path d="M 229,192 C 305,190 349,236 422,286" class="outline"/>
+        <path d="M 229,192 C 305,190 349,236 422,286" class="route" stroke="#ffd195" stroke-width="2.1" marker-end="url(#arrow-crude)"/>
+      </g>
+      <g id="route-P04" data-commodity="crude oil" data-mode="pipeline">
+        <title>P04 · Steppe–Corridor Crude Line</title>
+        <path d="M 680,304 C 616,317 577,277 540,266 Q 490,306 473,377" class="outline"/>
+        <path d="M 680,304 C 616,317 577,277 540,266 Q 490,306 473,377" class="route" stroke="#ffd195" stroke-width="2.1" marker-end="url(#arrow-crude)"/>
+      </g>
+      <g id="route-P05" data-commodity="crude oil" data-mode="pipeline">
+        <title>P05 · Delta Shoal Crude Line</title>
+        <path d="M 829,425 Q 782,401 722,422" class="outline"/>
+        <path d="M 829,425 Q 782,401 722,422" class="route" stroke="#ffd195" stroke-width="2.1" marker-end="url(#arrow-crude)"/>
+      </g>
+      <g id="route-P06" data-commodity="crude oil" data-mode="pipeline">
+        <title>P06 · Tidebank Crude Line</title>
+        <path d="M 735,531 C 750,497 724,464 722,422" class="outline"/>
+        <path d="M 735,531 C 750,497 724,464 722,422" class="route" stroke="#ffd195" stroke-width="2.1" marker-end="url(#arrow-crude)"/>
+      </g>
+      <g id="route-P07" data-commodity="diesel" data-mode="pipeline">
+        <title>P07 · Plateau Product Line</title>
+        <path d="M 422,286 Q 498,238 557,198" class="outline"/>
+        <path d="M 422,286 Q 498,238 557,198" class="route" stroke="#a2e7c9" stroke-width="2.1" marker-end="url(#arrow-product)"/>
+      </g>
+      <g id="route-P08" data-commodity="diesel" data-mode="pipeline">
+        <title>P08 · Orchard Product Line</title>
+        <path d="M 473,377 Q 396,395 337,470" class="outline"/>
+        <path d="M 473,377 Q 396,395 337,470" class="route" stroke="#a2e7c9" stroke-width="2.1" marker-end="url(#arrow-product)"/>
+      </g>
+      <g id="route-M01" data-commodity="diesel" data-mode="tanker service">
+        <title>M01 · Sound Product Tanker Route</title>
+        <path d="M 722,422 C 831,381 813,285 772,213 Q 762,194 728,181" class="outline"/>
+        <path d="M 722,422 C 831,381 813,285 772,213 Q 762,194 728,181" class="route" stroke="#a9dcff" stroke-dasharray="10 6" stroke-width="2.1" marker-end="url(#arrow-tanker)"/>
+      </g>
+      <g id="route-M02" data-commodity="diesel" data-mode="tanker service">
+        <title>M02 · Polar Product Tanker Route</title>
+        <path d="M 299,140 C 251,105 256,53 334,55 Q 404,21 514,82" class="outline"/>
+        <path d="M 299,140 C 251,105 256,53 334,55 Q 404,21 514,82" class="route" stroke="#a9dcff" stroke-dasharray="10 6" stroke-width="2.1" marker-end="url(#arrow-tanker)"/>
+      </g>
+      <g id="route-G01" data-commodity="conditioned natural gas" data-mode="gas feed">
+        <title>G01 · Delta Associated Gas Feed</title>
+        <path d="M 829,425 Q 798,454 746,451" class="outline"/>
+        <path d="M 829,425 Q 798,454 746,451" class="route" stroke="#e2c5ff" stroke-dasharray="3 5" stroke-width="2.1" marker-end="url(#arrow-gas)"/>
+      </g>
+    </g>
+    <g transform="translate(122.0 406.8)">
+      <rect x="-17" y="-9" width="34" height="18" rx="4" fill="#254150" stroke="#b3c6cc" stroke-opacity=".74"/>
+      <text y="4" class="route-id">P01</text>
+    </g>
+    <g transform="translate(210.2 378.9)">
+      <rect x="-17" y="-9" width="34" height="18" rx="4" fill="#254150" stroke="#b3c6cc" stroke-opacity=".74"/>
+      <text y="4" class="route-id">P02</text>
+    </g>
+    <g transform="translate(319.0 472.9)">
+      <rect x="-17" y="-9" width="34" height="18" rx="4" fill="#254150" stroke="#b3c6cc" stroke-opacity=".74"/>
+      <text y="4" class="route-id">P03</text>
+    </g>
+    <g transform="translate(649.7 556.7)">
+      <rect x="-17" y="-9" width="34" height="18" rx="4" fill="#254150" stroke="#b3c6cc" stroke-opacity=".74"/>
+      <text y="4" class="route-id">P04</text>
+    </g>
+    <g transform="translate(971.7 756.6)">
+      <rect x="-17" y="-9" width="34" height="18" rx="4" fill="#254150" stroke="#b3c6cc" stroke-opacity=".74"/>
+      <text y="4" class="route-id">P05</text>
+    </g>
+    <g transform="translate(909.9 868.4)">
+      <rect x="-17" y="-9" width="34" height="18" rx="4" fill="#254150" stroke="#b3c6cc" stroke-opacity=".74"/>
+      <text y="4" class="route-id">P06</text>
+    </g>
+    <g transform="translate(561.5 503.8)">
+      <rect x="-17" y="-9" width="34" height="18" rx="4" fill="#254150" stroke="#b3c6cc" stroke-opacity=".74"/>
+      <text y="4" class="route-id">P07</text>
+    </g>
+    <g transform="translate(407.2 769.9)">
+      <rect x="-17" y="-9" width="34" height="18" rx="4" fill="#254150" stroke="#b3c6cc" stroke-opacity=".74"/>
+      <text y="4" class="route-id">P08</text>
+    </g>
+    <g transform="translate(1023.1 605.2)">
+      <rect x="-17" y="-9" width="34" height="18" rx="4" fill="#254150" stroke="#b3c6cc" stroke-opacity=".74"/>
+      <text y="4" class="route-id">M01</text>
+    </g>
+    <g transform="translate(382.2 221.6)">
+      <rect x="-17" y="-9" width="34" height="18" rx="4" fill="#254150" stroke="#b3c6cc" stroke-opacity=".74"/>
+      <text y="4" class="route-id">M02</text>
+    </g>
+    <g transform="translate(993.7 812.5)">
+      <rect x="-17" y="-9" width="34" height="18" rx="4" fill="#254150" stroke="#b3c6cc" stroke-opacity=".74"/>
+      <text y="4" class="route-id">G01</text>
+    </g>
+  </g>
+
+  <g id="oil-sites-layer" inkscape:groupmode="layer" inkscape:label="Production, refining, and fuel sites" clip-path="url(#map-frame)">
+    <g id="site-NTH" data-kind="offshore-platform" transform="translate(94.1 408.2)">
+      <title>Northstar Shelf Platform · Asterin Union</title>
+      <circle r="10" fill="#ffd49b" stroke="#192c38" stroke-width="1.8"/><g fill="none" stroke="#2f4350" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M -9,5 H 9 M -6,5 -4,-5 0,-8 4,-5 6,5 M -6,-1 H 6"/></g>
+      <text x="0" y="-17" text-anchor="middle" class="place">Northstar</text>
+    </g>
+    <g id="site-NCT" data-kind="crude-terminal" transform="translate(164.6 433.2)">
+      <title>Northstar Crude Terminal · Asterin Union</title>
+      <circle r="10" fill="#e9d0ad" stroke="#192c38" stroke-width="1.8"/><g fill="none" stroke="#2f4350" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M -5,-4 H 5 M -5,0 H 5 M -5,4 H 5"/></g>
+      <text x="0" y="25" text-anchor="middle" class="place">Crude terminal</text>
+    </g>
+    <g id="site-NVN" data-kind="oil-refinery" transform="translate(267.5 356.8)">
+      <title>Northhaven Refinery · Asterin Union</title>
+      <circle r="10" fill="#9ce3c5" stroke="#192c38" stroke-width="1.8"/><g fill="none" stroke="#2f4350" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M -6,5 V -1 L -1,-4 V 0 L 5,-4 V 5 Z"/></g>
+      <text x="15" y="0" text-anchor="start" class="place">Northhaven</text>
+    </g>
+    <g id="site-BAS" data-kind="oil-refinery" transform="translate(448.3 571.4)">
+      <title>Basin Refinery · Velkar Republic</title>
+      <circle r="10" fill="#9ce3c5" stroke="#192c38" stroke-width="1.8"/><g fill="none" stroke="#2f4350" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M -6,5 V -1 L -1,-4 V 0 L 5,-4 V 5 Z"/></g>
+      <text x="-13" y="23" text-anchor="end" class="place">Basin Refinery</text>
+    </g>
+    <g id="site-STP" data-kind="onshore-oil-field" transform="translate(827.6 597.9)">
+      <title>Steppe Oil Field · Thyros Commonwealth</title>
+      <circle r="10" fill="#ffcea4" stroke="#192c38" stroke-width="1.8"/><g fill="none" stroke="#2f4350" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M -7,5 H 7 M -3,5 V -3 L 5,-5 M 1,-4 5,-1"/></g>
+      <text x="13" y="2" text-anchor="start" class="place">Steppe Oil Field</text>
+    </g>
+    <g id="site-COR" data-kind="oil-refinery" transform="translate(523.3 705.2)">
+      <title>Corridor Refinery · Ilyndor</title>
+      <circle r="10" fill="#9ce3c5" stroke="#192c38" stroke-width="1.8"/><g fill="none" stroke="#2f4350" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M -6,5 V -1 L -1,-4 V 0 L 5,-4 V 5 Z"/></g>
+      <text x="-15" y="-8" text-anchor="end" class="place">Corridor Refinery</text>
+    </g>
+    <g id="site-DSP" data-kind="offshore-platform" transform="translate(1046.6 775.8)">
+      <title>Delta Shoal Platform · Neruva Federation</title>
+      <circle r="10" fill="#ffd49b" stroke="#192c38" stroke-width="1.8"/><g fill="none" stroke="#2f4350" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M -9,5 H 9 M -6,5 -4,-5 0,-8 4,-5 6,5 M -6,-1 H 6"/></g>
+      <text x="0" y="-22" text-anchor="middle" class="place">Delta Shoal</text>
+    </g>
+    <g id="site-TDP" data-kind="offshore-platform" transform="translate(908.5 931.6)">
+      <title>Tidebank Platform · Brinax Collective</title>
+      <circle r="10" fill="#ffd49b" stroke="#192c38" stroke-width="1.8"/><g fill="none" stroke="#2f4350" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M -9,5 H 9 M -6,5 -4,-5 0,-8 4,-5 6,5 M -6,-1 H 6"/></g>
+      <text x="12" y="14" text-anchor="start" class="place">Tidebank</text>
+    </g>
+    <g id="site-DLT" data-kind="oil-refinery" transform="translate(889.3 771.3)">
+      <title>Delta Refinery · Neruva Federation</title>
+      <circle r="10" fill="#9ce3c5" stroke="#192c38" stroke-width="1.8"/><g fill="none" stroke="#2f4350" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M -6,5 V -1 L -1,-4 V 0 L 5,-4 V 5 Z"/></g>
+      <text x="-15" y="5" text-anchor="end" class="place">Delta Refinery</text>
+    </g>
+    <g id="site-PLT" data-kind="fuel-depot" transform="translate(646.8 442.1)">
+      <title>Plateau Fuel Depot · Caelum Protectorate</title>
+      <circle r="10" fill="#abdafa" stroke="#192c38" stroke-width="1.8"/><g fill="none" stroke="#2f4350" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M -5,5 V -3 Q 0,-7 5,-3 V 5 Z M -5,0 H 5"/></g>
+      <text x="15" y="4" text-anchor="start" class="place">Plateau Depot</text>
+    </g>
+    <g id="site-SND" data-kind="fuel-depot" transform="translate(898.2 417.1)">
+      <title>Sound Fuel Depot · Orinthia</title>
+      <circle r="10" fill="#abdafa" stroke="#192c38" stroke-width="1.8"/><g fill="none" stroke="#2f4350" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M -5,5 V -3 Q 0,-7 5,-3 V 5 Z M -5,0 H 5"/></g>
+      <text x="16" y="-7" text-anchor="start" class="place">Sound Depot</text>
+    </g>
+    <g id="site-ORC" data-kind="fuel-depot" transform="translate(323.4 841.9)">
+      <title>Orchard Fuel Depot · Quenari League</title>
+      <circle r="10" fill="#abdafa" stroke="#192c38" stroke-width="1.8"/><g fill="none" stroke="#2f4350" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M -5,5 V -3 Q 0,-7 5,-3 V 5 Z M -5,0 H 5"/></g>
+      <text x="-12" y="25" text-anchor="end" class="place">Orchard Depot</text>
+    </g>
+    <g id="site-POL" data-kind="fuel-depot" transform="translate(583.6 271.5)">
+      <title>Polar Stores Depot · Soreth Dominion</title>
+      <circle r="10" fill="#abdafa" stroke="#192c38" stroke-width="1.8"/><g fill="none" stroke="#2f4350" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M -5,5 V -3 Q 0,-7 5,-3 V 5 Z M -5,0 H 5"/></g>
+      <text x="-14" y="-3" text-anchor="end" class="place">Polar Depot</text>
+    </g>
+    <g id="site-GAS" data-kind="fossil-generator" transform="translate(924.6 814.0)">
+      <title>Delta Gas Station · Neruva Federation</title>
+      <circle r="10" fill="#e3c7ff" stroke="#192c38" stroke-width="1.8"/><g fill="none" stroke="#2f4350" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M 1,-7 -4,0 H 0 L -1,7 5,-1 H 1 Z"/></g>
+      <text x="13" y="23" text-anchor="start" class="place">Delta Gas Station</text>
+    </g>
+  </g>
+  <rect x="48" y="171" width="1052" height="786" rx="12" fill="none" stroke="#9bb0b7"/>
+  <rect x="1122" y="171" width="370" height="786" rx="12" class="card"/>
+  <text x="1146" y="208" class="caps muted">COUNTRY CAPABILITIES</text>
+  <rect x="1146" y="233" width="16" height="16" rx="3" fill="#526a60"/>
+  <text x="1175" y="246" class="body ink">Production and refining</text>
+  <text x="1175" y="264" class="support muted">Asterin Union · Neruva Federation</text>
+  <rect x="1146" y="295" width="16" height="16" rx="3" fill="#665061"/>
+  <text x="1175" y="308" class="body ink">Production only</text>
+  <text x="1175" y="326" class="support muted">Brinax Collective · Thyros Commonwealth</text>
+  <rect x="1146" y="357" width="16" height="16" rx="3" fill="#506175"/>
+  <text x="1175" y="370" class="body ink">Refining only</text>
+  <text x="1175" y="388" class="support muted">Ilyndor · Velkar Republic</text>
+  <rect x="1146" y="419" width="16" height="16" rx="3" fill="#425461"/>
+  <text x="1175" y="432" class="body ink">Consumer only</text>
+  <text x="1175" y="450" class="support muted">Caelum Protectorate · Orinthia</text>
+  <text x="1175" y="468" class="support muted">Quenari League · Soreth Dominion</text>
+  <path d="M 1146,481 H 1468" class="divider"/>
+  <text x="1146" y="512" class="caps muted">SITES AND SUPPLY ROUTES</text>
+  <rect x="1146" y="528" width="66" height="312" rx="8" fill="#243c49"/>
+  <g transform="translate(1179 551)"><circle r="10" fill="#ffd49b" stroke="#192c38" stroke-width="1.8"/><g fill="none" stroke="#2f4350" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M -9,5 H 9 M -6,5 -4,-5 0,-8 4,-5 6,5 M -6,-1 H 6"/></g></g>
+  <text x="1227" y="556" class="support ink">Offshore platform</text>
+  <g transform="translate(1179 581)"><circle r="10" fill="#ffcea4" stroke="#192c38" stroke-width="1.8"/><g fill="none" stroke="#2f4350" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M -7,5 H 7 M -3,5 V -3 L 5,-5 M 1,-4 5,-1"/></g></g>
+  <text x="1227" y="586" class="support ink">Onshore oil field</text>
+  <g transform="translate(1179 611)"><circle r="10" fill="#e9d0ad" stroke="#192c38" stroke-width="1.8"/><g fill="none" stroke="#2f4350" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M -5,-4 H 5 M -5,0 H 5 M -5,4 H 5"/></g></g>
+  <text x="1227" y="616" class="support ink">Crude terminal</text>
+  <g transform="translate(1179 641)"><circle r="10" fill="#9ce3c5" stroke="#192c38" stroke-width="1.8"/><g fill="none" stroke="#2f4350" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M -6,5 V -1 L -1,-4 V 0 L 5,-4 V 5 Z"/></g></g>
+  <text x="1227" y="646" class="support ink">Refinery</text>
+  <g transform="translate(1179 671)"><circle r="10" fill="#abdafa" stroke="#192c38" stroke-width="1.8"/><g fill="none" stroke="#2f4350" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M -5,5 V -3 Q 0,-7 5,-3 V 5 Z M -5,0 H 5"/></g></g>
+  <text x="1227" y="676" class="support ink">Fuel depot</text>
+  <g transform="translate(1179 701)"><circle r="10" fill="#e3c7ff" stroke="#192c38" stroke-width="1.8"/><g fill="none" stroke="#2f4350" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M 1,-7 -4,0 H 0 L -1,7 5,-1 H 1 Z"/></g></g>
+  <text x="1227" y="706" class="support ink">Natural gas generator</text>
+  <path d="M 1157,731 H 1201" class="route" stroke="#ffd195" marker-end="url(#arrow-crude)"/>
+  <text x="1227" y="736" class="support ink">Crude oil pipeline</text>
+  <path d="M 1157,761 H 1201" class="route" stroke="#a2e7c9" marker-end="url(#arrow-product)"/>
+  <text x="1227" y="766" class="support ink">Refined product pipeline</text>
+  <path d="M 1157,791 H 1201" class="route" stroke="#a9dcff" stroke-dasharray="10 6" marker-end="url(#arrow-tanker)"/>
+  <text x="1227" y="796" class="support ink">Refined product tanker service</text>
+  <path d="M 1157,821 H 1201" class="route" stroke="#e2c5ff" stroke-dasharray="3 5" marker-end="url(#arrow-gas)"/>
+  <text x="1227" y="826" class="support ink">Associated natural gas feed</text>
+  <text x="1146" y="879" class="small muted">Arrows point in the direction of supply.</text>
+  <text x="1146" y="901" class="small muted">The guide lists full facility names and route IDs.</text>
+
+  <g id="electricity-dependency-layer" inkscape:groupmode="layer" inkscape:label="Electricity dependencies">
+    <text x="48" y="987" class="caps muted">ELECTRICITY DEPENDENCIES</text>
+    <rect x="48" y="1003" width="1444" height="100" rx="12" class="card"/>
+    <path d="M 787,1021 V 1085" class="divider"/>
+    <text x="71" y="1039" class="body ink">Delta Shoal Platform → Delta Gas Station</text>
+    <text x="71" y="1067" class="support muted">G01 carries conditioned associated natural gas to the existing generator.</text>
+    <text x="813" y="1039" class="body ink">Electricity distribution → petroleum facilities</text>
+    <text x="813" y="1067" class="support muted">Local grids serve the four refineries, Northstar terminal, and Steppe Oil Field.</text>
+  </g>
+</svg>

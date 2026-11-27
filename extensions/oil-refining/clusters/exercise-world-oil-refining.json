@@ -1,0 +1,1183 @@
+{
+  "authors": [
+    "MISP Project"
+  ],
+  "category": "context",
+  "description": "Fictional oil production, crude and refined fuel distribution, and an associated natural gas dependency on Nacre.",
+  "name": "Synthetic Exercise World - Oil Production and Refining",
+  "source": "https://github.com/MISP/Synthetic-Exercise-World-Format",
+  "type": "exercise-world-oil-refining",
+  "uuid": "04710b4c-61c0-52f3-89fe-1262b6e0dd8e",
+  "values": [
+    {
+      "description": "Country's modeled role in the Nacre petroleum supply network: production and refining.",
+      "meta": {
+        "country": "Asterin Union",
+        "entity-type": [
+          "petroleum-country-profile"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "supply-role": [
+          "production-and-refining"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "cb97ba71-e477-4acb-9470-10f3e6c9e1a9",
+          "type": "profiles-country"
+        },
+        {
+          "dest-uuid": "218cc224-9e1e-5ecd-945d-2fed74c7e1c0",
+          "type": "includes-site"
+        },
+        {
+          "dest-uuid": "7d4dcaec-7016-50ae-b135-af4d90d7db73",
+          "type": "includes-site"
+        },
+        {
+          "dest-uuid": "b2808252-399f-5d62-8817-22978603eca8",
+          "type": "includes-site"
+        }
+      ],
+      "uuid": "d55c0880-6a33-503b-a571-9cf423722c05",
+      "value": "Asterin Union petroleum profile"
+    },
+    {
+      "description": "Country's modeled role in the Nacre petroleum supply network: production and refining.",
+      "meta": {
+        "country": "Neruva Federation",
+        "entity-type": [
+          "petroleum-country-profile"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "supply-role": [
+          "production-and-refining"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "cfe1b22e-38b5-4077-bb90-b2bc5fedb965",
+          "type": "profiles-country"
+        },
+        {
+          "dest-uuid": "51e8b49c-22f5-5025-a67c-3ad214ea2517",
+          "type": "includes-site"
+        },
+        {
+          "dest-uuid": "10c97512-8748-50a9-acd6-e0f8b875bf41",
+          "type": "includes-site"
+        }
+      ],
+      "uuid": "4553748f-ef26-5d65-b36b-eb9ea251dbfa",
+      "value": "Neruva Federation petroleum profile"
+    },
+    {
+      "description": "Country's modeled role in the Nacre petroleum supply network: production only.",
+      "meta": {
+        "country": "Brinax Collective",
+        "entity-type": [
+          "petroleum-country-profile"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "supply-role": [
+          "production-only"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "91f273f8-66c0-446f-bdb2-4233fd0c55ef",
+          "type": "profiles-country"
+        },
+        {
+          "dest-uuid": "d550d18f-6ba7-5bea-9a31-5270e0ba703c",
+          "type": "includes-site"
+        }
+      ],
+      "uuid": "428678e3-ba31-5980-9d6f-c845c51341a9",
+      "value": "Brinax Collective petroleum profile"
+    },
+    {
+      "description": "Country's modeled role in the Nacre petroleum supply network: production only.",
+      "meta": {
+        "country": "Thyros Commonwealth",
+        "entity-type": [
+          "petroleum-country-profile"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "supply-role": [
+          "production-only"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "970fd807-b09e-4379-9a44-bebc5d0b9869",
+          "type": "profiles-country"
+        },
+        {
+          "dest-uuid": "55f71688-4758-5a39-9fb7-64924adc6b04",
+          "type": "includes-site"
+        }
+      ],
+      "uuid": "5f275897-7e6d-5855-b968-62ff939d170c",
+      "value": "Thyros Commonwealth petroleum profile"
+    },
+    {
+      "description": "Country's modeled role in the Nacre petroleum supply network: refining only.",
+      "meta": {
+        "country": "Ilyndor",
+        "entity-type": [
+          "petroleum-country-profile"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "supply-role": [
+          "refining-only"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "1e875520-fb3e-4d26-a982-44a5fb7f9375",
+          "type": "profiles-country"
+        },
+        {
+          "dest-uuid": "4be929f0-5526-5aa6-a76b-a831e71a40fb",
+          "type": "includes-site"
+        }
+      ],
+      "uuid": "64c7cf81-f4d9-5b9f-a70f-9c0fe5d6543b",
+      "value": "Ilyndor petroleum profile"
+    },
+    {
+      "description": "Country's modeled role in the Nacre petroleum supply network: refining only.",
+      "meta": {
+        "country": "Velkar Republic",
+        "entity-type": [
+          "petroleum-country-profile"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "supply-role": [
+          "refining-only"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "e4cd09cc-7be7-46ef-8989-5b9a812b49fe",
+          "type": "profiles-country"
+        },
+        {
+          "dest-uuid": "f5033e86-9c17-54ea-953c-110d45cc0f03",
+          "type": "includes-site"
+        }
+      ],
+      "uuid": "aac6a823-ffd8-5604-986d-3e152fe59f85",
+      "value": "Velkar Republic petroleum profile"
+    },
+    {
+      "description": "Country's modeled role in the Nacre petroleum supply network: consumer only.",
+      "meta": {
+        "country": "Caelum Protectorate",
+        "entity-type": [
+          "petroleum-country-profile"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "supply-role": [
+          "consumer-only"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "4a600b9f-b843-446f-a234-415aded47e1b",
+          "type": "profiles-country"
+        },
+        {
+          "dest-uuid": "70aec774-d6c4-50d6-8b96-ba4e4adbf2d0",
+          "type": "includes-site"
+        }
+      ],
+      "uuid": "c786af15-2772-507f-aa3a-29557854598f",
+      "value": "Caelum Protectorate petroleum profile"
+    },
+    {
+      "description": "Country's modeled role in the Nacre petroleum supply network: consumer only.",
+      "meta": {
+        "country": "Orinthia",
+        "entity-type": [
+          "petroleum-country-profile"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "supply-role": [
+          "consumer-only"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "74d2286a-1b87-4984-8dd1-c5bd466ecca5",
+          "type": "profiles-country"
+        },
+        {
+          "dest-uuid": "bae148de-df2e-5bbb-8bae-91eee07955f4",
+          "type": "includes-site"
+        }
+      ],
+      "uuid": "a6bb5a76-9c9f-5c0d-a625-1d2bcb68e481",
+      "value": "Orinthia petroleum profile"
+    },
+    {
+      "description": "Country's modeled role in the Nacre petroleum supply network: consumer only.",
+      "meta": {
+        "country": "Quenari League",
+        "entity-type": [
+          "petroleum-country-profile"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "supply-role": [
+          "consumer-only"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "54670ad5-49fe-4d0c-8a81-84b06a8b5050",
+          "type": "profiles-country"
+        },
+        {
+          "dest-uuid": "619b816a-668a-5982-b538-b9e09aa06106",
+          "type": "includes-site"
+        }
+      ],
+      "uuid": "2479a192-9e01-57cc-a8de-fa5f9ba5bae3",
+      "value": "Quenari League petroleum profile"
+    },
+    {
+      "description": "Country's modeled role in the Nacre petroleum supply network: consumer only.",
+      "meta": {
+        "country": "Soreth Dominion",
+        "entity-type": [
+          "petroleum-country-profile"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "supply-role": [
+          "consumer-only"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "c4be7f53-6d08-4472-8480-49ccb7946e78",
+          "type": "profiles-country"
+        },
+        {
+          "dest-uuid": "2e66c078-e36a-53b5-ad00-e828ae4d9704",
+          "type": "includes-site"
+        }
+      ],
+      "uuid": "633fafff-af2f-5f2a-946e-f62633230f32",
+      "value": "Soreth Dominion petroleum profile"
+    },
+    {
+      "description": "Fictional offshore platform in Asterin Union.",
+      "meta": {
+        "country": "Asterin Union",
+        "entity-type": [
+          "petroleum-site"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "produces": [
+          "crude oil"
+        ],
+        "site-id": [
+          "NTH"
+        ],
+        "site-kind": [
+          "offshore-platform"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "cb97ba71-e477-4acb-9470-10f3e6c9e1a9",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "d55c0880-6a33-503b-a571-9cf423722c05",
+          "type": "part-of-profile"
+        },
+        {
+          "dest-uuid": "5b3082d4-4573-5b6c-a263-d66c1eef7867",
+          "type": "sends-via"
+        }
+      ],
+      "uuid": "218cc224-9e1e-5ecd-945d-2fed74c7e1c0",
+      "value": "Northstar Shelf Platform"
+    },
+    {
+      "description": "Fictional crude terminal in Asterin Union.",
+      "meta": {
+        "country": "Asterin Union",
+        "entity-type": [
+          "petroleum-site"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "site-id": [
+          "NCT"
+        ],
+        "site-kind": [
+          "crude-terminal"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "cb97ba71-e477-4acb-9470-10f3e6c9e1a9",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "d55c0880-6a33-503b-a571-9cf423722c05",
+          "type": "part-of-profile"
+        },
+        {
+          "dest-uuid": "1eb396ed-ad4d-5f7a-bd73-6f150b6bf567",
+          "type": "draws-power-from"
+        },
+        {
+          "dest-uuid": "5b3082d4-4573-5b6c-a263-d66c1eef7867",
+          "type": "receives-via"
+        },
+        {
+          "dest-uuid": "806e0d85-e191-5141-a8f7-1ac9fde73b42",
+          "type": "sends-via"
+        },
+        {
+          "dest-uuid": "979ed59c-a0fe-5139-a692-08ac1fd4e281",
+          "type": "sends-via"
+        }
+      ],
+      "uuid": "7d4dcaec-7016-50ae-b135-af4d90d7db73",
+      "value": "Northstar Crude Terminal"
+    },
+    {
+      "description": "Fictional oil refinery in Asterin Union.",
+      "meta": {
+        "country": "Asterin Union",
+        "entity-type": [
+          "petroleum-site"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "produces": [
+          "diesel"
+        ],
+        "site-id": [
+          "NVN"
+        ],
+        "site-kind": [
+          "oil-refinery"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "cb97ba71-e477-4acb-9470-10f3e6c9e1a9",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "d55c0880-6a33-503b-a571-9cf423722c05",
+          "type": "part-of-profile"
+        },
+        {
+          "dest-uuid": "1eb396ed-ad4d-5f7a-bd73-6f150b6bf567",
+          "type": "draws-power-from"
+        },
+        {
+          "dest-uuid": "806e0d85-e191-5141-a8f7-1ac9fde73b42",
+          "type": "receives-via"
+        },
+        {
+          "dest-uuid": "dcb702e4-19b9-5b6c-b3e3-6f5523d5478e",
+          "type": "sends-via"
+        }
+      ],
+      "uuid": "b2808252-399f-5d62-8817-22978603eca8",
+      "value": "Northhaven Refinery"
+    },
+    {
+      "description": "Fictional oil refinery in Velkar Republic.",
+      "meta": {
+        "country": "Velkar Republic",
+        "entity-type": [
+          "petroleum-site"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "produces": [
+          "diesel"
+        ],
+        "site-id": [
+          "BAS"
+        ],
+        "site-kind": [
+          "oil-refinery"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "e4cd09cc-7be7-46ef-8989-5b9a812b49fe",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "aac6a823-ffd8-5604-986d-3e152fe59f85",
+          "type": "part-of-profile"
+        },
+        {
+          "dest-uuid": "1f79396a-6b4e-5c6c-bdd4-2653746bda20",
+          "type": "draws-power-from"
+        },
+        {
+          "dest-uuid": "979ed59c-a0fe-5139-a692-08ac1fd4e281",
+          "type": "receives-via"
+        },
+        {
+          "dest-uuid": "6a66a19a-b2e9-5d9b-868d-b59e63c89c2c",
+          "type": "sends-via"
+        }
+      ],
+      "uuid": "f5033e86-9c17-54ea-953c-110d45cc0f03",
+      "value": "Basin Refinery"
+    },
+    {
+      "description": "Fictional onshore oil field in Thyros Commonwealth.",
+      "meta": {
+        "country": "Thyros Commonwealth",
+        "entity-type": [
+          "petroleum-site"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "produces": [
+          "crude oil"
+        ],
+        "site-id": [
+          "STP"
+        ],
+        "site-kind": [
+          "onshore-oil-field"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "970fd807-b09e-4379-9a44-bebc5d0b9869",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "5f275897-7e6d-5855-b968-62ff939d170c",
+          "type": "part-of-profile"
+        },
+        {
+          "dest-uuid": "d4f819de-4304-59ce-a095-d5e52de53b8d",
+          "type": "draws-power-from"
+        },
+        {
+          "dest-uuid": "7e890bfa-a7a7-59d4-ba0a-b9504b41d43e",
+          "type": "sends-via"
+        }
+      ],
+      "uuid": "55f71688-4758-5a39-9fb7-64924adc6b04",
+      "value": "Steppe Oil Field"
+    },
+    {
+      "description": "Fictional oil refinery in Ilyndor.",
+      "meta": {
+        "country": "Ilyndor",
+        "entity-type": [
+          "petroleum-site"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "produces": [
+          "diesel"
+        ],
+        "site-id": [
+          "COR"
+        ],
+        "site-kind": [
+          "oil-refinery"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "1e875520-fb3e-4d26-a982-44a5fb7f9375",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "64c7cf81-f4d9-5b9f-a70f-9c0fe5d6543b",
+          "type": "part-of-profile"
+        },
+        {
+          "dest-uuid": "993b1bc9-2616-5c0c-be4c-c3b8586dfebd",
+          "type": "draws-power-from"
+        },
+        {
+          "dest-uuid": "7e890bfa-a7a7-59d4-ba0a-b9504b41d43e",
+          "type": "receives-via"
+        },
+        {
+          "dest-uuid": "3441e764-362b-5c76-ac83-9dc06d402988",
+          "type": "sends-via"
+        }
+      ],
+      "uuid": "4be929f0-5526-5aa6-a76b-a831e71a40fb",
+      "value": "Corridor Refinery"
+    },
+    {
+      "description": "Fictional offshore platform in Neruva Federation.",
+      "meta": {
+        "country": "Neruva Federation",
+        "entity-type": [
+          "petroleum-site"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "produces": [
+          "crude oil",
+          "associated natural gas"
+        ],
+        "site-id": [
+          "DSP"
+        ],
+        "site-kind": [
+          "offshore-platform"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "cfe1b22e-38b5-4077-bb90-b2bc5fedb965",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "4553748f-ef26-5d65-b36b-eb9ea251dbfa",
+          "type": "part-of-profile"
+        },
+        {
+          "dest-uuid": "1d2add88-9d92-58f6-bc08-e26ce4c0ea07",
+          "type": "sends-via"
+        },
+        {
+          "dest-uuid": "1e6b0cce-b51c-5767-9491-7d314885cead",
+          "type": "sends-via"
+        }
+      ],
+      "uuid": "51e8b49c-22f5-5025-a67c-3ad214ea2517",
+      "value": "Delta Shoal Platform"
+    },
+    {
+      "description": "Fictional offshore platform in Brinax Collective.",
+      "meta": {
+        "country": "Brinax Collective",
+        "entity-type": [
+          "petroleum-site"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "produces": [
+          "crude oil"
+        ],
+        "site-id": [
+          "TDP"
+        ],
+        "site-kind": [
+          "offshore-platform"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "91f273f8-66c0-446f-bdb2-4233fd0c55ef",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "428678e3-ba31-5980-9d6f-c845c51341a9",
+          "type": "part-of-profile"
+        },
+        {
+          "dest-uuid": "4db5e3d4-9b37-5d01-a139-452221eb57dd",
+          "type": "sends-via"
+        }
+      ],
+      "uuid": "d550d18f-6ba7-5bea-9a31-5270e0ba703c",
+      "value": "Tidebank Platform"
+    },
+    {
+      "description": "Fictional oil refinery in Neruva Federation.",
+      "meta": {
+        "country": "Neruva Federation",
+        "entity-type": [
+          "petroleum-site"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "produces": [
+          "diesel"
+        ],
+        "site-id": [
+          "DLT"
+        ],
+        "site-kind": [
+          "oil-refinery"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "cfe1b22e-38b5-4077-bb90-b2bc5fedb965",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "4553748f-ef26-5d65-b36b-eb9ea251dbfa",
+          "type": "part-of-profile"
+        },
+        {
+          "dest-uuid": "16d9efa9-79d3-51fb-9dd2-34f11f87468a",
+          "type": "draws-power-from"
+        },
+        {
+          "dest-uuid": "1d2add88-9d92-58f6-bc08-e26ce4c0ea07",
+          "type": "receives-via"
+        },
+        {
+          "dest-uuid": "4db5e3d4-9b37-5d01-a139-452221eb57dd",
+          "type": "receives-via"
+        },
+        {
+          "dest-uuid": "7f2710e8-ebce-5088-a552-13f4397735cf",
+          "type": "sends-via"
+        }
+      ],
+      "uuid": "10c97512-8748-50a9-acd6-e0f8b875bf41",
+      "value": "Delta Refinery"
+    },
+    {
+      "description": "Fictional fuel depot in Caelum Protectorate.",
+      "meta": {
+        "country": "Caelum Protectorate",
+        "entity-type": [
+          "petroleum-site"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "receives-product": [
+          "diesel"
+        ],
+        "site-id": [
+          "PLT"
+        ],
+        "site-kind": [
+          "fuel-depot"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "4a600b9f-b843-446f-a234-415aded47e1b",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "c786af15-2772-507f-aa3a-29557854598f",
+          "type": "part-of-profile"
+        },
+        {
+          "dest-uuid": "6a66a19a-b2e9-5d9b-868d-b59e63c89c2c",
+          "type": "receives-via"
+        }
+      ],
+      "uuid": "70aec774-d6c4-50d6-8b96-ba4e4adbf2d0",
+      "value": "Plateau Fuel Depot"
+    },
+    {
+      "description": "Fictional fuel depot in Orinthia.",
+      "meta": {
+        "country": "Orinthia",
+        "entity-type": [
+          "petroleum-site"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "receives-product": [
+          "diesel"
+        ],
+        "site-id": [
+          "SND"
+        ],
+        "site-kind": [
+          "fuel-depot"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "74d2286a-1b87-4984-8dd1-c5bd466ecca5",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "a6bb5a76-9c9f-5c0d-a625-1d2bcb68e481",
+          "type": "part-of-profile"
+        },
+        {
+          "dest-uuid": "7f2710e8-ebce-5088-a552-13f4397735cf",
+          "type": "receives-via"
+        }
+      ],
+      "uuid": "bae148de-df2e-5bbb-8bae-91eee07955f4",
+      "value": "Sound Fuel Depot"
+    },
+    {
+      "description": "Fictional fuel depot in Quenari League.",
+      "meta": {
+        "country": "Quenari League",
+        "entity-type": [
+          "petroleum-site"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "receives-product": [
+          "diesel"
+        ],
+        "site-id": [
+          "ORC"
+        ],
+        "site-kind": [
+          "fuel-depot"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "54670ad5-49fe-4d0c-8a81-84b06a8b5050",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "2479a192-9e01-57cc-a8de-fa5f9ba5bae3",
+          "type": "part-of-profile"
+        },
+        {
+          "dest-uuid": "3441e764-362b-5c76-ac83-9dc06d402988",
+          "type": "receives-via"
+        }
+      ],
+      "uuid": "619b816a-668a-5982-b538-b9e09aa06106",
+      "value": "Orchard Fuel Depot"
+    },
+    {
+      "description": "Fictional fuel depot in Soreth Dominion.",
+      "meta": {
+        "country": "Soreth Dominion",
+        "entity-type": [
+          "petroleum-site"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "receives-product": [
+          "diesel"
+        ],
+        "site-id": [
+          "POL"
+        ],
+        "site-kind": [
+          "fuel-depot"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "c4be7f53-6d08-4472-8480-49ccb7946e78",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "633fafff-af2f-5f2a-946e-f62633230f32",
+          "type": "part-of-profile"
+        },
+        {
+          "dest-uuid": "dcb702e4-19b9-5b6c-b3e3-6f5523d5478e",
+          "type": "receives-via"
+        }
+      ],
+      "uuid": "2e66c078-e36a-53b5-ad00-e828ae4d9704",
+      "value": "Polar Stores Depot"
+    },
+    {
+      "description": "One-way delivery of crude oil from Northstar Shelf Platform to Northstar Crude Terminal.",
+      "meta": {
+        "commodity": [
+          "crude oil"
+        ],
+        "entity-type": [
+          "petroleum-supply-route"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "route-id": [
+          "P01"
+        ],
+        "transport-mode": [
+          "pipeline"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "218cc224-9e1e-5ecd-945d-2fed74c7e1c0",
+          "type": "originates-at"
+        },
+        {
+          "dest-uuid": "7d4dcaec-7016-50ae-b135-af4d90d7db73",
+          "type": "delivers-to"
+        }
+      ],
+      "uuid": "5b3082d4-4573-5b6c-a263-d66c1eef7867",
+      "value": "Northstar Landing Line"
+    },
+    {
+      "description": "One-way delivery of crude oil from Northstar Crude Terminal to Northhaven Refinery.",
+      "meta": {
+        "commodity": [
+          "crude oil"
+        ],
+        "entity-type": [
+          "petroleum-supply-route"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "route-id": [
+          "P02"
+        ],
+        "transport-mode": [
+          "pipeline"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "7d4dcaec-7016-50ae-b135-af4d90d7db73",
+          "type": "originates-at"
+        },
+        {
+          "dest-uuid": "b2808252-399f-5d62-8817-22978603eca8",
+          "type": "delivers-to"
+        }
+      ],
+      "uuid": "806e0d85-e191-5141-a8f7-1ac9fde73b42",
+      "value": "Northhaven Feed Line"
+    },
+    {
+      "description": "One-way delivery of crude oil from Northstar Crude Terminal to Basin Refinery.",
+      "meta": {
+        "commodity": [
+          "crude oil"
+        ],
+        "entity-type": [
+          "petroleum-supply-route"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "route-id": [
+          "P03"
+        ],
+        "transport-mode": [
+          "pipeline"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "7d4dcaec-7016-50ae-b135-af4d90d7db73",
+          "type": "originates-at"
+        },
+        {
+          "dest-uuid": "f5033e86-9c17-54ea-953c-110d45cc0f03",
+          "type": "delivers-to"
+        }
+      ],
+      "uuid": "979ed59c-a0fe-5139-a692-08ac1fd4e281",
+      "value": "Basin Crude Line"
+    },
+    {
+      "description": "One-way delivery of crude oil from Steppe Oil Field to Corridor Refinery.",
+      "meta": {
+        "commodity": [
+          "crude oil"
+        ],
+        "entity-type": [
+          "petroleum-supply-route"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "route-id": [
+          "P04"
+        ],
+        "transport-mode": [
+          "pipeline"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "55f71688-4758-5a39-9fb7-64924adc6b04",
+          "type": "originates-at"
+        },
+        {
+          "dest-uuid": "4be929f0-5526-5aa6-a76b-a831e71a40fb",
+          "type": "delivers-to"
+        }
+      ],
+      "uuid": "7e890bfa-a7a7-59d4-ba0a-b9504b41d43e",
+      "value": "Steppe–Corridor Crude Line"
+    },
+    {
+      "description": "One-way delivery of crude oil from Delta Shoal Platform to Delta Refinery.",
+      "meta": {
+        "commodity": [
+          "crude oil"
+        ],
+        "entity-type": [
+          "petroleum-supply-route"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "route-id": [
+          "P05"
+        ],
+        "transport-mode": [
+          "pipeline"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "51e8b49c-22f5-5025-a67c-3ad214ea2517",
+          "type": "originates-at"
+        },
+        {
+          "dest-uuid": "10c97512-8748-50a9-acd6-e0f8b875bf41",
+          "type": "delivers-to"
+        }
+      ],
+      "uuid": "1d2add88-9d92-58f6-bc08-e26ce4c0ea07",
+      "value": "Delta Shoal Crude Line"
+    },
+    {
+      "description": "One-way delivery of crude oil from Tidebank Platform to Delta Refinery.",
+      "meta": {
+        "commodity": [
+          "crude oil"
+        ],
+        "entity-type": [
+          "petroleum-supply-route"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "route-id": [
+          "P06"
+        ],
+        "transport-mode": [
+          "pipeline"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "d550d18f-6ba7-5bea-9a31-5270e0ba703c",
+          "type": "originates-at"
+        },
+        {
+          "dest-uuid": "10c97512-8748-50a9-acd6-e0f8b875bf41",
+          "type": "delivers-to"
+        }
+      ],
+      "uuid": "4db5e3d4-9b37-5d01-a139-452221eb57dd",
+      "value": "Tidebank Crude Line"
+    },
+    {
+      "description": "One-way delivery of diesel from Basin Refinery to Plateau Fuel Depot.",
+      "meta": {
+        "commodity": [
+          "diesel"
+        ],
+        "entity-type": [
+          "petroleum-supply-route"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "route-id": [
+          "P07"
+        ],
+        "transport-mode": [
+          "pipeline"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "f5033e86-9c17-54ea-953c-110d45cc0f03",
+          "type": "originates-at"
+        },
+        {
+          "dest-uuid": "70aec774-d6c4-50d6-8b96-ba4e4adbf2d0",
+          "type": "delivers-to"
+        }
+      ],
+      "uuid": "6a66a19a-b2e9-5d9b-868d-b59e63c89c2c",
+      "value": "Plateau Product Line"
+    },
+    {
+      "description": "One-way delivery of diesel from Corridor Refinery to Orchard Fuel Depot.",
+      "meta": {
+        "commodity": [
+          "diesel"
+        ],
+        "entity-type": [
+          "petroleum-supply-route"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "route-id": [
+          "P08"
+        ],
+        "transport-mode": [
+          "pipeline"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "4be929f0-5526-5aa6-a76b-a831e71a40fb",
+          "type": "originates-at"
+        },
+        {
+          "dest-uuid": "619b816a-668a-5982-b538-b9e09aa06106",
+          "type": "delivers-to"
+        }
+      ],
+      "uuid": "3441e764-362b-5c76-ac83-9dc06d402988",
+      "value": "Orchard Product Line"
+    },
+    {
+      "description": "One-way delivery of diesel from Delta Refinery to Sound Fuel Depot.",
+      "meta": {
+        "commodity": [
+          "diesel"
+        ],
+        "entity-type": [
+          "petroleum-supply-route"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "route-id": [
+          "M01"
+        ],
+        "transport-mode": [
+          "tanker service"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "10c97512-8748-50a9-acd6-e0f8b875bf41",
+          "type": "originates-at"
+        },
+        {
+          "dest-uuid": "bae148de-df2e-5bbb-8bae-91eee07955f4",
+          "type": "delivers-to"
+        }
+      ],
+      "uuid": "7f2710e8-ebce-5088-a552-13f4397735cf",
+      "value": "Sound Product Tanker Route"
+    },
+    {
+      "description": "One-way delivery of diesel from Northhaven Refinery to Polar Stores Depot.",
+      "meta": {
+        "commodity": [
+          "diesel"
+        ],
+        "entity-type": [
+          "petroleum-supply-route"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "route-id": [
+          "M02"
+        ],
+        "transport-mode": [
+          "tanker service"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "b2808252-399f-5d62-8817-22978603eca8",
+          "type": "originates-at"
+        },
+        {
+          "dest-uuid": "2e66c078-e36a-53b5-ad00-e828ae4d9704",
+          "type": "delivers-to"
+        }
+      ],
+      "uuid": "dcb702e4-19b9-5b6c-b3e3-6f5523d5478e",
+      "value": "Polar Product Tanker Route"
+    },
+    {
+      "description": "One-way delivery of conditioned natural gas from Delta Shoal Platform to Delta Gas Station.",
+      "meta": {
+        "commodity": [
+          "conditioned natural gas"
+        ],
+        "entity-type": [
+          "petroleum-supply-route"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "route-id": [
+          "G01"
+        ],
+        "transport-mode": [
+          "gas feed"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "51e8b49c-22f5-5025-a67c-3ad214ea2517",
+          "type": "originates-at"
+        },
+        {
+          "dest-uuid": "11f2b65d-c4d6-564a-a69c-1955faabff55",
+          "type": "supplies-fuel-to"
+        }
+      ],
+      "uuid": "1e6b0cce-b51c-5767-9491-7d314885cead",
+      "value": "Delta Associated Gas Feed"
+    }
+  ],
+  "version": 1
+}
