@@ -1,0 +1,655 @@
+{
+  "authors": [
+    "MISP Project"
+  ],
+  "category": "context",
+  "description": "Fictional seismic faults, land and sea monitoring sites, one volcano, and an offshore earthquake exercise on Nacre.",
+  "name": "Synthetic Exercise World - Seismic Hazards",
+  "source": "https://github.com/MISP/Synthetic-Exercise-World-Format",
+  "type": "exercise-world-seismic",
+  "uuid": "df51451d-470f-54ab-8956-c2ccc0cf7ec0",
+  "values": [
+    {
+      "description": "A reverse fault following the southern margin of Velkar’s inland basin.",
+      "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
+        "country": "Velkar Republic",
+        "entity-type": [
+          "seismic-fault"
+        ],
+        "fault-motion": [
+          "reverse"
+        ],
+        "geographic-feature-id": [
+          "94b1b91e-377f-5763-afa4-b7b29a303970"
+        ],
+        "map-id": [
+          "F01"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "setting": [
+          "onshore"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "e4cd09cc-7be7-46ef-8989-5b9a812b49fe",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "136173a9-535c-5fe0-ae3e-8abb32d24776",
+          "type": "observed-by"
+        }
+      ],
+      "uuid": "94b1b91e-377f-5763-afa4-b7b29a303970",
+      "value": "Basin Fold Fault"
+    },
+    {
+      "description": "A normal fault across the Caelum plateau in the modeled continental rift.",
+      "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
+        "country": "Caelum Protectorate",
+        "entity-type": [
+          "seismic-fault"
+        ],
+        "fault-motion": [
+          "normal"
+        ],
+        "geographic-feature-id": [
+          "7bc47faa-5a43-5f44-883c-fab7b7a8990a"
+        ],
+        "map-id": [
+          "F02"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "setting": [
+          "onshore"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "4a600b9f-b843-446f-a234-415aded47e1b",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "7dd384c4-32f4-5cf9-897c-29f6ff50683e",
+          "type": "observed-by"
+        }
+      ],
+      "uuid": "7bc47faa-5a43-5f44-883c-fab7b7a8990a",
+      "value": "Plateau Rift Fault"
+    },
+    {
+      "description": "A predominantly horizontal strike-slip fault that runs across the Thyros steppe.",
+      "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
+        "country": "Thyros Commonwealth",
+        "entity-type": [
+          "seismic-fault"
+        ],
+        "fault-motion": [
+          "strike-slip"
+        ],
+        "geographic-feature-id": [
+          "ac6f660d-1b34-585f-a100-ac2d056d05f6"
+        ],
+        "map-id": [
+          "F03"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "setting": [
+          "onshore"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "970fd807-b09e-4379-9a44-bebc5d0b9869",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "eaf89ca4-3aa7-56c8-a3d3-b7114067c4df",
+          "type": "observed-by"
+        }
+      ],
+      "uuid": "ac6f660d-1b34-585f-a100-ac2d056d05f6",
+      "value": "Steppe Shear Fault"
+    },
+    {
+      "description": "An offshore thrust in Nacre’s fictional Sound forearc east of Orinthia. It is the source for the tabletop earthquake.",
+      "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
+        "entity-type": [
+          "seismic-fault"
+        ],
+        "fault-motion": [
+          "thrust"
+        ],
+        "geographic-feature-id": [
+          "2e19069e-0726-569d-82e9-2790839aaecd"
+        ],
+        "map-id": [
+          "F04"
+        ],
+        "near-country": [
+          "Orinthia"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "setting": [
+          "offshore"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "74d2286a-1b87-4984-8dd1-c5bd466ecca5",
+          "type": "near-country"
+        },
+        {
+          "dest-uuid": "5feb97d9-ae67-5772-bea9-d8843eadc40c",
+          "type": "observed-by"
+        }
+      ],
+      "uuid": "2e19069e-0726-569d-82e9-2790839aaecd",
+      "value": "Sound Forearc Fault"
+    },
+    {
+      "description": "A normal fault in the seafloor beyond Neruva’s delta shelf.",
+      "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
+        "entity-type": [
+          "seismic-fault"
+        ],
+        "fault-motion": [
+          "normal"
+        ],
+        "geographic-feature-id": [
+          "1de0687a-e38b-5804-acec-a661ea9d2c35"
+        ],
+        "map-id": [
+          "F05"
+        ],
+        "near-country": [
+          "Neruva Federation"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "setting": [
+          "offshore"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "cfe1b22e-38b5-4077-bb90-b2bc5fedb965",
+          "type": "near-country"
+        },
+        {
+          "dest-uuid": "b4ae1fa3-4dbc-5a74-baca-2c7e6f83e4c7",
+          "type": "observed-by"
+        }
+      ],
+      "uuid": "1de0687a-e38b-5804-acec-a661ea9d2c35",
+      "value": "Neruva Outer Shelf Fault"
+    },
+    {
+      "description": "Records ground motion in the Velkar basin.",
+      "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
+        "country": "Velkar Republic",
+        "entity-type": [
+          "seismic-monitoring-site"
+        ],
+        "geographic-feature-id": [
+          "136173a9-535c-5fe0-ae3e-8abb32d24776"
+        ],
+        "instrument": [
+          "Broadband seismometer"
+        ],
+        "latitude": [
+          "16"
+        ],
+        "longitude": [
+          "-12"
+        ],
+        "map-id": [
+          "S01"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "setting": [
+          "onshore"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "e4cd09cc-7be7-46ef-8989-5b9a812b49fe",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "94b1b91e-377f-5763-afa4-b7b29a303970",
+          "type": "monitors"
+        }
+      ],
+      "uuid": "136173a9-535c-5fe0-ae3e-8abb32d24776",
+      "value": "Velkar Basin Seismic Station"
+    },
+    {
+      "description": "Records ground motion on the Caelum plateau.",
+      "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
+        "country": "Caelum Protectorate",
+        "entity-type": [
+          "seismic-monitoring-site"
+        ],
+        "geographic-feature-id": [
+          "7dd384c4-32f4-5cf9-897c-29f6ff50683e"
+        ],
+        "instrument": [
+          "Broadband seismometer"
+        ],
+        "latitude": [
+          "46"
+        ],
+        "longitude": [
+          "27"
+        ],
+        "map-id": [
+          "S02"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "setting": [
+          "onshore"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "4a600b9f-b843-446f-a234-415aded47e1b",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "7bc47faa-5a43-5f44-883c-fab7b7a8990a",
+          "type": "monitors"
+        }
+      ],
+      "uuid": "7dd384c4-32f4-5cf9-897c-29f6ff50683e",
+      "value": "Mesa Seismic Station"
+    },
+    {
+      "description": "Records ground motion in the eastern steppe.",
+      "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
+        "country": "Thyros Commonwealth",
+        "entity-type": [
+          "seismic-monitoring-site"
+        ],
+        "geographic-feature-id": [
+          "eaf89ca4-3aa7-56c8-a3d3-b7114067c4df"
+        ],
+        "instrument": [
+          "Broadband seismometer"
+        ],
+        "latitude": [
+          "10"
+        ],
+        "longitude": [
+          "63"
+        ],
+        "map-id": [
+          "S03"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "setting": [
+          "onshore"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "970fd807-b09e-4379-9a44-bebc5d0b9869",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "ac6f660d-1b34-585f-a100-ac2d056d05f6",
+          "type": "monitors"
+        }
+      ],
+      "uuid": "eaf89ca4-3aa7-56c8-a3d3-b7114067c4df",
+      "value": "Steppe Seismic Station"
+    },
+    {
+      "description": "Tracks earthquakes, deformation, and gas observations near Mount Vireth.",
+      "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
+        "country": "Orinthia",
+        "entity-type": [
+          "seismic-monitoring-site"
+        ],
+        "geographic-feature-id": [
+          "0c438a2b-e778-5212-93b3-874ed2902b0a"
+        ],
+        "instrument": [
+          "Seismometer",
+          "GNSS receiver",
+          "Gas sampler"
+        ],
+        "latitude": [
+          "65"
+        ],
+        "longitude": [
+          "84"
+        ],
+        "map-id": [
+          "S04"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "setting": [
+          "onshore"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "74d2286a-1b87-4984-8dd1-c5bd466ecca5",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "6adf3620-ecc1-5ebc-bc39-beea48f08831",
+          "type": "monitors"
+        }
+      ],
+      "uuid": "0c438a2b-e778-5212-93b3-874ed2902b0a",
+      "value": "Vireth Observatory"
+    },
+    {
+      "description": "Records seabed ground motion in the Sound forearc.",
+      "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
+        "entity-type": [
+          "seismic-monitoring-site"
+        ],
+        "geographic-feature-id": [
+          "5feb97d9-ae67-5772-bea9-d8843eadc40c"
+        ],
+        "instrument": [
+          "Ocean-bottom seismometer"
+        ],
+        "latitude": [
+          "55"
+        ],
+        "longitude": [
+          "108"
+        ],
+        "map-id": [
+          "S05"
+        ],
+        "near-country": [
+          "Orinthia"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "setting": [
+          "offshore"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "74d2286a-1b87-4984-8dd1-c5bd466ecca5",
+          "type": "near-country"
+        },
+        {
+          "dest-uuid": "2e19069e-0726-569d-82e9-2790839aaecd",
+          "type": "monitors"
+        }
+      ],
+      "uuid": "5feb97d9-ae67-5772-bea9-d8843eadc40c",
+      "value": "Sound Shelf Seismometer"
+    },
+    {
+      "description": "Records water levels from the Sound Harbor waterfront and provides the local observation used in the exercise.",
+      "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
+        "country": "Orinthia",
+        "entity-type": [
+          "seismic-monitoring-site"
+        ],
+        "geographic-feature-id": [
+          "dbc4713d-f416-597d-b0b1-ff1ac3cd104d"
+        ],
+        "instrument": [
+          "Water-level gauge"
+        ],
+        "latitude": [
+          "48.1067"
+        ],
+        "longitude": [
+          "77.9585"
+        ],
+        "map-id": [
+          "S06"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "setting": [
+          "onshore"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "74d2286a-1b87-4984-8dd1-c5bd466ecca5",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "bf7e40db-7e91-5671-8a6e-af8e49c7d32d",
+          "type": "hosted-at"
+        }
+      ],
+      "uuid": "dbc4713d-f416-597d-b0b1-ff1ac3cd104d",
+      "value": "Sound Harbor Tide Gauge"
+    },
+    {
+      "description": "Records seabed ground motion on the outer delta shelf.",
+      "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
+        "entity-type": [
+          "seismic-monitoring-site"
+        ],
+        "geographic-feature-id": [
+          "b4ae1fa3-4dbc-5a74-baca-2c7e6f83e4c7"
+        ],
+        "instrument": [
+          "Ocean-bottom seismometer"
+        ],
+        "latitude": [
+          "-22"
+        ],
+        "longitude": [
+          "95"
+        ],
+        "map-id": [
+          "S07"
+        ],
+        "near-country": [
+          "Neruva Federation"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "setting": [
+          "offshore"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "cfe1b22e-38b5-4077-bb90-b2bc5fedb965",
+          "type": "near-country"
+        },
+        {
+          "dest-uuid": "1de0687a-e38b-5804-acec-a661ea9d2c35",
+          "type": "monitors"
+        }
+      ],
+      "uuid": "b4ae1fa3-4dbc-5a74-baca-2c7e6f83e4c7",
+      "value": "Delta Shelf Seismometer"
+    },
+    {
+      "description": "A stratovolcano on a northern Orinthian island in the fictional Sound volcanic arc. Its exercise baseline is background activity.",
+      "meta": {
+        "activity-baseline": [
+          "background"
+        ],
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
+        "country": "Orinthia",
+        "entity-type": [
+          "volcano"
+        ],
+        "geographic-feature-id": [
+          "6adf3620-ecc1-5ebc-bc39-beea48f08831"
+        ],
+        "latitude": [
+          "67"
+        ],
+        "longitude": [
+          "80"
+        ],
+        "map-id": [
+          "V01"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "setting": [
+          "onshore"
+        ],
+        "summit-elevation-m": [
+          "2480"
+        ],
+        "volcano-type": [
+          "stratovolcano"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "74d2286a-1b87-4984-8dd1-c5bd466ecca5",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "0c438a2b-e778-5212-93b3-874ed2902b0a",
+          "type": "observed-by"
+        }
+      ],
+      "uuid": "6adf3620-ecc1-5ebc-bc39-beea48f08831",
+      "value": "Mount Vireth"
+    },
+    {
+      "description": "The simulated Mw 7.1 earthquake used in the Sound readiness exercise. The epicenter is placed on the schematic Sound Forearc Fault trace.",
+      "meta": {
+        "coordinate-reference": [
+          "nacre-atlas-v1"
+        ],
+        "depth-km": [
+          "18"
+        ],
+        "entity-type": [
+          "exercise-earthquake"
+        ],
+        "geographic-feature-id": [
+          "47d1f189-1f65-57c6-83f9-5e63795ff470"
+        ],
+        "latitude": [
+          "50"
+        ],
+        "longitude": [
+          "119"
+        ],
+        "magnitude-mw": [
+          "7.1"
+        ],
+        "map-id": [
+          "E01"
+        ],
+        "near-country": [
+          "Orinthia"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "setting": [
+          "offshore"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "74d2286a-1b87-4984-8dd1-c5bd466ecca5",
+          "type": "near-country"
+        },
+        {
+          "dest-uuid": "2e19069e-0726-569d-82e9-2790839aaecd",
+          "type": "models-source-on"
+        },
+        {
+          "dest-uuid": "5feb97d9-ae67-5772-bea9-d8843eadc40c",
+          "type": "seismic-observation-at"
+        },
+        {
+          "dest-uuid": "dbc4713d-f416-597d-b0b1-ff1ac3cd104d",
+          "type": "water-level-observation-at"
+        },
+        {
+          "dest-uuid": "bf7e40db-7e91-5671-8a6e-af8e49c7d32d",
+          "type": "exercise-coordination-with"
+        },
+        {
+          "dest-uuid": "f33a6eca-8186-5b48-8e1e-ea4c041f7f52",
+          "type": "exercise-coordination-with"
+        },
+        {
+          "dest-uuid": "624d469d-f640-58c5-a4e4-58496d97aa03",
+          "type": "exercise-coordination-with"
+        }
+      ],
+      "uuid": "47d1f189-1f65-57c6-83f9-5e63795ff470",
+      "value": "Sound offshore exercise earthquake"
+    }
+  ],
+  "version": 1
+}

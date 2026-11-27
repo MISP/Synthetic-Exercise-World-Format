@@ -276,6 +276,7 @@ Select a preview to open its full-size SVG. Each extension guide includes a tabl
 | <a href="extensions/space-force/space-force-map.svg"><img src="extensions/space-force/space-force-map.svg" alt="Nacre space force liaison locations by country" width="240"></a> | **[Space force](extensions/space-force/README.md)**<br>Three models for space-service liaison, with links to Waymark timing and navigation monitors. |
 | <a href="extensions/marines/marines-map.svg"><img src="extensions/marines/marines-map.svg" alt="Nacre marines liaison locations by country" width="240"></a> | **[Marines](extensions/marines/README.md)**<br>Marine contingents within three navies, with ship-to-shore relief and civil handoff links. |
 | <a href="extensions/coast-guard/coast-guard-map.svg"><img src="extensions/coast-guard/coast-guard-map.svg" alt="Nacre coast guard liaison locations by country" width="240"></a> | **[Coast guard](extensions/coast-guard/README.md)**<br>Military and civilian coast guard models, with rescue, safety, and port reception links. |
+| <a href="extensions/seismic/seismic-map.svg"><img src="extensions/seismic/seismic-map.svg" alt="Nacre map showing onshore and offshore faults, monitoring sites, Mount Vireth, and a simulated epicenter" width="240"></a> | **[Seismic hazards](extensions/seismic/README.md)**<br>Onshore and offshore faults, seven monitoring sites, Mount Vireth, and a coastal earthquake exercise. |
 
 ## Community integrations
 
