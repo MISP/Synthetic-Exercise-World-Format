@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 100" role="img" aria-labelledby="title description">
+  <title id="title">Flag of Velkar Republic</title>
+  <desc id="description">A copper stepped basin and ivory diamond on burgundy represent the inland basin and its trade.</desc>
+  <g>
+    <rect width="150" height="100" fill="#752d49"/>
+    <path d="M 0,63 H 31 V 69 H 44 V 77 H 57 V 85 H 93 V 77 H 106 V 69 H 119 V 63 H 150 V 100 H 0 Z" fill="#df9266"/>
+    <path d="M 75,20 92,38 75,56 58,38 Z" fill="#fff2d5"/>
+  </g>
+</svg>

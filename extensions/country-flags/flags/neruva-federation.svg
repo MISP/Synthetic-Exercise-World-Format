@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 100" role="img" aria-labelledby="title description">
+  <title id="title">Flag of Neruva Federation</title>
+  <desc id="description">A dark river splits into three channels over a turquoise field and sand-colored delta.</desc>
+  <g>
+    <rect width="150" height="100" fill="#8ce1df"/>
+    <path d="M 0,85 38,76 75,86 113,76 150,85 V 100 H 0 Z" fill="#f3c77b"/>
+    <path d="M 75,0 V 48 M 75,41 33,69 V 91 M 75,46 V 95 M 75,41 117,69 V 91"
+          fill="none" stroke="#195365" stroke-width="10" stroke-linejoin="round"/>
+  </g>
+</svg>

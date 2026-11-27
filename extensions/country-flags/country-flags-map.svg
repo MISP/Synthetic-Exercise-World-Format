@@ -1,0 +1,280 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" viewBox="0 0 1540 990" role="img" aria-labelledby="title description">
+  <title id="title">Flags of Nacre — atlas and visual index</title>
+  <desc id="description">Ten original flags on the Nacre atlas and a matching visual index. Every flag is labeled with its country and capital in the index.</desc>
+  <defs>
+    <linearGradient id="sea" x2="0" y2="1">
+      <stop stop-color="#234350"/>
+      <stop offset="1" stop-color="#1a303c"/>
+    </linearGradient>
+    <pattern id="graticule" width="62" height="62" patternUnits="userSpaceOnUse">
+      <path d="M 62,0 H 0 V 62" fill="none" stroke="#a8c0ce" stroke-opacity=".13"/>
+    </pattern>
+    <clipPath id="map-frame"><rect x="48" y="171" width="974" height="765" rx="12"/></clipPath>
+    <style>
+      text { font-family: 'DejaVu Sans', sans-serif; }
+      .ink { fill: #233743; }
+      .muted { fill: #4e6673; }
+      .light { fill: #edf6f6; }
+      .caps { font-size: 13px; font-weight: 700; letter-spacing: 2.1px; }
+      .title { font-size: 62px; font-weight: 700; letter-spacing: -2px; }
+      .subtitle { font-size: 18px; }
+      .place { fill: #fff9eb; stroke: #1b303c; stroke-width: 4px; stroke-linejoin: round; paint-order: stroke fill; font-weight: 700; font-size: 15px; }
+      .body { font-size: 14px; font-weight: 700; }
+      .support { font-size: 13px; }
+      .small { font-size: 12px; }
+      .sidebar { fill: #fffcf6; stroke: #cad2d1; }
+      .card { fill: #f7f5eb; stroke: #d9dcd5; }
+      .divider { stroke: #cbd3d2; }
+      .water-label { fill: #a7c3cc; font-size: 13px; letter-spacing: 2.5px; }
+    </style>
+    <symbol id="flag-asterin-union" viewBox="0 0 150 100">
+    <rect width="150" height="100" fill="#112b4b"/>
+    <path d="M 0,0 H 31 L 77,50 31,100 H 0 L 45,50 Z" fill="#56d2e1"/>
+    <path d="M 112,24 117,40 126,36 122,45 138,50 122,55 126,64 117,60 112,76
+             107,60 98,64 102,55 86,50 102,45 98,36 107,40 Z" fill="#ffc96a"/>
+    </symbol>
+    <symbol id="flag-velkar-republic" viewBox="0 0 150 100">
+    <rect width="150" height="100" fill="#752d49"/>
+    <path d="M 0,63 H 31 V 69 H 44 V 77 H 57 V 85 H 93 V 77 H 106 V 69 H 119 V 63 H 150 V 100 H 0 Z" fill="#df9266"/>
+    <path d="M 75,20 92,38 75,56 58,38 Z" fill="#fff2d5"/>
+    </symbol>
+    <symbol id="flag-orinthia" viewBox="0 0 150 100">
+    <rect width="150" height="100" fill="#174d59"/>
+    <path d="M 0,76 Q 25,62 50,76 T 100,76 T 150,76 V 100 H 0 Z" fill="#69cbbb"/>
+    <path d="M 39,37 49,47 39,57 29,47 Z M 75,21 87,33 75,45 63,33 Z M 111,37 121,47 111,57 101,47 Z" fill="#fff7de"/>
+    </symbol>
+    <symbol id="flag-caelum-protectorate" viewBox="0 0 150 100">
+    <rect width="150" height="100" fill="#45478e"/>
+    <circle cx="108" cy="31" r="11" fill="#ffcb7f"/>
+    <path d="M 0,100 52,38 73,64 87,50 130,100 Z" fill="#e6ecfa"/>
+    <path d="M 22,100 52,64 67,82 86,69 112,100 Z" fill="#94acd9"/>
+    </symbol>
+    <symbol id="flag-neruva-federation" viewBox="0 0 150 100">
+    <rect width="150" height="100" fill="#8ce1df"/>
+    <path d="M 0,85 38,76 75,86 113,76 150,85 V 100 H 0 Z" fill="#f3c77b"/>
+    <path d="M 75,0 V 48 M 75,41 33,69 V 91 M 75,46 V 95 M 75,41 117,69 V 91"
+          fill="none" stroke="#195365" stroke-width="10" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="flag-thyros-commonwealth" viewBox="0 0 150 100">
+    <rect width="150" height="100" fill="#e8af53"/>
+    <rect y="76" width="150" height="24" fill="#2f342d"/>
+    <circle cx="75" cy="38" r="21" fill="none" stroke="#2f342d" stroke-width="6"/>
+    <path d="M 75,19 V 57 M 56,38 H 94" stroke="#2f342d" stroke-width="6"/>
+    <circle cx="75" cy="38" r="5" fill="#fff0c1"/>
+    </symbol>
+    <symbol id="flag-ilyndor" viewBox="0 0 150 100">
+    <rect width="150" height="100" fill="#f3e7cc"/>
+    <path d="M 0,0 H 44 V 100 H 0 Z M 106,0 H 150 V 100 H 106 Z" fill="#648777"/>
+    <path d="M 40,65 V 50 L 75,33 110,50 V 65 M 34,64 H 116" fill="none" stroke="#223f39" stroke-width="5"/>
+    <path d="M 49,63 H 101" stroke="#dca650" stroke-width="7"/>
+    </symbol>
+    <symbol id="flag-brinax-collective" viewBox="0 0 150 100">
+    <rect width="150" height="100" fill="#215145"/>
+    <rect y="81" width="150" height="19" fill="#79d2b2"/>
+    <path d="M 75,15 94,26 94,48 75,59 56,48 56,26 Z M 56,37 37,48 37,70 56,81 75,70 75,59 M 94,37 113,48 113,70 94,81 75,70"
+          fill="none" stroke="#ffde99" stroke-width="4" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="flag-soreth-dominion" viewBox="0 0 150 100">
+    <rect width="150" height="100" fill="#eaf3f7"/>
+    <path d="M 0,0 51,50 0,100 Z" fill="#2b465f"/>
+    <path d="M 99,18 105,43 128,50 105,57 99,82 93,57 70,50 93,43 Z" fill="#387fa7"/>
+    <circle cx="99" cy="50" r="4" fill="#eaf3f7"/>
+    </symbol>
+    <symbol id="flag-quenari-league" viewBox="0 0 150 100">
+    <rect width="150" height="100" fill="#512a64"/>
+    <path d="M 0,100 H 150 V 56 L 0,88 Z" fill="#e47b70"/>
+    <circle cx="94" cy="37" r="17" fill="#ffd27e"/>
+    <path d="M 24,37 H 59 M 34,52 H 64" stroke="#ffd27e" stroke-width="4" stroke-linecap="round"/>
+    </symbol>
+  </defs>
+
+  <rect width="1540" height="990" fill="#f2efe6"/>
+  <text x="48" y="56" class="caps muted">SYNTHETIC EXERCISE WORLD ATLAS</text>
+  <text x="48" y="115" class="title ink">Flags of Nacre</text>
+  <text x="51" y="145" class="subtitle muted">Find each country by its flag, from the polar dominion to the equatorial league.</text>
+  <text x="1492" y="56" text-anchor="end" class="caps muted">WORLD EXTENSION</text>
+  <path d="M 48,955 H 1492" class="divider"/>
+  <text x="48" y="975" class="support muted">Basemap adapted from the Synthetic Exercise World atlas</text>
+  <text x="1492" y="975" text-anchor="end" class="support muted">CC BY 4.0</text>
+
+  <g id="nacre-basemap" inkscape:groupmode="layer" inkscape:label="Nacre basemap" clip-path="url(#map-frame)">
+    <rect x="48" y="171" width="974" height="765" fill="url(#sea)"/>
+    <rect x="48" y="171" width="974" height="765" fill="url(#graticule)"/>
+    <g transform="translate(-153 166) scale(1.36)" stroke="#a4b4bc" stroke-width=".85" stroke-linejoin="round">
+      <path d="M 179.14 505.81 L 207.84 430.48 L 211.43 315.69 L 186.32 226.02 L 236.54 139.92 L 329.80 71.77 L 469.70 43.07 L 595.25 53.83 L 666.99 93.29 L 684.93 143.51 L 742.32 197.32 L 792.54 269.06 L 821.24 344.39 L 817.65 448.42 L 771.02 516.57 L 677.75 559.62 L 512.75 563.21 L 315.45 548.86 z" fill="#3b6878" opacity=".42"/>
+      <path d="M 211.43 226.02 L 229.36 179.38 L 265.23 132.75 L 301.10 104.05 L 365.67 93.29 L 426.65 114.81 L 484.05 165.03 L 437.42 200.91 L 347.74 287.00 L 275.99 261.89 L 232.95 240.36 z" fill="#3d596a"/>
+      <path d="M 365.67 93.29 L 415.89 68.18 L 491.22 57.42 L 570.14 68.18 L 634.71 100.47 L 641.88 132.75 L 580.90 136.34 L 498.40 129.16 L 426.65 114.81 z" fill="#485b6e"/>
+      <path d="M 437.42 200.91 L 484.05 165.03 L 580.90 136.34 L 641.88 154.27 L 656.23 197.32 L 634.71 240.36 L 555.79 243.95 L 476.87 233.19 z" fill="#4d506d"/>
+      <path d="M 347.74 287.00 L 437.42 200.91 L 476.87 233.19 L 555.79 243.95 L 534.27 279.82 L 509.16 337.22 L 419.48 351.57 L 354.91 333.63 L 304.69 312.11 z" fill="#62535b"/>
+      <path d="M 555.79 243.95 L 634.71 240.36 L 656.23 197.32 L 724.39 240.36 L 763.85 308.52 L 735.15 365.91 L 702.86 387.44 L 598.84 373.09 L 534.27 279.82 z" fill="#585a47"/>
+      <path d="M 258.06 391.02 L 304.69 312.11 L 354.91 333.63 L 419.48 351.57 L 509.16 337.22 L 598.84 373.09 L 631.12 408.96 L 559.38 437.66 L 426.65 416.13 L 326.21 423.31 z" fill="#5e5d51"/>
+      <path d="M 200.66 477.12 L 258.06 391.02 L 326.21 423.31 L 426.65 416.13 L 559.38 437.66 L 570.14 512.99 L 469.70 538.10 L 329.80 527.34 L 232.95 505.81 z" fill="#435f54"/>
+      <path d="M 570.14 512.99 L 559.38 437.66 L 631.12 408.96 L 695.69 430.48 L 735.15 477.12 L 692.10 527.34 L 609.60 534.51 z" fill="#3b665e"/>
+      <path d="M 598.84 373.09 L 702.86 387.44 L 763.85 416.13 L 778.19 462.77 L 735.15 477.12 L 695.69 430.48 L 631.12 408.96 z" fill="#3f6172"/>
+      <path d="M 681.34 172.21 L 699.28 147.10 L 735.15 154.27 L 749.50 179.38 L 731.56 204.49 L 695.69 200.91 z" fill="#66546a"/>
+      <path d="M 745.91 136.34 L 771.02 125.58 L 792.54 143.51 L 785.37 168.62 L 756.67 172.21 z" fill="#66546a"/>
+      <path d="M 717.21 111.23 L 735.15 93.29 L 763.85 100.47 L 771.02 121.99 L 749.50 136.34 L 724.39 132.75 z" fill="#66546a"/>
+      <path d="M 663.41 125.58 L 681.34 111.23 L 702.86 118.40 L 695.69 139.92 L 670.58 143.51 z" fill="#66546a"/>
+      <path d="M 788.96 211.67 L 814.07 200.91 L 828.41 222.43 L 810.48 243.95 L 785.37 236.78 z" fill="#66546a"/>
+      <path d="M 699.28 240.36 L 724.39 222.43 L 749.50 233.19 L 742.32 254.71 L 710.04 258.30 z" fill="#66546a"/>
+      <path d="M 638.30 182.97 L 656.23 168.62 L 670.58 182.97 L 663.41 200.91 L 641.88 200.91 z" fill="#66546a"/>
+    </g>
+    <g transform="translate(90 254)" fill="#e8f2f3">
+      <text y="-20" x="0" text-anchor="middle" font-size="15" font-weight="700">N</text>
+      <path d="M 0,-12 8,11 0,6 -8,11 Z M 0,14 V 26" stroke="#e8f2f3" stroke-width="1.5"/>
+    </g>
+    <text x="991" y="234" text-anchor="end" class="water-label">NORTHERN AZURE</text>
+    <text x="82" y="780" class="water-label">SOUTHERN</text>
+    <text x="82" y="801" class="water-label">AZURE</text>
+  </g>
+
+  <g id="country-flag-layer" inkscape:groupmode="layer" inkscape:label="Country flag pins" clip-path="url(#map-frame)">
+    <g id="pin-asterin-union" transform="translate(255.0 390.4)">
+      <title>Asterin Union</title>
+      <path d="M 0,-10 V 0" stroke="#e7eadc" stroke-width="1.6"/>
+      <circle r="3" fill="#f9ead3"/>
+      <rect x="-30" y="-51" width="60" height="41" rx="2.5" fill="#f7eee0"/>
+      <use x="-27" y="-48.5" width="54" height="36" xlink:href="#flag-asterin-union"/>
+      <text x="0" y="22" text-anchor="middle" class="place">Asterin Union</text>
+    </g>
+    <g id="pin-velkar-republic" transform="translate(426.4 540.0)">
+      <title>Velkar Republic</title>
+      <path d="M 0,-10 V 0" stroke="#e7eadc" stroke-width="1.6"/>
+      <circle r="3" fill="#f9ead3"/>
+      <rect x="-30" y="-51" width="60" height="41" rx="2.5" fill="#f7eee0"/>
+      <use x="-27" y="-48.5" width="54" height="36" xlink:href="#flag-velkar-republic"/>
+      <text x="0" y="22" text-anchor="middle" class="place">Velkar Republic</text>
+    </g>
+    <g id="pin-orinthia" transform="translate(833.0 417.6)">
+      <title>Orinthia</title>
+      <path d="M 0,-10 V 0" stroke="#e7eadc" stroke-width="1.6"/>
+      <circle r="3" fill="#f9ead3"/>
+      <rect x="-30" y="-51" width="60" height="41" rx="2.5" fill="#f7eee0"/>
+      <use x="-27" y="-48.5" width="54" height="36" xlink:href="#flag-orinthia"/>
+      <text x="0" y="22" text-anchor="middle" class="place">Orinthia</text>
+    </g>
+    <g id="pin-caelum-protectorate" transform="translate(565.1 429.8)">
+      <title>Caelum Protectorate</title>
+      <path d="M 0,-10 V 0" stroke="#e7eadc" stroke-width="1.6"/>
+      <circle r="3" fill="#f9ead3"/>
+      <rect x="-30" y="-51" width="60" height="41" rx="2.5" fill="#f7eee0"/>
+      <use x="-27" y="-48.5" width="54" height="36" xlink:href="#flag-caelum-protectorate"/>
+      <text x="0" y="22" text-anchor="middle" class="place">Caelum Protectorate</text>
+    </g>
+    <g id="pin-neruva-federation" transform="translate(841.2 745.4)">
+      <title>Neruva Federation</title>
+      <path d="M 0,-10 V 0" stroke="#e7eadc" stroke-width="1.6"/>
+      <circle r="3" fill="#f9ead3"/>
+      <rect x="-30" y="-51" width="60" height="41" rx="2.5" fill="#f7eee0"/>
+      <use x="-27" y="-48.5" width="54" height="36" xlink:href="#flag-neruva-federation"/>
+      <text x="0" y="22" text-anchor="middle" class="place">Neruva Federation</text>
+    </g>
+    <g id="pin-thyros-commonwealth" transform="translate(770.4 590.3)">
+      <title>Thyros Commonwealth</title>
+      <path d="M 0,-10 V 0" stroke="#e7eadc" stroke-width="1.6"/>
+      <circle r="3" fill="#f9ead3"/>
+      <rect x="-30" y="-51" width="60" height="41" rx="2.5" fill="#f7eee0"/>
+      <use x="-27" y="-48.5" width="54" height="36" xlink:href="#flag-thyros-commonwealth"/>
+      <text x="0" y="22" text-anchor="middle" class="place">Thyros Commonwealth</text>
+    </g>
+    <g id="pin-ilyndor" transform="translate(493.0 688.2)">
+      <title>Ilyndor</title>
+      <path d="M 0,-10 V 0" stroke="#e7eadc" stroke-width="1.6"/>
+      <circle r="3" fill="#f9ead3"/>
+      <rect x="-30" y="-51" width="60" height="41" rx="2.5" fill="#f7eee0"/>
+      <use x="-27" y="-48.5" width="54" height="36" xlink:href="#flag-ilyndor"/>
+      <text x="0" y="22" text-anchor="middle" class="place">Ilyndor</text>
+    </g>
+    <g id="pin-brinax-collective" transform="translate(720.1 822.9)">
+      <title>Brinax Collective</title>
+      <path d="M 0,-10 V 0" stroke="#e7eadc" stroke-width="1.6"/>
+      <circle r="3" fill="#f9ead3"/>
+      <rect x="-30" y="-51" width="60" height="41" rx="2.5" fill="#f7eee0"/>
+      <use x="-27" y="-48.5" width="54" height="36" xlink:href="#flag-brinax-collective"/>
+      <text x="0" y="22" text-anchor="middle" class="place">Brinax Collective</text>
+    </g>
+    <g id="pin-soreth-dominion" transform="translate(548.8 311.5)">
+      <title>Soreth Dominion</title>
+      <path d="M 0,-10 V 0" stroke="#e7eadc" stroke-width="1.6"/>
+      <circle r="3" fill="#f9ead3"/>
+      <rect x="-30" y="-51" width="60" height="41" rx="2.5" fill="#f7eee0"/>
+      <use x="-27" y="-48.5" width="54" height="36" xlink:href="#flag-soreth-dominion"/>
+      <text x="0" y="22" text-anchor="middle" class="place">Soreth Dominion</text>
+    </g>
+    <g id="pin-quenari-league" transform="translate(306.7 802.5)">
+      <title>Quenari League</title>
+      <path d="M 0,-10 V 0" stroke="#e7eadc" stroke-width="1.6"/>
+      <circle r="3" fill="#f9ead3"/>
+      <rect x="-30" y="-51" width="60" height="41" rx="2.5" fill="#f7eee0"/>
+      <use x="-27" y="-48.5" width="54" height="36" xlink:href="#flag-quenari-league"/>
+      <text x="0" y="22" text-anchor="middle" class="place">Quenari League</text>
+    </g>
+  </g>
+  <rect x="48" y="171" width="974" height="765" rx="12" fill="none" stroke="#9cb1b8"/>
+
+  <g id="flag-index" inkscape:groupmode="layer" inkscape:label="Flag index">
+    <rect x="1046" y="171" width="446" height="765" rx="12" class="sidebar"/>
+    <text x="1069" y="206" class="caps muted">COUNTRIES AND CAPITALS</text>
+    <g id="index-asterin-union" transform="translate(1068 224)">
+      <rect width="194" height="126" rx="8" class="card"/>
+      <use x="44.5" y="11" width="105" height="70" xlink:href="#flag-asterin-union"/>
+      <text x="97" y="100" text-anchor="middle" class="body ink">Asterin Union</text>
+      <text x="97" y="116" text-anchor="middle" class="small muted">Asterin Prime</text>
+    </g>
+    <g id="index-velkar-republic" transform="translate(1272 224)">
+      <rect width="194" height="126" rx="8" class="card"/>
+      <use x="44.5" y="11" width="105" height="70" xlink:href="#flag-velkar-republic"/>
+      <text x="97" y="100" text-anchor="middle" class="body ink">Velkar Republic</text>
+      <text x="97" y="116" text-anchor="middle" class="small muted">Velkar Prime</text>
+    </g>
+    <g id="index-orinthia" transform="translate(1068 363)">
+      <rect width="194" height="126" rx="8" class="card"/>
+      <use x="44.5" y="11" width="105" height="70" xlink:href="#flag-orinthia"/>
+      <text x="97" y="100" text-anchor="middle" class="body ink">Orinthia</text>
+      <text x="97" y="116" text-anchor="middle" class="small muted">Orinthia Prime</text>
+    </g>
+    <g id="index-caelum-protectorate" transform="translate(1272 363)">
+      <rect width="194" height="126" rx="8" class="card"/>
+      <use x="44.5" y="11" width="105" height="70" xlink:href="#flag-caelum-protectorate"/>
+      <text x="97" y="100" text-anchor="middle" class="body ink">Caelum Protectorate</text>
+      <text x="97" y="116" text-anchor="middle" class="small muted">Caelum Prime</text>
+    </g>
+    <g id="index-neruva-federation" transform="translate(1068 502)">
+      <rect width="194" height="126" rx="8" class="card"/>
+      <use x="44.5" y="11" width="105" height="70" xlink:href="#flag-neruva-federation"/>
+      <text x="97" y="100" text-anchor="middle" class="body ink">Neruva Federation</text>
+      <text x="97" y="116" text-anchor="middle" class="small muted">Neruva Prime</text>
+    </g>
+    <g id="index-thyros-commonwealth" transform="translate(1272 502)">
+      <rect width="194" height="126" rx="8" class="card"/>
+      <use x="44.5" y="11" width="105" height="70" xlink:href="#flag-thyros-commonwealth"/>
+      <text x="97" y="100" text-anchor="middle" class="body ink">Thyros Commonwealth</text>
+      <text x="97" y="116" text-anchor="middle" class="small muted">Thyros Prime</text>
+    </g>
+    <g id="index-ilyndor" transform="translate(1068 641)">
+      <rect width="194" height="126" rx="8" class="card"/>
+      <use x="44.5" y="11" width="105" height="70" xlink:href="#flag-ilyndor"/>
+      <text x="97" y="100" text-anchor="middle" class="body ink">Ilyndor</text>
+      <text x="97" y="116" text-anchor="middle" class="small muted">Ilyndor Prime</text>
+    </g>
+    <g id="index-brinax-collective" transform="translate(1272 641)">
+      <rect width="194" height="126" rx="8" class="card"/>
+      <use x="44.5" y="11" width="105" height="70" xlink:href="#flag-brinax-collective"/>
+      <text x="97" y="100" text-anchor="middle" class="body ink">Brinax Collective</text>
+      <text x="97" y="116" text-anchor="middle" class="small muted">Brinax Prime</text>
+    </g>
+    <g id="index-soreth-dominion" transform="translate(1068 780)">
+      <rect width="194" height="126" rx="8" class="card"/>
+      <use x="44.5" y="11" width="105" height="70" xlink:href="#flag-soreth-dominion"/>
+      <text x="97" y="100" text-anchor="middle" class="body ink">Soreth Dominion</text>
+      <text x="97" y="116" text-anchor="middle" class="small muted">Soreth Prime</text>
+    </g>
+    <g id="index-quenari-league" transform="translate(1272 780)">
+      <rect width="194" height="126" rx="8" class="card"/>
+      <use x="44.5" y="11" width="105" height="70" xlink:href="#flag-quenari-league"/>
+      <text x="97" y="100" text-anchor="middle" class="body ink">Quenari League</text>
+      <text x="97" y="116" text-anchor="middle" class="small muted">Quenari Prime</text>
+    </g>
+  </g>
+</svg>

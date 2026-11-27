@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 100" role="img" aria-labelledby="title description">
+  <title id="title">Flag of Quenari League</title>
+  <desc id="description">A gold sun and rising coral band on plum evoke the equatorial growing season.</desc>
+  <g>
+    <rect width="150" height="100" fill="#512a64"/>
+    <path d="M 0,100 H 150 V 56 L 0,88 Z" fill="#e47b70"/>
+    <circle cx="94" cy="37" r="17" fill="#ffd27e"/>
+    <path d="M 24,37 H 59 M 34,52 H 64" stroke="#ffd27e" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>
