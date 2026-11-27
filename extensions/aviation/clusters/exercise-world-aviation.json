@@ -1,0 +1,1387 @@
+{
+  "authors": [
+    "MISP Project"
+  ],
+  "category": "context",
+  "description": "Fictional aircraft types, airports, air traffic control units, and scheduled air routes on Nacre.",
+  "name": "Synthetic Exercise World - Civil Aviation",
+  "source": "https://github.com/MISP/Synthetic-Exercise-World-Format",
+  "type": "exercise-world-aviation",
+  "uuid": "d16cae40-58d1-5073-a7b9-bbb92eb3ada9",
+  "values": [
+    {
+      "description": "Fictional regional turboprop with 42 seats in the exercise.",
+      "meta": {
+        "airframe": [
+          "regional turboprop"
+        ],
+        "capacity": [
+          "42"
+        ],
+        "capacity-unit": [
+          "seats"
+        ],
+        "entity-type": [
+          "aircraft-type"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "service": [
+          "passengers"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "b0fbf3f3-9ad2-5dac-a672-5d050edd0652",
+          "type": "used-on"
+        },
+        {
+          "dest-uuid": "4898fc56-65f8-5753-9e1b-7f0605e57ed8",
+          "type": "used-on"
+        },
+        {
+          "dest-uuid": "ab7ce0d5-4666-5c5b-be2f-97a6aeae0878",
+          "type": "used-on"
+        },
+        {
+          "dest-uuid": "c5d9e554-007e-5a88-a312-1ef06ca41f97",
+          "type": "used-on"
+        },
+        {
+          "dest-uuid": "8c4b1089-f295-52ac-a5a0-53bf83e50051",
+          "type": "used-on"
+        }
+      ],
+      "uuid": "5aabf6ce-c25e-56bc-91d3-a6f3ca8319c2",
+      "value": "Lark 42"
+    },
+    {
+      "description": "Fictional passenger jet with 108 seats in the exercise.",
+      "meta": {
+        "airframe": [
+          "passenger jet"
+        ],
+        "capacity": [
+          "108"
+        ],
+        "capacity-unit": [
+          "seats"
+        ],
+        "entity-type": [
+          "aircraft-type"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "service": [
+          "passengers"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "70fff314-ebec-5424-8f6c-e4f208b3f149",
+          "type": "used-on"
+        },
+        {
+          "dest-uuid": "8741f6c3-6d1d-5963-8e91-daed89446dcf",
+          "type": "used-on"
+        },
+        {
+          "dest-uuid": "a9477a55-5c49-5380-872b-502d7f9e68df",
+          "type": "used-on"
+        }
+      ],
+      "uuid": "b8b5a198-74a8-5610-aefb-13bd926a1006",
+      "value": "Meridian 108"
+    },
+    {
+      "description": "Fictional cargo freighter with 12 pallet positions in the exercise.",
+      "meta": {
+        "airframe": [
+          "cargo freighter"
+        ],
+        "capacity": [
+          "12"
+        ],
+        "capacity-unit": [
+          "pallet positions"
+        ],
+        "entity-type": [
+          "aircraft-type"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "service": [
+          "cargo"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "1b6117f4-7280-5416-bc37-fb9ce2bfc03e",
+          "type": "used-on"
+        },
+        {
+          "dest-uuid": "b67523a4-19b8-51e3-b973-a919de6fa312",
+          "type": "used-on"
+        },
+        {
+          "dest-uuid": "b3b4c733-69a1-5e6b-a810-8427c2f27ff5",
+          "type": "used-on"
+        }
+      ],
+      "uuid": "63c7d050-40ba-5dce-bdd5-8609a02280a1",
+      "value": "Wayfarer C12"
+    },
+    {
+      "description": "Civil airport in Asterin Union, served by Asterin Tower in the area of North Control.",
+      "meta": {
+        "airport-id": [
+          "NAC-AST"
+        ],
+        "country": "Asterin Union",
+        "entity-type": [
+          "airport"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "cb97ba71-e477-4acb-9470-10f3e6c9e1a9",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "33f59468-e1e6-5c8f-acf1-a48763d0d0e1",
+          "type": "served-by"
+        },
+        {
+          "dest-uuid": "3c98c2b1-4553-593f-bd31-fb83ffc83edf",
+          "type": "within-control-area"
+        },
+        {
+          "dest-uuid": "5aabf6ce-c25e-56bc-91d3-a6f3ca8319c2",
+          "type": "accepts-aircraft"
+        },
+        {
+          "dest-uuid": "b0fbf3f3-9ad2-5dac-a672-5d050edd0652",
+          "type": "terminates"
+        }
+      ],
+      "uuid": "1d4fe652-d202-5cc3-a501-9feca5d26a6a",
+      "value": "Northreach Airport"
+    },
+    {
+      "description": "Local controllers responsible for movement on the aerodrome and in the local traffic area at Northreach Airport.",
+      "meta": {
+        "control-role": [
+          "local-tower"
+        ],
+        "entity-type": [
+          "air-traffic-control-unit"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "1d4fe652-d202-5cc3-a501-9feca5d26a6a",
+          "type": "serves"
+        },
+        {
+          "dest-uuid": "3c98c2b1-4553-593f-bd31-fb83ffc83edf",
+          "type": "coordinates-with"
+        }
+      ],
+      "uuid": "33f59468-e1e6-5c8f-acf1-a48763d0d0e1",
+      "value": "Asterin Tower"
+    },
+    {
+      "description": "Civil airport in Velkar Republic, served by Velkar Tower in the area of Continental Control.",
+      "meta": {
+        "airport-id": [
+          "NAC-VEL"
+        ],
+        "country": "Velkar Republic",
+        "entity-type": [
+          "airport"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "e4cd09cc-7be7-46ef-8989-5b9a812b49fe",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "afe42e26-7c0c-5392-95d7-23887907c3c3",
+          "type": "served-by"
+        },
+        {
+          "dest-uuid": "156bf5c7-67a6-5067-8721-9f07d50e80ca",
+          "type": "within-control-area"
+        },
+        {
+          "dest-uuid": "5aabf6ce-c25e-56bc-91d3-a6f3ca8319c2",
+          "type": "accepts-aircraft"
+        },
+        {
+          "dest-uuid": "b8b5a198-74a8-5610-aefb-13bd926a1006",
+          "type": "accepts-aircraft"
+        },
+        {
+          "dest-uuid": "b0fbf3f3-9ad2-5dac-a672-5d050edd0652",
+          "type": "terminates"
+        },
+        {
+          "dest-uuid": "70fff314-ebec-5424-8f6c-e4f208b3f149",
+          "type": "terminates"
+        }
+      ],
+      "uuid": "7d25284c-266d-586d-b450-7c10b8bc2621",
+      "value": "Basin Airport"
+    },
+    {
+      "description": "Local controllers responsible for movement on the aerodrome and in the local traffic area at Basin Airport.",
+      "meta": {
+        "control-role": [
+          "local-tower"
+        ],
+        "entity-type": [
+          "air-traffic-control-unit"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "7d25284c-266d-586d-b450-7c10b8bc2621",
+          "type": "serves"
+        },
+        {
+          "dest-uuid": "156bf5c7-67a6-5067-8721-9f07d50e80ca",
+          "type": "coordinates-with"
+        }
+      ],
+      "uuid": "afe42e26-7c0c-5392-95d7-23887907c3c3",
+      "value": "Velkar Tower"
+    },
+    {
+      "description": "Civil airport in Caelum Protectorate, served by Caelum Tower in the area of North Control.",
+      "meta": {
+        "airport-id": [
+          "NAC-CAE"
+        ],
+        "country": "Caelum Protectorate",
+        "entity-type": [
+          "airport"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "4a600b9f-b843-446f-a234-415aded47e1b",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "dde4f532-0fc4-5a12-b4cf-3ed368fb118e",
+          "type": "served-by"
+        },
+        {
+          "dest-uuid": "3c98c2b1-4553-593f-bd31-fb83ffc83edf",
+          "type": "within-control-area"
+        },
+        {
+          "dest-uuid": "5aabf6ce-c25e-56bc-91d3-a6f3ca8319c2",
+          "type": "accepts-aircraft"
+        },
+        {
+          "dest-uuid": "63c7d050-40ba-5dce-bdd5-8609a02280a1",
+          "type": "accepts-aircraft"
+        },
+        {
+          "dest-uuid": "ab7ce0d5-4666-5c5b-be2f-97a6aeae0878",
+          "type": "terminates"
+        },
+        {
+          "dest-uuid": "c5d9e554-007e-5a88-a312-1ef06ca41f97",
+          "type": "terminates"
+        },
+        {
+          "dest-uuid": "1b6117f4-7280-5416-bc37-fb9ce2bfc03e",
+          "type": "terminates"
+        },
+        {
+          "dest-uuid": "b67523a4-19b8-51e3-b973-a919de6fa312",
+          "type": "terminates"
+        }
+      ],
+      "uuid": "da6f38c1-48d5-59ba-a828-efe34e48301b",
+      "value": "Plateau Airport"
+    },
+    {
+      "description": "Local controllers responsible for movement on the aerodrome and in the local traffic area at Plateau Airport.",
+      "meta": {
+        "control-role": [
+          "local-tower"
+        ],
+        "entity-type": [
+          "air-traffic-control-unit"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "da6f38c1-48d5-59ba-a828-efe34e48301b",
+          "type": "serves"
+        },
+        {
+          "dest-uuid": "3c98c2b1-4553-593f-bd31-fb83ffc83edf",
+          "type": "coordinates-with"
+        }
+      ],
+      "uuid": "dde4f532-0fc4-5a12-b4cf-3ed368fb118e",
+      "value": "Caelum Tower"
+    },
+    {
+      "description": "Civil airport in Orinthia, served by Orinthia Tower in the area of North Control.",
+      "meta": {
+        "airport-id": [
+          "NAC-ORI"
+        ],
+        "country": "Orinthia",
+        "entity-type": [
+          "airport"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "74d2286a-1b87-4984-8dd1-c5bd466ecca5",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "fb191c9a-8449-5066-a8da-0a9fa6f5bb5d",
+          "type": "served-by"
+        },
+        {
+          "dest-uuid": "3c98c2b1-4553-593f-bd31-fb83ffc83edf",
+          "type": "within-control-area"
+        },
+        {
+          "dest-uuid": "5aabf6ce-c25e-56bc-91d3-a6f3ca8319c2",
+          "type": "accepts-aircraft"
+        },
+        {
+          "dest-uuid": "b8b5a198-74a8-5610-aefb-13bd926a1006",
+          "type": "accepts-aircraft"
+        },
+        {
+          "dest-uuid": "c5d9e554-007e-5a88-a312-1ef06ca41f97",
+          "type": "terminates"
+        },
+        {
+          "dest-uuid": "8741f6c3-6d1d-5963-8e91-daed89446dcf",
+          "type": "terminates"
+        }
+      ],
+      "uuid": "227f9efe-a050-5e5a-948f-2c19c29d29ff",
+      "value": "Sound Airport"
+    },
+    {
+      "description": "Local controllers responsible for movement on the aerodrome and in the local traffic area at Sound Airport.",
+      "meta": {
+        "control-role": [
+          "local-tower"
+        ],
+        "entity-type": [
+          "air-traffic-control-unit"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "227f9efe-a050-5e5a-948f-2c19c29d29ff",
+          "type": "serves"
+        },
+        {
+          "dest-uuid": "3c98c2b1-4553-593f-bd31-fb83ffc83edf",
+          "type": "coordinates-with"
+        }
+      ],
+      "uuid": "fb191c9a-8449-5066-a8da-0a9fa6f5bb5d",
+      "value": "Orinthia Tower"
+    },
+    {
+      "description": "Civil airport in Thyros Commonwealth, served by Thyros Tower in the area of Continental Control.",
+      "meta": {
+        "airport-id": [
+          "NAC-THY"
+        ],
+        "country": "Thyros Commonwealth",
+        "entity-type": [
+          "airport"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "970fd807-b09e-4379-9a44-bebc5d0b9869",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "95e68bf8-ffc9-5f5c-a279-7198e22b4b57",
+          "type": "served-by"
+        },
+        {
+          "dest-uuid": "156bf5c7-67a6-5067-8721-9f07d50e80ca",
+          "type": "within-control-area"
+        },
+        {
+          "dest-uuid": "5aabf6ce-c25e-56bc-91d3-a6f3ca8319c2",
+          "type": "accepts-aircraft"
+        },
+        {
+          "dest-uuid": "63c7d050-40ba-5dce-bdd5-8609a02280a1",
+          "type": "accepts-aircraft"
+        },
+        {
+          "dest-uuid": "8c4b1089-f295-52ac-a5a0-53bf83e50051",
+          "type": "terminates"
+        },
+        {
+          "dest-uuid": "b3b4c733-69a1-5e6b-a810-8427c2f27ff5",
+          "type": "terminates"
+        }
+      ],
+      "uuid": "1e653f40-3e70-5b8b-88e9-ee1959a3e838",
+      "value": "Steppe Airport"
+    },
+    {
+      "description": "Local controllers responsible for movement on the aerodrome and in the local traffic area at Steppe Airport.",
+      "meta": {
+        "control-role": [
+          "local-tower"
+        ],
+        "entity-type": [
+          "air-traffic-control-unit"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "1e653f40-3e70-5b8b-88e9-ee1959a3e838",
+          "type": "serves"
+        },
+        {
+          "dest-uuid": "156bf5c7-67a6-5067-8721-9f07d50e80ca",
+          "type": "coordinates-with"
+        }
+      ],
+      "uuid": "95e68bf8-ffc9-5f5c-a279-7198e22b4b57",
+      "value": "Thyros Tower"
+    },
+    {
+      "description": "Civil airport in Ilyndor, served by Ilyndor Tower in the area of Continental Control.",
+      "meta": {
+        "airport-id": [
+          "NAC-ILY"
+        ],
+        "country": "Ilyndor",
+        "entity-type": [
+          "airport"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "1e875520-fb3e-4d26-a982-44a5fb7f9375",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "7c55cdb7-14c9-5fe4-bc40-dbb44c17ce47",
+          "type": "served-by"
+        },
+        {
+          "dest-uuid": "156bf5c7-67a6-5067-8721-9f07d50e80ca",
+          "type": "within-control-area"
+        },
+        {
+          "dest-uuid": "5aabf6ce-c25e-56bc-91d3-a6f3ca8319c2",
+          "type": "accepts-aircraft"
+        },
+        {
+          "dest-uuid": "b8b5a198-74a8-5610-aefb-13bd926a1006",
+          "type": "accepts-aircraft"
+        },
+        {
+          "dest-uuid": "63c7d050-40ba-5dce-bdd5-8609a02280a1",
+          "type": "accepts-aircraft"
+        },
+        {
+          "dest-uuid": "70fff314-ebec-5424-8f6c-e4f208b3f149",
+          "type": "terminates"
+        },
+        {
+          "dest-uuid": "4898fc56-65f8-5753-9e1b-7f0605e57ed8",
+          "type": "terminates"
+        },
+        {
+          "dest-uuid": "a9477a55-5c49-5380-872b-502d7f9e68df",
+          "type": "terminates"
+        },
+        {
+          "dest-uuid": "b67523a4-19b8-51e3-b973-a919de6fa312",
+          "type": "terminates"
+        },
+        {
+          "dest-uuid": "b3b4c733-69a1-5e6b-a810-8427c2f27ff5",
+          "type": "terminates"
+        }
+      ],
+      "uuid": "cffbae5f-b340-5c62-b68f-65f6b7294e21",
+      "value": "Corridor Airport"
+    },
+    {
+      "description": "Local controllers responsible for movement on the aerodrome and in the local traffic area at Corridor Airport.",
+      "meta": {
+        "control-role": [
+          "local-tower"
+        ],
+        "entity-type": [
+          "air-traffic-control-unit"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "cffbae5f-b340-5c62-b68f-65f6b7294e21",
+          "type": "serves"
+        },
+        {
+          "dest-uuid": "156bf5c7-67a6-5067-8721-9f07d50e80ca",
+          "type": "coordinates-with"
+        }
+      ],
+      "uuid": "7c55cdb7-14c9-5fe4-bc40-dbb44c17ce47",
+      "value": "Ilyndor Tower"
+    },
+    {
+      "description": "Civil airport in Neruva Federation, served by Neruva Tower in the area of Coastal Control.",
+      "meta": {
+        "airport-id": [
+          "NAC-NER"
+        ],
+        "country": "Neruva Federation",
+        "entity-type": [
+          "airport"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "cfe1b22e-38b5-4077-bb90-b2bc5fedb965",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "ad774566-dc7f-5e63-b7dc-999b1ccda1a4",
+          "type": "served-by"
+        },
+        {
+          "dest-uuid": "063b1752-29db-57cc-86bc-7f6524847a08",
+          "type": "within-control-area"
+        },
+        {
+          "dest-uuid": "5aabf6ce-c25e-56bc-91d3-a6f3ca8319c2",
+          "type": "accepts-aircraft"
+        },
+        {
+          "dest-uuid": "b8b5a198-74a8-5610-aefb-13bd926a1006",
+          "type": "accepts-aircraft"
+        },
+        {
+          "dest-uuid": "63c7d050-40ba-5dce-bdd5-8609a02280a1",
+          "type": "accepts-aircraft"
+        },
+        {
+          "dest-uuid": "8741f6c3-6d1d-5963-8e91-daed89446dcf",
+          "type": "terminates"
+        },
+        {
+          "dest-uuid": "1b6117f4-7280-5416-bc37-fb9ce2bfc03e",
+          "type": "terminates"
+        },
+        {
+          "dest-uuid": "8c4b1089-f295-52ac-a5a0-53bf83e50051",
+          "type": "terminates"
+        }
+      ],
+      "uuid": "394252c7-1651-5a3a-86b0-75cc07a89819",
+      "value": "Delta Gateway"
+    },
+    {
+      "description": "Local controllers responsible for movement on the aerodrome and in the local traffic area at Delta Gateway.",
+      "meta": {
+        "control-role": [
+          "local-tower"
+        ],
+        "entity-type": [
+          "air-traffic-control-unit"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "394252c7-1651-5a3a-86b0-75cc07a89819",
+          "type": "serves"
+        },
+        {
+          "dest-uuid": "063b1752-29db-57cc-86bc-7f6524847a08",
+          "type": "coordinates-with"
+        }
+      ],
+      "uuid": "ad774566-dc7f-5e63-b7dc-999b1ccda1a4",
+      "value": "Neruva Tower"
+    },
+    {
+      "description": "Civil airport in Brinax Collective, served by Brinax Tower in the area of Coastal Control.",
+      "meta": {
+        "airport-id": [
+          "NAC-BRI"
+        ],
+        "country": "Brinax Collective",
+        "entity-type": [
+          "airport"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "91f273f8-66c0-446f-bdb2-4233fd0c55ef",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "3801a18b-002c-5152-b879-3fe0b9947dbe",
+          "type": "served-by"
+        },
+        {
+          "dest-uuid": "063b1752-29db-57cc-86bc-7f6524847a08",
+          "type": "within-control-area"
+        },
+        {
+          "dest-uuid": "b8b5a198-74a8-5610-aefb-13bd926a1006",
+          "type": "accepts-aircraft"
+        },
+        {
+          "dest-uuid": "a9477a55-5c49-5380-872b-502d7f9e68df",
+          "type": "terminates"
+        }
+      ],
+      "uuid": "5692cfee-c114-5885-94cd-f7d649a39802",
+      "value": "Coast Airport"
+    },
+    {
+      "description": "Local controllers responsible for movement on the aerodrome and in the local traffic area at Coast Airport.",
+      "meta": {
+        "control-role": [
+          "local-tower"
+        ],
+        "entity-type": [
+          "air-traffic-control-unit"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "5692cfee-c114-5885-94cd-f7d649a39802",
+          "type": "serves"
+        },
+        {
+          "dest-uuid": "063b1752-29db-57cc-86bc-7f6524847a08",
+          "type": "coordinates-with"
+        }
+      ],
+      "uuid": "3801a18b-002c-5152-b879-3fe0b9947dbe",
+      "value": "Brinax Tower"
+    },
+    {
+      "description": "Civil airport in Quenari League, served by Quenari Tower in the area of Continental Control.",
+      "meta": {
+        "airport-id": [
+          "NAC-QUE"
+        ],
+        "country": "Quenari League",
+        "entity-type": [
+          "airport"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "54670ad5-49fe-4d0c-8a81-84b06a8b5050",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "64bedec8-c65c-588a-b022-07e9815e365a",
+          "type": "served-by"
+        },
+        {
+          "dest-uuid": "156bf5c7-67a6-5067-8721-9f07d50e80ca",
+          "type": "within-control-area"
+        },
+        {
+          "dest-uuid": "5aabf6ce-c25e-56bc-91d3-a6f3ca8319c2",
+          "type": "accepts-aircraft"
+        },
+        {
+          "dest-uuid": "4898fc56-65f8-5753-9e1b-7f0605e57ed8",
+          "type": "terminates"
+        }
+      ],
+      "uuid": "fc9a633d-9390-5609-81e7-134fb2d85054",
+      "value": "Equator Airport"
+    },
+    {
+      "description": "Local controllers responsible for movement on the aerodrome and in the local traffic area at Equator Airport.",
+      "meta": {
+        "control-role": [
+          "local-tower"
+        ],
+        "entity-type": [
+          "air-traffic-control-unit"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "fc9a633d-9390-5609-81e7-134fb2d85054",
+          "type": "serves"
+        },
+        {
+          "dest-uuid": "156bf5c7-67a6-5067-8721-9f07d50e80ca",
+          "type": "coordinates-with"
+        }
+      ],
+      "uuid": "64bedec8-c65c-588a-b022-07e9815e365a",
+      "value": "Quenari Tower"
+    },
+    {
+      "description": "Civil airport in Soreth Dominion, served by Soreth Tower in the area of North Control.",
+      "meta": {
+        "airport-id": [
+          "NAC-SOR"
+        ],
+        "country": "Soreth Dominion",
+        "entity-type": [
+          "airport"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "c4be7f53-6d08-4472-8480-49ccb7946e78",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "5fb784b0-e046-5cd4-9773-b72325e50453",
+          "type": "served-by"
+        },
+        {
+          "dest-uuid": "3c98c2b1-4553-593f-bd31-fb83ffc83edf",
+          "type": "within-control-area"
+        },
+        {
+          "dest-uuid": "5aabf6ce-c25e-56bc-91d3-a6f3ca8319c2",
+          "type": "accepts-aircraft"
+        },
+        {
+          "dest-uuid": "ab7ce0d5-4666-5c5b-be2f-97a6aeae0878",
+          "type": "terminates"
+        }
+      ],
+      "uuid": "235ac41b-25f2-5b1b-8ebc-4e412765b945",
+      "value": "Tundra Airfield"
+    },
+    {
+      "description": "Local controllers responsible for movement on the aerodrome and in the local traffic area at Tundra Airfield.",
+      "meta": {
+        "control-role": [
+          "local-tower"
+        ],
+        "entity-type": [
+          "air-traffic-control-unit"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "235ac41b-25f2-5b1b-8ebc-4e412765b945",
+          "type": "serves"
+        },
+        {
+          "dest-uuid": "3c98c2b1-4553-593f-bd31-fb83ffc83edf",
+          "type": "coordinates-with"
+        }
+      ],
+      "uuid": "5fb784b0-e046-5cd4-9773-b72325e50453",
+      "value": "Soreth Tower"
+    },
+    {
+      "description": "Regional en-route controllers for northern airspace based at Plateau Airport.",
+      "meta": {
+        "airspace": [
+          "Northern airspace"
+        ],
+        "control-role": [
+          "en-route-center"
+        ],
+        "entity-type": [
+          "air-traffic-control-unit"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "da6f38c1-48d5-59ba-a828-efe34e48301b",
+          "type": "hosted-at"
+        },
+        {
+          "dest-uuid": "1d4fe652-d202-5cc3-a501-9feca5d26a6a",
+          "type": "covers"
+        },
+        {
+          "dest-uuid": "da6f38c1-48d5-59ba-a828-efe34e48301b",
+          "type": "covers"
+        },
+        {
+          "dest-uuid": "227f9efe-a050-5e5a-948f-2c19c29d29ff",
+          "type": "covers"
+        },
+        {
+          "dest-uuid": "235ac41b-25f2-5b1b-8ebc-4e412765b945",
+          "type": "covers"
+        },
+        {
+          "dest-uuid": "33f59468-e1e6-5c8f-acf1-a48763d0d0e1",
+          "type": "coordinates-with"
+        },
+        {
+          "dest-uuid": "dde4f532-0fc4-5a12-b4cf-3ed368fb118e",
+          "type": "coordinates-with"
+        },
+        {
+          "dest-uuid": "fb191c9a-8449-5066-a8da-0a9fa6f5bb5d",
+          "type": "coordinates-with"
+        },
+        {
+          "dest-uuid": "5fb784b0-e046-5cd4-9773-b72325e50453",
+          "type": "coordinates-with"
+        }
+      ],
+      "uuid": "3c98c2b1-4553-593f-bd31-fb83ffc83edf",
+      "value": "North Control"
+    },
+    {
+      "description": "Regional en-route controllers for continental airspace based at Corridor Airport.",
+      "meta": {
+        "airspace": [
+          "Continental airspace"
+        ],
+        "control-role": [
+          "en-route-center"
+        ],
+        "entity-type": [
+          "air-traffic-control-unit"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "cffbae5f-b340-5c62-b68f-65f6b7294e21",
+          "type": "hosted-at"
+        },
+        {
+          "dest-uuid": "7d25284c-266d-586d-b450-7c10b8bc2621",
+          "type": "covers"
+        },
+        {
+          "dest-uuid": "1e653f40-3e70-5b8b-88e9-ee1959a3e838",
+          "type": "covers"
+        },
+        {
+          "dest-uuid": "cffbae5f-b340-5c62-b68f-65f6b7294e21",
+          "type": "covers"
+        },
+        {
+          "dest-uuid": "fc9a633d-9390-5609-81e7-134fb2d85054",
+          "type": "covers"
+        },
+        {
+          "dest-uuid": "afe42e26-7c0c-5392-95d7-23887907c3c3",
+          "type": "coordinates-with"
+        },
+        {
+          "dest-uuid": "95e68bf8-ffc9-5f5c-a279-7198e22b4b57",
+          "type": "coordinates-with"
+        },
+        {
+          "dest-uuid": "7c55cdb7-14c9-5fe4-bc40-dbb44c17ce47",
+          "type": "coordinates-with"
+        },
+        {
+          "dest-uuid": "64bedec8-c65c-588a-b022-07e9815e365a",
+          "type": "coordinates-with"
+        }
+      ],
+      "uuid": "156bf5c7-67a6-5067-8721-9f07d50e80ca",
+      "value": "Continental Control"
+    },
+    {
+      "description": "Regional en-route controllers for coastal airspace based at Delta Gateway.",
+      "meta": {
+        "airspace": [
+          "Coastal airspace"
+        ],
+        "control-role": [
+          "en-route-center"
+        ],
+        "entity-type": [
+          "air-traffic-control-unit"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "394252c7-1651-5a3a-86b0-75cc07a89819",
+          "type": "hosted-at"
+        },
+        {
+          "dest-uuid": "394252c7-1651-5a3a-86b0-75cc07a89819",
+          "type": "covers"
+        },
+        {
+          "dest-uuid": "5692cfee-c114-5885-94cd-f7d649a39802",
+          "type": "covers"
+        },
+        {
+          "dest-uuid": "ad774566-dc7f-5e63-b7dc-999b1ccda1a4",
+          "type": "coordinates-with"
+        },
+        {
+          "dest-uuid": "3801a18b-002c-5152-b879-3fe0b9947dbe",
+          "type": "coordinates-with"
+        }
+      ],
+      "uuid": "063b1752-29db-57cc-86bc-7f6524847a08",
+      "value": "Coastal Control"
+    },
+    {
+      "description": "Bidirectional passengers service between Northreach Airport and Basin Airport using the Lark 42.",
+      "meta": {
+        "entity-type": [
+          "scheduled-air-route"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "route-id": [
+          "A01"
+        ],
+        "service": [
+          "passengers"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "1d4fe652-d202-5cc3-a501-9feca5d26a6a",
+          "type": "terminated-by"
+        },
+        {
+          "dest-uuid": "7d25284c-266d-586d-b450-7c10b8bc2621",
+          "type": "terminated-by"
+        },
+        {
+          "dest-uuid": "5aabf6ce-c25e-56bc-91d3-a6f3ca8319c2",
+          "type": "uses-type"
+        }
+      ],
+      "uuid": "b0fbf3f3-9ad2-5dac-a672-5d050edd0652",
+      "value": "Northreach Shuttle"
+    },
+    {
+      "description": "Bidirectional passengers service between Basin Airport and Corridor Airport using the Meridian 108.",
+      "meta": {
+        "entity-type": [
+          "scheduled-air-route"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "route-id": [
+          "A02"
+        ],
+        "service": [
+          "passengers"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "7d25284c-266d-586d-b450-7c10b8bc2621",
+          "type": "terminated-by"
+        },
+        {
+          "dest-uuid": "cffbae5f-b340-5c62-b68f-65f6b7294e21",
+          "type": "terminated-by"
+        },
+        {
+          "dest-uuid": "b8b5a198-74a8-5610-aefb-13bd926a1006",
+          "type": "uses-type"
+        }
+      ],
+      "uuid": "70fff314-ebec-5424-8f6c-e4f208b3f149",
+      "value": "Basin Connector"
+    },
+    {
+      "description": "Bidirectional passengers service between Corridor Airport and Equator Airport using the Lark 42.",
+      "meta": {
+        "entity-type": [
+          "scheduled-air-route"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "route-id": [
+          "A03"
+        ],
+        "service": [
+          "passengers"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "cffbae5f-b340-5c62-b68f-65f6b7294e21",
+          "type": "terminated-by"
+        },
+        {
+          "dest-uuid": "fc9a633d-9390-5609-81e7-134fb2d85054",
+          "type": "terminated-by"
+        },
+        {
+          "dest-uuid": "5aabf6ce-c25e-56bc-91d3-a6f3ca8319c2",
+          "type": "uses-type"
+        }
+      ],
+      "uuid": "4898fc56-65f8-5753-9e1b-7f0605e57ed8",
+      "value": "Equator Shuttle"
+    },
+    {
+      "description": "Bidirectional passengers service between Plateau Airport and Tundra Airfield using the Lark 42.",
+      "meta": {
+        "entity-type": [
+          "scheduled-air-route"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "route-id": [
+          "A04"
+        ],
+        "service": [
+          "passengers"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "da6f38c1-48d5-59ba-a828-efe34e48301b",
+          "type": "terminated-by"
+        },
+        {
+          "dest-uuid": "235ac41b-25f2-5b1b-8ebc-4e412765b945",
+          "type": "terminated-by"
+        },
+        {
+          "dest-uuid": "5aabf6ce-c25e-56bc-91d3-a6f3ca8319c2",
+          "type": "uses-type"
+        }
+      ],
+      "uuid": "ab7ce0d5-4666-5c5b-be2f-97a6aeae0878",
+      "value": "Tundra Shuttle"
+    },
+    {
+      "description": "Bidirectional passengers service between Plateau Airport and Sound Airport using the Lark 42.",
+      "meta": {
+        "entity-type": [
+          "scheduled-air-route"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "route-id": [
+          "A05"
+        ],
+        "service": [
+          "passengers"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "da6f38c1-48d5-59ba-a828-efe34e48301b",
+          "type": "terminated-by"
+        },
+        {
+          "dest-uuid": "227f9efe-a050-5e5a-948f-2c19c29d29ff",
+          "type": "terminated-by"
+        },
+        {
+          "dest-uuid": "5aabf6ce-c25e-56bc-91d3-a6f3ca8319c2",
+          "type": "uses-type"
+        }
+      ],
+      "uuid": "c5d9e554-007e-5a88-a312-1ef06ca41f97",
+      "value": "Sound Shuttle"
+    },
+    {
+      "description": "Bidirectional passengers service between Sound Airport and Delta Gateway using the Meridian 108.",
+      "meta": {
+        "entity-type": [
+          "scheduled-air-route"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "route-id": [
+          "A06"
+        ],
+        "service": [
+          "passengers"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "227f9efe-a050-5e5a-948f-2c19c29d29ff",
+          "type": "terminated-by"
+        },
+        {
+          "dest-uuid": "394252c7-1651-5a3a-86b0-75cc07a89819",
+          "type": "terminated-by"
+        },
+        {
+          "dest-uuid": "b8b5a198-74a8-5610-aefb-13bd926a1006",
+          "type": "uses-type"
+        }
+      ],
+      "uuid": "8741f6c3-6d1d-5963-8e91-daed89446dcf",
+      "value": "Azure Passenger Link"
+    },
+    {
+      "description": "Bidirectional cargo service between Plateau Airport and Delta Gateway using the Wayfarer C12.",
+      "meta": {
+        "entity-type": [
+          "scheduled-air-route"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "route-id": [
+          "A07"
+        ],
+        "service": [
+          "cargo"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "da6f38c1-48d5-59ba-a828-efe34e48301b",
+          "type": "terminated-by"
+        },
+        {
+          "dest-uuid": "394252c7-1651-5a3a-86b0-75cc07a89819",
+          "type": "terminated-by"
+        },
+        {
+          "dest-uuid": "63c7d050-40ba-5dce-bdd5-8609a02280a1",
+          "type": "uses-type"
+        }
+      ],
+      "uuid": "1b6117f4-7280-5416-bc37-fb9ce2bfc03e",
+      "value": "Plateau Cargo Link"
+    },
+    {
+      "description": "Bidirectional passengers service between Corridor Airport and Coast Airport using the Meridian 108.",
+      "meta": {
+        "entity-type": [
+          "scheduled-air-route"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "route-id": [
+          "A08"
+        ],
+        "service": [
+          "passengers"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "cffbae5f-b340-5c62-b68f-65f6b7294e21",
+          "type": "terminated-by"
+        },
+        {
+          "dest-uuid": "5692cfee-c114-5885-94cd-f7d649a39802",
+          "type": "terminated-by"
+        },
+        {
+          "dest-uuid": "b8b5a198-74a8-5610-aefb-13bd926a1006",
+          "type": "uses-type"
+        }
+      ],
+      "uuid": "a9477a55-5c49-5380-872b-502d7f9e68df",
+      "value": "Coast Express"
+    },
+    {
+      "description": "Bidirectional cargo service between Plateau Airport and Corridor Airport using the Wayfarer C12.",
+      "meta": {
+        "entity-type": [
+          "scheduled-air-route"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "route-id": [
+          "A09"
+        ],
+        "service": [
+          "cargo"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "da6f38c1-48d5-59ba-a828-efe34e48301b",
+          "type": "terminated-by"
+        },
+        {
+          "dest-uuid": "cffbae5f-b340-5c62-b68f-65f6b7294e21",
+          "type": "terminated-by"
+        },
+        {
+          "dest-uuid": "63c7d050-40ba-5dce-bdd5-8609a02280a1",
+          "type": "uses-type"
+        }
+      ],
+      "uuid": "b67523a4-19b8-51e3-b973-a919de6fa312",
+      "value": "Corridor Cargo Link"
+    },
+    {
+      "description": "Bidirectional passengers service between Steppe Airport and Delta Gateway using the Lark 42.",
+      "meta": {
+        "entity-type": [
+          "scheduled-air-route"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "route-id": [
+          "A10"
+        ],
+        "service": [
+          "passengers"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "1e653f40-3e70-5b8b-88e9-ee1959a3e838",
+          "type": "terminated-by"
+        },
+        {
+          "dest-uuid": "394252c7-1651-5a3a-86b0-75cc07a89819",
+          "type": "terminated-by"
+        },
+        {
+          "dest-uuid": "5aabf6ce-c25e-56bc-91d3-a6f3ca8319c2",
+          "type": "uses-type"
+        }
+      ],
+      "uuid": "8c4b1089-f295-52ac-a5a0-53bf83e50051",
+      "value": "Steppe Shuttle"
+    },
+    {
+      "description": "Bidirectional cargo service between Steppe Airport and Corridor Airport using the Wayfarer C12.",
+      "meta": {
+        "entity-type": [
+          "scheduled-air-route"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "route-id": [
+          "A11"
+        ],
+        "service": [
+          "cargo"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "1e653f40-3e70-5b8b-88e9-ee1959a3e838",
+          "type": "terminated-by"
+        },
+        {
+          "dest-uuid": "cffbae5f-b340-5c62-b68f-65f6b7294e21",
+          "type": "terminated-by"
+        },
+        {
+          "dest-uuid": "63c7d050-40ba-5dce-bdd5-8609a02280a1",
+          "type": "uses-type"
+        }
+      ],
+      "uuid": "b3b4c733-69a1-5e6b-a810-8427c2f27ff5",
+      "value": "Steppe Cargo Link"
+    }
+  ],
+  "version": 1
+}

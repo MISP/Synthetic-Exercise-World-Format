@@ -1,0 +1,9 @@
+{
+  "description": "Fictional aircraft types, airports, air traffic control units, and scheduled air routes on Nacre.",
+  "icon": "plane",
+  "name": "Synthetic Exercise World - Civil Aviation",
+  "namespace": "misp",
+  "type": "exercise-world-aviation",
+  "uuid": "e33d4ae2-baf6-56b3-8f27-8601db886587",
+  "version": 1
+}
