@@ -1,0 +1,1255 @@
+{
+  "authors": [
+    "MISP Project"
+  ],
+  "category": "context",
+  "description": "Fictional electricity generation, transmission hubs and interties, and local distribution areas on Nacre.",
+  "name": "Synthetic Exercise World - Electricity",
+  "source": "https://github.com/MISP/Synthetic-Exercise-World-Format",
+  "type": "exercise-world-electricity",
+  "uuid": "df0f3f27-94b9-5ac5-a848-563b3ce87d92",
+  "values": [
+    {
+      "description": "Representative wind generation connected to Asterin Grid Hub.",
+      "meta": {
+        "country": "Asterin Union",
+        "entity-type": [
+          "generation-source"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "source-class": [
+          "renewable"
+        ],
+        "technology": [
+          "wind"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "8a9d5472-77ca-5e66-a4dd-674ae9a0a25b",
+          "type": "supplies"
+        }
+      ],
+      "uuid": "d7fbf9c8-d94c-5d85-a23b-7b7cc81a2362",
+      "value": "Northwind Farms"
+    },
+    {
+      "description": "Transmission hub for Asterin Union. It connects local generation, cross-border interties, and the distribution area.",
+      "meta": {
+        "country": "Asterin Union",
+        "entity-type": [
+          "grid-hub"
+        ],
+        "grid-mode": [
+          "interconnected"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "cb97ba71-e477-4acb-9470-10f3e6c9e1a9",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "d7fbf9c8-d94c-5d85-a23b-7b7cc81a2362",
+          "type": "receives-from"
+        },
+        {
+          "dest-uuid": "1eb396ed-ad4d-5f7a-bd73-6f150b6bf567",
+          "type": "supplies"
+        },
+        {
+          "dest-uuid": "e0fbd388-dbfe-5b7c-9338-dc1efa6b2591",
+          "type": "terminates"
+        }
+      ],
+      "uuid": "8a9d5472-77ca-5e66-a4dd-674ae9a0a25b",
+      "value": "Asterin Grid Hub"
+    },
+    {
+      "description": "Aggregated distribution feeders from Asterin Grid Hub. Example priority loads include water pumping, district heating.",
+      "meta": {
+        "country": "Asterin Union",
+        "entity-type": [
+          "distribution-area"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "priority-loads": [
+          "water pumping",
+          "district heating"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "8a9d5472-77ca-5e66-a4dd-674ae9a0a25b",
+          "type": "receives-from"
+        }
+      ],
+      "uuid": "1eb396ed-ad4d-5f7a-bd73-6f150b6bf567",
+      "value": "Asterin Distribution Area"
+    },
+    {
+      "description": "Representative nuclear generation connected to Velkar Grid Hub.",
+      "meta": {
+        "country": "Velkar Republic",
+        "entity-type": [
+          "generation-source"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "source-class": [
+          "nuclear"
+        ],
+        "technology": [
+          "nuclear"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "be9a4418-2329-5f3c-8cb3-364ffe8b5b99",
+          "type": "supplies"
+        }
+      ],
+      "uuid": "6c01f01d-417b-5427-9a49-b324c7c2bd39",
+      "value": "Basin Nuclear Station"
+    },
+    {
+      "description": "Transmission hub for Velkar Republic. It connects local generation, cross-border interties, and the distribution area.",
+      "meta": {
+        "country": "Velkar Republic",
+        "entity-type": [
+          "grid-hub"
+        ],
+        "grid-mode": [
+          "interconnected"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "e4cd09cc-7be7-46ef-8989-5b9a812b49fe",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "6c01f01d-417b-5427-9a49-b324c7c2bd39",
+          "type": "receives-from"
+        },
+        {
+          "dest-uuid": "1f79396a-6b4e-5c6c-bdd4-2653746bda20",
+          "type": "supplies"
+        },
+        {
+          "dest-uuid": "e0fbd388-dbfe-5b7c-9338-dc1efa6b2591",
+          "type": "terminates"
+        },
+        {
+          "dest-uuid": "cae41c00-f7e1-57cc-a30c-9b81241beafc",
+          "type": "terminates"
+        },
+        {
+          "dest-uuid": "ae86be93-945a-548d-a3e4-115b5397c2cd",
+          "type": "terminates"
+        }
+      ],
+      "uuid": "be9a4418-2329-5f3c-8cb3-364ffe8b5b99",
+      "value": "Velkar Grid Hub"
+    },
+    {
+      "description": "Aggregated distribution feeders from Velkar Grid Hub. Example priority loads include municipal water, heating plants.",
+      "meta": {
+        "country": "Velkar Republic",
+        "entity-type": [
+          "distribution-area"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "priority-loads": [
+          "municipal water",
+          "heating plants"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "be9a4418-2329-5f3c-8cb3-364ffe8b5b99",
+          "type": "receives-from"
+        }
+      ],
+      "uuid": "1f79396a-6b4e-5c6c-bdd4-2653746bda20",
+      "value": "Velkar Distribution Area"
+    },
+    {
+      "description": "Representative solar generation connected to Caelum Grid Hub.",
+      "meta": {
+        "country": "Caelum Protectorate",
+        "entity-type": [
+          "generation-source"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "source-class": [
+          "renewable"
+        ],
+        "technology": [
+          "solar"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "0b312c84-4b60-53b1-9608-17d920877beb",
+          "type": "supplies"
+        }
+      ],
+      "uuid": "f46064ec-f599-555e-a43a-b3f4ce70d887",
+      "value": "Plateau Solar Fields"
+    },
+    {
+      "description": "Transmission hub for Caelum Protectorate. It connects local generation, cross-border interties, and the distribution area.",
+      "meta": {
+        "country": "Caelum Protectorate",
+        "entity-type": [
+          "grid-hub"
+        ],
+        "grid-mode": [
+          "interconnected"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "4a600b9f-b843-446f-a234-415aded47e1b",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "f46064ec-f599-555e-a43a-b3f4ce70d887",
+          "type": "receives-from"
+        },
+        {
+          "dest-uuid": "9bba65c7-9f4c-5436-8a09-d76fe550e776",
+          "type": "supplies"
+        },
+        {
+          "dest-uuid": "cae41c00-f7e1-57cc-a30c-9b81241beafc",
+          "type": "terminates"
+        },
+        {
+          "dest-uuid": "8f93c45b-ef8c-58a0-ad20-54836a159185",
+          "type": "terminates"
+        },
+        {
+          "dest-uuid": "6bf24f85-e8c7-5483-baf3-593690b16a5e",
+          "type": "terminates"
+        }
+      ],
+      "uuid": "0b312c84-4b60-53b1-9608-17d920877beb",
+      "value": "Caelum Grid Hub"
+    },
+    {
+      "description": "Aggregated distribution feeders from Caelum Grid Hub. Example priority loads include telecom relay sites, water treatment.",
+      "meta": {
+        "country": "Caelum Protectorate",
+        "entity-type": [
+          "distribution-area"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "priority-loads": [
+          "telecom relay sites",
+          "water treatment"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "0b312c84-4b60-53b1-9608-17d920877beb",
+          "type": "receives-from"
+        }
+      ],
+      "uuid": "9bba65c7-9f4c-5436-8a09-d76fe550e776",
+      "value": "Caelum Distribution Area"
+    },
+    {
+      "description": "Representative wind generation connected to Orinthia Grid Hub.",
+      "meta": {
+        "country": "Orinthia",
+        "entity-type": [
+          "generation-source"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "source-class": [
+          "renewable"
+        ],
+        "technology": [
+          "wind"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "2956afaa-3205-5714-b0ac-d09cddd52c85",
+          "type": "supplies"
+        }
+      ],
+      "uuid": "4a70347c-fb7d-5faa-943e-15441d6b1ea9",
+      "value": "East Isles Wind"
+    },
+    {
+      "description": "Transmission hub for Orinthia. It connects local generation, cross-border interties, and the distribution area.",
+      "meta": {
+        "country": "Orinthia",
+        "entity-type": [
+          "grid-hub"
+        ],
+        "grid-mode": [
+          "interconnected"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "74d2286a-1b87-4984-8dd1-c5bd466ecca5",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "4a70347c-fb7d-5faa-943e-15441d6b1ea9",
+          "type": "receives-from"
+        },
+        {
+          "dest-uuid": "d01782ea-fad6-5ed1-9c9f-5cc21e183de4",
+          "type": "supplies"
+        },
+        {
+          "dest-uuid": "6bf24f85-e8c7-5483-baf3-593690b16a5e",
+          "type": "terminates"
+        }
+      ],
+      "uuid": "2956afaa-3205-5714-b0ac-d09cddd52c85",
+      "value": "Orinthia Grid Hub"
+    },
+    {
+      "description": "Aggregated distribution feeders from Orinthia Grid Hub. Example priority loads include hospital, water pumps, island telecom core.",
+      "meta": {
+        "country": "Orinthia",
+        "entity-type": [
+          "distribution-area"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "priority-loads": [
+          "hospital",
+          "water pumps",
+          "island telecom core"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "2956afaa-3205-5714-b0ac-d09cddd52c85",
+          "type": "receives-from"
+        }
+      ],
+      "uuid": "d01782ea-fad6-5ed1-9c9f-5cc21e183de4",
+      "value": "Orinthia Distribution Area"
+    },
+    {
+      "description": "Representative natural gas generation connected to Thyros Grid Hub.",
+      "meta": {
+        "country": "Thyros Commonwealth",
+        "entity-type": [
+          "generation-source"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "source-class": [
+          "fossil"
+        ],
+        "technology": [
+          "natural gas"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "51f5a69f-ca48-5ae4-938a-51b4354809b6",
+          "type": "supplies"
+        }
+      ],
+      "uuid": "50af2032-22a2-5ab3-afae-9b9e32343d03",
+      "value": "Steppe Gas Station"
+    },
+    {
+      "description": "Transmission hub for Thyros Commonwealth. It connects local generation, cross-border interties, and the distribution area.",
+      "meta": {
+        "country": "Thyros Commonwealth",
+        "entity-type": [
+          "grid-hub"
+        ],
+        "grid-mode": [
+          "interconnected"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "970fd807-b09e-4379-9a44-bebc5d0b9869",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "50af2032-22a2-5ab3-afae-9b9e32343d03",
+          "type": "receives-from"
+        },
+        {
+          "dest-uuid": "d4f819de-4304-59ce-a095-d5e52de53b8d",
+          "type": "supplies"
+        },
+        {
+          "dest-uuid": "8f93c45b-ef8c-58a0-ad20-54836a159185",
+          "type": "terminates"
+        },
+        {
+          "dest-uuid": "6ca7ad3e-7bf9-5b49-82a7-be8421552fd9",
+          "type": "terminates"
+        }
+      ],
+      "uuid": "51f5a69f-ca48-5ae4-938a-51b4354809b6",
+      "value": "Thyros Grid Hub"
+    },
+    {
+      "description": "Aggregated distribution feeders from Thyros Grid Hub. Example priority loads include freight terminals, water pumping.",
+      "meta": {
+        "country": "Thyros Commonwealth",
+        "entity-type": [
+          "distribution-area"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "priority-loads": [
+          "freight terminals",
+          "water pumping"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "51f5a69f-ca48-5ae4-938a-51b4354809b6",
+          "type": "receives-from"
+        }
+      ],
+      "uuid": "d4f819de-4304-59ce-a095-d5e52de53b8d",
+      "value": "Thyros Distribution Area"
+    },
+    {
+      "description": "Representative solar generation connected to Ilyndor Grid Hub.",
+      "meta": {
+        "country": "Ilyndor",
+        "entity-type": [
+          "generation-source"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "source-class": [
+          "renewable"
+        ],
+        "technology": [
+          "solar"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "0cb1d12b-5605-5a08-a808-9f638530dc03",
+          "type": "supplies"
+        }
+      ],
+      "uuid": "77e1e5fb-714a-504d-be7e-13406fa9f6b6",
+      "value": "Corridor Solar Fields"
+    },
+    {
+      "description": "Transmission hub for Ilyndor. It connects local generation, cross-border interties, and the distribution area.",
+      "meta": {
+        "country": "Ilyndor",
+        "entity-type": [
+          "grid-hub"
+        ],
+        "grid-mode": [
+          "interconnected"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "1e875520-fb3e-4d26-a982-44a5fb7f9375",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "77e1e5fb-714a-504d-be7e-13406fa9f6b6",
+          "type": "receives-from"
+        },
+        {
+          "dest-uuid": "993b1bc9-2616-5c0c-be4c-c3b8586dfebd",
+          "type": "supplies"
+        },
+        {
+          "dest-uuid": "ae86be93-945a-548d-a3e4-115b5397c2cd",
+          "type": "terminates"
+        },
+        {
+          "dest-uuid": "104fcb41-040b-5165-b5b5-76d1f2d750d3",
+          "type": "terminates"
+        },
+        {
+          "dest-uuid": "1cb86ee6-e73c-5682-b964-0bde1d7d087c",
+          "type": "terminates"
+        },
+        {
+          "dest-uuid": "71290afc-c7e2-5722-9452-623b5db72aee",
+          "type": "terminates"
+        }
+      ],
+      "uuid": "0cb1d12b-5605-5a08-a808-9f638530dc03",
+      "value": "Ilyndor Grid Hub"
+    },
+    {
+      "description": "Aggregated distribution feeders from Ilyndor Grid Hub. Example priority loads include rail signaling, public service buildings.",
+      "meta": {
+        "country": "Ilyndor",
+        "entity-type": [
+          "distribution-area"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "priority-loads": [
+          "rail signaling",
+          "public service buildings"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "0cb1d12b-5605-5a08-a808-9f638530dc03",
+          "type": "receives-from"
+        }
+      ],
+      "uuid": "993b1bc9-2616-5c0c-be4c-c3b8586dfebd",
+      "value": "Ilyndor Distribution Area"
+    },
+    {
+      "description": "Representative natural gas generation connected to Neruva Grid Hub.",
+      "meta": {
+        "country": "Neruva Federation",
+        "entity-type": [
+          "generation-source"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "source-class": [
+          "fossil"
+        ],
+        "technology": [
+          "natural gas"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "c49f8f68-b3e7-51be-8225-f907f9afe516",
+          "type": "supplies"
+        }
+      ],
+      "uuid": "11f2b65d-c4d6-564a-a69c-1955faabff55",
+      "value": "Delta Gas Station"
+    },
+    {
+      "description": "Transmission hub for Neruva Federation. It connects local generation, cross-border interties, and the distribution area.",
+      "meta": {
+        "country": "Neruva Federation",
+        "entity-type": [
+          "grid-hub"
+        ],
+        "grid-mode": [
+          "interconnected"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "cfe1b22e-38b5-4077-bb90-b2bc5fedb965",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "11f2b65d-c4d6-564a-a69c-1955faabff55",
+          "type": "receives-from"
+        },
+        {
+          "dest-uuid": "16d9efa9-79d3-51fb-9dd2-34f11f87468a",
+          "type": "supplies"
+        },
+        {
+          "dest-uuid": "6ca7ad3e-7bf9-5b49-82a7-be8421552fd9",
+          "type": "terminates"
+        },
+        {
+          "dest-uuid": "104fcb41-040b-5165-b5b5-76d1f2d750d3",
+          "type": "terminates"
+        },
+        {
+          "dest-uuid": "f9cdc53e-f0ba-5931-86ee-5ba516a8e8eb",
+          "type": "terminates"
+        }
+      ],
+      "uuid": "c49f8f68-b3e7-51be-8225-f907f9afe516",
+      "value": "Neruva Grid Hub"
+    },
+    {
+      "description": "Aggregated distribution feeders from Neruva Grid Hub. Example priority loads include flood pumps, port controls.",
+      "meta": {
+        "country": "Neruva Federation",
+        "entity-type": [
+          "distribution-area"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "priority-loads": [
+          "flood pumps",
+          "port controls"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "c49f8f68-b3e7-51be-8225-f907f9afe516",
+          "type": "receives-from"
+        }
+      ],
+      "uuid": "16d9efa9-79d3-51fb-9dd2-34f11f87468a",
+      "value": "Neruva Distribution Area"
+    },
+    {
+      "description": "Representative tidal generation connected to Brinax Grid Hub.",
+      "meta": {
+        "country": "Brinax Collective",
+        "entity-type": [
+          "generation-source"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "source-class": [
+          "renewable"
+        ],
+        "technology": [
+          "tidal"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "68e93c0b-8667-5276-8000-ba02dc70cd94",
+          "type": "supplies"
+        }
+      ],
+      "uuid": "5f5c1931-d8c0-52fb-9442-8762f057bed3",
+      "value": "Tidegate Array"
+    },
+    {
+      "description": "Transmission hub for Brinax Collective. It connects local generation, cross-border interties, and the distribution area.",
+      "meta": {
+        "country": "Brinax Collective",
+        "entity-type": [
+          "grid-hub"
+        ],
+        "grid-mode": [
+          "interconnected"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "91f273f8-66c0-446f-bdb2-4233fd0c55ef",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "5f5c1931-d8c0-52fb-9442-8762f057bed3",
+          "type": "receives-from"
+        },
+        {
+          "dest-uuid": "d1c53679-81b7-5825-ac54-4d16b05777c9",
+          "type": "supplies"
+        },
+        {
+          "dest-uuid": "f9cdc53e-f0ba-5931-86ee-5ba516a8e8eb",
+          "type": "terminates"
+        },
+        {
+          "dest-uuid": "71290afc-c7e2-5722-9452-623b5db72aee",
+          "type": "terminates"
+        }
+      ],
+      "uuid": "68e93c0b-8667-5276-8000-ba02dc70cd94",
+      "value": "Brinax Grid Hub"
+    },
+    {
+      "description": "Aggregated distribution feeders from Brinax Grid Hub. Example priority loads include port refrigeration, cooperative dispatch center.",
+      "meta": {
+        "country": "Brinax Collective",
+        "entity-type": [
+          "distribution-area"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "priority-loads": [
+          "port refrigeration",
+          "cooperative dispatch center"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "68e93c0b-8667-5276-8000-ba02dc70cd94",
+          "type": "receives-from"
+        }
+      ],
+      "uuid": "d1c53679-81b7-5825-ac54-4d16b05777c9",
+      "value": "Brinax Distribution Area"
+    },
+    {
+      "description": "Representative solar generation connected to Quenari Grid Hub.",
+      "meta": {
+        "country": "Quenari League",
+        "entity-type": [
+          "generation-source"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "source-class": [
+          "renewable"
+        ],
+        "technology": [
+          "solar"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "ba34fab8-e763-5d5a-8956-264b7effcaca",
+          "type": "supplies"
+        }
+      ],
+      "uuid": "e57f4363-b4bc-55ef-b389-fa84089c11b3",
+      "value": "Equator Solar Fields"
+    },
+    {
+      "description": "Transmission hub for Quenari League. It connects local generation, cross-border interties, and the distribution area.",
+      "meta": {
+        "country": "Quenari League",
+        "entity-type": [
+          "grid-hub"
+        ],
+        "grid-mode": [
+          "interconnected"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "54670ad5-49fe-4d0c-8a81-84b06a8b5050",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "e57f4363-b4bc-55ef-b389-fa84089c11b3",
+          "type": "receives-from"
+        },
+        {
+          "dest-uuid": "6cd6ca5e-ea24-5cc9-a821-0ea8e8bd65a8",
+          "type": "supplies"
+        },
+        {
+          "dest-uuid": "1cb86ee6-e73c-5682-b964-0bde1d7d087c",
+          "type": "terminates"
+        }
+      ],
+      "uuid": "ba34fab8-e763-5d5a-8956-264b7effcaca",
+      "value": "Quenari Grid Hub"
+    },
+    {
+      "description": "Aggregated distribution feeders from Quenari Grid Hub. Example priority loads include irrigation pumps, food storage.",
+      "meta": {
+        "country": "Quenari League",
+        "entity-type": [
+          "distribution-area"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "priority-loads": [
+          "irrigation pumps",
+          "food storage"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "ba34fab8-e763-5d5a-8956-264b7effcaca",
+          "type": "receives-from"
+        }
+      ],
+      "uuid": "6cd6ca5e-ea24-5cc9-a821-0ea8e8bd65a8",
+      "value": "Quenari Distribution Area"
+    },
+    {
+      "description": "Representative natural gas generation connected to Soreth Grid Hub.",
+      "meta": {
+        "country": "Soreth Dominion",
+        "entity-type": [
+          "generation-source"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "source-class": [
+          "fossil"
+        ],
+        "technology": [
+          "natural gas"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "055a7b46-1201-5dd9-bf27-98beca580954",
+          "type": "supplies"
+        }
+      ],
+      "uuid": "ca2321c2-f4c4-5003-8658-51945d5ce654",
+      "value": "Polar Gas Station"
+    },
+    {
+      "description": "Transmission and distribution hub for Soreth Dominion. It serves a standalone domestic grid.",
+      "meta": {
+        "country": "Soreth Dominion",
+        "entity-type": [
+          "grid-hub"
+        ],
+        "grid-mode": [
+          "standalone"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "c4be7f53-6d08-4472-8480-49ccb7946e78",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "ca2321c2-f4c4-5003-8658-51945d5ce654",
+          "type": "receives-from"
+        },
+        {
+          "dest-uuid": "7c50efd5-c772-58cb-9741-42dc17aadfc1",
+          "type": "supplies"
+        }
+      ],
+      "uuid": "055a7b46-1201-5dd9-bf27-98beca580954",
+      "value": "Soreth Grid Hub"
+    },
+    {
+      "description": "Aggregated distribution feeders from Soreth Grid Hub. Example priority loads include heat networks, cold-chain depots.",
+      "meta": {
+        "country": "Soreth Dominion",
+        "entity-type": [
+          "distribution-area"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "priority-loads": [
+          "heat networks",
+          "cold-chain depots"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "055a7b46-1201-5dd9-bf27-98beca580954",
+          "type": "receives-from"
+        }
+      ],
+      "uuid": "7c50efd5-c772-58cb-9741-42dc17aadfc1",
+      "value": "Soreth Distribution Area"
+    },
+    {
+      "description": "AC intertie between Asterin Union and Velkar Republic. Available for power exchange in the exercise baseline.",
+      "meta": {
+        "entity-type": [
+          "transmission-intertie"
+        ],
+        "grid-state": [
+          "in-service"
+        ],
+        "line-medium": [
+          "terrestrial"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "route-id": [
+          "T01"
+        ],
+        "technology": [
+          "AC"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "8a9d5472-77ca-5e66-a4dd-674ae9a0a25b",
+          "type": "terminated-by"
+        },
+        {
+          "dest-uuid": "be9a4418-2329-5f3c-8cb3-364ffe8b5b99",
+          "type": "terminated-by"
+        }
+      ],
+      "uuid": "e0fbd388-dbfe-5b7c-9338-dc1efa6b2591",
+      "value": "North Basin Line"
+    },
+    {
+      "description": "AC intertie between Velkar Republic and Caelum Protectorate. Available for power exchange in the exercise baseline.",
+      "meta": {
+        "entity-type": [
+          "transmission-intertie"
+        ],
+        "grid-state": [
+          "in-service"
+        ],
+        "line-medium": [
+          "terrestrial"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "route-id": [
+          "T02"
+        ],
+        "technology": [
+          "AC"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "be9a4418-2329-5f3c-8cb3-364ffe8b5b99",
+          "type": "terminated-by"
+        },
+        {
+          "dest-uuid": "0b312c84-4b60-53b1-9608-17d920877beb",
+          "type": "terminated-by"
+        }
+      ],
+      "uuid": "cae41c00-f7e1-57cc-a30c-9b81241beafc",
+      "value": "Plateau Line"
+    },
+    {
+      "description": "AC intertie between Velkar Republic and Ilyndor. Available for power exchange in the exercise baseline.",
+      "meta": {
+        "entity-type": [
+          "transmission-intertie"
+        ],
+        "grid-state": [
+          "in-service"
+        ],
+        "line-medium": [
+          "terrestrial"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "route-id": [
+          "T03"
+        ],
+        "technology": [
+          "AC"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "be9a4418-2329-5f3c-8cb3-364ffe8b5b99",
+          "type": "terminated-by"
+        },
+        {
+          "dest-uuid": "0cb1d12b-5605-5a08-a808-9f638530dc03",
+          "type": "terminated-by"
+        }
+      ],
+      "uuid": "ae86be93-945a-548d-a3e4-115b5397c2cd",
+      "value": "Trade Corridor Line"
+    },
+    {
+      "description": "AC intertie between Caelum Protectorate and Thyros Commonwealth. Available for power exchange in the exercise baseline.",
+      "meta": {
+        "entity-type": [
+          "transmission-intertie"
+        ],
+        "grid-state": [
+          "in-service"
+        ],
+        "line-medium": [
+          "terrestrial"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "route-id": [
+          "T04"
+        ],
+        "technology": [
+          "AC"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "0b312c84-4b60-53b1-9608-17d920877beb",
+          "type": "terminated-by"
+        },
+        {
+          "dest-uuid": "51f5a69f-ca48-5ae4-938a-51b4354809b6",
+          "type": "terminated-by"
+        }
+      ],
+      "uuid": "8f93c45b-ef8c-58a0-ad20-54836a159185",
+      "value": "Steppe Exchange"
+    },
+    {
+      "description": "AC intertie between Thyros Commonwealth and Neruva Federation. Available for power exchange in the exercise baseline.",
+      "meta": {
+        "entity-type": [
+          "transmission-intertie"
+        ],
+        "grid-state": [
+          "in-service"
+        ],
+        "line-medium": [
+          "terrestrial"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "route-id": [
+          "T05"
+        ],
+        "technology": [
+          "AC"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "51f5a69f-ca48-5ae4-938a-51b4354809b6",
+          "type": "terminated-by"
+        },
+        {
+          "dest-uuid": "c49f8f68-b3e7-51be-8225-f907f9afe516",
+          "type": "terminated-by"
+        }
+      ],
+      "uuid": "6ca7ad3e-7bf9-5b49-82a7-be8421552fd9",
+      "value": "Delta\u2013Steppe Line"
+    },
+    {
+      "description": "AC intertie between Ilyndor and Neruva Federation. Available for power exchange in the exercise baseline.",
+      "meta": {
+        "entity-type": [
+          "transmission-intertie"
+        ],
+        "grid-state": [
+          "in-service"
+        ],
+        "line-medium": [
+          "terrestrial"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "route-id": [
+          "T06"
+        ],
+        "technology": [
+          "AC"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "0cb1d12b-5605-5a08-a808-9f638530dc03",
+          "type": "terminated-by"
+        },
+        {
+          "dest-uuid": "c49f8f68-b3e7-51be-8225-f907f9afe516",
+          "type": "terminated-by"
+        }
+      ],
+      "uuid": "104fcb41-040b-5165-b5b5-76d1f2d750d3",
+      "value": "Delta Trunk"
+    },
+    {
+      "description": "AC intertie between Neruva Federation and Brinax Collective. Available for power exchange in the exercise baseline.",
+      "meta": {
+        "entity-type": [
+          "transmission-intertie"
+        ],
+        "grid-state": [
+          "in-service"
+        ],
+        "line-medium": [
+          "terrestrial"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "route-id": [
+          "T07"
+        ],
+        "technology": [
+          "AC"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "c49f8f68-b3e7-51be-8225-f907f9afe516",
+          "type": "terminated-by"
+        },
+        {
+          "dest-uuid": "68e93c0b-8667-5276-8000-ba02dc70cd94",
+          "type": "terminated-by"
+        }
+      ],
+      "uuid": "f9cdc53e-f0ba-5931-86ee-5ba516a8e8eb",
+      "value": "Coastal Tie"
+    },
+    {
+      "description": "AC intertie between Ilyndor and Quenari League. Available for power exchange in the exercise baseline.",
+      "meta": {
+        "entity-type": [
+          "transmission-intertie"
+        ],
+        "grid-state": [
+          "in-service"
+        ],
+        "line-medium": [
+          "terrestrial"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "route-id": [
+          "T08"
+        ],
+        "technology": [
+          "AC"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "0cb1d12b-5605-5a08-a808-9f638530dc03",
+          "type": "terminated-by"
+        },
+        {
+          "dest-uuid": "ba34fab8-e763-5d5a-8956-264b7effcaca",
+          "type": "terminated-by"
+        }
+      ],
+      "uuid": "1cb86ee6-e73c-5682-b964-0bde1d7d087c",
+      "value": "Equator Spur"
+    },
+    {
+      "description": "HVDC intertie between Caelum Protectorate and Orinthia. Available for power exchange in the exercise baseline.",
+      "meta": {
+        "entity-type": [
+          "transmission-intertie"
+        ],
+        "grid-state": [
+          "in-service"
+        ],
+        "line-medium": [
+          "subsea"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "route-id": [
+          "T09"
+        ],
+        "technology": [
+          "HVDC"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "0b312c84-4b60-53b1-9608-17d920877beb",
+          "type": "terminated-by"
+        },
+        {
+          "dest-uuid": "2956afaa-3205-5714-b0ac-d09cddd52c85",
+          "type": "terminated-by"
+        }
+      ],
+      "uuid": "6bf24f85-e8c7-5483-baf3-593690b16a5e",
+      "value": "Archipelago Cable"
+    },
+    {
+      "description": "AC intertie between Ilyndor and Brinax Collective. The tie is normally open and unavailable for normal power exchange.",
+      "meta": {
+        "entity-type": [
+          "transmission-intertie"
+        ],
+        "grid-state": [
+          "normally-open"
+        ],
+        "line-medium": [
+          "terrestrial"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "route-id": [
+          "T10"
+        ],
+        "technology": [
+          "AC"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "0cb1d12b-5605-5a08-a808-9f638530dc03",
+          "type": "terminated-by"
+        },
+        {
+          "dest-uuid": "68e93c0b-8667-5276-8000-ba02dc70cd94",
+          "type": "terminated-by"
+        }
+      ],
+      "uuid": "71290afc-c7e2-5722-9452-623b5db72aee",
+      "value": "Cooperative Reserve Tie"
+    }
+  ],
+  "version": 1
+}
