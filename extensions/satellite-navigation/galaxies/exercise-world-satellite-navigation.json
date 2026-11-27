@@ -1,0 +1,9 @@
+{
+  "description": "Fictional one-way navigation and timing broadcasts, coverage footprints, and an interference response exercise on Nacre.",
+  "icon": "compass",
+  "name": "Synthetic Exercise World - Satellite Navigation",
+  "namespace": "misp",
+  "type": "exercise-world-satellite-navigation",
+  "uuid": "88909ee0-0142-5fa8-a185-f2cc5e9ba4af",
+  "version": 1
+}
