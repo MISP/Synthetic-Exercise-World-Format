@@ -1,0 +1,9 @@
+{
+  "description": "Fictional sources, water treatment, and partial distribution on Nacre.",
+  "icon": "tint",
+  "name": "Synthetic Exercise World - Water Supply",
+  "namespace": "misp",
+  "type": "exercise-world-water-supply",
+  "uuid": "f0aab094-bdd8-5028-9935-1b524c222810",
+  "version": 1
+}
