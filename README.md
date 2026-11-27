@@ -253,6 +253,7 @@ Each extension lives under `extensions/<name>/` and adds a map layer, a guide wi
 - **Satellite communications** covers GEO VSAT, tracked MEO backhaul, and a low-latency LEO mesh, with coverage maps and links to terrestrial telecom. [Satellite communications extension](extensions/satellite-communications/README.md)
 - **Electricity** covers renewable, nuclear, and fossil generation, cross-border transmission, local distribution, and an island supply shortfall exercise. [Electricity extension](extensions/electricity/README.md)
 - **Water supply** covers raw sources, treatment, local water districts, and treated-water transfers across part of Nacre. [Water supply extension](extensions/water-supply/README.md)
+- **Civil and humanitarian services** covers hospitals, schools, shelters, and relief facilities with links to water, electricity, telecom, and transport. [Civil and humanitarian extension](extensions/civil-humanitarian/README.md)
 - **Data centers** covers facility ownership and operation, carrier circuits, shared fiber entrances, and connections to the electricity grid. [Data center extension](extensions/datacenters/README.md)
 - **Transport and logistics** covers truck and coach roads, freight and passenger rail, cargo boats, ferries, and a tabletop case on rerouting after a berth closure. [Transport extension](extensions/transport/README.md)
 - **Civil aviation** covers aircraft types, airports, air traffic control, scheduled passenger and cargo routes, and an airport diversion exercise. [Aviation extension](extensions/aviation/README.md)
