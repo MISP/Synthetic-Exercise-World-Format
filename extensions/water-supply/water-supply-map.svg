@@ -1,0 +1,185 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" viewBox="0 0 1540 1200" role="img" aria-labelledby="title description">
+  <title id="title">Nacre water supply</title>
+  <desc id="description">Six representative water districts, their sources and treatment plants, and three directed treated-water transfers.</desc>
+  <defs>
+    <linearGradient id="sea" x2="0" y2="1">
+      <stop stop-color="#1f3e50"/>
+      <stop offset="1" stop-color="#172b3b"/>
+    </linearGradient>
+    <pattern id="graticule" width="66" height="66" patternUnits="userSpaceOnUse">
+      <path d="M 66,0 H 0 V 66" fill="none" stroke="#bdd0d7" stroke-opacity=".11"/>
+    </pattern>
+    <clipPath id="map-frame"><rect x="48" y="171" width="1052" height="786" rx="12"/></clipPath>
+    <marker id="water-arrow" viewBox="0 0 8 8" refX="13" refY="4" markerWidth="5" markerHeight="5" orient="auto">
+      <path d="M 0,0 8,4 0,8 Z" fill="#9ce8d9"/>
+    </marker>
+    <marker id="aid-arrow" viewBox="0 0 8 8" refX="13" refY="4" markerWidth="5" markerHeight="5" orient="auto">
+      <path d="M 0,0 8,4 0,8 Z" fill="#ffdbab"/>
+    </marker>
+    <marker id="flow-arrow" viewBox="0 0 8 8" refX="6" refY="4" markerWidth="5" markerHeight="5" orient="auto">
+      <path d="M 0,0 8,4 0,8 Z" fill="#376976"/>
+    </marker>
+    <style>
+      text { font-family: 'DejaVu Sans', sans-serif; }
+      .ink { fill: #253947; }
+      .muted { fill: #506575; }
+      .light { fill: #f4f7f7; }
+      .caps { font-size: 13px; font-weight: 700; letter-spacing: 2px; }
+      .title { font-size: 54px; font-weight: 700; letter-spacing: -2px; }
+      .subtitle { font-size: 18px; }
+      .body { font-size: 15px; font-weight: 700; }
+      .support { font-size: 13px; }
+      .small { font-size: 12px; }
+      .place { fill: #fff8ee; stroke: #1c2e3c; stroke-width: 4px; stroke-linejoin: round; paint-order: stroke fill; font-weight: 700; font-size: 16px; }
+      .sidebar { fill: #fffcf6; stroke: #cbd1d2; }
+      .divider { stroke: #cbd1d2; }
+      .main, .aid, .supply { fill: none; stroke-width: 3.1; stroke-linejoin: round; stroke-linecap: round; }
+      .main { stroke: #9ce8d9; }
+      .aid { stroke: #ffdbab; stroke-dasharray: 8 5; }
+      .supply { stroke: #d9e9ee; stroke-width: 1.8; stroke-dasharray: 2 5; }
+      .route-id { fill: #eff6f6; font: 700 11px 'DejaVu Sans Mono', monospace; text-anchor: middle; }
+    </style>
+  </defs>
+  <rect width="1540" height="1200" fill="#f3f0e8"/>
+  <text x="48" y="56" class="caps muted">SYNTHETIC EXERCISE WORLD ATLAS</text>
+  <text x="48" y="115" class="title ink">Nacre water supply</text>
+  <text x="51" y="145" class="subtitle muted">Sources, treatment, local distribution, and treated-water transfers</text>
+  <text x="1492" y="56" text-anchor="end" class="caps muted">WORLD EXTENSION</text>
+  <path d="M 48,1168 H 1492" class="divider"/>
+  <text x="48" y="1186" class="support muted">Schematic locations and connections · Basemap adapted from the Synthetic Exercise World atlas</text>
+  <text x="1492" y="1186" text-anchor="end" class="support muted">CC BY 4.0</text>
+
+  <g id="nacre-basemap" inkscape:groupmode="layer" inkscape:label="Nacre basemap" clip-path="url(#map-frame)">
+    <rect x="48" y="171" width="1052" height="786" fill="url(#sea)"/>
+    <rect x="48" y="171" width="1052" height="786" fill="url(#graticule)"/>
+    <g transform="translate(-172 151) scale(1.47)" stroke="#97aab3" stroke-width=".75" stroke-linejoin="round">
+      <path d="M 179.14 505.81 L 207.84 430.48 L 211.43 315.69 L 186.32 226.02 L 236.54 139.92 L 329.80 71.77 L 469.70 43.07 L 595.25 53.83 L 666.99 93.29 L 684.93 143.51 L 742.32 197.32 L 792.54 269.06 L 821.24 344.39 L 817.65 448.42 L 771.02 516.57 L 677.75 559.62 L 512.75 563.21 L 315.45 548.86 z" fill="#365d70" opacity=".4"/>
+      <path d="M 211.43 226.02 L 229.36 179.38 L 265.23 132.75 L 301.10 104.05 L 365.67 93.29 L 426.65 114.81 L 484.05 165.03 L 437.42 200.91 L 347.74 287.00 L 275.99 261.89 L 232.95 240.36 z" fill="#405961"/>
+      <path d="M 365.67 93.29 L 415.89 68.18 L 491.22 57.42 L 570.14 68.18 L 634.71 100.47 L 641.88 132.75 L 580.90 136.34 L 498.40 129.16 L 426.65 114.81 z" fill="#425667"/>
+      <path d="M 437.42 200.91 L 484.05 165.03 L 580.90 136.34 L 641.88 154.27 L 656.23 197.32 L 634.71 240.36 L 555.79 243.95 L 476.87 233.19 z" fill="#4f5269"/>
+      <path d="M 347.74 287.00 L 437.42 200.91 L 476.87 233.19 L 555.79 243.95 L 534.27 279.82 L 509.16 337.22 L 419.48 351.57 L 354.91 333.63 L 304.69 312.11 z" fill="#554e4c"/>
+      <path d="M 555.79 243.95 L 634.71 240.36 L 656.23 197.32 L 724.39 240.36 L 763.85 308.52 L 735.15 365.91 L 702.86 387.44 L 598.84 373.09 L 534.27 279.82 z" fill="#4c564e"/>
+      <path d="M 258.06 391.02 L 304.69 312.11 L 354.91 333.63 L 419.48 351.57 L 509.16 337.22 L 598.84 373.09 L 631.12 408.96 L 559.38 437.66 L 426.65 416.13 L 326.21 423.31 z" fill="#515952"/>
+      <path d="M 200.66 477.12 L 258.06 391.02 L 326.21 423.31 L 426.65 416.13 L 559.38 437.66 L 570.14 512.99 L 469.70 538.10 L 329.80 527.34 L 232.95 505.81 z" fill="#3c5c4f"/>
+      <path d="M 570.14 512.99 L 559.38 437.66 L 631.12 408.96 L 695.69 430.48 L 735.15 477.12 L 692.10 527.34 L 609.60 534.51 z" fill="#355e5a"/>
+      <path d="M 598.84 373.09 L 702.86 387.44 L 763.85 416.13 L 778.19 462.77 L 735.15 477.12 L 695.69 430.48 L 631.12 408.96 z" fill="#3d5c70"/>
+      <path d="M 681.34 172.21 L 699.28 147.10 L 735.15 154.27 L 749.50 179.38 L 731.56 204.49 L 695.69 200.91 z" fill="#5b5065"/>
+      <path d="M 745.91 136.34 L 771.02 125.58 L 792.54 143.51 L 785.37 168.62 L 756.67 172.21 z" fill="#5b5065"/>
+      <path d="M 717.21 111.23 L 735.15 93.29 L 763.85 100.47 L 771.02 121.99 L 749.50 136.34 L 724.39 132.75 z" fill="#5b5065"/>
+      <path d="M 663.41 125.58 L 681.34 111.23 L 702.86 118.40 L 695.69 139.92 L 670.58 143.51 z" fill="#5b5065"/>
+      <path d="M 788.96 211.67 L 814.07 200.91 L 828.41 222.43 L 810.48 243.95 L 785.37 236.78 z" fill="#5b5065"/>
+      <path d="M 699.28 240.36 L 724.39 222.43 L 749.50 233.19 L 742.32 254.71 L 710.04 258.30 z" fill="#5b5065"/>
+      <path d="M 638.30 182.97 L 656.23 168.62 L 670.58 182.97 L 663.41 200.91 L 641.88 200.91 z" fill="#5b5065"/>
+    </g>
+    <g transform="translate(91 254)" fill="#eaf1f5">
+      <text y="-20" x="0" text-anchor="middle" font-size="15" font-weight="700">N</text>
+      <path d="M 0,-12 8,11 0,6 -8,11 Z M 0,14 V 26" stroke="#eaf1f5" stroke-width="1.5"/>
+    </g>
+  </g>
+  <g id="water-transfers-layer" inkscape:groupmode="layer" inkscape:label="Treated-water transfers" opacity="1">
+    <g id="route-W01" data-state="in-service">
+      <title>W01 · Plateau Treated-Water Main</title>
+      <path d="M 608,444 C 609,539 575,645 536,714" class="main" marker-end="url(#water-arrow)"/>
+      <rect x="571" y="569" width="36" height="18" rx="4" fill="#233c4a" stroke="#a3bcc6" stroke-opacity=".8"/>
+      <text x="589" y="582" class="route-id">W01</text>
+    </g>
+    <g id="route-W02" data-state="normally-closed">
+      <title>W02 · Delta Mutual Aid Tie</title>
+      <path d="M 536,714 C 653,707 761,727 868,774" class="aid" marker-end="url(#aid-arrow)"/>
+      <rect x="679" y="718" width="36" height="18" rx="4" fill="#233c4a" stroke="#a3bcc6" stroke-opacity=".8"/>
+      <text x="697" y="731" class="route-id">W02</text>
+    </g>
+    <g id="route-W03" data-state="in-service">
+      <title>W03 · Coastal Treated-Water Main</title>
+      <path d="M 777,847 Q 837,833 868,774" class="main" marker-end="url(#water-arrow)"/>
+      <rect x="808" y="809" width="36" height="18" rx="4" fill="#233c4a" stroke="#a3bcc6" stroke-opacity=".8"/>
+      <text x="826" y="822" class="route-id">W03</text>
+    </g>
+  </g>
+  <g id="water-districts-layer" inkscape:groupmode="layer" inkscape:label="Local water districts">
+    <g id="district-CAE">
+      <title>Caelum Water District · Mesa Waterworks</title>
+      <g transform="translate(608 444)"><circle r="9" fill="#d7f4ed" stroke="#183643" stroke-width="2"/><path d="M -4,1 Q -2,-2 0,1 T 4,1 M -3,4 H 3" fill="none" stroke="#275967" stroke-width="1.3"/></g>
+      <text x="591" y="434" text-anchor="end" class="place">Caelum Water District</text>
+    </g>
+    <g id="district-ILY">
+      <title>Ilyndor Water District · Corridor Waterworks</title>
+      <g transform="translate(536 714)"><circle r="9" fill="#d7f4ed" stroke="#183643" stroke-width="2"/><path d="M -4,1 Q -2,-2 0,1 T 4,1 M -3,4 H 3" fill="none" stroke="#275967" stroke-width="1.3"/></g>
+      <text x="519" y="704" text-anchor="end" class="place">Ilyndor Water District</text>
+    </g>
+    <g id="district-NER">
+      <title>Neruva Water District · Delta Waterworks</title>
+      <g transform="translate(868 774)"><circle r="9" fill="#d7f4ed" stroke="#183643" stroke-width="2"/><path d="M -4,1 Q -2,-2 0,1 T 4,1 M -3,4 H 3" fill="none" stroke="#275967" stroke-width="1.3"/></g>
+      <text x="885" y="765" text-anchor="start" class="place">Neruva Water District</text>
+    </g>
+    <g id="district-BRI">
+      <title>Brinax Water District · Tidegate Desalination Plant</title>
+      <g transform="translate(777 847)"><circle r="9" fill="#d7f4ed" stroke="#183643" stroke-width="2"/><path d="M -4,1 Q -2,-2 0,1 T 4,1 M -3,4 H 3" fill="none" stroke="#275967" stroke-width="1.3"/></g>
+      <text x="794" y="872" text-anchor="start" class="place">Brinax Water District</text>
+    </g>
+    <g id="district-ORI">
+      <title>Orinthia Water District · Sound Waterworks</title>
+      <g transform="translate(896 426)"><circle r="9" fill="#d7f4ed" stroke="#183643" stroke-width="2"/><path d="M -4,1 Q -2,-2 0,1 T 4,1 M -3,4 H 3" fill="none" stroke="#275967" stroke-width="1.3"/></g>
+      <text x="880" y="434" text-anchor="end" class="place">Orinthia Water District</text>
+    </g>
+    <g id="district-QUE">
+      <title>Quenari Water District · Orchard Waterworks</title>
+      <g transform="translate(320 834)"><circle r="9" fill="#d7f4ed" stroke="#183643" stroke-width="2"/><path d="M -4,1 Q -2,-2 0,1 T 4,1 M -3,4 H 3" fill="none" stroke="#275967" stroke-width="1.3"/></g>
+      <text x="337" y="824" text-anchor="start" class="place">Quenari Water District</text>
+    </g>
+  </g>
+  <rect x="48" y="171" width="1052" height="786" rx="12" fill="none" stroke="#9aafb7"/>
+  <rect x="1122" y="171" width="370" height="786" rx="12" class="sidebar"/>
+  <text x="1146" y="208" class="caps muted">LOCAL SOURCE AND TREATMENT</text>
+  <g transform="translate(1154 243)"><circle r="9" fill="#d7f4ed" stroke="#183643" stroke-width="2"/><path d="M -4,1 Q -2,-2 0,1 T 4,1 M -3,4 H 3" fill="none" stroke="#275967" stroke-width="1.3"/></g>
+  <text x="1173" y="247" class="body ink">Caelum Water District</text>
+  <text x="1173" y="265" class="support muted">Mesa Reservoir</text>
+  <text x="1173" y="282" class="support muted">Mesa Waterworks</text>
+  <g transform="translate(1154 305)"><circle r="9" fill="#d7f4ed" stroke="#183643" stroke-width="2"/><path d="M -4,1 Q -2,-2 0,1 T 4,1 M -3,4 H 3" fill="none" stroke="#275967" stroke-width="1.3"/></g>
+  <text x="1173" y="309" class="body ink">Ilyndor Water District</text>
+  <text x="1173" y="327" class="support muted">Corridor Wellfield</text>
+  <text x="1173" y="344" class="support muted">Corridor Waterworks</text>
+  <g transform="translate(1154 367)"><circle r="9" fill="#d7f4ed" stroke="#183643" stroke-width="2"/><path d="M -4,1 Q -2,-2 0,1 T 4,1 M -3,4 H 3" fill="none" stroke="#275967" stroke-width="1.3"/></g>
+  <text x="1173" y="371" class="body ink">Neruva Water District</text>
+  <text x="1173" y="389" class="support muted">Delta River Intake</text>
+  <text x="1173" y="406" class="support muted">Delta Waterworks</text>
+  <g transform="translate(1154 429)"><circle r="9" fill="#d7f4ed" stroke="#183643" stroke-width="2"/><path d="M -4,1 Q -2,-2 0,1 T 4,1 M -3,4 H 3" fill="none" stroke="#275967" stroke-width="1.3"/></g>
+  <text x="1173" y="433" class="body ink">Brinax Water District</text>
+  <text x="1173" y="451" class="support muted">Tidegate Seawater Intake</text>
+  <text x="1173" y="468" class="support muted">Tidegate Desalination Plant</text>
+  <g transform="translate(1154 491)"><circle r="9" fill="#d7f4ed" stroke="#183643" stroke-width="2"/><path d="M -4,1 Q -2,-2 0,1 T 4,1 M -3,4 H 3" fill="none" stroke="#275967" stroke-width="1.3"/></g>
+  <text x="1173" y="495" class="body ink">Orinthia Water District</text>
+  <text x="1173" y="513" class="support muted">Sound Rainwater Reservoir</text>
+  <text x="1173" y="530" class="support muted">Sound Waterworks</text>
+  <g transform="translate(1154 553)"><circle r="9" fill="#d7f4ed" stroke="#183643" stroke-width="2"/><path d="M -4,1 Q -2,-2 0,1 T 4,1 M -3,4 H 3" fill="none" stroke="#275967" stroke-width="1.3"/></g>
+  <text x="1173" y="557" class="body ink">Quenari Water District</text>
+  <text x="1173" y="575" class="support muted">Orchard Reservoir</text>
+  <text x="1173" y="592" class="support muted">Orchard Waterworks</text>
+  <path d="M 1146,613 H 1468" class="divider"/>
+  <text x="1146" y="647" class="caps muted">TREATED-WATER TRANSFERS</text>
+  <rect x="1146" y="664" width="66" height="77" rx="7" fill="#254153"/>
+  <path d="M 1156,687 H 1201" class="main" marker-end="url(#water-arrow)"/>
+  <path d="M 1156,720 H 1201" class="aid" marker-end="url(#aid-arrow)"/>
+  <text x="1227" y="692" class="support ink">In-service transfer</text>
+  <text x="1227" y="725" class="support ink">Mutual aid tie · normally closed</text>
+  <text x="1146" y="793" class="small muted">Arrows show the direction of treated-water supply.</text>
+  <text x="1146" y="818" class="small muted">Districts without a transfer use local supply here.</text>
+  <text x="1146" y="843" class="small muted">The guide lists each plant's electricity dependency.</text>
+
+  <g id="local-supply-key" inkscape:groupmode="layer" inkscape:label="Local supply chain">
+    <text x="48" y="975" class="caps muted">LOCAL WATER SUPPLY CHAIN</text>
+    <rect x="48" y="992" width="1444" height="143" rx="12" class="sidebar"/>
+    <path d="M 1054,1044 H 1186" fill="none"
+          stroke="#376976" stroke-width="2" marker-end="url(#flow-arrow)"/>
+    <path d="M 692,1044 H 824" fill="none" stroke="#376976" stroke-width="2" marker-end="url(#flow-arrow)"/>
+    <path d="M 330,1044 H 462" fill="none" stroke="#376976" stroke-width="2" marker-end="url(#flow-arrow)"/>
+    <text x="80" y="1049" class="body ink">Raw water source</text>
+    <text x="80" y="1074" class="support muted">Reservoir, wellfield, or intake</text>
+    <text x="485" y="1049" class="body ink">Treatment plant</text>
+    <text x="485" y="1074" class="support muted">Draws power from the local grid</text>
+    <text x="846" y="1049" class="body ink">Distribution district</text>
+    <text x="846" y="1074" class="support muted">Delivers treated water locally</text>
+    <text x="1207" y="1049" class="body ink">Customers and services</text>
+    <text x="1207" y="1074" class="support muted">Households and facilities</text>
+  </g>
+</svg>

@@ -1,0 +1,641 @@
+{
+  "authors": [
+    "MISP Project"
+  ],
+  "category": "context",
+  "description": "Fictional sources, water treatment, and partial distribution on Nacre.",
+  "name": "Synthetic Exercise World - Water Supply",
+  "source": "https://github.com/MISP/Synthetic-Exercise-World-Format",
+  "type": "exercise-world-water-supply",
+  "uuid": "a24d5857-30a2-5260-a792-dcb34efefc54",
+  "values": [
+    {
+      "description": "Raw water source for Mesa Waterworks.",
+      "meta": {
+        "country": "Caelum Protectorate",
+        "entity-type": [
+          "water-source"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "source-type": [
+          "reservoir"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "4a600b9f-b843-446f-a234-415aded47e1b",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "a8bc5888-8a10-5163-9443-5c2c807660a3",
+          "type": "supplies-raw-water-to"
+        }
+      ],
+      "uuid": "ee04b3a0-3e55-5238-9c8c-775ff75dfd42",
+      "value": "Mesa Reservoir"
+    },
+    {
+      "description": "Treats raw water for Caelum Water District.",
+      "meta": {
+        "country": "Caelum Protectorate",
+        "entity-type": [
+          "water-treatment-plant"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "4a600b9f-b843-446f-a234-415aded47e1b",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "ee04b3a0-3e55-5238-9c8c-775ff75dfd42",
+          "type": "treats-water-from"
+        },
+        {
+          "dest-uuid": "515b3bb8-c927-57dd-a5a5-9525bc30ab60",
+          "type": "supplies-treated-water-to"
+        },
+        {
+          "dest-uuid": "9bba65c7-9f4c-5436-8a09-d76fe550e776",
+          "type": "draws-power-from"
+        }
+      ],
+      "uuid": "a8bc5888-8a10-5163-9443-5c2c807660a3",
+      "value": "Mesa Waterworks"
+    },
+    {
+      "description": "Representative local distribution mains in Caelum Protectorate.",
+      "meta": {
+        "country": "Caelum Protectorate",
+        "district-id": [
+          "CAE"
+        ],
+        "entity-type": [
+          "water-distribution-district"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "4a600b9f-b843-446f-a234-415aded47e1b",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "a8bc5888-8a10-5163-9443-5c2c807660a3",
+          "type": "receives-treated-water-from"
+        },
+        {
+          "dest-uuid": "70e02821-f439-5c55-bab7-8ce0bca9e4fc",
+          "type": "exports-via"
+        }
+      ],
+      "uuid": "515b3bb8-c927-57dd-a5a5-9525bc30ab60",
+      "value": "Caelum Water District"
+    },
+    {
+      "description": "Raw water source for Corridor Waterworks.",
+      "meta": {
+        "country": "Ilyndor",
+        "entity-type": [
+          "water-source"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "source-type": [
+          "groundwater"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "1e875520-fb3e-4d26-a982-44a5fb7f9375",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "6eb82037-6248-5e6a-95b2-aa321a569b09",
+          "type": "supplies-raw-water-to"
+        }
+      ],
+      "uuid": "878b7b43-3650-568b-9a33-d81990ee6a86",
+      "value": "Corridor Wellfield"
+    },
+    {
+      "description": "Treats raw water for Ilyndor Water District.",
+      "meta": {
+        "country": "Ilyndor",
+        "entity-type": [
+          "water-treatment-plant"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "1e875520-fb3e-4d26-a982-44a5fb7f9375",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "878b7b43-3650-568b-9a33-d81990ee6a86",
+          "type": "treats-water-from"
+        },
+        {
+          "dest-uuid": "31c6340b-f548-53a8-b107-20a6ea249021",
+          "type": "supplies-treated-water-to"
+        },
+        {
+          "dest-uuid": "993b1bc9-2616-5c0c-be4c-c3b8586dfebd",
+          "type": "draws-power-from"
+        }
+      ],
+      "uuid": "6eb82037-6248-5e6a-95b2-aa321a569b09",
+      "value": "Corridor Waterworks"
+    },
+    {
+      "description": "Representative local distribution mains in Ilyndor.",
+      "meta": {
+        "country": "Ilyndor",
+        "district-id": [
+          "ILY"
+        ],
+        "entity-type": [
+          "water-distribution-district"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "1e875520-fb3e-4d26-a982-44a5fb7f9375",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "6eb82037-6248-5e6a-95b2-aa321a569b09",
+          "type": "receives-treated-water-from"
+        },
+        {
+          "dest-uuid": "121cc602-9ec9-5277-b1b9-c5087d8d6c10",
+          "type": "exports-via"
+        },
+        {
+          "dest-uuid": "70e02821-f439-5c55-bab7-8ce0bca9e4fc",
+          "type": "imports-via"
+        }
+      ],
+      "uuid": "31c6340b-f548-53a8-b107-20a6ea249021",
+      "value": "Ilyndor Water District"
+    },
+    {
+      "description": "Raw water source for Delta Waterworks.",
+      "meta": {
+        "country": "Neruva Federation",
+        "entity-type": [
+          "water-source"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "source-type": [
+          "river intake"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "cfe1b22e-38b5-4077-bb90-b2bc5fedb965",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "56cedd0d-327e-5097-b3f1-86960c599a4b",
+          "type": "supplies-raw-water-to"
+        }
+      ],
+      "uuid": "ea709ab8-c77a-53a6-9765-2767dc973194",
+      "value": "Delta River Intake"
+    },
+    {
+      "description": "Treats raw water for Neruva Water District.",
+      "meta": {
+        "country": "Neruva Federation",
+        "entity-type": [
+          "water-treatment-plant"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "cfe1b22e-38b5-4077-bb90-b2bc5fedb965",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "ea709ab8-c77a-53a6-9765-2767dc973194",
+          "type": "treats-water-from"
+        },
+        {
+          "dest-uuid": "fd510da1-f942-5112-bbdf-888da49b8b0b",
+          "type": "supplies-treated-water-to"
+        },
+        {
+          "dest-uuid": "16d9efa9-79d3-51fb-9dd2-34f11f87468a",
+          "type": "draws-power-from"
+        }
+      ],
+      "uuid": "56cedd0d-327e-5097-b3f1-86960c599a4b",
+      "value": "Delta Waterworks"
+    },
+    {
+      "description": "Representative local distribution mains in Neruva Federation.",
+      "meta": {
+        "country": "Neruva Federation",
+        "district-id": [
+          "NER"
+        ],
+        "entity-type": [
+          "water-distribution-district"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "cfe1b22e-38b5-4077-bb90-b2bc5fedb965",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "56cedd0d-327e-5097-b3f1-86960c599a4b",
+          "type": "receives-treated-water-from"
+        },
+        {
+          "dest-uuid": "121cc602-9ec9-5277-b1b9-c5087d8d6c10",
+          "type": "imports-via"
+        },
+        {
+          "dest-uuid": "551bf442-82a6-5efa-8d5c-d74f7b275231",
+          "type": "imports-via"
+        }
+      ],
+      "uuid": "fd510da1-f942-5112-bbdf-888da49b8b0b",
+      "value": "Neruva Water District"
+    },
+    {
+      "description": "Raw water source for Tidegate Desalination Plant.",
+      "meta": {
+        "country": "Brinax Collective",
+        "entity-type": [
+          "water-source"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "source-type": [
+          "seawater intake"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "91f273f8-66c0-446f-bdb2-4233fd0c55ef",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "65ee96b1-0597-516d-9eec-6db673d1b7bd",
+          "type": "supplies-raw-water-to"
+        }
+      ],
+      "uuid": "9ff91a7a-ac40-5796-a73d-a8e397c7c4d3",
+      "value": "Tidegate Seawater Intake"
+    },
+    {
+      "description": "Treats raw water for Brinax Water District.",
+      "meta": {
+        "country": "Brinax Collective",
+        "entity-type": [
+          "water-treatment-plant"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "91f273f8-66c0-446f-bdb2-4233fd0c55ef",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "9ff91a7a-ac40-5796-a73d-a8e397c7c4d3",
+          "type": "treats-water-from"
+        },
+        {
+          "dest-uuid": "2d14cd2a-a810-55cc-bf98-46e813c3221f",
+          "type": "supplies-treated-water-to"
+        },
+        {
+          "dest-uuid": "d1c53679-81b7-5825-ac54-4d16b05777c9",
+          "type": "draws-power-from"
+        }
+      ],
+      "uuid": "65ee96b1-0597-516d-9eec-6db673d1b7bd",
+      "value": "Tidegate Desalination Plant"
+    },
+    {
+      "description": "Representative local distribution mains in Brinax Collective.",
+      "meta": {
+        "country": "Brinax Collective",
+        "district-id": [
+          "BRI"
+        ],
+        "entity-type": [
+          "water-distribution-district"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "91f273f8-66c0-446f-bdb2-4233fd0c55ef",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "65ee96b1-0597-516d-9eec-6db673d1b7bd",
+          "type": "receives-treated-water-from"
+        },
+        {
+          "dest-uuid": "551bf442-82a6-5efa-8d5c-d74f7b275231",
+          "type": "exports-via"
+        }
+      ],
+      "uuid": "2d14cd2a-a810-55cc-bf98-46e813c3221f",
+      "value": "Brinax Water District"
+    },
+    {
+      "description": "Raw water source for Sound Waterworks.",
+      "meta": {
+        "country": "Orinthia",
+        "entity-type": [
+          "water-source"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "source-type": [
+          "rainwater storage"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "74d2286a-1b87-4984-8dd1-c5bd466ecca5",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "3109e71c-6dcb-5269-931f-5641f94b9054",
+          "type": "supplies-raw-water-to"
+        }
+      ],
+      "uuid": "cd41dc26-da16-5822-bf1e-4e189a9184fb",
+      "value": "Sound Rainwater Reservoir"
+    },
+    {
+      "description": "Treats raw water for Orinthia Water District.",
+      "meta": {
+        "country": "Orinthia",
+        "entity-type": [
+          "water-treatment-plant"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "74d2286a-1b87-4984-8dd1-c5bd466ecca5",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "cd41dc26-da16-5822-bf1e-4e189a9184fb",
+          "type": "treats-water-from"
+        },
+        {
+          "dest-uuid": "73ca00e7-02ce-5b60-8832-dec02c43b624",
+          "type": "supplies-treated-water-to"
+        },
+        {
+          "dest-uuid": "d01782ea-fad6-5ed1-9c9f-5cc21e183de4",
+          "type": "draws-power-from"
+        }
+      ],
+      "uuid": "3109e71c-6dcb-5269-931f-5641f94b9054",
+      "value": "Sound Waterworks"
+    },
+    {
+      "description": "Representative local distribution mains in Orinthia.",
+      "meta": {
+        "country": "Orinthia",
+        "district-id": [
+          "ORI"
+        ],
+        "entity-type": [
+          "water-distribution-district"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "74d2286a-1b87-4984-8dd1-c5bd466ecca5",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "3109e71c-6dcb-5269-931f-5641f94b9054",
+          "type": "receives-treated-water-from"
+        }
+      ],
+      "uuid": "73ca00e7-02ce-5b60-8832-dec02c43b624",
+      "value": "Orinthia Water District"
+    },
+    {
+      "description": "Raw water source for Orchard Waterworks.",
+      "meta": {
+        "country": "Quenari League",
+        "entity-type": [
+          "water-source"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "source-type": [
+          "reservoir"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "54670ad5-49fe-4d0c-8a81-84b06a8b5050",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "c10c96dd-fd08-5964-9261-8550e21f349c",
+          "type": "supplies-raw-water-to"
+        }
+      ],
+      "uuid": "a0a45b39-9d97-51af-b40d-850e1b32ef21",
+      "value": "Orchard Reservoir"
+    },
+    {
+      "description": "Treats raw water for Quenari Water District.",
+      "meta": {
+        "country": "Quenari League",
+        "entity-type": [
+          "water-treatment-plant"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "54670ad5-49fe-4d0c-8a81-84b06a8b5050",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "a0a45b39-9d97-51af-b40d-850e1b32ef21",
+          "type": "treats-water-from"
+        },
+        {
+          "dest-uuid": "38bc0273-5b09-5f11-a263-ab83ce549fe2",
+          "type": "supplies-treated-water-to"
+        },
+        {
+          "dest-uuid": "6cd6ca5e-ea24-5cc9-a821-0ea8e8bd65a8",
+          "type": "draws-power-from"
+        }
+      ],
+      "uuid": "c10c96dd-fd08-5964-9261-8550e21f349c",
+      "value": "Orchard Waterworks"
+    },
+    {
+      "description": "Representative local distribution mains in Quenari League.",
+      "meta": {
+        "country": "Quenari League",
+        "district-id": [
+          "QUE"
+        ],
+        "entity-type": [
+          "water-distribution-district"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "54670ad5-49fe-4d0c-8a81-84b06a8b5050",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "c10c96dd-fd08-5964-9261-8550e21f349c",
+          "type": "receives-treated-water-from"
+        }
+      ],
+      "uuid": "38bc0273-5b09-5f11-a263-ab83ce549fe2",
+      "value": "Quenari Water District"
+    },
+    {
+      "description": "One-way treated-water transfer from Caelum to Ilyndor.",
+      "meta": {
+        "entity-type": [
+          "treated-water-transfer"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "route-id": [
+          "W01"
+        ],
+        "transfer-state": [
+          "in-service"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "515b3bb8-c927-57dd-a5a5-9525bc30ab60",
+          "type": "originates-at"
+        },
+        {
+          "dest-uuid": "31c6340b-f548-53a8-b107-20a6ea249021",
+          "type": "supplies"
+        }
+      ],
+      "uuid": "70e02821-f439-5c55-bab7-8ce0bca9e4fc",
+      "value": "Plateau Treated-Water Main"
+    },
+    {
+      "description": "One-way treated-water transfer from Ilyndor to Neruva.",
+      "meta": {
+        "entity-type": [
+          "treated-water-transfer"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "route-id": [
+          "W02"
+        ],
+        "transfer-state": [
+          "normally-closed"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "31c6340b-f548-53a8-b107-20a6ea249021",
+          "type": "originates-at"
+        },
+        {
+          "dest-uuid": "fd510da1-f942-5112-bbdf-888da49b8b0b",
+          "type": "supplies"
+        }
+      ],
+      "uuid": "121cc602-9ec9-5277-b1b9-c5087d8d6c10",
+      "value": "Delta Mutual Aid Tie"
+    },
+    {
+      "description": "One-way treated-water transfer from Brinax to Neruva.",
+      "meta": {
+        "entity-type": [
+          "treated-water-transfer"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "route-id": [
+          "W03"
+        ],
+        "transfer-state": [
+          "in-service"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "2d14cd2a-a810-55cc-bf98-46e813c3221f",
+          "type": "originates-at"
+        },
+        {
+          "dest-uuid": "fd510da1-f942-5112-bbdf-888da49b8b0b",
+          "type": "supplies"
+        }
+      ],
+      "uuid": "551bf442-82a6-5efa-8d5c-d74f7b275231",
+      "value": "Coastal Treated-Water Main"
+    }
+  ],
+  "version": 1
+}
