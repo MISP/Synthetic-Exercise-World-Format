@@ -1,0 +1,402 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" viewBox="0 0 1540 975" role="img" aria-labelledby="title description">
+  <title id="title">Communities of Nacre — a cross-border reference</title>
+  <desc id="description">An index of six invented ethnic identities and five invented religions. Rows list the ten countries alphabetically with their flags. Separate sets of marks show the country examples for each kind of identity.</desc>
+  <defs>
+    <style>
+      text { font-family: 'DejaVu Sans', sans-serif; }
+      .ink { fill: #213543; }
+      .muted { fill: #4f6774; }
+      .light { fill: #f4f8f6; }
+      .caps { font-size: 13px; font-weight: 700; letter-spacing: 2.2px; }
+      .title { font-size: 62px; font-weight: 700; letter-spacing: -2px; }
+      .subtitle { font-size: 18px; }
+      .group-title { font-size: 15px; font-weight: 700; letter-spacing: 1.2px; }
+      .country { font-size: 16px; font-weight: 700; }
+      .column { font-size: 14px; font-weight: 700; }
+      .small { font-size: 12px; }
+      .support { font-size: 13px; }
+      .grid { fill: none; stroke: #cfd9d7; stroke-width: 1; }
+      .ethnicity { fill: #2e8279; }
+      .religion { fill: #754f8d; }
+    </style>
+    <symbol id="flag-asterin-union" viewBox="0 0 150 100">
+      <rect width="150" height="100" fill="#112b4b" />
+      <path d="M 0,0 H 31 L 77,50 31,100 H 0 L 45,50 Z" fill="#56d2e1" />
+      <path d="M 112,24 117,40 126,36 122,45 138,50 122,55 126,64 117,60 112,76              107,60 98,64 102,55 86,50 102,45 98,36 107,40 Z" fill="#ffc96a" />
+    </symbol>
+    <symbol id="flag-brinax-collective" viewBox="0 0 150 100">
+      <rect width="150" height="100" fill="#215145" />
+      <rect y="81" width="150" height="19" fill="#79d2b2" />
+      <path d="M 75,15 94,26 94,48 75,59 56,48 56,26 Z M 56,37 37,48 37,70 56,81 75,70 75,59 M 94,37 113,48 113,70 94,81 75,70" fill="none" stroke="#ffde99" stroke-width="4" stroke-linejoin="round" />
+    </symbol>
+    <symbol id="flag-caelum-protectorate" viewBox="0 0 150 100">
+      <rect width="150" height="100" fill="#45478e" />
+      <circle cx="108" cy="31" r="11" fill="#ffcb7f" />
+      <path d="M 0,100 52,38 73,64 87,50 130,100 Z" fill="#e6ecfa" />
+      <path d="M 22,100 52,64 67,82 86,69 112,100 Z" fill="#94acd9" />
+    </symbol>
+    <symbol id="flag-ilyndor" viewBox="0 0 150 100">
+      <rect width="150" height="100" fill="#f3e7cc" />
+      <path d="M 0,0 H 44 V 100 H 0 Z M 106,0 H 150 V 100 H 106 Z" fill="#648777" />
+      <path d="M 40,65 V 50 L 75,33 110,50 V 65 M 34,64 H 116" fill="none" stroke="#223f39" stroke-width="5" />
+      <path d="M 49,63 H 101" stroke="#dca650" stroke-width="7" />
+    </symbol>
+    <symbol id="flag-neruva-federation" viewBox="0 0 150 100">
+      <rect width="150" height="100" fill="#8ce1df" />
+      <path d="M 0,85 38,76 75,86 113,76 150,85 V 100 H 0 Z" fill="#f3c77b" />
+      <path d="M 75,0 V 48 M 75,41 33,69 V 91 M 75,46 V 95 M 75,41 117,69 V 91" fill="none" stroke="#195365" stroke-width="10" stroke-linejoin="round" />
+    </symbol>
+    <symbol id="flag-orinthia" viewBox="0 0 150 100">
+      <rect width="150" height="100" fill="#174d59" />
+      <path d="M 0,76 Q 25,62 50,76 T 100,76 T 150,76 V 100 H 0 Z" fill="#69cbbb" />
+      <path d="M 39,37 49,47 39,57 29,47 Z M 75,21 87,33 75,45 63,33 Z M 111,37 121,47 111,57 101,47 Z" fill="#fff7de" />
+    </symbol>
+    <symbol id="flag-quenari-league" viewBox="0 0 150 100">
+      <rect width="150" height="100" fill="#512a64" />
+      <path d="M 0,100 H 150 V 56 L 0,88 Z" fill="#e47b70" />
+      <circle cx="94" cy="37" r="17" fill="#ffd27e" />
+      <path d="M 24,37 H 59 M 34,52 H 64" stroke="#ffd27e" stroke-width="4" stroke-linecap="round" />
+    </symbol>
+    <symbol id="flag-soreth-dominion" viewBox="0 0 150 100">
+      <rect width="150" height="100" fill="#eaf3f7" />
+      <path d="M 0,0 51,50 0,100 Z" fill="#2b465f" />
+      <path d="M 99,18 105,43 128,50 105,57 99,82 93,57 70,50 93,43 Z" fill="#387fa7" />
+      <circle cx="99" cy="50" r="4" fill="#eaf3f7" />
+    </symbol>
+    <symbol id="flag-thyros-commonwealth" viewBox="0 0 150 100">
+      <rect width="150" height="100" fill="#e8af53" />
+      <rect y="76" width="150" height="24" fill="#2f342d" />
+      <circle cx="75" cy="38" r="21" fill="none" stroke="#2f342d" stroke-width="6" />
+      <path d="M 75,19 V 57 M 56,38 H 94" stroke="#2f342d" stroke-width="6" />
+      <circle cx="75" cy="38" r="5" fill="#fff0c1" />
+    </symbol>
+    <symbol id="flag-velkar-republic" viewBox="0 0 150 100">
+      <rect width="150" height="100" fill="#752d49" />
+      <path d="M 0,63 H 31 V 69 H 44 V 77 H 57 V 85 H 93 V 77 H 106 V 69 H 119 V 63 H 150 V 100 H 0 Z" fill="#df9266" />
+      <path d="M 75,20 92,38 75,56 58,38 Z" fill="#fff2d5" />
+    </symbol>
+  </defs>
+  <rect width="1540" height="975" fill="#f3f1e8"/>
+  <text x="48" y="56" class="caps muted">SYNTHETIC EXERCISE WORLD ATLAS</text>
+  <text x="48" y="118" class="title ink">Communities of Nacre</text>
+  <text x="51" y="151" class="subtitle muted">Fictional ethnic identities and religions · Illustrative overlap across borders</text>
+  <text x="1492" y="56" text-anchor="end" class="caps muted">WORLD EXTENSION</text>
+
+  <rect x="48" y="182" width="1440" height="652" rx="12" fill="#fffdf7" stroke="#cfd9d7"/>
+  <path d="M 60,182 H 355 V 222 H 48 V 194 Q 48,182 60,182 Z" fill="#263e4a"/>
+  <rect x="355" y="182" width="618" height="40" fill="#275d59"/>
+  <path d="M 973,182 H 1476 Q 1488,182 1488,194 V 222 H 973 Z" fill="#533e6d"/>
+  <text x="72" y="207" class="group-title light">COUNTRIES</text>
+  <text x="378" y="207" class="group-title light">ETHNIC IDENTITIES</text>
+  <text x="996" y="207" class="group-title light">RELIGIONS</text>
+
+  <rect x="355" y="222" width="618" height="62" fill="#e3efea"/>
+  <rect x="973" y="222" width="515" height="62" fill="#eee8f2"/>
+  <text x="72" y="258" class="support muted">Alphabetical index</text>
+  <rect x="49" y="284" width="1438" height="55" fill="#f5f6ef"/>
+  <path d="M 48,284 H 1488" class="grid"/>
+  <path d="M 48,339 H 1488" class="grid"/>
+  <rect x="49" y="394" width="1438" height="55" fill="#f5f6ef"/>
+  <path d="M 48,394 H 1488" class="grid"/>
+  <path d="M 48,449 H 1488" class="grid"/>
+  <rect x="49" y="504" width="1438" height="55" fill="#f5f6ef"/>
+  <path d="M 48,504 H 1488" class="grid"/>
+  <path d="M 48,559 H 1488" class="grid"/>
+  <rect x="49" y="614" width="1438" height="55" fill="#f5f6ef"/>
+  <path d="M 48,614 H 1488" class="grid"/>
+  <path d="M 48,669 H 1488" class="grid"/>
+  <rect x="49" y="724" width="1438" height="55" fill="#f5f6ef"/>
+  <path d="M 48,724 H 1488" class="grid"/>
+  <path d="M 48,779 H 1488" class="grid"/>
+  <path d="M 355,222 V 834" class="grid"/>
+  <path d="M 458,222 V 834" class="grid"/>
+  <path d="M 561,222 V 834" class="grid"/>
+  <path d="M 664,222 V 834" class="grid"/>
+  <path d="M 767,222 V 834" class="grid"/>
+  <path d="M 870,222 V 834" class="grid"/>
+  <path d="M 973,222 V 834" class="grid"/>
+  <path d="M 1076,222 V 834" class="grid"/>
+  <path d="M 1179,222 V 834" class="grid"/>
+  <path d="M 1282,222 V 834" class="grid"/>
+  <path d="M 1385,222 V 834" class="grid"/>
+  <path d="M 973,222 V 834" stroke="#a8b6b8" stroke-width="1.7"/>
+  <text x="406" y="258" text-anchor="middle" class="column ink">Auvessari</text>
+  <text x="509" y="258" text-anchor="middle" class="column ink">Dresquelli</text>
+  <text x="612" y="258" text-anchor="middle" class="column ink">Kelmorathi</text>
+  <text x="715" y="258" text-anchor="middle" class="column ink">Othrenuvi</text>
+  <text x="818" y="258" text-anchor="middle" class="column ink">Pelluvori</text>
+  <text x="921" y="258" text-anchor="middle" class="column ink">Ruvellith</text>
+  <text x="1024" y="249" text-anchor="middle" class="column ink">Andevori</text>
+  <text x="1024" y="268" text-anchor="middle" class="small muted">Observance</text>
+  <text x="1127" y="249" text-anchor="middle" class="column ink">Nethavell</text>
+  <text x="1127" y="268" text-anchor="middle" class="small muted">Cycle</text>
+  <text x="1230" y="249" text-anchor="middle" class="column ink">Qoriveth</text>
+  <text x="1230" y="268" text-anchor="middle" class="small muted">Vigils</text>
+  <text x="1333" y="249" text-anchor="middle" class="column ink">Talmurevi</text>
+  <text x="1333" y="268" text-anchor="middle" class="small muted">Accord</text>
+  <text x="1436" y="249" text-anchor="middle" class="column ink">Uldemori</text>
+  <text x="1436" y="268" text-anchor="middle" class="small muted">Reflection</text>
+  <g id="country-examples" inkscape:groupmode="layer" inkscape:label="Country and community examples">
+    <g id="country-asterin-union" data-country="Asterin Union">
+      <rect x="70" y="296.5" width="45" height="30" rx="2" fill="#d5d7cd"/>
+      <use x="72" y="297.83" width="41" height="27.34" xlink:href="#flag-asterin-union"/>
+      <text x="128" y="316.5" class="country ink">Asterin Union</text>
+      <g data-community="Auvessari" data-type="ethnicity">
+        <title>Auvessari in the Asterin Union examples</title>
+        <circle cx="406" cy="311.5" r="8.7" class="ethnicity"/>
+      </g>
+      <g data-community="Kelmorathi" data-type="ethnicity">
+        <title>Kelmorathi in the Asterin Union examples</title>
+        <circle cx="612" cy="311.5" r="8.7" class="ethnicity"/>
+      </g>
+      <g data-community="Ruvellith" data-type="ethnicity">
+        <title>Ruvellith in the Asterin Union examples</title>
+        <circle cx="921" cy="311.5" r="8.7" class="ethnicity"/>
+      </g>
+      <g data-community="Nethavell Cycle" data-type="religion">
+        <title>Nethavell Cycle in the Asterin Union examples</title>
+        <path d="M 1127,302.5 1136,311.5 1127,320.5 1118,311.5 Z" class="religion"/>
+      </g>
+      <g data-community="Talmurevi Accord" data-type="religion">
+        <title>Talmurevi Accord in the Asterin Union examples</title>
+        <path d="M 1333,302.5 1342,311.5 1333,320.5 1324,311.5 Z" class="religion"/>
+      </g>
+    </g>
+    <g id="country-brinax-collective" data-country="Brinax Collective">
+      <rect x="70" y="351.5" width="45" height="30" rx="2" fill="#d5d7cd"/>
+      <use x="72" y="352.83" width="41" height="27.34" xlink:href="#flag-brinax-collective"/>
+      <text x="128" y="371.5" class="country ink">Brinax Collective</text>
+      <g data-community="Dresquelli" data-type="ethnicity">
+        <title>Dresquelli in the Brinax Collective examples</title>
+        <circle cx="509" cy="366.5" r="8.7" class="ethnicity"/>
+      </g>
+      <g data-community="Othrenuvi" data-type="ethnicity">
+        <title>Othrenuvi in the Brinax Collective examples</title>
+        <circle cx="715" cy="366.5" r="8.7" class="ethnicity"/>
+      </g>
+      <g data-community="Pelluvori" data-type="ethnicity">
+        <title>Pelluvori in the Brinax Collective examples</title>
+        <circle cx="818" cy="366.5" r="8.7" class="ethnicity"/>
+      </g>
+      <g data-community="Nethavell Cycle" data-type="religion">
+        <title>Nethavell Cycle in the Brinax Collective examples</title>
+        <path d="M 1127,357.5 1136,366.5 1127,375.5 1118,366.5 Z" class="religion"/>
+      </g>
+      <g data-community="Uldemori Reflection" data-type="religion">
+        <title>Uldemori Reflection in the Brinax Collective examples</title>
+        <path d="M 1436,357.5 1445,366.5 1436,375.5 1427,366.5 Z" class="religion"/>
+      </g>
+    </g>
+    <g id="country-caelum-protectorate" data-country="Caelum Protectorate">
+      <rect x="70" y="406.5" width="45" height="30" rx="2" fill="#d5d7cd"/>
+      <use x="72" y="407.83" width="41" height="27.34" xlink:href="#flag-caelum-protectorate"/>
+      <text x="128" y="426.5" class="country ink">Caelum Protectorate</text>
+      <g data-community="Auvessari" data-type="ethnicity">
+        <title>Auvessari in the Caelum Protectorate examples</title>
+        <circle cx="406" cy="421.5" r="8.7" class="ethnicity"/>
+      </g>
+      <g data-community="Othrenuvi" data-type="ethnicity">
+        <title>Othrenuvi in the Caelum Protectorate examples</title>
+        <circle cx="715" cy="421.5" r="8.7" class="ethnicity"/>
+      </g>
+      <g data-community="Pelluvori" data-type="ethnicity">
+        <title>Pelluvori in the Caelum Protectorate examples</title>
+        <circle cx="818" cy="421.5" r="8.7" class="ethnicity"/>
+      </g>
+      <g data-community="Andevori Observance" data-type="religion">
+        <title>Andevori Observance in the Caelum Protectorate examples</title>
+        <path d="M 1024,412.5 1033,421.5 1024,430.5 1015,421.5 Z" class="religion"/>
+      </g>
+      <g data-community="Qoriveth Vigils" data-type="religion">
+        <title>Qoriveth Vigils in the Caelum Protectorate examples</title>
+        <path d="M 1230,412.5 1239,421.5 1230,430.5 1221,421.5 Z" class="religion"/>
+      </g>
+    </g>
+    <g id="country-ilyndor" data-country="Ilyndor">
+      <rect x="70" y="461.5" width="45" height="30" rx="2" fill="#d5d7cd"/>
+      <use x="72" y="462.83" width="41" height="27.34" xlink:href="#flag-ilyndor"/>
+      <text x="128" y="481.5" class="country ink">Ilyndor</text>
+      <g data-community="Dresquelli" data-type="ethnicity">
+        <title>Dresquelli in the Ilyndor examples</title>
+        <circle cx="509" cy="476.5" r="8.7" class="ethnicity"/>
+      </g>
+      <g data-community="Kelmorathi" data-type="ethnicity">
+        <title>Kelmorathi in the Ilyndor examples</title>
+        <circle cx="612" cy="476.5" r="8.7" class="ethnicity"/>
+      </g>
+      <g data-community="Pelluvori" data-type="ethnicity">
+        <title>Pelluvori in the Ilyndor examples</title>
+        <circle cx="818" cy="476.5" r="8.7" class="ethnicity"/>
+      </g>
+      <g data-community="Qoriveth Vigils" data-type="religion">
+        <title>Qoriveth Vigils in the Ilyndor examples</title>
+        <path d="M 1230,467.5 1239,476.5 1230,485.5 1221,476.5 Z" class="religion"/>
+      </g>
+      <g data-community="Uldemori Reflection" data-type="religion">
+        <title>Uldemori Reflection in the Ilyndor examples</title>
+        <path d="M 1436,467.5 1445,476.5 1436,485.5 1427,476.5 Z" class="religion"/>
+      </g>
+    </g>
+    <g id="country-neruva-federation" data-country="Neruva Federation">
+      <rect x="70" y="516.5" width="45" height="30" rx="2" fill="#d5d7cd"/>
+      <use x="72" y="517.83" width="41" height="27.34" xlink:href="#flag-neruva-federation"/>
+      <text x="128" y="536.5" class="country ink">Neruva Federation</text>
+      <g data-community="Dresquelli" data-type="ethnicity">
+        <title>Dresquelli in the Neruva Federation examples</title>
+        <circle cx="509" cy="531.5" r="8.7" class="ethnicity"/>
+      </g>
+      <g data-community="Kelmorathi" data-type="ethnicity">
+        <title>Kelmorathi in the Neruva Federation examples</title>
+        <circle cx="612" cy="531.5" r="8.7" class="ethnicity"/>
+      </g>
+      <g data-community="Ruvellith" data-type="ethnicity">
+        <title>Ruvellith in the Neruva Federation examples</title>
+        <circle cx="921" cy="531.5" r="8.7" class="ethnicity"/>
+      </g>
+      <g data-community="Andevori Observance" data-type="religion">
+        <title>Andevori Observance in the Neruva Federation examples</title>
+        <path d="M 1024,522.5 1033,531.5 1024,540.5 1015,531.5 Z" class="religion"/>
+      </g>
+      <g data-community="Talmurevi Accord" data-type="religion">
+        <title>Talmurevi Accord in the Neruva Federation examples</title>
+        <path d="M 1333,522.5 1342,531.5 1333,540.5 1324,531.5 Z" class="religion"/>
+      </g>
+    </g>
+    <g id="country-orinthia" data-country="Orinthia">
+      <rect x="70" y="571.5" width="45" height="30" rx="2" fill="#d5d7cd"/>
+      <use x="72" y="572.83" width="41" height="27.34" xlink:href="#flag-orinthia"/>
+      <text x="128" y="591.5" class="country ink">Orinthia</text>
+      <g data-community="Auvessari" data-type="ethnicity">
+        <title>Auvessari in the Orinthia examples</title>
+        <circle cx="406" cy="586.5" r="8.7" class="ethnicity"/>
+      </g>
+      <g data-community="Dresquelli" data-type="ethnicity">
+        <title>Dresquelli in the Orinthia examples</title>
+        <circle cx="509" cy="586.5" r="8.7" class="ethnicity"/>
+      </g>
+      <g data-community="Ruvellith" data-type="ethnicity">
+        <title>Ruvellith in the Orinthia examples</title>
+        <circle cx="921" cy="586.5" r="8.7" class="ethnicity"/>
+      </g>
+      <g data-community="Andevori Observance" data-type="religion">
+        <title>Andevori Observance in the Orinthia examples</title>
+        <path d="M 1024,577.5 1033,586.5 1024,595.5 1015,586.5 Z" class="religion"/>
+      </g>
+      <g data-community="Uldemori Reflection" data-type="religion">
+        <title>Uldemori Reflection in the Orinthia examples</title>
+        <path d="M 1436,577.5 1445,586.5 1436,595.5 1427,586.5 Z" class="religion"/>
+      </g>
+    </g>
+    <g id="country-quenari-league" data-country="Quenari League">
+      <rect x="70" y="626.5" width="45" height="30" rx="2" fill="#d5d7cd"/>
+      <use x="72" y="627.83" width="41" height="27.34" xlink:href="#flag-quenari-league"/>
+      <text x="128" y="646.5" class="country ink">Quenari League</text>
+      <g data-community="Dresquelli" data-type="ethnicity">
+        <title>Dresquelli in the Quenari League examples</title>
+        <circle cx="509" cy="641.5" r="8.7" class="ethnicity"/>
+      </g>
+      <g data-community="Othrenuvi" data-type="ethnicity">
+        <title>Othrenuvi in the Quenari League examples</title>
+        <circle cx="715" cy="641.5" r="8.7" class="ethnicity"/>
+      </g>
+      <g data-community="Ruvellith" data-type="ethnicity">
+        <title>Ruvellith in the Quenari League examples</title>
+        <circle cx="921" cy="641.5" r="8.7" class="ethnicity"/>
+      </g>
+      <g data-community="Qoriveth Vigils" data-type="religion">
+        <title>Qoriveth Vigils in the Quenari League examples</title>
+        <path d="M 1230,632.5 1239,641.5 1230,650.5 1221,641.5 Z" class="religion"/>
+      </g>
+      <g data-community="Talmurevi Accord" data-type="religion">
+        <title>Talmurevi Accord in the Quenari League examples</title>
+        <path d="M 1333,632.5 1342,641.5 1333,650.5 1324,641.5 Z" class="religion"/>
+      </g>
+    </g>
+    <g id="country-soreth-dominion" data-country="Soreth Dominion">
+      <rect x="70" y="681.5" width="45" height="30" rx="2" fill="#d5d7cd"/>
+      <use x="72" y="682.83" width="41" height="27.34" xlink:href="#flag-soreth-dominion"/>
+      <text x="128" y="701.5" class="country ink">Soreth Dominion</text>
+      <g data-community="Auvessari" data-type="ethnicity">
+        <title>Auvessari in the Soreth Dominion examples</title>
+        <circle cx="406" cy="696.5" r="8.7" class="ethnicity"/>
+      </g>
+      <g data-community="Othrenuvi" data-type="ethnicity">
+        <title>Othrenuvi in the Soreth Dominion examples</title>
+        <circle cx="715" cy="696.5" r="8.7" class="ethnicity"/>
+      </g>
+      <g data-community="Ruvellith" data-type="ethnicity">
+        <title>Ruvellith in the Soreth Dominion examples</title>
+        <circle cx="921" cy="696.5" r="8.7" class="ethnicity"/>
+      </g>
+      <g data-community="Andevori Observance" data-type="religion">
+        <title>Andevori Observance in the Soreth Dominion examples</title>
+        <path d="M 1024,687.5 1033,696.5 1024,705.5 1015,696.5 Z" class="religion"/>
+      </g>
+      <g data-community="Nethavell Cycle" data-type="religion">
+        <title>Nethavell Cycle in the Soreth Dominion examples</title>
+        <path d="M 1127,687.5 1136,696.5 1127,705.5 1118,696.5 Z" class="religion"/>
+      </g>
+    </g>
+    <g id="country-thyros-commonwealth" data-country="Thyros Commonwealth">
+      <rect x="70" y="736.5" width="45" height="30" rx="2" fill="#d5d7cd"/>
+      <use x="72" y="737.83" width="41" height="27.34" xlink:href="#flag-thyros-commonwealth"/>
+      <text x="128" y="756.5" class="country ink">Thyros Commonwealth</text>
+      <g data-community="Kelmorathi" data-type="ethnicity">
+        <title>Kelmorathi in the Thyros Commonwealth examples</title>
+        <circle cx="612" cy="751.5" r="8.7" class="ethnicity"/>
+      </g>
+      <g data-community="Othrenuvi" data-type="ethnicity">
+        <title>Othrenuvi in the Thyros Commonwealth examples</title>
+        <circle cx="715" cy="751.5" r="8.7" class="ethnicity"/>
+      </g>
+      <g data-community="Pelluvori" data-type="ethnicity">
+        <title>Pelluvori in the Thyros Commonwealth examples</title>
+        <circle cx="818" cy="751.5" r="8.7" class="ethnicity"/>
+      </g>
+      <g data-community="Talmurevi Accord" data-type="religion">
+        <title>Talmurevi Accord in the Thyros Commonwealth examples</title>
+        <path d="M 1333,742.5 1342,751.5 1333,760.5 1324,751.5 Z" class="religion"/>
+      </g>
+      <g data-community="Uldemori Reflection" data-type="religion">
+        <title>Uldemori Reflection in the Thyros Commonwealth examples</title>
+        <path d="M 1436,742.5 1445,751.5 1436,760.5 1427,751.5 Z" class="religion"/>
+      </g>
+    </g>
+    <g id="country-velkar-republic" data-country="Velkar Republic">
+      <rect x="70" y="791.5" width="45" height="30" rx="2" fill="#d5d7cd"/>
+      <use x="72" y="792.83" width="41" height="27.34" xlink:href="#flag-velkar-republic"/>
+      <text x="128" y="811.5" class="country ink">Velkar Republic</text>
+      <g data-community="Auvessari" data-type="ethnicity">
+        <title>Auvessari in the Velkar Republic examples</title>
+        <circle cx="406" cy="806.5" r="8.7" class="ethnicity"/>
+      </g>
+      <g data-community="Kelmorathi" data-type="ethnicity">
+        <title>Kelmorathi in the Velkar Republic examples</title>
+        <circle cx="612" cy="806.5" r="8.7" class="ethnicity"/>
+      </g>
+      <g data-community="Pelluvori" data-type="ethnicity">
+        <title>Pelluvori in the Velkar Republic examples</title>
+        <circle cx="818" cy="806.5" r="8.7" class="ethnicity"/>
+      </g>
+      <g data-community="Nethavell Cycle" data-type="religion">
+        <title>Nethavell Cycle in the Velkar Republic examples</title>
+        <path d="M 1127,797.5 1136,806.5 1127,815.5 1118,806.5 Z" class="religion"/>
+      </g>
+      <g data-community="Qoriveth Vigils" data-type="religion">
+        <title>Qoriveth Vigils in the Velkar Republic examples</title>
+        <path d="M 1230,797.5 1239,806.5 1230,815.5 1221,806.5 Z" class="religion"/>
+      </g>
+    </g>
+  </g>
+
+  <circle cx="58" cy="868" r="7" class="ethnicity"/>
+  <text x="76" y="873" class="support ink">Ethnicity example</text>
+  <path d="M 247,861 254,868 247,875 240,868 Z" class="religion"/>
+  <text x="264" y="873" class="support ink">Religion example</text>
+  <text x="1488" y="873" text-anchor="end" class="support muted">Blank cells are open for additional examples.</text>
+  <text x="48" y="912" class="support muted">Characters can use these identities independently, in any country and in any combination.</text>
+  <path d="M 48,935 H 1488" class="grid"/>
+  <text x="48" y="956" class="small muted">Country flags from the Nacre flag atlas</text>
+  <text x="1488" y="956" text-anchor="end" class="small muted">CC BY 4.0</text>
+</svg>

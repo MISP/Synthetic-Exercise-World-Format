@@ -249,9 +249,10 @@ references were verified against [MISP Galaxy revision `779b780`](https://github
 
 ## World extensions
 
-Each extension lives under `extensions/<name>/` and adds a map layer, a guide with a tabletop case, and a MISP Galaxy definition and cluster collection. Extensions reference the base world's entities by UUID.
+Each extension lives under `extensions/<name>/` and adds an editable visual, a guide with a tabletop case, and a MISP Galaxy definition and cluster collection. Extensions reference the base world's entities by UUID.
 
 - **Country flags** adds ten original flags and a map with a visual index of countries and capitals. [Country flags extension](extensions/country-flags/README.md)
+- **Fictional communities** adds invented ethnic identities and religions, with an index of illustrative associations across all ten countries. [Communities extension](extensions/communities/README.md)
 - **Telecommunications** covers fixed and radio access operators in all ten Nacre countries, shared and restricted fiber links, and a two-link outage exercise. [Telecom extension](extensions/telecom/README.md)
 - **Satellite communications** covers GEO VSAT, tracked MEO backhaul, and a low-latency LEO mesh, with coverage maps and links to terrestrial telecom. [Satellite communications extension](extensions/satellite-communications/README.md)
 - **Electricity** covers renewable, nuclear, and fossil generation, cross-border transmission, local distribution, and an island supply shortfall exercise. [Electricity extension](extensions/electricity/README.md)

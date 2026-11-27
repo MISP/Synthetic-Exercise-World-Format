@@ -1,0 +1,412 @@
+{
+  "authors": [
+    "MISP Project"
+  ],
+  "category": "context",
+  "description": "Invented ethnic identities and religions with illustrative cross-border associations on Nacre.",
+  "name": "Synthetic Exercise World - Fictional Communities",
+  "source": "https://github.com/MISP/Synthetic-Exercise-World-Format",
+  "type": "exercise-world-communities",
+  "uuid": "d9f643cb-84dc-5b12-99ea-14ffc541a41b",
+  "values": [
+    {
+      "description": "An invented ethnic identity available to characters in the Nacre setting.",
+      "meta": {
+        "association-scope": [
+          "illustrative"
+        ],
+        "entity-type": [
+          "fictional-ethnicity"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "cb97ba71-e477-4acb-9470-10f3e6c9e1a9",
+          "type": "represented-in-examples-for"
+        },
+        {
+          "dest-uuid": "4a600b9f-b843-446f-a234-415aded47e1b",
+          "type": "represented-in-examples-for"
+        },
+        {
+          "dest-uuid": "74d2286a-1b87-4984-8dd1-c5bd466ecca5",
+          "type": "represented-in-examples-for"
+        },
+        {
+          "dest-uuid": "c4be7f53-6d08-4472-8480-49ccb7946e78",
+          "type": "represented-in-examples-for"
+        },
+        {
+          "dest-uuid": "e4cd09cc-7be7-46ef-8989-5b9a812b49fe",
+          "type": "represented-in-examples-for"
+        }
+      ],
+      "uuid": "342804d6-7d13-5834-a578-f65bb98af29c",
+      "value": "Auvessari"
+    },
+    {
+      "description": "An invented ethnic identity available to characters in the Nacre setting.",
+      "meta": {
+        "association-scope": [
+          "illustrative"
+        ],
+        "entity-type": [
+          "fictional-ethnicity"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "91f273f8-66c0-446f-bdb2-4233fd0c55ef",
+          "type": "represented-in-examples-for"
+        },
+        {
+          "dest-uuid": "1e875520-fb3e-4d26-a982-44a5fb7f9375",
+          "type": "represented-in-examples-for"
+        },
+        {
+          "dest-uuid": "cfe1b22e-38b5-4077-bb90-b2bc5fedb965",
+          "type": "represented-in-examples-for"
+        },
+        {
+          "dest-uuid": "74d2286a-1b87-4984-8dd1-c5bd466ecca5",
+          "type": "represented-in-examples-for"
+        },
+        {
+          "dest-uuid": "54670ad5-49fe-4d0c-8a81-84b06a8b5050",
+          "type": "represented-in-examples-for"
+        }
+      ],
+      "uuid": "07a7abc3-bff1-5d89-8b56-730471bf4144",
+      "value": "Dresquelli"
+    },
+    {
+      "description": "An invented ethnic identity available to characters in the Nacre setting.",
+      "meta": {
+        "association-scope": [
+          "illustrative"
+        ],
+        "entity-type": [
+          "fictional-ethnicity"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "cb97ba71-e477-4acb-9470-10f3e6c9e1a9",
+          "type": "represented-in-examples-for"
+        },
+        {
+          "dest-uuid": "1e875520-fb3e-4d26-a982-44a5fb7f9375",
+          "type": "represented-in-examples-for"
+        },
+        {
+          "dest-uuid": "cfe1b22e-38b5-4077-bb90-b2bc5fedb965",
+          "type": "represented-in-examples-for"
+        },
+        {
+          "dest-uuid": "970fd807-b09e-4379-9a44-bebc5d0b9869",
+          "type": "represented-in-examples-for"
+        },
+        {
+          "dest-uuid": "e4cd09cc-7be7-46ef-8989-5b9a812b49fe",
+          "type": "represented-in-examples-for"
+        }
+      ],
+      "uuid": "be6a7554-636b-5855-b93d-da3ef3ebde7e",
+      "value": "Kelmorathi"
+    },
+    {
+      "description": "An invented ethnic identity available to characters in the Nacre setting.",
+      "meta": {
+        "association-scope": [
+          "illustrative"
+        ],
+        "entity-type": [
+          "fictional-ethnicity"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "91f273f8-66c0-446f-bdb2-4233fd0c55ef",
+          "type": "represented-in-examples-for"
+        },
+        {
+          "dest-uuid": "4a600b9f-b843-446f-a234-415aded47e1b",
+          "type": "represented-in-examples-for"
+        },
+        {
+          "dest-uuid": "54670ad5-49fe-4d0c-8a81-84b06a8b5050",
+          "type": "represented-in-examples-for"
+        },
+        {
+          "dest-uuid": "c4be7f53-6d08-4472-8480-49ccb7946e78",
+          "type": "represented-in-examples-for"
+        },
+        {
+          "dest-uuid": "970fd807-b09e-4379-9a44-bebc5d0b9869",
+          "type": "represented-in-examples-for"
+        }
+      ],
+      "uuid": "8728cd90-dcf8-576e-b8c5-c4f95bc153c8",
+      "value": "Othrenuvi"
+    },
+    {
+      "description": "An invented ethnic identity available to characters in the Nacre setting.",
+      "meta": {
+        "association-scope": [
+          "illustrative"
+        ],
+        "entity-type": [
+          "fictional-ethnicity"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "91f273f8-66c0-446f-bdb2-4233fd0c55ef",
+          "type": "represented-in-examples-for"
+        },
+        {
+          "dest-uuid": "4a600b9f-b843-446f-a234-415aded47e1b",
+          "type": "represented-in-examples-for"
+        },
+        {
+          "dest-uuid": "1e875520-fb3e-4d26-a982-44a5fb7f9375",
+          "type": "represented-in-examples-for"
+        },
+        {
+          "dest-uuid": "970fd807-b09e-4379-9a44-bebc5d0b9869",
+          "type": "represented-in-examples-for"
+        },
+        {
+          "dest-uuid": "e4cd09cc-7be7-46ef-8989-5b9a812b49fe",
+          "type": "represented-in-examples-for"
+        }
+      ],
+      "uuid": "6c17dafb-f73e-5a6e-827e-28d487b51fd0",
+      "value": "Pelluvori"
+    },
+    {
+      "description": "An invented ethnic identity available to characters in the Nacre setting.",
+      "meta": {
+        "association-scope": [
+          "illustrative"
+        ],
+        "entity-type": [
+          "fictional-ethnicity"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "cb97ba71-e477-4acb-9470-10f3e6c9e1a9",
+          "type": "represented-in-examples-for"
+        },
+        {
+          "dest-uuid": "cfe1b22e-38b5-4077-bb90-b2bc5fedb965",
+          "type": "represented-in-examples-for"
+        },
+        {
+          "dest-uuid": "74d2286a-1b87-4984-8dd1-c5bd466ecca5",
+          "type": "represented-in-examples-for"
+        },
+        {
+          "dest-uuid": "54670ad5-49fe-4d0c-8a81-84b06a8b5050",
+          "type": "represented-in-examples-for"
+        },
+        {
+          "dest-uuid": "c4be7f53-6d08-4472-8480-49ccb7946e78",
+          "type": "represented-in-examples-for"
+        }
+      ],
+      "uuid": "680912c7-04d6-5069-8ec5-a3ed6c3fc2da",
+      "value": "Ruvellith"
+    },
+    {
+      "description": "An invented religion whose example gatherings include short readings chosen in turn by participants.",
+      "meta": {
+        "association-scope": [
+          "illustrative"
+        ],
+        "entity-type": [
+          "fictional-religion"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "4a600b9f-b843-446f-a234-415aded47e1b",
+          "type": "represented-in-examples-for"
+        },
+        {
+          "dest-uuid": "cfe1b22e-38b5-4077-bb90-b2bc5fedb965",
+          "type": "represented-in-examples-for"
+        },
+        {
+          "dest-uuid": "74d2286a-1b87-4984-8dd1-c5bd466ecca5",
+          "type": "represented-in-examples-for"
+        },
+        {
+          "dest-uuid": "c4be7f53-6d08-4472-8480-49ccb7946e78",
+          "type": "represented-in-examples-for"
+        }
+      ],
+      "uuid": "20c8048d-be32-5062-8c3f-75781cc377c1",
+      "value": "Andevori Observance"
+    },
+    {
+      "description": "An invented religion with an example calendar of reflection days and community gatherings.",
+      "meta": {
+        "association-scope": [
+          "illustrative"
+        ],
+        "entity-type": [
+          "fictional-religion"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "cb97ba71-e477-4acb-9470-10f3e6c9e1a9",
+          "type": "represented-in-examples-for"
+        },
+        {
+          "dest-uuid": "91f273f8-66c0-446f-bdb2-4233fd0c55ef",
+          "type": "represented-in-examples-for"
+        },
+        {
+          "dest-uuid": "c4be7f53-6d08-4472-8480-49ccb7946e78",
+          "type": "represented-in-examples-for"
+        },
+        {
+          "dest-uuid": "e4cd09cc-7be7-46ef-8989-5b9a812b49fe",
+          "type": "represented-in-examples-for"
+        }
+      ],
+      "uuid": "838fd585-e142-5128-8624-b7a96858802b",
+      "value": "Nethavell Cycle"
+    },
+    {
+      "description": "An invented religion whose example observances include evening gatherings centered on listening and reflection.",
+      "meta": {
+        "association-scope": [
+          "illustrative"
+        ],
+        "entity-type": [
+          "fictional-religion"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "4a600b9f-b843-446f-a234-415aded47e1b",
+          "type": "represented-in-examples-for"
+        },
+        {
+          "dest-uuid": "1e875520-fb3e-4d26-a982-44a5fb7f9375",
+          "type": "represented-in-examples-for"
+        },
+        {
+          "dest-uuid": "54670ad5-49fe-4d0c-8a81-84b06a8b5050",
+          "type": "represented-in-examples-for"
+        },
+        {
+          "dest-uuid": "e4cd09cc-7be7-46ef-8989-5b9a812b49fe",
+          "type": "represented-in-examples-for"
+        }
+      ],
+      "uuid": "5ae1cb56-25c0-5dcb-bc72-63a1640b753e",
+      "value": "Qoriveth Vigils"
+    },
+    {
+      "description": "An invented religion with an example observance of writing and sharing personal reflections.",
+      "meta": {
+        "association-scope": [
+          "illustrative"
+        ],
+        "entity-type": [
+          "fictional-religion"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "cb97ba71-e477-4acb-9470-10f3e6c9e1a9",
+          "type": "represented-in-examples-for"
+        },
+        {
+          "dest-uuid": "cfe1b22e-38b5-4077-bb90-b2bc5fedb965",
+          "type": "represented-in-examples-for"
+        },
+        {
+          "dest-uuid": "54670ad5-49fe-4d0c-8a81-84b06a8b5050",
+          "type": "represented-in-examples-for"
+        },
+        {
+          "dest-uuid": "970fd807-b09e-4379-9a44-bebc5d0b9869",
+          "type": "represented-in-examples-for"
+        }
+      ],
+      "uuid": "538e1d1e-200b-5f2f-810f-0fef808e51d7",
+      "value": "Talmurevi Accord"
+    },
+    {
+      "description": "An invented religion with an example practice of quiet, self-guided reflection.",
+      "meta": {
+        "association-scope": [
+          "illustrative"
+        ],
+        "entity-type": [
+          "fictional-religion"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "91f273f8-66c0-446f-bdb2-4233fd0c55ef",
+          "type": "represented-in-examples-for"
+        },
+        {
+          "dest-uuid": "1e875520-fb3e-4d26-a982-44a5fb7f9375",
+          "type": "represented-in-examples-for"
+        },
+        {
+          "dest-uuid": "74d2286a-1b87-4984-8dd1-c5bd466ecca5",
+          "type": "represented-in-examples-for"
+        },
+        {
+          "dest-uuid": "970fd807-b09e-4379-9a44-bebc5d0b9869",
+          "type": "represented-in-examples-for"
+        }
+      ],
+      "uuid": "0f69e543-b1de-58f8-904b-f82f229147a8",
+      "value": "Uldemori Reflection"
+    }
+  ],
+  "version": 1
+}
