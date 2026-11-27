@@ -251,6 +251,7 @@ Each extension lives under `extensions/<name>/` and adds a map layer, a guide wi
 
 - **Telecommunications** covers fixed and radio access operators in all ten Nacre countries, shared and restricted fiber links, and a two-link outage exercise. [Telecom extension](extensions/telecom/README.md)
 - **Electricity** covers renewable, nuclear, and fossil generation, cross-border transmission, local distribution, and an island supply shortfall exercise. [Electricity extension](extensions/electricity/README.md)
+- **Transport and logistics** covers truck and coach roads, freight and passenger rail, cargo boats, ferries, and a tabletop case on rerouting after a berth closure. [Transport extension](extensions/transport/README.md)
 
 ## Community integrations
 
