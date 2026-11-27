@@ -1,0 +1,390 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" viewBox="0 0 1540 1310" role="img" aria-labelledby="title description">
+  <title id="title">Nacre data centers — ownership, fiber, and electrical supply</title>
+  <desc id="description">Eight data centers connect to existing telecom metros and fiber routes. Site colors identify joint, telecom, and independent ownership. A separate panel links each facility to its utility distribution area and lists normal and standby feeders.</desc>
+  <defs>
+    <linearGradient id="sea" x2="0" y2="1">
+      <stop stop-color="#223d4e"/>
+      <stop offset="1" stop-color="#1a2c3a"/>
+    </linearGradient>
+    <pattern id="graticule" width="66" height="66" patternUnits="userSpaceOnUse">
+      <path d="M 66,0 H 0 V 66" fill="none" stroke="#bdcdd5" stroke-opacity=".11"/>
+    </pattern>
+    <clipPath id="map-frame"><rect x="48" y="171" width="1052" height="786" rx="12"/></clipPath>
+    <marker id="power-arrow" viewBox="0 0 8 8" refX="6" refY="4" markerWidth="5" markerHeight="5" orient="auto">
+      <path d="M 0,0 8,4 0,8 Z" fill="#a45d31"/>
+    </marker>
+    <style>
+      text { font-family: 'DejaVu Sans', sans-serif; }
+      .ink { fill: #263744; }
+      .muted { fill: #4f626e; }
+      .light { fill: #f4f4ed; }
+      .soft { fill: #c0cfd5; }
+      .caps { font-size: 13px; font-weight: 700; letter-spacing: 2.1px; }
+      .title { font-size: 58px; font-weight: 700; letter-spacing: -2px; }
+      .subtitle { font-size: 18px; }
+      .body { font-size: 15px; font-weight: 700; }
+      .support { font-size: 13px; }
+      .small { font-size: 12px; }
+      .site-label { fill: #fff9ec; stroke: #192d3a; stroke-width: 4px; stroke-linejoin: round; paint-order: stroke fill; font-weight: 700; font-size: 16px; }
+      .area { fill: #c5d4db; font-size: 13px; letter-spacing: 2px; }
+      .sidebar { fill: #fffcf6; stroke: #cbd1d0; }
+      .divider { stroke: #cbd1d0; }
+      .shared-terrestrial, .shared-subsea, .private-only, .dark-fiber, .handoff, .power { fill: none; stroke-linecap: round; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
+      .shared-terrestrial { stroke: #90e0c6; stroke-width: 2.8; }
+      .shared-subsea { stroke: #ade0ff; stroke-width: 2.8; stroke-dasharray: 8 5; }
+      .private-only { stroke: #e8c4da; stroke-width: 2.8; stroke-dasharray: 2 6; }
+      .dark-fiber { stroke: #c2c0cb; stroke-width: 2.7; stroke-dasharray: 10 5 2 5; }
+      .handoff { stroke: #f3e9cd; stroke-width: 2.1; stroke-dasharray: 3 4; }
+      .power { stroke: #a45d31; stroke-width: 1.6; }
+      .route-id { fill: #f1f5f7; font: 700 11px 'DejaVu Sans Mono', monospace; text-anchor: middle; }
+      .facility-id { fill: #263744; font: 700 11px 'DejaVu Sans Mono', monospace; }
+    </style>
+  </defs>
+
+  <rect width="1540" height="1310" fill="#f3f0e8"/>
+  <text x="48" y="56" class="caps muted">SYNTHETIC EXERCISE WORLD ATLAS</text>
+  <text x="48" y="115" class="title ink">Nacre data centers</text>
+  <text x="51" y="145" class="subtitle muted">Ownership, fiber access, and electrical supply</text>
+  <text x="1492" y="114" text-anchor="end" class="caps muted">WORLD EXTENSION</text>
+  <path d="M 48,1278 H 1492" class="divider"/>
+  <text x="48" y="1296" class="support muted">Schematic facility sites · Basemap adapted from the Synthetic Exercise World atlas</text>
+  <text x="1492" y="1296" text-anchor="end" class="support muted">CC BY 4.0</text>
+
+  <g id="nacre-basemap" inkscape:groupmode="layer" inkscape:label="Nacre basemap" clip-path="url(#map-frame)">
+    <rect x="48" y="171" width="1052" height="786" fill="url(#sea)"/>
+    <rect x="48" y="171" width="1052" height="786" fill="url(#graticule)"/>
+    <g transform="translate(-172 151) scale(1.47)" stroke="#96aab1" stroke-width=".8" stroke-linejoin="round">
+      <path d="M 179.14 505.81 L 207.84 430.48 L 211.43 315.69 L 186.32 226.02 L 236.54 139.92 L 329.80 71.77 L 469.70 43.07 L 595.25 53.83 L 666.99 93.29 L 684.93 143.51 L 742.32 197.32 L 792.54 269.06 L 821.24 344.39 L 817.65 448.42 L 771.02 516.57 L 677.75 559.62 L 512.75 563.21 L 315.45 548.86 z" fill="#3b657b" stroke="#4f7b90" opacity=".38"/>
+      <path d="M 211.43 226.02 L 229.36 179.38 L 265.23 132.75 L 301.10 104.05 L 365.67 93.29 L 426.65 114.81 L 484.05 165.03 L 437.42 200.91 L 347.74 287.00 L 275.99 261.89 L 232.95 240.36 z" fill="#405762"/>
+      <path d="M 365.67 93.29 L 415.89 68.18 L 491.22 57.42 L 570.14 68.18 L 634.71 100.47 L 641.88 132.75 L 580.90 136.34 L 498.40 129.16 L 426.65 114.81 z" fill="#475969"/>
+      <path d="M 437.42 200.91 L 484.05 165.03 L 580.90 136.34 L 641.88 154.27 L 656.23 197.32 L 634.71 240.36 L 555.79 243.95 L 476.87 233.19 z" fill="#514e64"/>
+      <path d="M 347.74 287.00 L 437.42 200.91 L 476.87 233.19 L 555.79 243.95 L 534.27 279.82 L 509.16 337.22 L 419.48 351.57 L 354.91 333.63 L 304.69 312.11 z" fill="#584e4a"/>
+      <path d="M 555.79 243.95 L 634.71 240.36 L 656.23 197.32 L 724.39 240.36 L 763.85 308.52 L 735.15 365.91 L 702.86 387.44 L 598.84 373.09 L 534.27 279.82 z" fill="#51594e"/>
+      <path d="M 258.06 391.02 L 304.69 312.11 L 354.91 333.63 L 419.48 351.57 L 509.16 337.22 L 598.84 373.09 L 631.12 408.96 L 559.38 437.66 L 426.65 416.13 L 326.21 423.31 z" fill="#545a55"/>
+      <path d="M 200.66 477.12 L 258.06 391.02 L 326.21 423.31 L 426.65 416.13 L 559.38 437.66 L 570.14 512.99 L 469.70 538.10 L 329.80 527.34 L 232.95 505.81 z" fill="#3d5b50"/>
+      <path d="M 570.14 512.99 L 559.38 437.66 L 631.12 408.96 L 695.69 430.48 L 735.15 477.12 L 692.10 527.34 L 609.60 534.51 z" fill="#395c59"/>
+      <path d="M 598.84 373.09 L 702.86 387.44 L 763.85 416.13 L 778.19 462.77 L 735.15 477.12 L 695.69 430.48 L 631.12 408.96 z" fill="#3e586a"/>
+      <path d="M 681.34 172.21 L 699.28 147.10 L 735.15 154.27 L 749.50 179.38 L 731.56 204.49 L 695.69 200.91 z" fill="#5e4d61"/>
+      <path d="M 745.91 136.34 L 771.02 125.58 L 792.54 143.51 L 785.37 168.62 L 756.67 172.21 z" fill="#5e4d61"/>
+      <path d="M 717.21 111.23 L 735.15 93.29 L 763.85 100.47 L 771.02 121.99 L 749.50 136.34 L 724.39 132.75 z" fill="#5e4d61"/>
+      <path d="M 663.41 125.58 L 681.34 111.23 L 702.86 118.40 L 695.69 139.92 L 670.58 143.51 z" fill="#5e4d61"/>
+      <path d="M 788.96 211.67 L 814.07 200.91 L 828.41 222.43 L 810.48 243.95 L 785.37 236.78 z" fill="#5e4d61"/>
+      <path d="M 699.28 240.36 L 724.39 222.43 L 749.50 233.19 L 742.32 254.71 L 710.04 258.30 z" fill="#5e4d61"/>
+      <path d="M 638.30 182.97 L 656.23 168.62 L 670.58 182.97 L 663.41 200.91 L 641.88 200.91 z" fill="#5e4d61"/>
+    </g>
+    <text x="77" y="204" class="caps light">NACRE · FACILITIES AND FIBER</text>
+    <g transform="translate(92 260)" fill="#e8eef0">
+      <text y="-20" x="0" text-anchor="middle" font-size="15" font-weight="700">N</text>
+      <path d="M 0,-12 8,11 0,6 -8,11 Z M 0,14 V 26" stroke="#e8eef0" stroke-width="1.5"/>
+    </g>
+    <text x="1065" y="241" text-anchor="end" class="area">NORTHERN AZURE</text>
+    <text x="82" y="781" class="area">SOUTHERN</text>
+    <text x="82" y="802" class="area">AZURE</text>
+  </g>
+
+  <g id="fiber-layer" inkscape:groupmode="layer" inkscape:label="Telecom backbone routes" clip-path="url(#map-frame)">
+    <g transform="translate(-172 151) scale(1.47)">
+      <g id="route-F01" data-service="shared-transit">
+        <title>F01 · Iron Basin Trunk</title>
+        <path d="M 298,158 C 331,193 366,239 421,287" class="shared-terrestrial"/>
+      </g>
+      <g id="route-F02" data-service="shared-transit">
+        <title>F02 · Plateau Trunk</title>
+        <path d="M 421,287 C 452,264 485,216 530,200" class="shared-terrestrial"/>
+      </g>
+      <g id="route-F03" data-service="shared-transit">
+        <title>F03 · Trade Corridor Spur</title>
+        <path d="M 421,287 C 420,331 462,344 482,384" class="shared-terrestrial"/>
+      </g>
+      <g id="route-F04" data-service="shared-transit">
+        <title>F04 · Ridge Bypass</title>
+        <path d="M 530,200 C 538,258 501,321 482,384" class="shared-terrestrial"/>
+      </g>
+      <g id="route-F05" data-service="shared-transit">
+        <title>F05 · Island Cable</title>
+        <path d="M 530,200 C 596,195 659,211 727,181" class="shared-subsea"/>
+      </g>
+      <g id="route-F06" data-service="shared-transit">
+        <title>F06 · Delta Trunk</title>
+        <path d="M 482,384 C 574,383 642,399 709,425" class="shared-terrestrial"/>
+      </g>
+      <g id="route-F07" data-service="shared-transit">
+        <title>F07 · Coastal Link</title>
+        <path d="M 709,425 Q 683,458 645,472" class="shared-terrestrial"/>
+      </g>
+      <g id="route-F08" data-service="dark-fiber">
+        <title>F08 · Cooperative Reserve</title>
+        <path d="M 482,384 C 536,423 596,442 645,472" class="dark-fiber"/>
+      </g>
+      <g id="route-F09" data-service="private-only">
+        <title>F09 · Polar Research Cable</title>
+        <path d="M 727,181 C 683,116 643,100 518,100" class="private-only"/>
+      </g>
+      <g id="route-F10" data-service="shared-transit">
+        <title>F10 · Orchard Spur</title>
+        <path d="M 482,384 Q 407,440 335,465" class="shared-terrestrial"/>
+      </g>
+    </g>
+    <g transform="translate(336.6 461.2)">
+      <rect x="-17" y="-9" width="34" height="18" rx="4" fill="#254150" stroke="#a9bfc5" stroke-opacity=".7"/>
+      <text y="4" class="route-id">F01</text>
+    </g>
+    <g transform="translate(516.0 492.0)">
+      <rect x="-17" y="-9" width="34" height="18" rx="4" fill="#254150" stroke="#a9bfc5" stroke-opacity=".7"/>
+      <text y="4" class="route-id">F02</text>
+    </g>
+    <g transform="translate(480.7 639.0)">
+      <rect x="-17" y="-9" width="34" height="18" rx="4" fill="#254150" stroke="#a9bfc5" stroke-opacity=".7"/>
+      <text y="4" class="route-id">F03</text>
+    </g>
+    <g transform="translate(607.1 577.3)">
+      <rect x="-17" y="-9" width="34" height="18" rx="4" fill="#254150" stroke="#a9bfc5" stroke-opacity=".7"/>
+      <text y="4" class="route-id">F04</text>
+    </g>
+    <g transform="translate(755.6 452.4)">
+      <rect x="-17" y="-9" width="34" height="18" rx="4" fill="#254150" stroke="#a9bfc5" stroke-opacity=".7"/>
+      <text y="4" class="route-id">F05</text>
+    </g>
+    <g transform="translate(718.8 727.2)">
+      <rect x="-17" y="-9" width="34" height="18" rx="4" fill="#254150" stroke="#a9bfc5" stroke-opacity=".7"/>
+      <text y="4" class="route-id">F06</text>
+    </g>
+    <g transform="translate(827.6 812.5)">
+      <rect x="-17" y="-9" width="34" height="18" rx="4" fill="#254150" stroke="#a9bfc5" stroke-opacity=".7"/>
+      <text y="4" class="route-id">F07</text>
+    </g>
+    <g transform="translate(642.4 781.6)">
+      <rect x="-17" y="-9" width="34" height="18" rx="4" fill="#254150" stroke="#a9bfc5" stroke-opacity=".7"/>
+      <text y="4" class="route-id">F08</text>
+    </g>
+    <g transform="translate(757.0 320.0)">
+      <rect x="-17" y="-9" width="34" height="18" rx="4" fill="#254150" stroke="#a9bfc5" stroke-opacity=".7"/>
+      <text y="4" class="route-id">F09</text>
+    </g>
+    <g transform="translate(423.4 781.6)">
+      <rect x="-17" y="-9" width="34" height="18" rx="4" fill="#254150" stroke="#a9bfc5" stroke-opacity=".7"/>
+      <text y="4" class="route-id">F10</text>
+    </g>
+    <g id="metro-AST" transform="translate(266.1 383.3)">
+      <title>Northspan Fiber · Asterin Union</title>
+      <circle r="4.7" fill="#f4e9ca" stroke="#172b39" stroke-width="1.5"/>
+    </g>
+    <g id="metro-VEL" transform="translate(446.9 572.9)">
+      <title>BasinLink · Velkar Republic</title>
+      <circle r="4.7" fill="#f4e9ca" stroke="#172b39" stroke-width="1.5"/>
+    </g>
+    <g id="metro-CAE" transform="translate(607.1 445.0)">
+      <title>BlueBridge Networks · Caelum Protectorate</title>
+      <circle r="4.7" fill="#f4e9ca" stroke="#172b39" stroke-width="1.5"/>
+    </g>
+    <g id="metro-ORI" transform="translate(896.7 417.1)">
+      <title>Pelagic Radio · Orinthia</title>
+      <circle r="4.7" fill="#f4e9ca" stroke="#172b39" stroke-width="1.5"/>
+    </g>
+    <g id="metro-THY" transform="translate(824.7 606.7)">
+      <title>SteppeWave · Thyros Commonwealth</title>
+      <circle r="4.7" fill="#f4e9ca" stroke="#172b39" stroke-width="1.5"/>
+    </g>
+    <g id="metro-ILY" transform="translate(536.5 715.5)">
+      <title>Corridor Exchange · Ilyndor</title>
+      <circle r="4.7" fill="#f4e9ca" stroke="#172b39" stroke-width="1.5"/>
+    </g>
+    <g id="metro-NER" transform="translate(870.2 775.8)">
+      <title>DeltaReach · Neruva Federation</title>
+      <circle r="4.7" fill="#f4e9ca" stroke="#172b39" stroke-width="1.5"/>
+    </g>
+    <g id="metro-BRI" transform="translate(776.1 844.8)">
+      <title>Tidegrid Fiber · Brinax Collective</title>
+      <circle r="4.7" fill="#f4e9ca" stroke="#172b39" stroke-width="1.5"/>
+    </g>
+    <g id="metro-QUE" transform="translate(320.4 834.5)">
+      <title>Equator Air · Quenari League</title>
+      <circle r="4.7" fill="#f4e9ca" stroke="#172b39" stroke-width="1.5"/>
+    </g>
+    <g id="metro-SOR" transform="translate(589.5 298.0)">
+      <title>Polar Relay · Soreth Dominion</title>
+      <circle r="4.7" fill="#f4e9ca" stroke="#172b39" stroke-width="1.5"/>
+    </g>
+  </g>
+
+  <g id="facility-layer" inkscape:groupmode="layer" inkscape:label="Data centers and local telecom handoffs" clip-path="url(#map-frame)">
+    <g id="facility-DC01" data-ownership="jointly-owned" data-metro="VEL">
+      <title>DC01 · Basin Compute Campus · Velkar Republic</title>
+      <path d="M 446.9,572.9 L 367.9,604.9" class="handoff"/>
+      <g transform="translate(367.9 604.9)"><rect x="-8" y="-8" width="16" height="16" rx="3" fill="#ffc68d" stroke="#172b39" stroke-width="2"/><path d="M -4,-3 H 4 M -4,2 H 4" stroke="#293b4c" stroke-width="1.4" stroke-linecap="round"/></g>
+      <text x="354.9" y="609.9" text-anchor="end" class="site-label">Basin Compute Campus</text>
+    </g>
+    <g id="facility-DC02" data-ownership="telecom-owned" data-metro="CAE">
+      <title>DC02 · Plateau Colocation · Caelum Protectorate</title>
+      <path d="M 607.1,445.0 L 558.1,406.0" class="handoff"/>
+      <g transform="translate(558.1 406.0)"><rect x="-8" y="-8" width="16" height="16" rx="3" fill="#a1e4ff" stroke="#172b39" stroke-width="2"/><path d="M -4,-3 H 4 M -4,2 H 4" stroke="#293b4c" stroke-width="1.4" stroke-linecap="round"/></g>
+      <text x="545.1" y="406.0" text-anchor="end" class="site-label">Plateau Colocation</text>
+    </g>
+    <g id="facility-DC03" data-ownership="jointly-owned" data-metro="ILY">
+      <title>DC03 · Corridor Exchange Hall · Ilyndor</title>
+      <path d="M 536.5,715.5 L 463.5,689.5" class="handoff"/>
+      <g transform="translate(463.5 689.5)"><rect x="-8" y="-8" width="16" height="16" rx="3" fill="#ffc68d" stroke="#172b39" stroke-width="2"/><path d="M -4,-3 H 4 M -4,2 H 4" stroke="#293b4c" stroke-width="1.4" stroke-linecap="round"/></g>
+      <text x="450.5" y="694.5" text-anchor="end" class="site-label">Corridor Exchange Hall</text>
+    </g>
+    <g id="facility-DC04" data-ownership="independently-owned" data-metro="ORI">
+      <title>DC04 · Sound Research Vault · Orinthia</title>
+      <path d="M 896.7,417.1 L 960.7,446.1" class="handoff"/>
+      <g transform="translate(960.7 446.1)"><rect x="-8" y="-8" width="16" height="16" rx="3" fill="#dac5fa" stroke="#172b39" stroke-width="2"/><path d="M -4,-3 H 4 M -4,2 H 4" stroke="#293b4c" stroke-width="1.4" stroke-linecap="round"/></g>
+      <text x="972.7" y="451.1" text-anchor="start" class="site-label">Sound Vault</text>
+    </g>
+    <g id="facility-DC05" data-ownership="independently-owned" data-metro="NER">
+      <title>DC05 · Delta Cloud Campus · Neruva Federation</title>
+      <path d="M 870.2,775.8 L 923.2,733.8" class="handoff"/>
+      <g transform="translate(923.2 733.8)"><rect x="-8" y="-8" width="16" height="16" rx="3" fill="#dac5fa" stroke="#172b39" stroke-width="2"/><path d="M -4,-3 H 4 M -4,2 H 4" stroke="#293b4c" stroke-width="1.4" stroke-linecap="round"/></g>
+      <text x="936.2" y="738.8" text-anchor="start" class="site-label">Delta Cloud</text>
+    </g>
+    <g id="facility-DC06" data-ownership="jointly-owned" data-metro="BRI">
+      <title>DC06 · Tideport Colocation · Brinax Collective</title>
+      <path d="M 776.1,844.8 L 746.1,884.8" class="handoff"/>
+      <g transform="translate(746.1 884.8)"><rect x="-8" y="-8" width="16" height="16" rx="3" fill="#ffc68d" stroke="#172b39" stroke-width="2"/><path d="M -4,-3 H 4 M -4,2 H 4" stroke="#293b4c" stroke-width="1.4" stroke-linecap="round"/></g>
+      <text x="746.1" y="908.8" text-anchor="middle" class="site-label">Tideport Colocation</text>
+    </g>
+    <g id="facility-DC07" data-ownership="independently-owned" data-metro="THY">
+      <title>DC07 · Steppe Edge Room · Thyros Commonwealth</title>
+      <path d="M 824.7,606.7 L 772.7,639.7" class="handoff"/>
+      <g transform="translate(772.7 639.7)"><rect x="-8" y="-8" width="16" height="16" rx="3" fill="#dac5fa" stroke="#172b39" stroke-width="2"/><path d="M -4,-3 H 4 M -4,2 H 4" stroke="#293b4c" stroke-width="1.4" stroke-linecap="round"/></g>
+      <text x="785.7" y="644.7" text-anchor="start" class="site-label">Steppe Edge Room</text>
+    </g>
+    <g id="facility-DC08" data-ownership="independently-owned" data-metro="QUE">
+      <title>DC08 · Equator Media Vault · Quenari League</title>
+      <path d="M 320.4,834.5 L 277.4,873.5" class="handoff"/>
+      <g transform="translate(277.4 873.5)"><rect x="-8" y="-8" width="16" height="16" rx="3" fill="#dac5fa" stroke="#172b39" stroke-width="2"/><path d="M -4,-3 H 4 M -4,2 H 4" stroke="#293b4c" stroke-width="1.4" stroke-linecap="round"/></g>
+      <text x="277.4" y="897.5" text-anchor="middle" class="site-label">Equator Media Vault</text>
+    </g>
+  </g>
+  <rect x="48" y="171" width="1052" height="786" rx="12" fill="none" stroke="#9aafb6"/>
+
+  <rect x="1122" y="171" width="370" height="786" rx="12" class="sidebar"/>
+  <text x="1146" y="208" class="caps muted">FACILITY DIRECTORY</text>
+  <g transform="translate(1155 237)"><rect x="-8" y="-8" width="16" height="16" rx="3" fill="#ffc68d" stroke="#172b39" stroke-width="2"/><path d="M -4,-3 H 4 M -4,2 H 4" stroke="#293b4c" stroke-width="1.4" stroke-linecap="round"/></g>
+  <text x="1173" y="240" class="body ink">Basin Compute Campus</text>
+  <text x="1173" y="257" class="support muted">Velkar Republic · Joint ownership</text>
+  <text x="1437" y="241" class="facility-id">DC01</text>
+  <g transform="translate(1155 284)"><rect x="-8" y="-8" width="16" height="16" rx="3" fill="#a1e4ff" stroke="#172b39" stroke-width="2"/><path d="M -4,-3 H 4 M -4,2 H 4" stroke="#293b4c" stroke-width="1.4" stroke-linecap="round"/></g>
+  <text x="1173" y="287" class="body ink">Plateau Colocation</text>
+  <text x="1173" y="304" class="support muted">Caelum Protectorate · Telecom-owned</text>
+  <text x="1437" y="288" class="facility-id">DC02</text>
+  <g transform="translate(1155 331)"><rect x="-8" y="-8" width="16" height="16" rx="3" fill="#ffc68d" stroke="#172b39" stroke-width="2"/><path d="M -4,-3 H 4 M -4,2 H 4" stroke="#293b4c" stroke-width="1.4" stroke-linecap="round"/></g>
+  <text x="1173" y="334" class="body ink">Corridor Exchange Hall</text>
+  <text x="1173" y="351" class="support muted">Ilyndor · Joint ownership</text>
+  <text x="1437" y="335" class="facility-id">DC03</text>
+  <g transform="translate(1155 378)"><rect x="-8" y="-8" width="16" height="16" rx="3" fill="#dac5fa" stroke="#172b39" stroke-width="2"/><path d="M -4,-3 H 4 M -4,2 H 4" stroke="#293b4c" stroke-width="1.4" stroke-linecap="round"/></g>
+  <text x="1173" y="381" class="body ink">Sound Research Vault</text>
+  <text x="1173" y="398" class="support muted">Orinthia · Independently owned</text>
+  <text x="1437" y="382" class="facility-id">DC04</text>
+  <g transform="translate(1155 425)"><rect x="-8" y="-8" width="16" height="16" rx="3" fill="#dac5fa" stroke="#172b39" stroke-width="2"/><path d="M -4,-3 H 4 M -4,2 H 4" stroke="#293b4c" stroke-width="1.4" stroke-linecap="round"/></g>
+  <text x="1173" y="428" class="body ink">Delta Cloud Campus</text>
+  <text x="1173" y="445" class="support muted">Neruva Federation · Independently owned</text>
+  <text x="1437" y="429" class="facility-id">DC05</text>
+  <g transform="translate(1155 472)"><rect x="-8" y="-8" width="16" height="16" rx="3" fill="#ffc68d" stroke="#172b39" stroke-width="2"/><path d="M -4,-3 H 4 M -4,2 H 4" stroke="#293b4c" stroke-width="1.4" stroke-linecap="round"/></g>
+  <text x="1173" y="475" class="body ink">Tideport Colocation</text>
+  <text x="1173" y="492" class="support muted">Brinax Collective · Joint ownership</text>
+  <text x="1437" y="476" class="facility-id">DC06</text>
+  <g transform="translate(1155 519)"><rect x="-8" y="-8" width="16" height="16" rx="3" fill="#dac5fa" stroke="#172b39" stroke-width="2"/><path d="M -4,-3 H 4 M -4,2 H 4" stroke="#293b4c" stroke-width="1.4" stroke-linecap="round"/></g>
+  <text x="1173" y="522" class="body ink">Steppe Edge Room</text>
+  <text x="1173" y="539" class="support muted">Thyros Commonwealth · Independently owned</text>
+  <text x="1437" y="523" class="facility-id">DC07</text>
+  <g transform="translate(1155 566)"><rect x="-8" y="-8" width="16" height="16" rx="3" fill="#dac5fa" stroke="#172b39" stroke-width="2"/><path d="M -4,-3 H 4 M -4,2 H 4" stroke="#293b4c" stroke-width="1.4" stroke-linecap="round"/></g>
+  <text x="1173" y="569" class="body ink">Equator Media Vault</text>
+  <text x="1173" y="586" class="support muted">Quenari League · Independently owned</text>
+  <text x="1437" y="570" class="facility-id">DC08</text>
+  <path d="M 1146,603 H 1468" class="divider"/>
+  <text x="1146" y="636" class="caps muted">FIBER AND LOCAL HANDOFF</text>
+  <rect x="1146" y="653" width="66" height="194" rx="7" fill="#254150"/>
+  <path d="M 1156,674 H 1202" class="shared-terrestrial"/>
+  <text x="1227" y="679" class="support ink">Shared transit · terrestrial</text>
+  <path d="M 1156,704 H 1202" class="shared-subsea"/>
+  <text x="1227" y="709" class="support ink">Shared transit · subsea</text>
+  <path d="M 1156,734 H 1202" class="private-only"/>
+  <text x="1227" y="739" class="support ink">Private research fiber</text>
+  <path d="M 1156,764 H 1202" class="dark-fiber"/>
+  <text x="1227" y="769" class="support ink">Unlit reserve fiber</text>
+  <path d="M 1156,794 H 1202" class="handoff"/>
+  <text x="1227" y="799" class="support ink">Facility to telecom metro</text>
+  <circle cx="1179" cy="824" r="4.7" fill="#f4e9ca" stroke="#172b39" stroke-width="1.5"/>
+  <text x="1227" y="829" class="support ink">Telecom metro</text>
+  <text x="1146" y="889" class="small muted">The guide lists carriers, circuits, and entrances.</text>
+  <text x="1146" y="911" class="small muted">Local handoff lines show the metro only.</text>
+
+  <g id="electrical-supply-layer" inkscape:groupmode="layer" inkscape:label="Facility connections to the electrical grid">
+    <text x="48" y="991" class="caps muted">ELECTRICAL SUPPLY TO EACH FACILITY</text>
+    <rect x="48" y="1008" width="709" height="191" rx="11" class="sidebar"/>
+    <g id="power-DC01" data-feeds="E01 E02">
+      <title>Velkar Distribution Area supplies Basin Compute Campus through E01, E02</title>
+      <text x="68" y="1039" class="support ink">Velkar Distribution Area</text>
+      <path d="M 304,1035 H 339" class="power" marker-end="url(#power-arrow)"/>
+      <text x="357" y="1039" class="facility-id">DC01</text>
+      <text x="397" y="1039" class="body ink">Basin Compute Campus</text>
+      <text x="736" y="1039" text-anchor="end" class="small muted">Normal + standby</text>
+    </g>
+    <path d="M 68,1055 H 737" class="divider"/>
+    <g id="power-DC02" data-feeds="E03">
+      <title>Caelum Distribution Area supplies Plateau Colocation through E03</title>
+      <text x="68" y="1082" class="support ink">Caelum Distribution Area</text>
+      <path d="M 304,1078 H 339" class="power" marker-end="url(#power-arrow)"/>
+      <text x="357" y="1082" class="facility-id">DC02</text>
+      <text x="397" y="1082" class="body ink">Plateau Colocation</text>
+      <text x="736" y="1082" text-anchor="end" class="small muted">Normal</text>
+    </g>
+    <path d="M 68,1098 H 737" class="divider"/>
+    <g id="power-DC03" data-feeds="E04 E05">
+      <title>Ilyndor Distribution Area supplies Corridor Exchange Hall through E04, E05</title>
+      <text x="68" y="1125" class="support ink">Ilyndor Distribution Area</text>
+      <path d="M 304,1121 H 339" class="power" marker-end="url(#power-arrow)"/>
+      <text x="357" y="1125" class="facility-id">DC03</text>
+      <text x="397" y="1125" class="body ink">Corridor Exchange Hall</text>
+      <text x="736" y="1125" text-anchor="end" class="small muted">Normal + standby</text>
+    </g>
+    <path d="M 68,1141 H 737" class="divider"/>
+    <g id="power-DC04" data-feeds="E06">
+      <title>Orinthia Distribution Area supplies Sound Research Vault through E06</title>
+      <text x="68" y="1168" class="support ink">Orinthia Distribution Area</text>
+      <path d="M 304,1164 H 339" class="power" marker-end="url(#power-arrow)"/>
+      <text x="357" y="1168" class="facility-id">DC04</text>
+      <text x="397" y="1168" class="body ink">Sound Research Vault</text>
+      <text x="736" y="1168" text-anchor="end" class="small muted">Normal</text>
+    </g>
+    <rect x="783" y="1008" width="709" height="191" rx="11" class="sidebar"/>
+    <g id="power-DC05" data-feeds="E07">
+      <title>Neruva Distribution Area supplies Delta Cloud Campus through E07</title>
+      <text x="803" y="1039" class="support ink">Neruva Distribution Area</text>
+      <path d="M 1039,1035 H 1074" class="power" marker-end="url(#power-arrow)"/>
+      <text x="1092" y="1039" class="facility-id">DC05</text>
+      <text x="1132" y="1039" class="body ink">Delta Cloud Campus</text>
+      <text x="1471" y="1039" text-anchor="end" class="small muted">Normal</text>
+    </g>
+    <path d="M 803,1055 H 1472" class="divider"/>
+    <g id="power-DC06" data-feeds="E08">
+      <title>Brinax Distribution Area supplies Tideport Colocation through E08</title>
+      <text x="803" y="1082" class="support ink">Brinax Distribution Area</text>
+      <path d="M 1039,1078 H 1074" class="power" marker-end="url(#power-arrow)"/>
+      <text x="1092" y="1082" class="facility-id">DC06</text>
+      <text x="1132" y="1082" class="body ink">Tideport Colocation</text>
+      <text x="1471" y="1082" text-anchor="end" class="small muted">Normal</text>
+    </g>
+    <path d="M 803,1098 H 1472" class="divider"/>
+    <g id="power-DC07" data-feeds="E09">
+      <title>Thyros Distribution Area supplies Steppe Edge Room through E09</title>
+      <text x="803" y="1125" class="support ink">Thyros Distribution Area</text>
+      <path d="M 1039,1121 H 1074" class="power" marker-end="url(#power-arrow)"/>
+      <text x="1092" y="1125" class="facility-id">DC07</text>
+      <text x="1132" y="1125" class="body ink">Steppe Edge Room</text>
+      <text x="1471" y="1125" text-anchor="end" class="small muted">Normal</text>
+    </g>
+    <path d="M 803,1141 H 1472" class="divider"/>
+    <g id="power-DC08" data-feeds="E10">
+      <title>Quenari Distribution Area supplies Equator Media Vault through E10</title>
+      <text x="803" y="1168" class="support ink">Quenari Distribution Area</text>
+      <path d="M 1039,1164 H 1074" class="power" marker-end="url(#power-arrow)"/>
+      <text x="1092" y="1168" class="facility-id">DC08</text>
+      <text x="1132" y="1168" class="body ink">Equator Media Vault</text>
+      <text x="1471" y="1168" text-anchor="end" class="small muted">Normal</text>
+    </g>
+    <text x="48" y="1230" class="support muted">Normal and standby utility feeders at Basin Compute and Corridor Exchange share their respective distribution area.</text>
+  </g>
+</svg>

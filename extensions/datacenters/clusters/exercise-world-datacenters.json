@@ -1,0 +1,1280 @@
+{
+  "authors": [
+    "MISP Project"
+  ],
+  "category": "context",
+  "description": "Independent cloud and data center company.",
+  "name": "Synthetic Exercise World - Data Centers",
+  "source": "https://github.com/MISP/Synthetic-Exercise-World-Format",
+  "type": "exercise-world-datacenters",
+  "uuid": "7d906cf1-69be-5cd4-a5ff-0d01346a54d7",
+  "values": [
+    {
+      "description": "Independent facility operator and colocation services company.",
+      "meta": {
+        "country": "Ilyndor",
+        "entity-type": [
+          "facility-company"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "1e875520-fb3e-4d26-a982-44a5fb7f9375",
+          "type": "located-in"
+        }
+      ],
+      "uuid": "0929d577-619b-57fd-8964-612cd1b6e48a",
+      "value": "NeutralGrid Colocation"
+    },
+    {
+      "description": "Independent cloud and data center company.",
+      "meta": {
+        "country": "Neruva Federation",
+        "entity-type": [
+          "facility-company"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "cfe1b22e-38b5-4077-bb90-b2bc5fedb965",
+          "type": "located-in"
+        }
+      ],
+      "uuid": "8b294f14-acdd-5a8e-8e47-10128638ac5b",
+      "value": "Stratus Compute Services"
+    },
+    {
+      "description": "Financial data hosting and colocation in Velkar Republic.",
+      "meta": {
+        "country": "Velkar Republic",
+        "entity-type": [
+          "data-center"
+        ],
+        "facility-id": [
+          "DC01"
+        ],
+        "facility-use": [
+          "Financial data hosting and colocation"
+        ],
+        "ownership-model": [
+          "jointly-owned"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "e4cd09cc-7be7-46ef-8989-5b9a812b49fe",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "7bf88fa9-be22-5b6a-bcd1-40879dd64602",
+          "type": "owned-by"
+        },
+        {
+          "dest-uuid": "df601e63-1a5f-4cec-a071-152f1c62f310",
+          "type": "owned-by"
+        },
+        {
+          "dest-uuid": "7bf88fa9-be22-5b6a-bcd1-40879dd64602",
+          "type": "operated-by"
+        },
+        {
+          "dest-uuid": "7bf88fa9-be22-5b6a-bcd1-40879dd64602",
+          "type": "local-handoff-to"
+        },
+        {
+          "dest-uuid": "6f86b61a-481c-54c0-bfc9-feffc0f92420",
+          "type": "connected-via"
+        },
+        {
+          "dest-uuid": "383fe2d8-3026-5530-b2a7-f421478e10b2",
+          "type": "connected-via"
+        },
+        {
+          "dest-uuid": "10bc67f2-558f-54a6-91a6-69825e746b44",
+          "type": "powered-via"
+        },
+        {
+          "dest-uuid": "44437064-e67c-53f6-bce2-a36eefb17153",
+          "type": "powered-via"
+        }
+      ],
+      "uuid": "30b4cbe6-10ed-5f00-a81b-4de48a1b659c",
+      "value": "Basin Compute Campus"
+    },
+    {
+      "description": "Carrier colocation and regional hosting in Caelum Protectorate.",
+      "meta": {
+        "country": "Caelum Protectorate",
+        "entity-type": [
+          "data-center"
+        ],
+        "facility-id": [
+          "DC02"
+        ],
+        "facility-use": [
+          "Carrier colocation and regional hosting"
+        ],
+        "ownership-model": [
+          "telecom-owned"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "4a600b9f-b843-446f-a234-415aded47e1b",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "9547d310-1b5d-554f-95d7-1c1e2b223adb",
+          "type": "owned-by"
+        },
+        {
+          "dest-uuid": "9547d310-1b5d-554f-95d7-1c1e2b223adb",
+          "type": "operated-by"
+        },
+        {
+          "dest-uuid": "9547d310-1b5d-554f-95d7-1c1e2b223adb",
+          "type": "local-handoff-to"
+        },
+        {
+          "dest-uuid": "17441110-af3a-5a5d-9b91-03c69d551d77",
+          "type": "connected-via"
+        },
+        {
+          "dest-uuid": "d44e2d9c-6b5c-5933-b917-1361d0ad0f6c",
+          "type": "connected-via"
+        },
+        {
+          "dest-uuid": "d9416767-4efb-59af-865e-76a3070bb685",
+          "type": "powered-via"
+        }
+      ],
+      "uuid": "6e951297-c83c-5a5b-9ecf-ab1e49a4acbe",
+      "value": "Plateau Colocation"
+    },
+    {
+      "description": "Carrier-neutral colocation and continuity hosting in Ilyndor.",
+      "meta": {
+        "country": "Ilyndor",
+        "entity-type": [
+          "data-center"
+        ],
+        "facility-id": [
+          "DC03"
+        ],
+        "facility-use": [
+          "Carrier-neutral colocation and continuity hosting"
+        ],
+        "ownership-model": [
+          "jointly-owned"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "1e875520-fb3e-4d26-a982-44a5fb7f9375",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "69aa2d21-8251-52f8-91c0-c33b1f684040",
+          "type": "owned-by"
+        },
+        {
+          "dest-uuid": "5196ad35-99b3-41fd-bb4a-286bf08adc4c",
+          "type": "owned-by"
+        },
+        {
+          "dest-uuid": "0929d577-619b-57fd-8964-612cd1b6e48a",
+          "type": "operated-by"
+        },
+        {
+          "dest-uuid": "69aa2d21-8251-52f8-91c0-c33b1f684040",
+          "type": "local-handoff-to"
+        },
+        {
+          "dest-uuid": "afbfec89-0c1c-5178-b192-5f8916dfe505",
+          "type": "connected-via"
+        },
+        {
+          "dest-uuid": "c1ddfdd9-83f8-5e85-a54a-b22e3ff90592",
+          "type": "connected-via"
+        },
+        {
+          "dest-uuid": "c1dca4da-7ddd-53b7-9a71-2d98355ecca4",
+          "type": "powered-via"
+        },
+        {
+          "dest-uuid": "0523fc0c-c9ce-5a97-89d8-310875a7b8e8",
+          "type": "powered-via"
+        }
+      ],
+      "uuid": "c64864e0-14cb-5172-b05a-8a2b4489b1a6",
+      "value": "Corridor Exchange Hall"
+    },
+    {
+      "description": "Health research hosting in Orinthia.",
+      "meta": {
+        "country": "Orinthia",
+        "entity-type": [
+          "data-center"
+        ],
+        "facility-id": [
+          "DC04"
+        ],
+        "facility-use": [
+          "Health research hosting"
+        ],
+        "ownership-model": [
+          "independently-owned"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "74d2286a-1b87-4984-8dd1-c5bd466ecca5",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "7477aeca-f4ba-4d9c-a261-7e5609033ad6",
+          "type": "owned-by"
+        },
+        {
+          "dest-uuid": "7477aeca-f4ba-4d9c-a261-7e5609033ad6",
+          "type": "operated-by"
+        },
+        {
+          "dest-uuid": "9df1eaab-6203-51c4-bd84-c7343ae224c1",
+          "type": "local-handoff-to"
+        },
+        {
+          "dest-uuid": "74676de7-01d1-59a5-846f-c5576249c9db",
+          "type": "connected-via"
+        },
+        {
+          "dest-uuid": "bf1289a6-a200-51b4-b046-11d3bea61d4c",
+          "type": "connected-via"
+        },
+        {
+          "dest-uuid": "b4ae4cb6-8106-5d19-8254-1cd3070b50d5",
+          "type": "powered-via"
+        }
+      ],
+      "uuid": "fad0947b-941a-56e0-b9e4-6f950ad406cb",
+      "value": "Sound Research Vault"
+    },
+    {
+      "description": "Regional cloud hosting in Neruva Federation.",
+      "meta": {
+        "country": "Neruva Federation",
+        "entity-type": [
+          "data-center"
+        ],
+        "facility-id": [
+          "DC05"
+        ],
+        "facility-use": [
+          "Regional cloud hosting"
+        ],
+        "ownership-model": [
+          "independently-owned"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "cfe1b22e-38b5-4077-bb90-b2bc5fedb965",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "8b294f14-acdd-5a8e-8e47-10128638ac5b",
+          "type": "owned-by"
+        },
+        {
+          "dest-uuid": "8b294f14-acdd-5a8e-8e47-10128638ac5b",
+          "type": "operated-by"
+        },
+        {
+          "dest-uuid": "a8a57b75-e769-5ba1-b6b2-fdff1caa2b30",
+          "type": "local-handoff-to"
+        },
+        {
+          "dest-uuid": "59c16ea7-9811-55bf-8c3d-ba25d55cdfd6",
+          "type": "connected-via"
+        },
+        {
+          "dest-uuid": "2a8462e5-32b5-5c47-b1b2-3dc9db572ca8",
+          "type": "connected-via"
+        },
+        {
+          "dest-uuid": "6ef4607b-fc3f-50ee-989c-f60af56516c4",
+          "type": "powered-via"
+        }
+      ],
+      "uuid": "21f8d527-4458-516b-944e-810cbe6ef162",
+      "value": "Delta Cloud Campus"
+    },
+    {
+      "description": "Port-community colocation in Brinax Collective.",
+      "meta": {
+        "country": "Brinax Collective",
+        "entity-type": [
+          "data-center"
+        ],
+        "facility-id": [
+          "DC06"
+        ],
+        "facility-use": [
+          "Port-community colocation"
+        ],
+        "ownership-model": [
+          "jointly-owned"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "91f273f8-66c0-446f-bdb2-4233fd0c55ef",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "ef987a45-cb47-50b2-a795-a561af0e2b8a",
+          "type": "owned-by"
+        },
+        {
+          "dest-uuid": "d3631b81-e8b1-473c-bd9e-d2daf003a467",
+          "type": "owned-by"
+        },
+        {
+          "dest-uuid": "ef987a45-cb47-50b2-a795-a561af0e2b8a",
+          "type": "operated-by"
+        },
+        {
+          "dest-uuid": "ef987a45-cb47-50b2-a795-a561af0e2b8a",
+          "type": "local-handoff-to"
+        },
+        {
+          "dest-uuid": "1dac899a-3d50-5344-ab98-dccf1bb48bb9",
+          "type": "connected-via"
+        },
+        {
+          "dest-uuid": "45479e92-6b4c-52a2-a02a-b8f34f23327d",
+          "type": "connected-via"
+        },
+        {
+          "dest-uuid": "a242bc8e-bd0c-5bf6-909b-36843aad9fc7",
+          "type": "powered-via"
+        }
+      ],
+      "uuid": "229f3561-e7ee-52cc-a3b0-3636b8719213",
+      "value": "Tideport Colocation"
+    },
+    {
+      "description": "Domestic logistics edge services in Thyros Commonwealth.",
+      "meta": {
+        "country": "Thyros Commonwealth",
+        "entity-type": [
+          "data-center"
+        ],
+        "facility-id": [
+          "DC07"
+        ],
+        "facility-use": [
+          "Domestic logistics edge services"
+        ],
+        "ownership-model": [
+          "independently-owned"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "970fd807-b09e-4379-9a44-bebc5d0b9869",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "8d018f2a-03c2-4467-8b4e-14ee2ea33df8",
+          "type": "owned-by"
+        },
+        {
+          "dest-uuid": "8d018f2a-03c2-4467-8b4e-14ee2ea33df8",
+          "type": "operated-by"
+        },
+        {
+          "dest-uuid": "4bf278fc-f88d-5335-bd29-a1aa6326adff",
+          "type": "local-handoff-to"
+        },
+        {
+          "dest-uuid": "a7dec315-0f73-5002-b91a-6234f2d0b1d2",
+          "type": "connected-via"
+        },
+        {
+          "dest-uuid": "e32d1e2b-3088-55dc-90a1-9326f9a618f2",
+          "type": "powered-via"
+        }
+      ],
+      "uuid": "8a94d3fe-7486-5c4f-94cc-f54650c78f9e",
+      "value": "Steppe Edge Room"
+    },
+    {
+      "description": "Media archives and content hosting in Quenari League.",
+      "meta": {
+        "country": "Quenari League",
+        "entity-type": [
+          "data-center"
+        ],
+        "facility-id": [
+          "DC08"
+        ],
+        "facility-use": [
+          "Media archives and content hosting"
+        ],
+        "ownership-model": [
+          "independently-owned"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "54670ad5-49fe-4d0c-8a81-84b06a8b5050",
+          "type": "located-in"
+        },
+        {
+          "dest-uuid": "f0ca111f-53b1-491f-9c3e-f8ef6a83e974",
+          "type": "owned-by"
+        },
+        {
+          "dest-uuid": "f0ca111f-53b1-491f-9c3e-f8ef6a83e974",
+          "type": "operated-by"
+        },
+        {
+          "dest-uuid": "1747fb93-72b2-54dd-add1-8852bb420adb",
+          "type": "local-handoff-to"
+        },
+        {
+          "dest-uuid": "f2d3e398-fa92-5a12-a0e8-aca702268acf",
+          "type": "connected-via"
+        },
+        {
+          "dest-uuid": "f161408a-55b4-5144-9e8f-64f0f1d0cbd7",
+          "type": "powered-via"
+        }
+      ],
+      "uuid": "164729da-0b44-54b4-a6bf-f600310ea300",
+      "value": "Equator Media Vault"
+    },
+    {
+      "description": "BasinLink circuit entering the facility at north-entry. Backbone path F01 in the telecom extension.",
+      "meta": {
+        "access-policy": [
+          "shared-transit"
+        ],
+        "circuit-id": [
+          "C01"
+        ],
+        "entity-type": [
+          "facility-fiber-circuit"
+        ],
+        "facility-entry": [
+          "north-entry"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "30b4cbe6-10ed-5f00-a81b-4de48a1b659c",
+          "type": "serves-facility"
+        },
+        {
+          "dest-uuid": "7bf88fa9-be22-5b6a-bcd1-40879dd64602",
+          "type": "provided-by"
+        },
+        {
+          "dest-uuid": "0c013e27-f94c-598b-b9fc-244d02e14480",
+          "type": "uses-fiber-route"
+        }
+      ],
+      "uuid": "6f86b61a-481c-54c0-bfc9-feffc0f92420",
+      "value": "Basin Compute Campus circuit C01"
+    },
+    {
+      "description": "BlueBridge Networks circuit entering the facility at plateau-entry. Backbone path F02 in the telecom extension.",
+      "meta": {
+        "access-policy": [
+          "shared-transit"
+        ],
+        "circuit-id": [
+          "C02"
+        ],
+        "entity-type": [
+          "facility-fiber-circuit"
+        ],
+        "facility-entry": [
+          "plateau-entry"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "30b4cbe6-10ed-5f00-a81b-4de48a1b659c",
+          "type": "serves-facility"
+        },
+        {
+          "dest-uuid": "9547d310-1b5d-554f-95d7-1c1e2b223adb",
+          "type": "provided-by"
+        },
+        {
+          "dest-uuid": "ac81ac9d-f3aa-5af8-8bef-6926bbb82c92",
+          "type": "uses-fiber-route"
+        }
+      ],
+      "uuid": "383fe2d8-3026-5530-b2a7-f421478e10b2",
+      "value": "Basin Compute Campus circuit C02"
+    },
+    {
+      "description": "BlueBridge Networks circuit entering the facility at west-entry. Backbone path F02 in the telecom extension.",
+      "meta": {
+        "access-policy": [
+          "shared-transit"
+        ],
+        "circuit-id": [
+          "C03"
+        ],
+        "entity-type": [
+          "facility-fiber-circuit"
+        ],
+        "facility-entry": [
+          "west-entry"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "6e951297-c83c-5a5b-9ecf-ab1e49a4acbe",
+          "type": "serves-facility"
+        },
+        {
+          "dest-uuid": "9547d310-1b5d-554f-95d7-1c1e2b223adb",
+          "type": "provided-by"
+        },
+        {
+          "dest-uuid": "ac81ac9d-f3aa-5af8-8bef-6926bbb82c92",
+          "type": "uses-fiber-route"
+        }
+      ],
+      "uuid": "17441110-af3a-5a5d-9b91-03c69d551d77",
+      "value": "Plateau Colocation circuit C03"
+    },
+    {
+      "description": "BlueBridge Networks circuit entering the facility at south-entry. Backbone path F04 in the telecom extension.",
+      "meta": {
+        "access-policy": [
+          "shared-transit"
+        ],
+        "circuit-id": [
+          "C04"
+        ],
+        "entity-type": [
+          "facility-fiber-circuit"
+        ],
+        "facility-entry": [
+          "south-entry"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "6e951297-c83c-5a5b-9ecf-ab1e49a4acbe",
+          "type": "serves-facility"
+        },
+        {
+          "dest-uuid": "9547d310-1b5d-554f-95d7-1c1e2b223adb",
+          "type": "provided-by"
+        },
+        {
+          "dest-uuid": "0afd5e79-9716-5ad5-8d66-8dc5427efd4e",
+          "type": "uses-fiber-route"
+        }
+      ],
+      "uuid": "d44e2d9c-6b5c-5933-b917-1361d0ad0f6c",
+      "value": "Plateau Colocation circuit C04"
+    },
+    {
+      "description": "Corridor Exchange circuit entering the facility at trade-entry. Backbone path F03 in the telecom extension.",
+      "meta": {
+        "access-policy": [
+          "shared-transit"
+        ],
+        "circuit-id": [
+          "C05"
+        ],
+        "entity-type": [
+          "facility-fiber-circuit"
+        ],
+        "facility-entry": [
+          "trade-entry"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "c64864e0-14cb-5172-b05a-8a2b4489b1a6",
+          "type": "serves-facility"
+        },
+        {
+          "dest-uuid": "69aa2d21-8251-52f8-91c0-c33b1f684040",
+          "type": "provided-by"
+        },
+        {
+          "dest-uuid": "a6529ad8-d658-5197-b88f-42a302ed9480",
+          "type": "uses-fiber-route"
+        }
+      ],
+      "uuid": "afbfec89-0c1c-5178-b192-5f8916dfe505",
+      "value": "Corridor Exchange Hall circuit C05"
+    },
+    {
+      "description": "BlueBridge Networks circuit entering the facility at ridge-entry. Backbone path F04 in the telecom extension.",
+      "meta": {
+        "access-policy": [
+          "shared-transit"
+        ],
+        "circuit-id": [
+          "C06"
+        ],
+        "entity-type": [
+          "facility-fiber-circuit"
+        ],
+        "facility-entry": [
+          "ridge-entry"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "c64864e0-14cb-5172-b05a-8a2b4489b1a6",
+          "type": "serves-facility"
+        },
+        {
+          "dest-uuid": "9547d310-1b5d-554f-95d7-1c1e2b223adb",
+          "type": "provided-by"
+        },
+        {
+          "dest-uuid": "0afd5e79-9716-5ad5-8d66-8dc5427efd4e",
+          "type": "uses-fiber-route"
+        }
+      ],
+      "uuid": "c1ddfdd9-83f8-5e85-a54a-b22e3ff90592",
+      "value": "Corridor Exchange Hall circuit C06"
+    },
+    {
+      "description": "Pelagic Radio circuit entering the facility at harbor-entry. Backbone path F05 in the telecom extension.",
+      "meta": {
+        "access-policy": [
+          "shared-transit"
+        ],
+        "circuit-id": [
+          "C07"
+        ],
+        "entity-type": [
+          "facility-fiber-circuit"
+        ],
+        "facility-entry": [
+          "harbor-entry"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "fad0947b-941a-56e0-b9e4-6f950ad406cb",
+          "type": "serves-facility"
+        },
+        {
+          "dest-uuid": "9df1eaab-6203-51c4-bd84-c7343ae224c1",
+          "type": "provided-by"
+        },
+        {
+          "dest-uuid": "b709765b-19e0-5d76-a936-b47bade6518f",
+          "type": "uses-fiber-route"
+        }
+      ],
+      "uuid": "74676de7-01d1-59a5-846f-c5576249c9db",
+      "value": "Sound Research Vault circuit C07"
+    },
+    {
+      "description": "Pelagic Radio circuit entering the facility at research-entry. Backbone path F09 in the telecom extension.",
+      "meta": {
+        "access-policy": [
+          "private-only"
+        ],
+        "circuit-id": [
+          "C08"
+        ],
+        "entity-type": [
+          "facility-fiber-circuit"
+        ],
+        "facility-entry": [
+          "research-entry"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "fad0947b-941a-56e0-b9e4-6f950ad406cb",
+          "type": "serves-facility"
+        },
+        {
+          "dest-uuid": "9df1eaab-6203-51c4-bd84-c7343ae224c1",
+          "type": "provided-by"
+        },
+        {
+          "dest-uuid": "6dc91d2f-d1e2-54d7-ab6c-5183780cf6e4",
+          "type": "uses-fiber-route"
+        }
+      ],
+      "uuid": "bf1289a6-a200-51b4-b046-11d3bea61d4c",
+      "value": "Sound Research Vault circuit C08"
+    },
+    {
+      "description": "DeltaReach circuit entering the facility at delta-entry. Backbone path F06 in the telecom extension.",
+      "meta": {
+        "access-policy": [
+          "shared-transit"
+        ],
+        "circuit-id": [
+          "C09"
+        ],
+        "entity-type": [
+          "facility-fiber-circuit"
+        ],
+        "facility-entry": [
+          "delta-entry"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "21f8d527-4458-516b-944e-810cbe6ef162",
+          "type": "serves-facility"
+        },
+        {
+          "dest-uuid": "a8a57b75-e769-5ba1-b6b2-fdff1caa2b30",
+          "type": "provided-by"
+        },
+        {
+          "dest-uuid": "70f10d9c-d4f5-5119-8027-fd33016c7e8c",
+          "type": "uses-fiber-route"
+        }
+      ],
+      "uuid": "59c16ea7-9811-55bf-8c3d-ba25d55cdfd6",
+      "value": "Delta Cloud Campus circuit C09"
+    },
+    {
+      "description": "Tidegrid Fiber circuit entering the facility at delta-entry. Backbone path F07 in the telecom extension.",
+      "meta": {
+        "access-policy": [
+          "shared-transit"
+        ],
+        "circuit-id": [
+          "C10"
+        ],
+        "entity-type": [
+          "facility-fiber-circuit"
+        ],
+        "facility-entry": [
+          "delta-entry"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "21f8d527-4458-516b-944e-810cbe6ef162",
+          "type": "serves-facility"
+        },
+        {
+          "dest-uuid": "ef987a45-cb47-50b2-a795-a561af0e2b8a",
+          "type": "provided-by"
+        },
+        {
+          "dest-uuid": "fd569323-0057-5ac0-af7c-a2858501f7c4",
+          "type": "uses-fiber-route"
+        }
+      ],
+      "uuid": "2a8462e5-32b5-5c47-b1b2-3dc9db572ca8",
+      "value": "Delta Cloud Campus circuit C10"
+    },
+    {
+      "description": "Tidegrid Fiber circuit entering the facility at coast-entry. Backbone path F07 in the telecom extension.",
+      "meta": {
+        "access-policy": [
+          "shared-transit"
+        ],
+        "circuit-id": [
+          "C11"
+        ],
+        "entity-type": [
+          "facility-fiber-circuit"
+        ],
+        "facility-entry": [
+          "coast-entry"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "229f3561-e7ee-52cc-a3b0-3636b8719213",
+          "type": "serves-facility"
+        },
+        {
+          "dest-uuid": "ef987a45-cb47-50b2-a795-a561af0e2b8a",
+          "type": "provided-by"
+        },
+        {
+          "dest-uuid": "fd569323-0057-5ac0-af7c-a2858501f7c4",
+          "type": "uses-fiber-route"
+        }
+      ],
+      "uuid": "1dac899a-3d50-5344-ab98-dccf1bb48bb9",
+      "value": "Tideport Colocation circuit C11"
+    },
+    {
+      "description": "Corridor Exchange circuit entering the facility at reserve-entry. Backbone path F08 in the telecom extension.",
+      "meta": {
+        "access-policy": [
+          "dark-fiber"
+        ],
+        "circuit-id": [
+          "C12"
+        ],
+        "entity-type": [
+          "facility-fiber-circuit"
+        ],
+        "facility-entry": [
+          "reserve-entry"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "229f3561-e7ee-52cc-a3b0-3636b8719213",
+          "type": "serves-facility"
+        },
+        {
+          "dest-uuid": "69aa2d21-8251-52f8-91c0-c33b1f684040",
+          "type": "provided-by"
+        },
+        {
+          "dest-uuid": "1e2a886d-6ea3-5a60-bb93-f3cadf295127",
+          "type": "uses-fiber-route"
+        }
+      ],
+      "uuid": "45479e92-6b4c-52a2-a02a-b8f34f23327d",
+      "value": "Tideport Colocation circuit C12"
+    },
+    {
+      "description": "SteppeWave circuit entering the facility at yard-entry. Domestic fiber access.",
+      "meta": {
+        "access-policy": [
+          "domestic-only"
+        ],
+        "circuit-id": [
+          "C13"
+        ],
+        "entity-type": [
+          "facility-fiber-circuit"
+        ],
+        "facility-entry": [
+          "yard-entry"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "8a94d3fe-7486-5c4f-94cc-f54650c78f9e",
+          "type": "serves-facility"
+        },
+        {
+          "dest-uuid": "4bf278fc-f88d-5335-bd29-a1aa6326adff",
+          "type": "provided-by"
+        }
+      ],
+      "uuid": "a7dec315-0f73-5002-b91a-6234f2d0b1d2",
+      "value": "Steppe Edge Room circuit C13"
+    },
+    {
+      "description": "Equator Air circuit entering the facility at orchard-entry. Backbone path F10 in the telecom extension.",
+      "meta": {
+        "access-policy": [
+          "shared-transit"
+        ],
+        "circuit-id": [
+          "C14"
+        ],
+        "entity-type": [
+          "facility-fiber-circuit"
+        ],
+        "facility-entry": [
+          "orchard-entry"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "164729da-0b44-54b4-a6bf-f600310ea300",
+          "type": "serves-facility"
+        },
+        {
+          "dest-uuid": "1747fb93-72b2-54dd-add1-8852bb420adb",
+          "type": "provided-by"
+        },
+        {
+          "dest-uuid": "5d7fce06-d462-54a0-8fb7-9b5e3cccdf8b",
+          "type": "uses-fiber-route"
+        }
+      ],
+      "uuid": "f2d3e398-fa92-5a12-a0e8-aca702268acf",
+      "value": "Equator Media Vault circuit C14"
+    },
+    {
+      "description": "Normal utility feeder to Basin Compute Campus from the Velkar Distribution Area.",
+      "meta": {
+        "entity-type": [
+          "facility-power-feed"
+        ],
+        "feed-id": [
+          "E01"
+        ],
+        "feed-role": [
+          "normal"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "30b4cbe6-10ed-5f00-a81b-4de48a1b659c",
+          "type": "powers-facility"
+        },
+        {
+          "dest-uuid": "1f79396a-6b4e-5c6c-bdd4-2653746bda20",
+          "type": "draws-from"
+        }
+      ],
+      "uuid": "10bc67f2-558f-54a6-91a6-69825e746b44",
+      "value": "Basin Compute Campus feed E01"
+    },
+    {
+      "description": "Standby utility feeder to Basin Compute Campus from the Velkar Distribution Area.",
+      "meta": {
+        "entity-type": [
+          "facility-power-feed"
+        ],
+        "feed-id": [
+          "E02"
+        ],
+        "feed-role": [
+          "standby"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "30b4cbe6-10ed-5f00-a81b-4de48a1b659c",
+          "type": "powers-facility"
+        },
+        {
+          "dest-uuid": "1f79396a-6b4e-5c6c-bdd4-2653746bda20",
+          "type": "draws-from"
+        }
+      ],
+      "uuid": "44437064-e67c-53f6-bce2-a36eefb17153",
+      "value": "Basin Compute Campus feed E02"
+    },
+    {
+      "description": "Normal utility feeder to Plateau Colocation from the Caelum Distribution Area.",
+      "meta": {
+        "entity-type": [
+          "facility-power-feed"
+        ],
+        "feed-id": [
+          "E03"
+        ],
+        "feed-role": [
+          "normal"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "6e951297-c83c-5a5b-9ecf-ab1e49a4acbe",
+          "type": "powers-facility"
+        },
+        {
+          "dest-uuid": "9bba65c7-9f4c-5436-8a09-d76fe550e776",
+          "type": "draws-from"
+        }
+      ],
+      "uuid": "d9416767-4efb-59af-865e-76a3070bb685",
+      "value": "Plateau Colocation feed E03"
+    },
+    {
+      "description": "Normal utility feeder to Corridor Exchange Hall from the Ilyndor Distribution Area.",
+      "meta": {
+        "entity-type": [
+          "facility-power-feed"
+        ],
+        "feed-id": [
+          "E04"
+        ],
+        "feed-role": [
+          "normal"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "c64864e0-14cb-5172-b05a-8a2b4489b1a6",
+          "type": "powers-facility"
+        },
+        {
+          "dest-uuid": "993b1bc9-2616-5c0c-be4c-c3b8586dfebd",
+          "type": "draws-from"
+        }
+      ],
+      "uuid": "c1dca4da-7ddd-53b7-9a71-2d98355ecca4",
+      "value": "Corridor Exchange Hall feed E04"
+    },
+    {
+      "description": "Standby utility feeder to Corridor Exchange Hall from the Ilyndor Distribution Area.",
+      "meta": {
+        "entity-type": [
+          "facility-power-feed"
+        ],
+        "feed-id": [
+          "E05"
+        ],
+        "feed-role": [
+          "standby"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "c64864e0-14cb-5172-b05a-8a2b4489b1a6",
+          "type": "powers-facility"
+        },
+        {
+          "dest-uuid": "993b1bc9-2616-5c0c-be4c-c3b8586dfebd",
+          "type": "draws-from"
+        }
+      ],
+      "uuid": "0523fc0c-c9ce-5a97-89d8-310875a7b8e8",
+      "value": "Corridor Exchange Hall feed E05"
+    },
+    {
+      "description": "Normal utility feeder to Sound Research Vault from the Orinthia Distribution Area.",
+      "meta": {
+        "entity-type": [
+          "facility-power-feed"
+        ],
+        "feed-id": [
+          "E06"
+        ],
+        "feed-role": [
+          "normal"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "fad0947b-941a-56e0-b9e4-6f950ad406cb",
+          "type": "powers-facility"
+        },
+        {
+          "dest-uuid": "d01782ea-fad6-5ed1-9c9f-5cc21e183de4",
+          "type": "draws-from"
+        }
+      ],
+      "uuid": "b4ae4cb6-8106-5d19-8254-1cd3070b50d5",
+      "value": "Sound Research Vault feed E06"
+    },
+    {
+      "description": "Normal utility feeder to Delta Cloud Campus from the Neruva Distribution Area.",
+      "meta": {
+        "entity-type": [
+          "facility-power-feed"
+        ],
+        "feed-id": [
+          "E07"
+        ],
+        "feed-role": [
+          "normal"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "21f8d527-4458-516b-944e-810cbe6ef162",
+          "type": "powers-facility"
+        },
+        {
+          "dest-uuid": "16d9efa9-79d3-51fb-9dd2-34f11f87468a",
+          "type": "draws-from"
+        }
+      ],
+      "uuid": "6ef4607b-fc3f-50ee-989c-f60af56516c4",
+      "value": "Delta Cloud Campus feed E07"
+    },
+    {
+      "description": "Normal utility feeder to Tideport Colocation from the Brinax Distribution Area.",
+      "meta": {
+        "entity-type": [
+          "facility-power-feed"
+        ],
+        "feed-id": [
+          "E08"
+        ],
+        "feed-role": [
+          "normal"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "229f3561-e7ee-52cc-a3b0-3636b8719213",
+          "type": "powers-facility"
+        },
+        {
+          "dest-uuid": "d1c53679-81b7-5825-ac54-4d16b05777c9",
+          "type": "draws-from"
+        }
+      ],
+      "uuid": "a242bc8e-bd0c-5bf6-909b-36843aad9fc7",
+      "value": "Tideport Colocation feed E08"
+    },
+    {
+      "description": "Normal utility feeder to Steppe Edge Room from the Thyros Distribution Area.",
+      "meta": {
+        "entity-type": [
+          "facility-power-feed"
+        ],
+        "feed-id": [
+          "E09"
+        ],
+        "feed-role": [
+          "normal"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "8a94d3fe-7486-5c4f-94cc-f54650c78f9e",
+          "type": "powers-facility"
+        },
+        {
+          "dest-uuid": "d4f819de-4304-59ce-a095-d5e52de53b8d",
+          "type": "draws-from"
+        }
+      ],
+      "uuid": "e32d1e2b-3088-55dc-90a1-9326f9a618f2",
+      "value": "Steppe Edge Room feed E09"
+    },
+    {
+      "description": "Normal utility feeder to Equator Media Vault from the Quenari Distribution Area.",
+      "meta": {
+        "entity-type": [
+          "facility-power-feed"
+        ],
+        "feed-id": [
+          "E10"
+        ],
+        "feed-role": [
+          "normal"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "164729da-0b44-54b4-a6bf-f600310ea300",
+          "type": "powers-facility"
+        },
+        {
+          "dest-uuid": "6cd6ca5e-ea24-5cc9-a821-0ea8e8bd65a8",
+          "type": "draws-from"
+        }
+      ],
+      "uuid": "f161408a-55b4-5144-9e8f-64f0f1d0cbd7",
+      "value": "Equator Media Vault feed E10"
+    }
+  ],
+  "version": 1
+}
