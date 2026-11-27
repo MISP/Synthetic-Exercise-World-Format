@@ -1,0 +1,9 @@
+{
+  "description": "Fictional electricity generation, transmission hubs and interties, and local distribution areas on Nacre.",
+  "icon": "bolt",
+  "name": "Synthetic Exercise World - Electricity",
+  "namespace": "misp",
+  "type": "exercise-world-electricity",
+  "uuid": "679492c5-cd5d-551e-8dab-80e3d18c8a73",
+  "version": 1
+}
