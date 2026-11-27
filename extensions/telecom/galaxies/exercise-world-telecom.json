@@ -1,0 +1,9 @@
+{
+  "description": "Fictional fixed and radio access operators, and fiber interconnection on planet Nacre.",
+  "icon": "network-wired",
+  "name": "Synthetic Exercise World - Telecommunications",
+  "namespace": "misp",
+  "type": "exercise-world-telecom",
+  "uuid": "feb37965-8aec-59cf-b4a5-20bfcf5b30aa",
+  "version": 1
+}

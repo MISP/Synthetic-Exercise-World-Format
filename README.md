@@ -245,6 +245,12 @@ and their destinations within Veyra. The Kestrel Island Shaft cluster uses
 `meta.surface-site` to identify the specific island within Orinthia. The surface
 references were verified against [MISP Galaxy revision `779b780`](https://github.com/MISP/misp-galaxy/blob/779b780a13f67288d9b1a031b064fb140cdacaae/clusters/exercise-world.json).
 
+## World extensions
+
+Each extension lives under `extensions/<name>/` and adds a map layer, a guide with a tabletop case, and a MISP Galaxy definition and cluster collection. Extensions reference the base world's entities by UUID.
+
+- **Telecommunications** covers fixed and radio access operators in all ten Nacre countries, shared and restricted fiber links, and a two-link outage exercise. [Telecom extension](extensions/telecom/README.md)
+
 ## Community integrations
 
 - [Range42](https://github.com/range42), an open-source cyber range platform, is integrating

@@ -1,0 +1,652 @@
+{
+  "authors": [
+    "MISP Project"
+  ],
+  "category": "context",
+  "description": "Fictional fixed and radio access operators, and fiber interconnection on planet Nacre.",
+  "name": "Synthetic Exercise World - Telecommunications",
+  "source": "https://github.com/MISP/Synthetic-Exercise-World-Format",
+  "type": "exercise-world-telecom",
+  "uuid": "b7005cf6-a12e-5d9b-8dad-79cc57ae7b0f",
+  "values": [
+    {
+      "description": "Fixed fiber access for northern towns and businesses. Shared transit leaves Asterin on the Iron Basin Trunk.",
+      "meta": {
+        "access-networks": [
+          "fixed"
+        ],
+        "country": "Asterin Union",
+        "entity-type": [
+          "telecom-operator"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "cb97ba71-e477-4acb-9470-10f3e6c9e1a9",
+          "type": "operates-in"
+        },
+        {
+          "dest-uuid": "0c013e27-f94c-598b-b9fc-244d02e14480",
+          "type": "terminates"
+        }
+      ],
+      "uuid": "3d83a50d-7976-5da1-b751-203087492f8a",
+      "value": "Northspan Fiber"
+    },
+    {
+      "description": "Fixed broadband and mobile service. BasinLink peers over the Iron Basin Trunk, Plateau Trunk, and Trade Corridor Spur.",
+      "meta": {
+        "access-networks": [
+          "fixed",
+          "radio"
+        ],
+        "country": "Velkar Republic",
+        "entity-type": [
+          "telecom-operator"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "e4cd09cc-7be7-46ef-8989-5b9a812b49fe",
+          "type": "operates-in"
+        },
+        {
+          "dest-uuid": "0c013e27-f94c-598b-b9fc-244d02e14480",
+          "type": "terminates"
+        },
+        {
+          "dest-uuid": "ac81ac9d-f3aa-5af8-8bef-6926bbb82c92",
+          "type": "terminates"
+        },
+        {
+          "dest-uuid": "a6529ad8-d658-5197-b88f-42a302ed9480",
+          "type": "terminates"
+        }
+      ],
+      "uuid": "7bf88fa9-be22-5b6a-bcd1-40879dd64602",
+      "value": "BasinLink"
+    },
+    {
+      "description": "Fixed fiber and mobile radio. BlueBridge carries the Orinthian cable into the mainland transit network.",
+      "meta": {
+        "access-networks": [
+          "fixed",
+          "radio"
+        ],
+        "country": "Caelum Protectorate",
+        "entity-type": [
+          "telecom-operator"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "4a600b9f-b843-446f-a234-415aded47e1b",
+          "type": "operates-in"
+        },
+        {
+          "dest-uuid": "2531f94d-d514-4530-b4eb-35fce204aa36",
+          "type": "models-role-of"
+        },
+        {
+          "dest-uuid": "ac81ac9d-f3aa-5af8-8bef-6926bbb82c92",
+          "type": "terminates"
+        },
+        {
+          "dest-uuid": "0afd5e79-9716-5ad5-8d66-8dc5427efd4e",
+          "type": "terminates"
+        },
+        {
+          "dest-uuid": "b709765b-19e0-5d76-a936-b47bade6518f",
+          "type": "terminates"
+        }
+      ],
+      "uuid": "9547d310-1b5d-554f-95d7-1c1e2b223adb",
+      "value": "BlueBridge Networks"
+    },
+    {
+      "description": "Island mobile and fixed-wireless service. Pelagic carries public traffic over Island Cable and exchanges private research traffic with Polar Relay.",
+      "meta": {
+        "access-networks": [
+          "radio"
+        ],
+        "country": "Orinthia",
+        "entity-type": [
+          "telecom-operator"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "74d2286a-1b87-4984-8dd1-c5bd466ecca5",
+          "type": "operates-in"
+        },
+        {
+          "dest-uuid": "b709765b-19e0-5d76-a936-b47bade6518f",
+          "type": "terminates"
+        },
+        {
+          "dest-uuid": "6dc91d2f-d1e2-54d7-ab6c-5183780cf6e4",
+          "type": "terminates"
+        }
+      ],
+      "uuid": "9df1eaab-6203-51c4-bd84-c7343ae224c1",
+      "value": "Pelagic Radio"
+    },
+    {
+      "description": "Domestic radio for steppe towns and field sites, with local fiber backhaul and no cross-border interconnection in this exercise.",
+      "meta": {
+        "access-networks": [
+          "radio"
+        ],
+        "country": "Thyros Commonwealth",
+        "entity-type": [
+          "telecom-operator"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "970fd807-b09e-4379-9a44-bebc5d0b9869",
+          "type": "operates-in"
+        }
+      ],
+      "uuid": "4bf278fc-f88d-5335-bd29-a1aa6326adff",
+      "value": "SteppeWave"
+    },
+    {
+      "description": "Fixed and mobile access along the trade corridor. Corridor Exchange links the plateau, delta, and equatorial networks.",
+      "meta": {
+        "access-networks": [
+          "fixed",
+          "radio"
+        ],
+        "country": "Ilyndor",
+        "entity-type": [
+          "telecom-operator"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "1e875520-fb3e-4d26-a982-44a5fb7f9375",
+          "type": "operates-in"
+        },
+        {
+          "dest-uuid": "a6529ad8-d658-5197-b88f-42a302ed9480",
+          "type": "terminates"
+        },
+        {
+          "dest-uuid": "0afd5e79-9716-5ad5-8d66-8dc5427efd4e",
+          "type": "terminates"
+        },
+        {
+          "dest-uuid": "70f10d9c-d4f5-5119-8027-fd33016c7e8c",
+          "type": "terminates"
+        },
+        {
+          "dest-uuid": "1e2a886d-6ea3-5a60-bb93-f3cadf295127",
+          "type": "terminates"
+        },
+        {
+          "dest-uuid": "5d7fce06-d462-54a0-8fb7-9b5e3cccdf8b",
+          "type": "terminates"
+        }
+      ],
+      "uuid": "69aa2d21-8251-52f8-91c0-c33b1f684040",
+      "value": "Corridor Exchange"
+    },
+    {
+      "description": "Fixed and mobile service across the delta and ports, with shared transit to Ilyndor and Brinax.",
+      "meta": {
+        "access-networks": [
+          "fixed",
+          "radio"
+        ],
+        "country": "Neruva Federation",
+        "entity-type": [
+          "telecom-operator"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "cfe1b22e-38b5-4077-bb90-b2bc5fedb965",
+          "type": "operates-in"
+        },
+        {
+          "dest-uuid": "70f10d9c-d4f5-5119-8027-fd33016c7e8c",
+          "type": "terminates"
+        },
+        {
+          "dest-uuid": "fd569323-0057-5ac0-af7c-a2858501f7c4",
+          "type": "terminates"
+        }
+      ],
+      "uuid": "a8a57b75-e769-5ba1-b6b2-fdff1caa2b30",
+      "value": "DeltaReach"
+    },
+    {
+      "description": "Fixed fiber for port towns and the energy cooperative. Public transit uses the Coastal Link via Neruva.",
+      "meta": {
+        "access-networks": [
+          "fixed"
+        ],
+        "country": "Brinax Collective",
+        "entity-type": [
+          "telecom-operator"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "91f273f8-66c0-446f-bdb2-4233fd0c55ef",
+          "type": "operates-in"
+        },
+        {
+          "dest-uuid": "fd569323-0057-5ac0-af7c-a2858501f7c4",
+          "type": "terminates"
+        },
+        {
+          "dest-uuid": "1e2a886d-6ea3-5a60-bb93-f3cadf295127",
+          "type": "terminates"
+        }
+      ],
+      "uuid": "ef987a45-cb47-50b2-a795-a561af0e2b8a",
+      "value": "Tidegrid Fiber"
+    },
+    {
+      "description": "Mobile and fixed-wireless service in the equatorial belt, with the Orchard Spur providing shared transit.",
+      "meta": {
+        "access-networks": [
+          "radio"
+        ],
+        "country": "Quenari League",
+        "entity-type": [
+          "telecom-operator"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "54670ad5-49fe-4d0c-8a81-84b06a8b5050",
+          "type": "operates-in"
+        },
+        {
+          "dest-uuid": "5d7fce06-d462-54a0-8fb7-9b5e3cccdf8b",
+          "type": "terminates"
+        }
+      ],
+      "uuid": "1747fb93-72b2-54dd-add1-8852bb420adb",
+      "value": "Equator Air"
+    },
+    {
+      "description": "Domestic radio for polar settlements. Its private research cable to Orinthia carries approved research traffic only.",
+      "meta": {
+        "access-networks": [
+          "radio"
+        ],
+        "country": "Soreth Dominion",
+        "entity-type": [
+          "telecom-operator"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "c4be7f53-6d08-4472-8480-49ccb7946e78",
+          "type": "operates-in"
+        },
+        {
+          "dest-uuid": "6dc91d2f-d1e2-54d7-ab6c-5183780cf6e4",
+          "type": "terminates"
+        }
+      ],
+      "uuid": "8f31b6a5-fa95-5e4b-bdc0-7e2c7ba3d6d6",
+      "value": "Polar Relay"
+    },
+    {
+      "description": "Carries shared transit between Asterin Union and Velkar Republic.",
+      "meta": {
+        "entity-type": [
+          "fiber-route"
+        ],
+        "fiber-medium": [
+          "terrestrial"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "route-id": [
+          "F01"
+        ],
+        "service-state": [
+          "shared-transit"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "3d83a50d-7976-5da1-b751-203087492f8a",
+          "type": "terminated-by"
+        },
+        {
+          "dest-uuid": "7bf88fa9-be22-5b6a-bcd1-40879dd64602",
+          "type": "terminated-by"
+        }
+      ],
+      "uuid": "0c013e27-f94c-598b-b9fc-244d02e14480",
+      "value": "Iron Basin Trunk"
+    },
+    {
+      "description": "The direct shared-transit link between Velkar Republic and Caelum Protectorate.",
+      "meta": {
+        "entity-type": [
+          "fiber-route"
+        ],
+        "fiber-medium": [
+          "terrestrial"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "route-id": [
+          "F02"
+        ],
+        "service-state": [
+          "shared-transit"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "7bf88fa9-be22-5b6a-bcd1-40879dd64602",
+          "type": "terminated-by"
+        },
+        {
+          "dest-uuid": "9547d310-1b5d-554f-95d7-1c1e2b223adb",
+          "type": "terminated-by"
+        }
+      ],
+      "uuid": "ac81ac9d-f3aa-5af8-8bef-6926bbb82c92",
+      "value": "Plateau Trunk"
+    },
+    {
+      "description": "Connects Velkar Republic and Ilyndor. It forms an alternate transit path with the Ridge Bypass.",
+      "meta": {
+        "entity-type": [
+          "fiber-route"
+        ],
+        "fiber-medium": [
+          "terrestrial"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "route-id": [
+          "F03"
+        ],
+        "service-state": [
+          "shared-transit"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "7bf88fa9-be22-5b6a-bcd1-40879dd64602",
+          "type": "terminated-by"
+        },
+        {
+          "dest-uuid": "69aa2d21-8251-52f8-91c0-c33b1f684040",
+          "type": "terminated-by"
+        }
+      ],
+      "uuid": "a6529ad8-d658-5197-b88f-42a302ed9480",
+      "value": "Trade Corridor Spur"
+    },
+    {
+      "description": "Connects Caelum Protectorate and Ilyndor and provides a second mainland path to Velkar Republic.",
+      "meta": {
+        "entity-type": [
+          "fiber-route"
+        ],
+        "fiber-medium": [
+          "terrestrial"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "route-id": [
+          "F04"
+        ],
+        "service-state": [
+          "shared-transit"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "9547d310-1b5d-554f-95d7-1c1e2b223adb",
+          "type": "terminated-by"
+        },
+        {
+          "dest-uuid": "69aa2d21-8251-52f8-91c0-c33b1f684040",
+          "type": "terminated-by"
+        }
+      ],
+      "uuid": "0afd5e79-9716-5ad5-8d66-8dc5427efd4e",
+      "value": "Ridge Bypass"
+    },
+    {
+      "description": "Orinthia's only shared-transit fiber link. Its island radio access uses this fiber for shared transit.",
+      "meta": {
+        "entity-type": [
+          "fiber-route"
+        ],
+        "fiber-medium": [
+          "subsea"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "route-id": [
+          "F05"
+        ],
+        "service-state": [
+          "shared-transit"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "9547d310-1b5d-554f-95d7-1c1e2b223adb",
+          "type": "terminated-by"
+        },
+        {
+          "dest-uuid": "9df1eaab-6203-51c4-bd84-c7343ae224c1",
+          "type": "terminated-by"
+        }
+      ],
+      "uuid": "b709765b-19e0-5d76-a936-b47bade6518f",
+      "value": "Island Cable"
+    },
+    {
+      "description": "Carries shared transit between Ilyndor and Neruva Federation.",
+      "meta": {
+        "entity-type": [
+          "fiber-route"
+        ],
+        "fiber-medium": [
+          "terrestrial"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "route-id": [
+          "F06"
+        ],
+        "service-state": [
+          "shared-transit"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "69aa2d21-8251-52f8-91c0-c33b1f684040",
+          "type": "terminated-by"
+        },
+        {
+          "dest-uuid": "a8a57b75-e769-5ba1-b6b2-fdff1caa2b30",
+          "type": "terminated-by"
+        }
+      ],
+      "uuid": "70f10d9c-d4f5-5119-8027-fd33016c7e8c",
+      "value": "Delta Trunk"
+    },
+    {
+      "description": "Carries shared transit between the delta and Brinax Collective.",
+      "meta": {
+        "entity-type": [
+          "fiber-route"
+        ],
+        "fiber-medium": [
+          "terrestrial"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "route-id": [
+          "F07"
+        ],
+        "service-state": [
+          "shared-transit"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "a8a57b75-e769-5ba1-b6b2-fdff1caa2b30",
+          "type": "terminated-by"
+        },
+        {
+          "dest-uuid": "ef987a45-cb47-50b2-a795-a561af0e2b8a",
+          "type": "terminated-by"
+        }
+      ],
+      "uuid": "fd569323-0057-5ac0-af7c-a2858501f7c4",
+      "value": "Coastal Link"
+    },
+    {
+      "description": "Installed spare fiber between Ilyndor and Brinax Collective. It carries no traffic until both operators approve and commission it.",
+      "meta": {
+        "entity-type": [
+          "fiber-route"
+        ],
+        "fiber-medium": [
+          "terrestrial"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "route-id": [
+          "F08"
+        ],
+        "service-state": [
+          "dark-fiber"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "69aa2d21-8251-52f8-91c0-c33b1f684040",
+          "type": "terminated-by"
+        },
+        {
+          "dest-uuid": "ef987a45-cb47-50b2-a795-a561af0e2b8a",
+          "type": "terminated-by"
+        }
+      ],
+      "uuid": "1e2a886d-6ea3-5a60-bb93-f3cadf295127",
+      "value": "Cooperative Reserve"
+    },
+    {
+      "description": "Carries approved research traffic between Orinthia and Soreth Dominion. It provides no public transit.",
+      "meta": {
+        "entity-type": [
+          "fiber-route"
+        ],
+        "fiber-medium": [
+          "subsea"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "route-id": [
+          "F09"
+        ],
+        "service-state": [
+          "private-only"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "9df1eaab-6203-51c4-bd84-c7343ae224c1",
+          "type": "terminated-by"
+        },
+        {
+          "dest-uuid": "8f31b6a5-fa95-5e4b-bdc0-7e2c7ba3d6d6",
+          "type": "terminated-by"
+        }
+      ],
+      "uuid": "6dc91d2f-d1e2-54d7-ab6c-5183780cf6e4",
+      "value": "Polar Research Cable"
+    },
+    {
+      "description": "Carries shared transit between the Ilyndor trade corridor and Quenari League's radio operator.",
+      "meta": {
+        "entity-type": [
+          "fiber-route"
+        ],
+        "fiber-medium": [
+          "terrestrial"
+        ],
+        "planet": [
+          "Nacre"
+        ],
+        "route-id": [
+          "F10"
+        ],
+        "service-state": [
+          "shared-transit"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "69aa2d21-8251-52f8-91c0-c33b1f684040",
+          "type": "terminated-by"
+        },
+        {
+          "dest-uuid": "1747fb93-72b2-54dd-add1-8852bb420adb",
+          "type": "terminated-by"
+        }
+      ],
+      "uuid": "5d7fce06-d462-54a0-8fb7-9b5e3cccdf8b",
+      "value": "Orchard Spur"
+    }
+  ],
+  "version": 1
+}

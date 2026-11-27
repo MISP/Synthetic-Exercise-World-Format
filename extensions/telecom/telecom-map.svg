@@ -1,0 +1,282 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" viewBox="0 0 1540 1008" role="img" aria-labelledby="title description">
+  <title id="title">Nacre telecommunications — access and fiber</title>
+  <desc id="description">Ten operators provide fixed and radio service across Nacre. The map distinguishes shared terrestrial and subsea links, a private research cable, unlit reserve fiber, and the domestic-only SteppeWave network.</desc>
+  <defs>
+    <linearGradient id="sea" x2="0" y2="1">
+      <stop stop-color="#173747"/>
+      <stop offset="1" stop-color="#102532"/>
+    </linearGradient>
+    <pattern id="graticule" width="66" height="66" patternUnits="userSpaceOnUse">
+      <path d="M 66,0 H 0 V 66" fill="none" stroke="#9fbdc8" stroke-opacity=".13"/>
+    </pattern>
+    <clipPath id="map-frame"><rect x="48" y="171" width="1052" height="786" rx="12"/></clipPath>
+    <style>
+      text { font-family: 'DejaVu Sans', sans-serif; }
+      .ink { fill: #102f39; }
+      .muted { fill: #44616a; }
+      .light { fill: #edf5f0; }
+      .sea-label { fill: #aec7d1; font-size: 14px; letter-spacing: 3px; }
+      .caps { font-size: 13px; font-weight: 700; letter-spacing: 2.2px; }
+      .title { font-size: 57px; font-weight: 700; letter-spacing: -2px; }
+      .subhead { font-size: 18px; }
+      .site-label { fill: #f7fff9; stroke: #122a35; stroke-width: 4px; stroke-linejoin: round; paint-order: stroke fill; font-weight: 700; font-size: 18px; }
+      .operator { font-size: 16px; font-weight: 700; }
+      .support { font-size: 13px; }
+      .access { fill: #245968; font-size: 13px; font-weight: 700; }
+      .operator-list { fill: #fdfcf5; stroke: #cbd5ce; }
+      .divider { stroke: #cbd5ce; }
+      .connection { fill: none; stroke-width: 3.3; stroke-linecap: round; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
+      .route-outline { fill: none; stroke: #142934; stroke-width: 6; stroke-linecap: round; vector-effect: non-scaling-stroke; }
+      .shared-terrestrial { stroke: #84eed0; }
+      .shared-subsea { stroke: #91dcff; stroke-dasharray: 10 6; }
+      .private-only { stroke: #ffc09d; stroke-dasharray: 2 7; }
+      .dark-fiber { stroke: #d3c5ee; stroke-dasharray: 11 6 2 6; }
+      .route-id { fill: #f0f7f5; font: 700 12px 'DejaVu Sans Mono', monospace; text-anchor: middle; }
+    </style>
+  </defs>
+
+  <rect width="1540" height="1008" fill="#f3f1e6"/>
+  <text x="48" y="56" class="caps muted">SYNTHETIC EXERCISE WORLD ATLAS</text>
+  <text x="48" y="115" class="title ink">Nacre telecommunications</text>
+  <text x="51" y="145" class="subhead muted">Fixed and radio access, fiber routes, and interconnection</text>
+  <text x="1492" y="114" text-anchor="end" class="caps muted">WORLD EXTENSION</text>
+  <path d="M 48,975 H 1492" class="divider"/>
+  <text x="48" y="993" class="support muted">Schematic routes and operator sites · Basemap adapted from the Synthetic Exercise World atlas</text>
+  <text x="1492" y="993" text-anchor="end" class="support muted">CC BY 4.0</text>
+
+  <g id="nacre-basemap" inkscape:groupmode="layer" inkscape:label="Nacre basemap" clip-path="url(#map-frame)">
+    <rect x="48" y="171" width="1052" height="786" fill="url(#sea)"/>
+    <rect x="48" y="171" width="1052" height="786" fill="url(#graticule)"/>
+    <g transform="translate(-172 151) scale(1.47)" stroke="#8299a3" stroke-width=".9" stroke-linejoin="round">
+      <path d="M 179.14 505.81 L 207.84 430.48 L 211.43 315.69 L 186.32 226.02 L 236.54 139.92 L 329.80 71.77 L 469.70 43.07 L 595.25 53.83 L 666.99 93.29 L 684.93 143.51 L 742.32 197.32 L 792.54 269.06 L 821.24 344.39 L 817.65 448.42 L 771.02 516.57 L 677.75 559.62 L 512.75 563.21 L 315.45 548.86 z" fill="#3b6880" stroke="#4c7285" opacity=".42"/>
+      <path d="M 211.43 226.02 L 229.36 179.38 L 265.23 132.75 L 301.10 104.05 L 365.67 93.29 L 426.65 114.81 L 484.05 165.03 L 437.42 200.91 L 347.74 287.00 L 275.99 261.89 L 232.95 240.36 z" fill="#314b60"/>
+      <path d="M 365.67 93.29 L 415.89 68.18 L 491.22 57.42 L 570.14 68.18 L 634.71 100.47 L 641.88 132.75 L 580.90 136.34 L 498.40 129.16 L 426.65 114.81 z" fill="#3c4c62"/>
+      <path d="M 437.42 200.91 L 484.05 165.03 L 580.90 136.34 L 641.88 154.27 L 656.23 197.32 L 634.71 240.36 L 555.79 243.95 L 476.87 233.19 z" fill="#44445d"/>
+      <path d="M 347.74 287.00 L 437.42 200.91 L 476.87 233.19 L 555.79 243.95 L 534.27 279.82 L 509.16 337.22 L 419.48 351.57 L 354.91 333.63 L 304.69 312.11 z" fill="#534a47"/>
+      <path d="M 555.79 243.95 L 634.71 240.36 L 656.23 197.32 L 724.39 240.36 L 763.85 308.52 L 735.15 365.91 L 702.86 387.44 L 598.84 373.09 L 534.27 279.82 z" fill="#4c4e40"/>
+      <path d="M 258.06 391.02 L 304.69 312.11 L 354.91 333.63 L 419.48 351.57 L 509.16 337.22 L 598.84 373.09 L 631.12 408.96 L 559.38 437.66 L 426.65 416.13 L 326.21 423.31 z" fill="#51524b"/>
+      <path d="M 200.66 477.12 L 258.06 391.02 L 326.21 423.31 L 426.65 416.13 L 559.38 437.66 L 570.14 512.99 L 469.70 538.10 L 329.80 527.34 L 232.95 505.81 z" fill="#3a544a"/>
+      <path d="M 570.14 512.99 L 559.38 437.66 L 631.12 408.96 L 695.69 430.48 L 735.15 477.12 L 692.10 527.34 L 609.60 534.51 z" fill="#305750"/>
+      <path d="M 598.84 373.09 L 702.86 387.44 L 763.85 416.13 L 778.19 462.77 L 735.15 477.12 L 695.69 430.48 L 631.12 408.96 z" fill="#33566a"/>
+      <path d="M 681.34 172.21 L 699.28 147.10 L 735.15 154.27 L 749.50 179.38 L 731.56 204.49 L 695.69 200.91 z" fill="#564957"/>
+      <path d="M 745.91 136.34 L 771.02 125.58 L 792.54 143.51 L 785.37 168.62 L 756.67 172.21 z" fill="#564957"/>
+      <path d="M 717.21 111.23 L 735.15 93.29 L 763.85 100.47 L 771.02 121.99 L 749.50 136.34 L 724.39 132.75 z" fill="#564957"/>
+      <path d="M 663.41 125.58 L 681.34 111.23 L 702.86 118.40 L 695.69 139.92 L 670.58 143.51 z" fill="#564957"/>
+      <path d="M 788.96 211.67 L 814.07 200.91 L 828.41 222.43 L 810.48 243.95 L 785.37 236.78 z" fill="#564957"/>
+      <path d="M 699.28 240.36 L 724.39 222.43 L 749.50 233.19 L 742.32 254.71 L 710.04 258.30 z" fill="#564957"/>
+      <path d="M 638.30 182.97 L 656.23 168.62 L 670.58 182.97 L 663.41 200.91 L 641.88 200.91 z" fill="#564957"/>
+    </g>
+    <text x="77" y="204" class="caps light">NACRE · SURFACE NETWORK</text>
+    <g transform="translate(92 260)" fill="#e4f0ed">
+      <text y="-20" x="0" text-anchor="middle" font-size="15" font-weight="700">N</text>
+      <path d="M 0,-12 8,11 0,6 -8,11 Z M 0,14 V 26" stroke="#e4f0ed" stroke-width="1.5"/>
+    </g>
+    <text x="1015" y="238" text-anchor="end" class="sea-label">NORTHERN AZURE</text>
+    <text x="83" y="783" class="sea-label">SOUTHERN</text>
+    <text x="83" y="807" class="sea-label">AZURE</text>
+  </g>
+
+  <g id="telecom-overlay" inkscape:groupmode="layer" inkscape:label="Telecom routes and operators" clip-path="url(#map-frame)">
+    <g transform="translate(-172 151) scale(1.47)">
+      <g id="route-F01" data-service="shared-transit" data-medium="terrestrial">
+        <title>F01 · Iron Basin Trunk</title>
+        <path d="M 298,158 C 331,193 366,239 421,287" class="route-outline"/>
+        <path d="M 298,158 C 331,193 366,239 421,287" class="connection shared-terrestrial"/>
+      </g>
+      <g id="route-F02" data-service="shared-transit" data-medium="terrestrial">
+        <title>F02 · Plateau Trunk</title>
+        <path d="M 421,287 C 452,264 485,216 530,200" class="route-outline"/>
+        <path d="M 421,287 C 452,264 485,216 530,200" class="connection shared-terrestrial"/>
+      </g>
+      <g id="route-F03" data-service="shared-transit" data-medium="terrestrial">
+        <title>F03 · Trade Corridor Spur</title>
+        <path d="M 421,287 C 420,331 462,344 482,384" class="route-outline"/>
+        <path d="M 421,287 C 420,331 462,344 482,384" class="connection shared-terrestrial"/>
+      </g>
+      <g id="route-F04" data-service="shared-transit" data-medium="terrestrial">
+        <title>F04 · Ridge Bypass</title>
+        <path d="M 530,200 C 538,258 501,321 482,384" class="route-outline"/>
+        <path d="M 530,200 C 538,258 501,321 482,384" class="connection shared-terrestrial"/>
+      </g>
+      <g id="route-F05" data-service="shared-transit" data-medium="subsea">
+        <title>F05 · Island Cable</title>
+        <path d="M 530,200 C 596,195 659,211 727,181" class="route-outline"/>
+        <path d="M 530,200 C 596,195 659,211 727,181" class="connection shared-subsea"/>
+      </g>
+      <g id="route-F06" data-service="shared-transit" data-medium="terrestrial">
+        <title>F06 · Delta Trunk</title>
+        <path d="M 482,384 C 574,383 642,399 709,425" class="route-outline"/>
+        <path d="M 482,384 C 574,383 642,399 709,425" class="connection shared-terrestrial"/>
+      </g>
+      <g id="route-F07" data-service="shared-transit" data-medium="terrestrial">
+        <title>F07 · Coastal Link</title>
+        <path d="M 709,425 Q 683,458 645,472" class="route-outline"/>
+        <path d="M 709,425 Q 683,458 645,472" class="connection shared-terrestrial"/>
+      </g>
+      <g id="route-F08" data-service="dark-fiber" data-medium="terrestrial">
+        <title>F08 · Cooperative Reserve</title>
+        <path d="M 482,384 C 536,423 596,442 645,472" class="route-outline"/>
+        <path d="M 482,384 C 536,423 596,442 645,472" class="connection dark-fiber"/>
+      </g>
+      <g id="route-F09" data-service="private-only" data-medium="subsea">
+        <title>F09 · Polar Research Cable</title>
+        <path d="M 727,181 C 683,116 643,100 518,100" class="route-outline"/>
+        <path d="M 727,181 C 683,116 643,100 518,100" class="connection private-only"/>
+      </g>
+      <g id="route-F10" data-service="shared-transit" data-medium="terrestrial">
+        <title>F10 · Orchard Spur</title>
+        <path d="M 482,384 Q 407,440 335,465" class="route-outline"/>
+        <path d="M 482,384 Q 407,440 335,465" class="connection shared-terrestrial"/>
+      </g>
+    </g>
+    <g transform="translate(336.6 461.2)">
+      <rect x="-17" y="-9" width="34" height="18" rx="4" fill="#16313d" stroke="#9cb4bc" stroke-opacity=".72"/>
+      <text y="4" class="route-id">F01</text>
+    </g>
+    <g transform="translate(516.0 492.0)">
+      <rect x="-17" y="-9" width="34" height="18" rx="4" fill="#16313d" stroke="#9cb4bc" stroke-opacity=".72"/>
+      <text y="4" class="route-id">F02</text>
+    </g>
+    <g transform="translate(480.7 639.0)">
+      <rect x="-17" y="-9" width="34" height="18" rx="4" fill="#16313d" stroke="#9cb4bc" stroke-opacity=".72"/>
+      <text y="4" class="route-id">F03</text>
+    </g>
+    <g transform="translate(607.1 577.3)">
+      <rect x="-17" y="-9" width="34" height="18" rx="4" fill="#16313d" stroke="#9cb4bc" stroke-opacity=".72"/>
+      <text y="4" class="route-id">F04</text>
+    </g>
+    <g transform="translate(755.6 452.4)">
+      <rect x="-17" y="-9" width="34" height="18" rx="4" fill="#16313d" stroke="#9cb4bc" stroke-opacity=".72"/>
+      <text y="4" class="route-id">F05</text>
+    </g>
+    <g transform="translate(718.8 727.2)">
+      <rect x="-17" y="-9" width="34" height="18" rx="4" fill="#16313d" stroke="#9cb4bc" stroke-opacity=".72"/>
+      <text y="4" class="route-id">F06</text>
+    </g>
+    <g transform="translate(827.6 812.5)">
+      <rect x="-17" y="-9" width="34" height="18" rx="4" fill="#16313d" stroke="#9cb4bc" stroke-opacity=".72"/>
+      <text y="4" class="route-id">F07</text>
+    </g>
+    <g transform="translate(642.4 781.6)">
+      <rect x="-17" y="-9" width="34" height="18" rx="4" fill="#16313d" stroke="#9cb4bc" stroke-opacity=".72"/>
+      <text y="4" class="route-id">F08</text>
+    </g>
+    <g transform="translate(757.0 320.0)">
+      <rect x="-17" y="-9" width="34" height="18" rx="4" fill="#16313d" stroke="#9cb4bc" stroke-opacity=".72"/>
+      <text y="4" class="route-id">F09</text>
+    </g>
+    <g transform="translate(423.4 781.6)">
+      <rect x="-17" y="-9" width="34" height="18" rx="4" fill="#16313d" stroke="#9cb4bc" stroke-opacity=".72"/>
+      <text y="4" class="route-id">F10</text>
+    </g>
+    <g id="operator-AST" transform="translate(266.1 383.3)">
+      <title>Northspan Fiber · Asterin Union</title>
+      <circle r="8.5" fill="#f7fcf6" stroke="#142934" stroke-width="2.5"/>
+      <circle r="2.8" fill="#276d76"/>
+      <text x="0" y="-20" text-anchor="middle" class="site-label">Northspan Fiber</text>
+    </g>
+    <g id="operator-VEL" transform="translate(446.9 572.9)">
+      <title>BasinLink · Velkar Republic</title>
+      <circle r="8.5" fill="#f7fcf6" stroke="#142934" stroke-width="2.5"/>
+      <circle r="2.8" fill="#276d76"/>
+      <text x="-16" y="24" text-anchor="end" class="site-label">BasinLink</text>
+    </g>
+    <g id="operator-CAE" transform="translate(607.1 445.0)">
+      <title>BlueBridge Networks · Caelum Protectorate</title>
+      <circle r="8.5" fill="#f7fcf6" stroke="#142934" stroke-width="2.5"/>
+      <circle r="2.8" fill="#276d76"/>
+      <text x="-17" y="-18" text-anchor="end" class="site-label">BlueBridge Networks</text>
+    </g>
+    <g id="operator-ORI" transform="translate(896.7 417.1)">
+      <title>Pelagic Radio · Orinthia</title>
+      <circle r="8.5" fill="#f7fcf6" stroke="#142934" stroke-width="2.5"/>
+      <circle r="2.8" fill="#276d76"/>
+      <text x="20" y="20" text-anchor="start" class="site-label">Pelagic Radio</text>
+    </g>
+    <g id="operator-THY" transform="translate(824.7 606.7)">
+      <title>SteppeWave · Thyros Commonwealth</title>
+      <circle r="8.5" fill="#f7fcf6" stroke="#142934" stroke-width="2.5"/>
+      <circle r="2.8" fill="#276d76"/>
+      <text x="16" y="0" text-anchor="start" class="site-label">SteppeWave</text>
+      <text x="16" y="19" class="support light">Domestic radio only</text>
+    </g>
+    <g id="operator-ILY" transform="translate(536.5 715.5)">
+      <title>Corridor Exchange · Ilyndor</title>
+      <circle r="8.5" fill="#f7fcf6" stroke="#142934" stroke-width="2.5"/>
+      <circle r="2.8" fill="#276d76"/>
+      <text x="-17" y="-8" text-anchor="end" class="site-label">Corridor Exchange</text>
+    </g>
+    <g id="operator-NER" transform="translate(870.2 775.8)">
+      <title>DeltaReach · Neruva Federation</title>
+      <circle r="8.5" fill="#f7fcf6" stroke="#142934" stroke-width="2.5"/>
+      <circle r="2.8" fill="#276d76"/>
+      <text x="16" y="-8" text-anchor="start" class="site-label">DeltaReach</text>
+    </g>
+    <g id="operator-BRI" transform="translate(776.1 844.8)">
+      <title>Tidegrid Fiber · Brinax Collective</title>
+      <circle r="8.5" fill="#f7fcf6" stroke="#142934" stroke-width="2.5"/>
+      <circle r="2.8" fill="#276d76"/>
+      <text x="16" y="24" text-anchor="start" class="site-label">Tidegrid Fiber</text>
+    </g>
+    <g id="operator-QUE" transform="translate(320.4 834.5)">
+      <title>Equator Air · Quenari League</title>
+      <circle r="8.5" fill="#f7fcf6" stroke="#142934" stroke-width="2.5"/>
+      <circle r="2.8" fill="#276d76"/>
+      <text x="0" y="25" text-anchor="middle" class="site-label">Equator Air</text>
+    </g>
+    <g id="operator-SOR" transform="translate(589.5 298.0)">
+      <title>Polar Relay · Soreth Dominion</title>
+      <circle r="8.5" fill="#f7fcf6" stroke="#142934" stroke-width="2.5"/>
+      <circle r="2.8" fill="#276d76"/>
+      <text x="0" y="-20" text-anchor="middle" class="site-label">Polar Relay</text>
+    </g>
+  </g>
+  <rect x="48" y="171" width="1052" height="786" rx="12" fill="none" stroke="#89a5ae"/>
+
+  <rect x="1122" y="171" width="370" height="786" rx="12" class="operator-list"/>
+  <text x="1146" y="208" class="caps muted">OPERATORS AND ACCESS</text>
+  <text x="1146" y="240" class="operator ink">Northspan Fiber</text>
+  <text x="1146" y="256" class="support muted">Asterin Union</text>
+  <text x="1468" y="245" text-anchor="end" class="access">Fixed</text>
+  <text x="1146" y="279" class="operator ink">BasinLink</text>
+  <text x="1146" y="295" class="support muted">Velkar Republic</text>
+  <text x="1468" y="284" text-anchor="end" class="access">Fixed + Radio</text>
+  <text x="1146" y="318" class="operator ink">BlueBridge Networks</text>
+  <text x="1146" y="334" class="support muted">Caelum Protectorate</text>
+  <text x="1468" y="323" text-anchor="end" class="access">Fixed + Radio</text>
+  <text x="1146" y="357" class="operator ink">Pelagic Radio</text>
+  <text x="1146" y="373" class="support muted">Orinthia</text>
+  <text x="1468" y="362" text-anchor="end" class="access">Radio</text>
+  <text x="1146" y="396" class="operator ink">SteppeWave</text>
+  <text x="1146" y="412" class="support muted">Thyros Commonwealth</text>
+  <text x="1468" y="401" text-anchor="end" class="access">Radio</text>
+  <text x="1146" y="435" class="operator ink">Corridor Exchange</text>
+  <text x="1146" y="451" class="support muted">Ilyndor</text>
+  <text x="1468" y="440" text-anchor="end" class="access">Fixed + Radio</text>
+  <text x="1146" y="474" class="operator ink">DeltaReach</text>
+  <text x="1146" y="490" class="support muted">Neruva Federation</text>
+  <text x="1468" y="479" text-anchor="end" class="access">Fixed + Radio</text>
+  <text x="1146" y="513" class="operator ink">Tidegrid Fiber</text>
+  <text x="1146" y="529" class="support muted">Brinax Collective</text>
+  <text x="1468" y="518" text-anchor="end" class="access">Fixed</text>
+  <text x="1146" y="552" class="operator ink">Equator Air</text>
+  <text x="1146" y="568" class="support muted">Quenari League</text>
+  <text x="1468" y="557" text-anchor="end" class="access">Radio</text>
+  <text x="1146" y="591" class="operator ink">Polar Relay</text>
+  <text x="1146" y="607" class="support muted">Soreth Dominion</text>
+  <text x="1468" y="596" text-anchor="end" class="access">Radio</text>
+  <path d="M 1146,630 H 1468" class="divider"/>
+  <text x="1146" y="660" class="caps muted">FIBER AND SERVICE</text>
+  <rect x="1146" y="676" width="66" height="162" rx="7" fill="#173747"/>
+  <path d="M 1156,703 H 1202" class="connection shared-terrestrial"/>
+  <text x="1227" y="708" class="operator ink">Shared transit · terrestrial</text>
+  <path d="M 1156,739 H 1202" class="connection shared-subsea"/>
+  <text x="1227" y="744" class="operator ink">Shared transit · subsea</text>
+  <path d="M 1156,775 H 1202" class="connection private-only"/>
+  <text x="1227" y="780" class="operator ink">Private research · subsea</text>
+  <path d="M 1156,811 H 1202" class="connection dark-fiber"/>
+  <text x="1227" y="816" class="operator ink">Unlit reserve · terrestrial</text>
+  <text x="1146" y="870" class="support muted">Shared transit carries public cross-border traffic.</text>
+  <text x="1146" y="893" class="support muted">Private fiber carries approved research traffic.</text>
+  <text x="1146" y="916" class="support muted">Unlit fiber carries no traffic.</text>
+</svg>
