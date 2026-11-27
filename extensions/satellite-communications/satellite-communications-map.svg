@@ -1,0 +1,470 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" viewBox="0 0 1540 1392" role="img" aria-labelledby="title description">
+  <title id="title">Nacre satellite communications — GEO, MEO, and LEO</title>
+  <desc id="description">Three services connect ground sites and satellites. A geostationary relay serves Polar Clinic VSAT, tracked MEO relays connect Orinthia and Caelum, and an optical LEO mesh connects Orinthia to gateways in Caelum and Ilyndor. The ground inset shows telecom handoffs. Coverage maps compare a fixed GEO beam, overlapping MEO windows, and LEO spot beams.</desc>
+  <defs>
+    <linearGradient id="orbit-background" x2="0" y2="1">
+      <stop stop-color="#203047"/>
+      <stop offset="1" stop-color="#15243a"/>
+    </linearGradient>
+    <pattern id="graticule" width="46" height="46" patternUnits="userSpaceOnUse">
+      <path d="M 46,0 H 0 V 46" fill="none" stroke="#b1c3da" stroke-opacity=".09"/>
+    </pattern>
+    <clipPath id="frame"><rect x="48" y="171" width="1052" height="786" rx="12"/></clipPath>
+    <style>
+      text { font-family: 'DejaVu Sans', sans-serif; }
+      .ink { fill: #223145; }
+      .muted { fill: #475b72; }
+      .light { fill: #f1f5f9; }
+      .soft { fill: #bac9dc; }
+      .caps { font-size: 13px; font-weight: 700; letter-spacing: 2px; }
+      .title { font-size: 56px; font-weight: 700; letter-spacing: -2px; }
+      .subtitle { font-size: 18px; }
+      .orbit { font-size: 34px; font-weight: 700; letter-spacing: -.8px; }
+      .body { font-size: 15px; font-weight: 700; }
+      .support { font-size: 13px; }
+      .small { font-size: 12px; }
+      .node-name { fill: #f4f6f8; font-size: 13px; stroke: #1e2d43; stroke-width: 4px; paint-order: stroke fill; stroke-linejoin: round; }
+      .sidebar { fill: #fffcf8; stroke: #cbd1d8; }
+      .divider { stroke: #cbd1d8; }
+      .orbital-divider { stroke: #7689a4; stroke-opacity: .48; }
+      .geo-link, .meo-a, .meo-b, .leo-radio, .optical, .ground-fiber, .ground-subsea, .link-outline { fill: none; stroke-linecap: round; stroke-linejoin: round; }
+      .link-outline { stroke: #16253a; stroke-width: 5.8; }
+      .geo-link { stroke: #ffd2a4; stroke-width: 3; stroke-dasharray: 4 5; }
+      .meo-a { stroke: #a3eed0; stroke-width: 3; }
+      .meo-b { stroke: #a3eed0; stroke-width: 3; stroke-dasharray: 4 5; }
+      .leo-radio { stroke: #a3dcff; stroke-width: 3; stroke-dasharray: 4 5; }
+      .optical { stroke: #e5caff; stroke-width: 3.2; }
+      .ground-fiber { stroke: #91e7c9; stroke-width: 2; }
+      .ground-subsea { stroke: #a4d8fc; stroke-width: 2; stroke-dasharray: 4 3; }
+      .site-icon { fill: #f2e6cc; stroke: #17273a; stroke-width: 1.5; }
+      .icon-detail { fill: none; stroke: #2b425a; stroke-width: 1.4; stroke-linecap: round; }
+      .panel { fill: #7ea9ce; stroke: #12243a; stroke-width: 1.2; }
+      .satellite-body { fill: #f5edda; stroke: #16263b; stroke-width: 1.4; }
+      .route-id { fill: #eef4fa; font: 700 11px 'DejaVu Sans Mono', monospace; text-anchor: middle; }
+      .ground-label { fill: #ecf4f5; font: 700 11px 'DejaVu Sans Mono', monospace; paint-order: stroke fill; stroke: #1e2d43; stroke-width: 3px; }
+    </style>
+  </defs>
+
+  <rect width="1540" height="1392" fill="#f2f0e9"/>
+  <text x="48" y="56" class="caps muted">SYNTHETIC EXERCISE WORLD ATLAS</text>
+  <text x="48" y="115" class="title ink">Nacre satellite communications</text>
+  <text x="51" y="145" class="subtitle muted">GEO VSAT, MEO backhaul, and meshed low-latency LEO</text>
+  <text x="1492" y="114" text-anchor="end" class="caps muted">WORLD EXTENSION</text>
+  <path d="M 48,1360 H 1492" class="divider"/>
+  <text x="48" y="1378" class="support muted">Logical links and schematic service areas · Basemap adapted from the Synthetic Exercise World atlas</text>
+  <text x="1492" y="1378" text-anchor="end" class="support muted">CC BY 4.0</text>
+
+  <g clip-path="url(#frame)">
+    <rect x="48" y="171" width="1052" height="786" fill="url(#orbit-background)"/>
+    <rect x="48" y="171" width="1052" height="786" fill="url(#graticule)"/>
+    <path d="M 48,201 H 1100 M 48,355 H 1100 M 48,495 H 1100 M 48,707 H 1100 M 266,201 V 707" class="orbital-divider"/>
+    <text x="76" y="191" class="caps soft">ORBITAL PATHS</text>
+    <text x="1073" y="191" text-anchor="end" class="small soft">Topology view</text>
+  </g>
+
+  <g id="orbit-geo-layer" inkscape:groupmode="layer" inkscape:label="GEO links and sites">
+    <text x="77" y="246" class="orbit" fill="#ffd2a4">GEO</text>
+    <text x="78" y="274" class="body light">Fixed satellite relay</text>
+    <text x="78" y="295" class="support soft">Managed VSAT dispatch</text>
+    <g id="link-G01" data-kind="ground-radio" data-window="">
+      <title>G01 · Polar Clinic Access</title>
+      <path d="M 365,312 632,255" class="link-outline"/>
+      <path d="M 365,312 632,255" class="geo-link"/>
+    </g>
+    <g id="link-G02" data-kind="ground-radio" data-window="">
+      <title>G02 · Velkar Teleport Feeder</title>
+      <path d="M 632,255 898,312" class="link-outline"/>
+      <path d="M 632,255 898,312" class="geo-link"/>
+    </g>
+    <g transform="translate(500 277)">
+      <rect x="-17" y="-9" width="34" height="18" rx="4" fill="#263952" stroke="#9cb4ce" stroke-opacity=".76"/>
+      <text y="4" class="route-id">G01</text>
+    </g>
+    <g transform="translate(757 277)">
+      <rect x="-17" y="-9" width="34" height="18" rx="4" fill="#263952" stroke="#9cb4ce" stroke-opacity=".76"/>
+      <text y="4" class="route-id">G02</text>
+    </g>
+    <g id="satellite-G1">
+      <g transform="translate(632 255)"><path d="M -12,0 H 12" stroke="#b6c8dc" stroke-width="1.5"/><path d="M -17,-5 H -7 V 5 H -17 Z M 7,-5 H 17 V 5 H 7 Z" class="panel"/><rect x="-6" y="-7" width="12" height="14" rx="2" class="satellite-body"/></g>
+      <text x="632" y="230" text-anchor="middle" class="node-name">Anchor G1</text>
+    </g>
+    <g id="site-POL" data-role="user-terminal">
+      <g transform="translate(365 312)"><circle r="10" class="site-icon"/><path d="M -5,-3 Q -4,3 3,4 M -1,3 -3,6 M -1,1 5,-5" class="icon-detail"/></g>
+      <text x="365" y="339" text-anchor="middle" class="node-name">Polar Clinic VSAT</text>
+    </g>
+    <g id="site-VEL" data-role="gateway">
+      <g transform="translate(898 312)"><rect x="-10" y="-8" width="20" height="16" rx="3" class="site-icon"/><path d="M -5,3 H 5 M -5,-2 H 5" class="icon-detail"/></g>
+      <text x="898" y="339" text-anchor="middle" class="node-name">Velkar Teleport</text>
+    </g>
+  </g>
+
+  <g id="orbit-meo-layer" inkscape:groupmode="layer" inkscape:label="MEO links and sites">
+    <text x="77" y="398" class="orbit" fill="#a3eed0">MEO</text>
+    <text x="78" y="426" class="body light">Tracked backhaul</text>
+    <text x="78" y="447" class="support soft">Contact windows A and B</text>
+    <g id="link-M01" data-kind="ground-radio" data-window="A">
+      <title>M01 · Orinthia Tracked Access A</title>
+      <path d="M 365,457 547,407" class="link-outline"/>
+      <path d="M 365,457 547,407" class="meo-a"/>
+    </g>
+    <g id="link-M02" data-kind="ground-radio" data-window="A">
+      <title>M02 · Caelum Tracked Feeder A</title>
+      <path d="M 547,407 898,457" class="link-outline"/>
+      <path d="M 547,407 898,457" class="meo-a"/>
+    </g>
+    <g id="link-M03" data-kind="ground-radio" data-window="B">
+      <title>M03 · Orinthia Tracked Access B</title>
+      <path d="M 365,457 714,407" class="link-outline"/>
+      <path d="M 365,457 714,407" class="meo-b"/>
+    </g>
+    <g id="link-M04" data-kind="ground-radio" data-window="B">
+      <title>M04 · Caelum Tracked Feeder B</title>
+      <path d="M 714,407 898,457" class="link-outline"/>
+      <path d="M 714,407 898,457" class="meo-b"/>
+    </g>
+    <g transform="translate(449 421)">
+      <rect x="-17" y="-9" width="34" height="18" rx="4" fill="#263952" stroke="#9cb4ce" stroke-opacity=".76"/>
+      <text y="4" class="route-id">M01</text>
+    </g>
+    <g transform="translate(788 446)">
+      <rect x="-17" y="-9" width="34" height="18" rx="4" fill="#263952" stroke="#9cb4ce" stroke-opacity=".76"/>
+      <text y="4" class="route-id">M02</text>
+    </g>
+    <g transform="translate(473 450)">
+      <rect x="-17" y="-9" width="34" height="18" rx="4" fill="#263952" stroke="#9cb4ce" stroke-opacity=".76"/>
+      <text y="4" class="route-id">M03</text>
+    </g>
+    <g transform="translate(812 431)">
+      <rect x="-17" y="-9" width="34" height="18" rx="4" fill="#263952" stroke="#9cb4ce" stroke-opacity=".76"/>
+      <text y="4" class="route-id">M04</text>
+    </g>
+    <g id="satellite-M1">
+      <g transform="translate(547 407)"><path d="M -12,0 H 12" stroke="#b6c8dc" stroke-width="1.5"/><path d="M -17,-5 H -7 V 5 H -17 Z M 7,-5 H 17 V 5 H 7 Z" class="panel"/><rect x="-6" y="-7" width="12" height="14" rx="2" class="satellite-body"/></g>
+      <text x="547" y="380" text-anchor="middle" class="node-name">Arc M1</text>
+    </g>
+    <g id="satellite-M2">
+      <g transform="translate(714 407)"><path d="M -12,0 H 12" stroke="#b6c8dc" stroke-width="1.5"/><path d="M -17,-5 H -7 V 5 H -17 Z M 7,-5 H 17 V 5 H 7 Z" class="panel"/><rect x="-6" y="-7" width="12" height="14" rx="2" class="satellite-body"/></g>
+      <text x="714" y="380" text-anchor="middle" class="node-name">Arc M2</text>
+    </g>
+    <g id="site-OM" data-role="user-terminal">
+      <g transform="translate(365 457)"><circle r="10" class="site-icon"/><path d="M -5,-3 Q -4,3 3,4 M -1,3 -3,6 M -1,1 5,-5" class="icon-detail"/></g>
+      <text x="365" y="483" text-anchor="middle" class="node-name">Orinthia MEO Terminal</text>
+    </g>
+    <g id="site-CM" data-role="gateway">
+      <g transform="translate(898 457)"><rect x="-10" y="-8" width="20" height="16" rx="3" class="site-icon"/><path d="M -5,3 H 5 M -5,-2 H 5" class="icon-detail"/></g>
+      <text x="898" y="483" text-anchor="middle" class="node-name">Caelum MEO Gateway</text>
+    </g>
+  </g>
+
+  <g id="orbit-leo-layer" inkscape:groupmode="layer" inkscape:label="LEO links and sites">
+    <text x="77" y="550" class="orbit" fill="#e5caff">LEO</text>
+    <text x="78" y="578" class="body light">Low-latency mesh</text>
+    <text x="78" y="599" class="support soft">Two terrestrial gateways</text>
+    <g id="link-L01" data-kind="ground-radio" data-window="">
+      <title>L01 · Orinthia LEO Access</title>
+      <path d="M 365,601 488,600" class="link-outline"/>
+      <path d="M 365,601 488,600" class="leo-radio"/>
+    </g>
+    <g id="link-L02" data-kind="ground-radio" data-window="">
+      <title>L02 · Caelum LEO Feeder</title>
+      <path d="M 629,550 898,548" class="link-outline"/>
+      <path d="M 629,550 898,548" class="leo-radio"/>
+    </g>
+    <g id="link-L03" data-kind="ground-radio" data-window="">
+      <title>L03 · Ilyndor LEO Feeder</title>
+      <path d="M 629,662 898,660" class="link-outline"/>
+      <path d="M 629,662 898,660" class="leo-radio"/>
+    </g>
+    <g id="link-X01" data-kind="optical-crosslink" data-window="">
+      <title>X01 · Swift L1–L2 Crosslink</title>
+      <path d="M 488,600 629,550" class="link-outline"/>
+      <path d="M 488,600 629,550" class="optical"/>
+    </g>
+    <g id="link-X02" data-kind="optical-crosslink" data-window="">
+      <title>X02 · Swift L2–L3 Crosslink</title>
+      <path d="M 629,550 770,600" class="link-outline"/>
+      <path d="M 629,550 770,600" class="optical"/>
+    </g>
+    <g id="link-X03" data-kind="optical-crosslink" data-window="">
+      <title>X03 · Swift L3–L4 Crosslink</title>
+      <path d="M 770,600 629,662" class="link-outline"/>
+      <path d="M 770,600 629,662" class="optical"/>
+    </g>
+    <g id="link-X04" data-kind="optical-crosslink" data-window="">
+      <title>X04 · Swift L4–L1 Crosslink</title>
+      <path d="M 629,662 488,600" class="link-outline"/>
+      <path d="M 629,662 488,600" class="optical"/>
+    </g>
+    <g id="link-X05" data-kind="optical-crosslink" data-window="">
+      <title>X05 · Swift L2–L4 Crosslink</title>
+      <path d="M 629,550 629,662" class="link-outline"/>
+      <path d="M 629,550 629,662" class="optical"/>
+    </g>
+    <g transform="translate(424 590)">
+      <rect x="-17" y="-9" width="34" height="18" rx="4" fill="#263952" stroke="#9cb4ce" stroke-opacity=".76"/>
+      <text y="4" class="route-id">L01</text>
+    </g>
+    <g transform="translate(781 540)">
+      <rect x="-17" y="-9" width="34" height="18" rx="4" fill="#263952" stroke="#9cb4ce" stroke-opacity=".76"/>
+      <text y="4" class="route-id">L02</text>
+    </g>
+    <g transform="translate(782 653)">
+      <rect x="-17" y="-9" width="34" height="18" rx="4" fill="#263952" stroke="#9cb4ce" stroke-opacity=".76"/>
+      <text y="4" class="route-id">L03</text>
+    </g>
+    <g transform="translate(550 566)">
+      <rect x="-17" y="-9" width="34" height="18" rx="4" fill="#263952" stroke="#9cb4ce" stroke-opacity=".76"/>
+      <text y="4" class="route-id">X01</text>
+    </g>
+    <g transform="translate(713 568)">
+      <rect x="-17" y="-9" width="34" height="18" rx="4" fill="#263952" stroke="#9cb4ce" stroke-opacity=".76"/>
+      <text y="4" class="route-id">X02</text>
+    </g>
+    <g transform="translate(712 641)">
+      <rect x="-17" y="-9" width="34" height="18" rx="4" fill="#263952" stroke="#9cb4ce" stroke-opacity=".76"/>
+      <text y="4" class="route-id">X03</text>
+    </g>
+    <g transform="translate(552 638)">
+      <rect x="-17" y="-9" width="34" height="18" rx="4" fill="#263952" stroke="#9cb4ce" stroke-opacity=".76"/>
+      <text y="4" class="route-id">X04</text>
+    </g>
+    <g transform="translate(629 605)">
+      <rect x="-17" y="-9" width="34" height="18" rx="4" fill="#263952" stroke="#9cb4ce" stroke-opacity=".76"/>
+      <text y="4" class="route-id">X05</text>
+    </g>
+    <g id="satellite-L1">
+      <g transform="translate(488 600)"><path d="M -12,0 H 12" stroke="#b6c8dc" stroke-width="1.5"/><path d="M -17,-5 H -7 V 5 H -17 Z M 7,-5 H 17 V 5 H 7 Z" class="panel"/><rect x="-6" y="-7" width="12" height="14" rx="2" class="satellite-body"/></g>
+      <text x="482" y="626" text-anchor="middle" class="node-name">Swift L1</text>
+    </g>
+    <g id="satellite-L2">
+      <g transform="translate(629 550)"><path d="M -12,0 H 12" stroke="#b6c8dc" stroke-width="1.5"/><path d="M -17,-5 H -7 V 5 H -17 Z M 7,-5 H 17 V 5 H 7 Z" class="panel"/><rect x="-6" y="-7" width="12" height="14" rx="2" class="satellite-body"/></g>
+      <text x="629" y="524" text-anchor="middle" class="node-name">Swift L2</text>
+    </g>
+    <g id="satellite-L3">
+      <g transform="translate(770 600)"><path d="M -12,0 H 12" stroke="#b6c8dc" stroke-width="1.5"/><path d="M -17,-5 H -7 V 5 H -17 Z M 7,-5 H 17 V 5 H 7 Z" class="panel"/><rect x="-6" y="-7" width="12" height="14" rx="2" class="satellite-body"/></g>
+      <text x="781" y="624" text-anchor="middle" class="node-name">Swift L3</text>
+    </g>
+    <g id="satellite-L4">
+      <g transform="translate(629 662)"><path d="M -12,0 H 12" stroke="#b6c8dc" stroke-width="1.5"/><path d="M -17,-5 H -7 V 5 H -17 Z M 7,-5 H 17 V 5 H 7 Z" class="panel"/><rect x="-6" y="-7" width="12" height="14" rx="2" class="satellite-body"/></g>
+      <text x="629" y="692" text-anchor="middle" class="node-name">Swift L4</text>
+    </g>
+    <g id="site-OL" data-role="user-terminal">
+      <g transform="translate(365 601)"><circle r="10" class="site-icon"/><path d="M -5,-3 Q -4,3 3,4 M -1,3 -3,6 M -1,1 5,-5" class="icon-detail"/></g>
+      <text x="365" y="632" text-anchor="middle" class="node-name">Orinthia LEO Access Site</text>
+    </g>
+    <g id="site-CL" data-role="gateway">
+      <g transform="translate(898 548)"><rect x="-10" y="-8" width="20" height="16" rx="3" class="site-icon"/><path d="M -5,3 H 5 M -5,-2 H 5" class="icon-detail"/></g>
+      <text x="925" y="553" text-anchor="start" class="node-name">Caelum LEO Gateway</text>
+    </g>
+    <g id="site-IL" data-role="gateway">
+      <g transform="translate(898 660)"><rect x="-10" y="-8" width="20" height="16" rx="3" class="site-icon"/><path d="M -5,3 H 5 M -5,-2 H 5" class="icon-detail"/></g>
+      <text x="925" y="665" text-anchor="start" class="node-name">Ilyndor LEO Gateway</text>
+    </g>
+  </g>
+
+  <g id="ground-context-layer" inkscape:groupmode="layer" inkscape:label="Nacre ground geography and telecom handoffs" clip-path="url(#frame)">
+    <rect x="48" y="708" width="1052" height="249" fill="#182e3c" fill-opacity=".75"/>
+    <g transform="translate(14 724) scale(.39)" stroke="#90a7b5" stroke-width="1.9" stroke-linejoin="round">
+      <path d="M 211.43 226.02 L 229.36 179.38 L 265.23 132.75 L 301.10 104.05 L 365.67 93.29 L 426.65 114.81 L 484.05 165.03 L 437.42 200.91 L 347.74 287.00 L 275.99 261.89 L 232.95 240.36 z" fill="#415e6c"/>
+      <path d="M 365.67 93.29 L 415.89 68.18 L 491.22 57.42 L 570.14 68.18 L 634.71 100.47 L 641.88 132.75 L 580.90 136.34 L 498.40 129.16 L 426.65 114.81 z" fill="#415e6c"/>
+      <path d="M 437.42 200.91 L 484.05 165.03 L 580.90 136.34 L 641.88 154.27 L 656.23 197.32 L 634.71 240.36 L 555.79 243.95 L 476.87 233.19 z" fill="#415e6c"/>
+      <path d="M 347.74 287.00 L 437.42 200.91 L 476.87 233.19 L 555.79 243.95 L 534.27 279.82 L 509.16 337.22 L 419.48 351.57 L 354.91 333.63 L 304.69 312.11 z" fill="#415e6c"/>
+      <path d="M 555.79 243.95 L 634.71 240.36 L 656.23 197.32 L 724.39 240.36 L 763.85 308.52 L 735.15 365.91 L 702.86 387.44 L 598.84 373.09 L 534.27 279.82 z" fill="#415e6c"/>
+      <path d="M 258.06 391.02 L 304.69 312.11 L 354.91 333.63 L 419.48 351.57 L 509.16 337.22 L 598.84 373.09 L 631.12 408.96 L 559.38 437.66 L 426.65 416.13 L 326.21 423.31 z" fill="#415e6c"/>
+      <path d="M 200.66 477.12 L 258.06 391.02 L 326.21 423.31 L 426.65 416.13 L 559.38 437.66 L 570.14 512.99 L 469.70 538.10 L 329.80 527.34 L 232.95 505.81 z" fill="#415e6c"/>
+      <path d="M 570.14 512.99 L 559.38 437.66 L 631.12 408.96 L 695.69 430.48 L 735.15 477.12 L 692.10 527.34 L 609.60 534.51 z" fill="#415e6c"/>
+      <path d="M 598.84 373.09 L 702.86 387.44 L 763.85 416.13 L 778.19 462.77 L 735.15 477.12 L 695.69 430.48 L 631.12 408.96 z" fill="#415e6c"/>
+      <path d="M 681.34 172.21 L 699.28 147.10 L 735.15 154.27 L 749.50 179.38 L 731.56 204.49 L 695.69 200.91 z" fill="#5b5268"/>
+      <path d="M 745.91 136.34 L 771.02 125.58 L 792.54 143.51 L 785.37 168.62 L 756.67 172.21 z" fill="#5b5268"/>
+      <path d="M 717.21 111.23 L 735.15 93.29 L 763.85 100.47 L 771.02 121.99 L 749.50 136.34 L 724.39 132.75 z" fill="#5b5268"/>
+      <path d="M 663.41 125.58 L 681.34 111.23 L 702.86 118.40 L 695.69 139.92 L 670.58 143.51 z" fill="#5b5268"/>
+      <path d="M 788.96 211.67 L 814.07 200.91 L 828.41 222.43 L 810.48 243.95 L 785.37 236.78 z" fill="#5b5268"/>
+      <path d="M 699.28 240.36 L 724.39 222.43 L 749.50 233.19 L 742.32 254.71 L 710.04 258.30 z" fill="#5b5268"/>
+      <path d="M 638.30 182.97 L 656.23 168.62 L 670.58 182.97 L 663.41 200.91 L 641.88 200.91 z" fill="#5b5268"/>
+    </g>
+    <text x="76" y="739" class="caps soft">GROUND SITES</text>
+    <path d="M 232,802 Q 265,786 298,794" class="ground-subsea"/>
+    <path d="M 232,802 Q 223,837 202,874" class="ground-fiber"/>
+    <g fill="#f5e8c7" stroke="#1e3043" stroke-width="1.3">
+      <circle cx="216" cy="763" r="4.3"/><circle cx="179" cy="836" r="4.3"/>
+      <circle cx="232" cy="802" r="4.3"/><circle cx="298" cy="794" r="4.3"/>
+      <circle cx="202" cy="874" r="4.3"/>
+    </g>
+    <text x="226" y="767" class="ground-label">Soreth</text>
+    <text x="139" y="852" class="ground-label">Velkar</text>
+    <text x="240" y="816" class="ground-label">Caelum</text>
+    <text x="307" y="798" class="ground-label">Orinthia</text>
+    <text x="211" y="884" class="ground-label">Ilyndor</text>
+    <path d="M 399,730 V 929" class="orbital-divider"/>
+    <text x="427" y="751" class="caps soft">TERRESTRIAL HANDOFFS</text>
+    <path d="M 429,782 H 473" class="ground-subsea"/>
+    <text x="488" y="787" class="body light">F05 · Island Cable</text>
+    <text x="488" y="808" class="support soft">Pelagic Radio ↔ BlueBridge Networks</text>
+    <path d="M 429,841 H 473" class="ground-fiber"/>
+    <text x="488" y="846" class="body light">F04 · Ridge Bypass</text>
+    <text x="488" y="867" class="support soft">BlueBridge Networks ↔ Corridor Exchange</text>
+    <text x="427" y="910" class="support soft">A gateway needs a working terrestrial handoff to carry traffic beyond the satellite link.</text>
+  </g>
+  <rect x="48" y="171" width="1052" height="786" rx="12" fill="none" stroke="#9aaabc"/>
+
+  <rect x="1122" y="171" width="370" height="786" rx="12" class="sidebar"/>
+  <text x="1146" y="208" class="caps muted">SITES AND TELECOM OPERATORS</text>
+  <text x="1146" y="241" class="body ink">Polar Clinic VSAT</text>
+  <text x="1146" y="258" class="support muted">Polar Relay</text>
+  <text x="1468" y="245" text-anchor="end" class="small muted">GEO</text>
+  <text x="1146" y="290" class="body ink">Velkar Teleport</text>
+  <text x="1146" y="307" class="support muted">BasinLink</text>
+  <text x="1468" y="294" text-anchor="end" class="small muted">GEO</text>
+  <text x="1146" y="339" class="body ink">Orinthia MEO Terminal</text>
+  <text x="1146" y="356" class="support muted">Pelagic Radio</text>
+  <text x="1468" y="343" text-anchor="end" class="small muted">MEO</text>
+  <text x="1146" y="388" class="body ink">Caelum MEO Gateway</text>
+  <text x="1146" y="405" class="support muted">BlueBridge Networks</text>
+  <text x="1468" y="392" text-anchor="end" class="small muted">MEO</text>
+  <text x="1146" y="437" class="body ink">Orinthia LEO Access Site</text>
+  <text x="1146" y="454" class="support muted">Pelagic Radio</text>
+  <text x="1468" y="441" text-anchor="end" class="small muted">LEO</text>
+  <text x="1146" y="486" class="body ink">Caelum LEO Gateway</text>
+  <text x="1146" y="503" class="support muted">BlueBridge Networks</text>
+  <text x="1468" y="490" text-anchor="end" class="small muted">LEO</text>
+  <text x="1146" y="535" class="body ink">Ilyndor LEO Gateway</text>
+  <text x="1146" y="552" class="support muted">Corridor Exchange</text>
+  <text x="1468" y="539" text-anchor="end" class="small muted">LEO</text>
+  <path d="M 1146,581 H 1468" class="divider"/>
+  <text x="1146" y="614" class="caps muted">NETWORK KEY</text>
+  <rect x="1146" y="631" width="66" height="230" rx="7" fill="#263952"/>
+  <g transform="translate(1179 647)"><circle r="10" class="site-icon"/><path d="M -5,-3 Q -4,3 3,4 M -1,3 -3,6 M -1,1 5,-5" class="icon-detail"/></g>
+  <text x="1227" y="652" class="support ink">User terminal</text>
+  <g transform="translate(1179 675)"><rect x="-10" y="-8" width="20" height="16" rx="3" class="site-icon"/><path d="M -5,3 H 5 M -5,-2 H 5" class="icon-detail"/></g>
+  <text x="1227" y="680" class="support ink">Gateway to terrestrial network</text>
+  <g transform="translate(1179 703)"><path d="M -12,0 H 12" stroke="#b6c8dc" stroke-width="1.5"/><path d="M -17,-5 H -7 V 5 H -17 Z M 7,-5 H 17 V 5 H 7 Z" class="panel"/><rect x="-6" y="-7" width="12" height="14" rx="2" class="satellite-body"/></g>
+  <text x="1227" y="708" class="support ink">Satellite</text>
+  <path d="M 1156,731 H 1202" class="geo-link"/>
+  <text x="1227" y="736" class="support ink">GEO ground radio</text>
+  <path d="M 1156,759 H 1202" class="meo-a"/>
+  <text x="1227" y="764" class="support ink">MEO radio · window A</text>
+  <path d="M 1156,787 H 1202" class="meo-b"/>
+  <text x="1227" y="792" class="support ink">MEO radio · window B</text>
+  <path d="M 1156,815 H 1202" class="leo-radio"/>
+  <text x="1227" y="820" class="support ink">LEO ground radio</text>
+  <path d="M 1156,843 H 1202" class="optical"/>
+  <text x="1227" y="848" class="support ink">LEO optical crosslink</text>
+    <text x="1146" y="909" class="small muted">Route IDs match the guide and Galaxy records.</text>
+  <text x="48" y="995" class="caps muted">COVERAGE FOOTPRINTS ON NACRE</text>
+  <g id="footprints-geo-layer" inkscape:groupmode="layer" inkscape:label="GEO coverage footprints">
+    <rect x="48" y="1014" width="464" height="326" rx="12" class="sidebar"/>
+    <text x="70" y="1047" class="body ink">GEO · Fixed regional beam</text>
+    <rect x="70" y="1063" width="420" height="220" rx="6" fill="#1c3045"/>
+    <g transform="translate(66 1055) scale(.408)" stroke="#829caf" stroke-width="1.9" stroke-linejoin="round">
+      <path d="M 211.43 226.02 L 229.36 179.38 L 265.23 132.75 L 301.10 104.05 L 365.67 93.29 L 426.65 114.81 L 484.05 165.03 L 437.42 200.91 L 347.74 287.00 L 275.99 261.89 L 232.95 240.36 z" fill="#415e6c"/>
+      <path d="M 365.67 93.29 L 415.89 68.18 L 491.22 57.42 L 570.14 68.18 L 634.71 100.47 L 641.88 132.75 L 580.90 136.34 L 498.40 129.16 L 426.65 114.81 z" fill="#415e6c"/>
+      <path d="M 437.42 200.91 L 484.05 165.03 L 580.90 136.34 L 641.88 154.27 L 656.23 197.32 L 634.71 240.36 L 555.79 243.95 L 476.87 233.19 z" fill="#415e6c"/>
+      <path d="M 347.74 287.00 L 437.42 200.91 L 476.87 233.19 L 555.79 243.95 L 534.27 279.82 L 509.16 337.22 L 419.48 351.57 L 354.91 333.63 L 304.69 312.11 z" fill="#415e6c"/>
+      <path d="M 555.79 243.95 L 634.71 240.36 L 656.23 197.32 L 724.39 240.36 L 763.85 308.52 L 735.15 365.91 L 702.86 387.44 L 598.84 373.09 L 534.27 279.82 z" fill="#415e6c"/>
+      <path d="M 258.06 391.02 L 304.69 312.11 L 354.91 333.63 L 419.48 351.57 L 509.16 337.22 L 598.84 373.09 L 631.12 408.96 L 559.38 437.66 L 426.65 416.13 L 326.21 423.31 z" fill="#415e6c"/>
+      <path d="M 200.66 477.12 L 258.06 391.02 L 326.21 423.31 L 426.65 416.13 L 559.38 437.66 L 570.14 512.99 L 469.70 538.10 L 329.80 527.34 L 232.95 505.81 z" fill="#415e6c"/>
+      <path d="M 570.14 512.99 L 559.38 437.66 L 631.12 408.96 L 695.69 430.48 L 735.15 477.12 L 692.10 527.34 L 609.60 534.51 z" fill="#415e6c"/>
+      <path d="M 598.84 373.09 L 702.86 387.44 L 763.85 416.13 L 778.19 462.77 L 735.15 477.12 L 695.69 430.48 L 631.12 408.96 z" fill="#415e6c"/>
+      <path d="M 681.34 172.21 L 699.28 147.10 L 735.15 154.27 L 749.50 179.38 L 731.56 204.49 L 695.69 200.91 z" fill="#5b5268"/>
+      <path d="M 745.91 136.34 L 771.02 125.58 L 792.54 143.51 L 785.37 168.62 L 756.67 172.21 z" fill="#5b5268"/>
+      <path d="M 717.21 111.23 L 735.15 93.29 L 763.85 100.47 L 771.02 121.99 L 749.50 136.34 L 724.39 132.75 z" fill="#5b5268"/>
+      <path d="M 663.41 125.58 L 681.34 111.23 L 702.86 118.40 L 695.69 139.92 L 670.58 143.51 z" fill="#5b5268"/>
+      <path d="M 788.96 211.67 L 814.07 200.91 L 828.41 222.43 L 810.48 243.95 L 785.37 236.78 z" fill="#5b5268"/>
+      <path d="M 699.28 240.36 L 724.39 222.43 L 749.50 233.19 L 742.32 254.71 L 710.04 258.30 z" fill="#5b5268"/>
+      <path d="M 638.30 182.97 L 656.23 168.62 L 670.58 182.97 L 663.41 200.91 L 641.88 200.91 z" fill="#5b5268"/>
+      <ellipse id="footprint-G1" data-site-codes="POL VEL"
+               cx="505" cy="194" rx="190" ry="146" fill="#ffce97" fill-opacity=".26"
+               stroke="#ffce97" stroke-width="5"/>
+    </g>
+    <text x="269.2" y="1078.3" fill="#ffce97" class="small" font-weight="700" text-anchor="middle">Anchor G1</text>
+    <circle id="footprint-site-POL" cx="277.3" cy="1095.8" r="4.4" fill="#fff1d1" stroke="#17283d" stroke-width="1.3"/>
+    <text x="286.3" y="1099.8" text-anchor="start" class="ground-label">Soreth</text>
+    <circle id="footprint-site-VEL" cx="237.8" cy="1172.1" r="4.4" fill="#fff1d1" stroke="#17283d" stroke-width="1.3"/>
+    <text x="247.8" y="1176.1" text-anchor="start" class="ground-label">Velkar</text>
+    <text x="70" y="1309" class="small muted">Anchor G1 illuminates the same regional footprint.</text>
+  </g>
+  <g id="footprints-meo-layer" inkscape:groupmode="layer" inkscape:label="MEO coverage footprints">
+    <rect x="538" y="1014" width="464" height="326" rx="12" class="sidebar"/>
+    <text x="560" y="1047" class="body ink">MEO · Overlapping contact windows</text>
+    <rect x="560" y="1063" width="420" height="220" rx="6" fill="#1c3045"/>
+    <g transform="translate(556 1055) scale(.408)" stroke="#829caf" stroke-width="1.9" stroke-linejoin="round">
+      <path d="M 211.43 226.02 L 229.36 179.38 L 265.23 132.75 L 301.10 104.05 L 365.67 93.29 L 426.65 114.81 L 484.05 165.03 L 437.42 200.91 L 347.74 287.00 L 275.99 261.89 L 232.95 240.36 z" fill="#415e6c"/>
+      <path d="M 365.67 93.29 L 415.89 68.18 L 491.22 57.42 L 570.14 68.18 L 634.71 100.47 L 641.88 132.75 L 580.90 136.34 L 498.40 129.16 L 426.65 114.81 z" fill="#415e6c"/>
+      <path d="M 437.42 200.91 L 484.05 165.03 L 580.90 136.34 L 641.88 154.27 L 656.23 197.32 L 634.71 240.36 L 555.79 243.95 L 476.87 233.19 z" fill="#415e6c"/>
+      <path d="M 347.74 287.00 L 437.42 200.91 L 476.87 233.19 L 555.79 243.95 L 534.27 279.82 L 509.16 337.22 L 419.48 351.57 L 354.91 333.63 L 304.69 312.11 z" fill="#415e6c"/>
+      <path d="M 555.79 243.95 L 634.71 240.36 L 656.23 197.32 L 724.39 240.36 L 763.85 308.52 L 735.15 365.91 L 702.86 387.44 L 598.84 373.09 L 534.27 279.82 z" fill="#415e6c"/>
+      <path d="M 258.06 391.02 L 304.69 312.11 L 354.91 333.63 L 419.48 351.57 L 509.16 337.22 L 598.84 373.09 L 631.12 408.96 L 559.38 437.66 L 426.65 416.13 L 326.21 423.31 z" fill="#415e6c"/>
+      <path d="M 200.66 477.12 L 258.06 391.02 L 326.21 423.31 L 426.65 416.13 L 559.38 437.66 L 570.14 512.99 L 469.70 538.10 L 329.80 527.34 L 232.95 505.81 z" fill="#415e6c"/>
+      <path d="M 570.14 512.99 L 559.38 437.66 L 631.12 408.96 L 695.69 430.48 L 735.15 477.12 L 692.10 527.34 L 609.60 534.51 z" fill="#415e6c"/>
+      <path d="M 598.84 373.09 L 702.86 387.44 L 763.85 416.13 L 778.19 462.77 L 735.15 477.12 L 695.69 430.48 L 631.12 408.96 z" fill="#415e6c"/>
+      <path d="M 681.34 172.21 L 699.28 147.10 L 735.15 154.27 L 749.50 179.38 L 731.56 204.49 L 695.69 200.91 z" fill="#5b5268"/>
+      <path d="M 745.91 136.34 L 771.02 125.58 L 792.54 143.51 L 785.37 168.62 L 756.67 172.21 z" fill="#5b5268"/>
+      <path d="M 717.21 111.23 L 735.15 93.29 L 763.85 100.47 L 771.02 121.99 L 749.50 136.34 L 724.39 132.75 z" fill="#5b5268"/>
+      <path d="M 663.41 125.58 L 681.34 111.23 L 702.86 118.40 L 695.69 139.92 L 670.58 143.51 z" fill="#5b5268"/>
+      <path d="M 788.96 211.67 L 814.07 200.91 L 828.41 222.43 L 810.48 243.95 L 785.37 236.78 z" fill="#5b5268"/>
+      <path d="M 699.28 240.36 L 724.39 222.43 L 749.50 233.19 L 742.32 254.71 L 710.04 258.30 z" fill="#5b5268"/>
+      <path d="M 638.30 182.97 L 656.23 168.62 L 670.58 182.97 L 663.41 200.91 L 641.88 200.91 z" fill="#5b5268"/>
+      <ellipse id="footprint-M1" data-site-codes="OM CM"
+               cx="580" cy="180" rx="176" ry="98" fill="#99ebcc" fill-opacity=".26"
+               stroke="#99ebcc" stroke-width="5"/>
+      <ellipse id="footprint-M2" data-site-codes="OM CM"
+               cx="699" cy="202" rx="177" ry="99" fill="#99ebcc" fill-opacity=".26"
+               stroke="#99ebcc" stroke-width="5" stroke-dasharray="13 9"/>
+    </g>
+    <text x="739.6" y="1101.1" fill="#99ebcc" class="small" font-weight="700" text-anchor="middle">Window A</text>
+    <text x="882.0" y="1100.3" fill="#99ebcc" class="small" font-weight="700" text-anchor="middle">Window B</text>
+    <circle id="footprint-site-OM" cx="853.0" cy="1128.8" r="4.4" fill="#fff1d1" stroke="#17283d" stroke-width="1.3"/>
+    <text x="863.0" y="1132.8" text-anchor="start" class="ground-label">Orinthia</text>
+    <circle id="footprint-site-CM" cx="784.1" cy="1136.6" r="4.4" fill="#fff1d1" stroke="#17283d" stroke-width="1.3"/>
+    <text x="775.1" y="1140.6" text-anchor="end" class="ground-label">Caelum</text>
+    <text x="560" y="1309" class="small muted">The A and B beams show successive tracked windows.</text>
+    <text x="560" y="1327" class="small muted">Caelum and Orinthia are within both footprints.</text>
+  </g>
+  <g id="footprints-leo-layer" inkscape:groupmode="layer" inkscape:label="LEO coverage footprints">
+    <rect x="1028" y="1014" width="464" height="326" rx="12" class="sidebar"/>
+    <text x="1050" y="1047" class="body ink">LEO · Moving spot beams</text>
+    <rect x="1050" y="1063" width="420" height="220" rx="6" fill="#1c3045"/>
+    <g transform="translate(1046 1055) scale(.408)" stroke="#829caf" stroke-width="1.9" stroke-linejoin="round">
+      <path d="M 211.43 226.02 L 229.36 179.38 L 265.23 132.75 L 301.10 104.05 L 365.67 93.29 L 426.65 114.81 L 484.05 165.03 L 437.42 200.91 L 347.74 287.00 L 275.99 261.89 L 232.95 240.36 z" fill="#415e6c"/>
+      <path d="M 365.67 93.29 L 415.89 68.18 L 491.22 57.42 L 570.14 68.18 L 634.71 100.47 L 641.88 132.75 L 580.90 136.34 L 498.40 129.16 L 426.65 114.81 z" fill="#415e6c"/>
+      <path d="M 437.42 200.91 L 484.05 165.03 L 580.90 136.34 L 641.88 154.27 L 656.23 197.32 L 634.71 240.36 L 555.79 243.95 L 476.87 233.19 z" fill="#415e6c"/>
+      <path d="M 347.74 287.00 L 437.42 200.91 L 476.87 233.19 L 555.79 243.95 L 534.27 279.82 L 509.16 337.22 L 419.48 351.57 L 354.91 333.63 L 304.69 312.11 z" fill="#415e6c"/>
+      <path d="M 555.79 243.95 L 634.71 240.36 L 656.23 197.32 L 724.39 240.36 L 763.85 308.52 L 735.15 365.91 L 702.86 387.44 L 598.84 373.09 L 534.27 279.82 z" fill="#415e6c"/>
+      <path d="M 258.06 391.02 L 304.69 312.11 L 354.91 333.63 L 419.48 351.57 L 509.16 337.22 L 598.84 373.09 L 631.12 408.96 L 559.38 437.66 L 426.65 416.13 L 326.21 423.31 z" fill="#415e6c"/>
+      <path d="M 200.66 477.12 L 258.06 391.02 L 326.21 423.31 L 426.65 416.13 L 559.38 437.66 L 570.14 512.99 L 469.70 538.10 L 329.80 527.34 L 232.95 505.81 z" fill="#415e6c"/>
+      <path d="M 570.14 512.99 L 559.38 437.66 L 631.12 408.96 L 695.69 430.48 L 735.15 477.12 L 692.10 527.34 L 609.60 534.51 z" fill="#415e6c"/>
+      <path d="M 598.84 373.09 L 702.86 387.44 L 763.85 416.13 L 778.19 462.77 L 735.15 477.12 L 695.69 430.48 L 631.12 408.96 z" fill="#415e6c"/>
+      <path d="M 681.34 172.21 L 699.28 147.10 L 735.15 154.27 L 749.50 179.38 L 731.56 204.49 L 695.69 200.91 z" fill="#5b5268"/>
+      <path d="M 745.91 136.34 L 771.02 125.58 L 792.54 143.51 L 785.37 168.62 L 756.67 172.21 z" fill="#5b5268"/>
+      <path d="M 717.21 111.23 L 735.15 93.29 L 763.85 100.47 L 771.02 121.99 L 749.50 136.34 L 724.39 132.75 z" fill="#5b5268"/>
+      <path d="M 663.41 125.58 L 681.34 111.23 L 702.86 118.40 L 695.69 139.92 L 670.58 143.51 z" fill="#5b5268"/>
+      <path d="M 788.96 211.67 L 814.07 200.91 L 828.41 222.43 L 810.48 243.95 L 785.37 236.78 z" fill="#5b5268"/>
+      <path d="M 699.28 240.36 L 724.39 222.43 L 749.50 233.19 L 742.32 254.71 L 710.04 258.30 z" fill="#5b5268"/>
+      <path d="M 638.30 182.97 L 656.23 168.62 L 670.58 182.97 L 663.41 200.91 L 641.88 200.91 z" fill="#5b5268"/>
+      <ellipse id="footprint-L1" data-site-codes="OL"
+               cx="735" cy="182" rx="95" ry="70" fill="#dac2ff" fill-opacity=".26"
+               stroke="#dac2ff" stroke-width="5"/>
+      <ellipse id="footprint-L2" data-site-codes="CL"
+               cx="552" cy="201" rx="99" ry="70" fill="#dac2ff" fill-opacity=".26"
+               stroke="#dac2ff" stroke-width="5"/>
+      <ellipse id="footprint-L3" data-site-codes=""
+               cx="700" cy="328" rx="93" ry="69" fill="#dac2ff" fill-opacity=".26"
+               stroke="#dac2ff" stroke-width="5"/>
+      <ellipse id="footprint-L4" data-site-codes="IL"
+               cx="486" cy="384" rx="96" ry="69" fill="#dac2ff" fill-opacity=".26"
+               stroke="#dac2ff" stroke-width="5"/>
+    </g>
+    <text x="1345.9" y="1104.0" fill="#dac2ff" class="small" font-weight="700" text-anchor="middle">L1</text>
+    <text x="1267.5" y="1111.3" fill="#dac2ff" class="small" font-weight="700" text-anchor="middle">L2</text>
+    <text x="1331.6" y="1186.8" fill="#dac2ff" class="small" font-weight="700" text-anchor="middle">L3</text>
+    <text x="1239.8" y="1233.7" fill="#dac2ff" class="small" font-weight="700" text-anchor="middle">L4</text>
+    <circle id="footprint-site-OL" cx="1343.0" cy="1128.8" r="4.4" fill="#fff1d1" stroke="#17283d" stroke-width="1.3"/>
+    <text x="1353.0" y="1133.8" text-anchor="start" class="ground-label">Orinthia</text>
+    <circle id="footprint-site-CL" cx="1274.1" cy="1136.6" r="4.4" fill="#fff1d1" stroke="#17283d" stroke-width="1.3"/>
+    <text x="1265.1" y="1141.6" text-anchor="end" class="ground-label">Caelum</text>
+    <circle id="footprint-site-IL" cx="1241.8" cy="1211.7" r="4.4" fill="#fff1d1" stroke="#17283d" stroke-width="1.3"/>
+    <text x="1250.8" y="1215.7" text-anchor="start" class="ground-label">Ilyndor</text>
+    <text x="1050" y="1309" class="small muted">Spot beams show one exercise snapshot.</text>
+    <text x="1050" y="1327" class="small muted">Swift L3 relays through the mesh with no ground site shown.</text>
+  </g>
+</svg>
