@@ -1,0 +1,9 @@
+{
+  "description": "Fictional civil and humanitarian facilities, with utility and logistics dependencies on Nacre.",
+  "icon": "hand-holding-heart",
+  "name": "Synthetic Exercise World - Civil and Humanitarian Services",
+  "namespace": "misp",
+  "type": "exercise-world-civil-humanitarian",
+  "uuid": "0ad143a0-4612-56f2-8950-e4beda414709",
+  "version": 1
+}
