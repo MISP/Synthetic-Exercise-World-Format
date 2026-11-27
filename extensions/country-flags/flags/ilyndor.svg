@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 100" role="img" aria-labelledby="title description">
+  <title id="title">Flag of Ilyndor</title>
+  <desc id="description">Two sage fields enclose an ivory corridor and a gold bridge.</desc>
+  <g>
+    <rect width="150" height="100" fill="#f3e7cc"/>
+    <path d="M 0,0 H 44 V 100 H 0 Z M 106,0 H 150 V 100 H 106 Z" fill="#648777"/>
+    <path d="M 40,65 V 50 L 75,33 110,50 V 65 M 34,64 H 116" fill="none" stroke="#223f39" stroke-width="5"/>
+    <path d="M 49,63 H 101" stroke="#dca650" stroke-width="7"/>
+  </g>
+</svg>

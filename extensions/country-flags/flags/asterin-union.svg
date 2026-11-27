@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 100" role="img" aria-labelledby="title description">
+  <title id="title">Flag of Asterin Union</title>
+  <desc id="description">A cyan chevron and gold eight-point star on midnight blue recall northern skies and the energy network.</desc>
+  <g>
+    <rect width="150" height="100" fill="#112b4b"/>
+    <path d="M 0,0 H 31 L 77,50 31,100 H 0 L 45,50 Z" fill="#56d2e1"/>
+    <path d="M 112,24 117,40 126,36 122,45 138,50 122,55 126,64 117,60 112,76
+             107,60 98,64 102,55 86,50 102,45 98,36 107,40 Z" fill="#ffc96a"/>
+  </g>
+</svg>

@@ -1,0 +1,264 @@
+{
+  "authors": [
+    "MISP Project"
+  ],
+  "category": "context",
+  "description": "Original flags for the ten fictional countries of Nacre.",
+  "name": "Synthetic Exercise World - Country Flags",
+  "source": "https://github.com/MISP/Synthetic-Exercise-World-Format",
+  "type": "exercise-world-country-flags",
+  "uuid": "0b729942-b931-5d6f-ba57-a4a7c49dd40f",
+  "values": [
+    {
+      "description": "A cyan chevron and gold eight-point star on midnight blue recall northern skies and the energy network.",
+      "meta": {
+        "aspect-ratio": [
+          "3:2"
+        ],
+        "entity-type": [
+          "country-flag"
+        ],
+        "flag-path": [
+          "extensions/country-flags/flags/asterin-union.svg"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "cb97ba71-e477-4acb-9470-10f3e6c9e1a9",
+          "type": "represents"
+        }
+      ],
+      "uuid": "a8399168-7f16-5367-bc99-75fa1fc27849",
+      "value": "Flag of Asterin Union"
+    },
+    {
+      "description": "A copper stepped basin and ivory diamond on burgundy represent the inland basin and its trade.",
+      "meta": {
+        "aspect-ratio": [
+          "3:2"
+        ],
+        "entity-type": [
+          "country-flag"
+        ],
+        "flag-path": [
+          "extensions/country-flags/flags/velkar-republic.svg"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "e4cd09cc-7be7-46ef-8989-5b9a812b49fe",
+          "type": "represents"
+        }
+      ],
+      "uuid": "c93afeee-7d8a-5e49-b07f-99dc7fc55d75",
+      "value": "Flag of Velkar Republic"
+    },
+    {
+      "description": "Three ivory island diamonds above a sea-green wave represent the archipelago.",
+      "meta": {
+        "aspect-ratio": [
+          "3:2"
+        ],
+        "entity-type": [
+          "country-flag"
+        ],
+        "flag-path": [
+          "extensions/country-flags/flags/orinthia.svg"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "74d2286a-1b87-4984-8dd1-c5bd466ecca5",
+          "type": "represents"
+        }
+      ],
+      "uuid": "07050634-aab0-58e6-a564-5ab577298358",
+      "value": "Flag of Orinthia"
+    },
+    {
+      "description": "Two pale mountain peaks and an amber sun against indigo evoke the high plateau.",
+      "meta": {
+        "aspect-ratio": [
+          "3:2"
+        ],
+        "entity-type": [
+          "country-flag"
+        ],
+        "flag-path": [
+          "extensions/country-flags/flags/caelum-protectorate.svg"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "4a600b9f-b843-446f-a234-415aded47e1b",
+          "type": "represents"
+        }
+      ],
+      "uuid": "9018fd00-dda1-55d7-bd3a-360eb4ef61a7",
+      "value": "Flag of Caelum Protectorate"
+    },
+    {
+      "description": "A dark river splits into three channels over a turquoise field and sand-colored delta.",
+      "meta": {
+        "aspect-ratio": [
+          "3:2"
+        ],
+        "entity-type": [
+          "country-flag"
+        ],
+        "flag-path": [
+          "extensions/country-flags/flags/neruva-federation.svg"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "cfe1b22e-38b5-4077-bb90-b2bc5fedb965",
+          "type": "represents"
+        }
+      ],
+      "uuid": "127e6547-07d1-5745-961e-c093787ba225",
+      "value": "Flag of Neruva Federation"
+    },
+    {
+      "description": "An ochre field bears a dark four-spoke wheel above a charcoal stripe for inland trade routes.",
+      "meta": {
+        "aspect-ratio": [
+          "3:2"
+        ],
+        "entity-type": [
+          "country-flag"
+        ],
+        "flag-path": [
+          "extensions/country-flags/flags/thyros-commonwealth.svg"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "970fd807-b09e-4379-9a44-bebc5d0b9869",
+          "type": "represents"
+        }
+      ],
+      "uuid": "c046def1-9c69-50ee-bef7-411059c5f22d",
+      "value": "Flag of Thyros Commonwealth"
+    },
+    {
+      "description": "Two sage fields enclose an ivory corridor and a gold bridge.",
+      "meta": {
+        "aspect-ratio": [
+          "3:2"
+        ],
+        "entity-type": [
+          "country-flag"
+        ],
+        "flag-path": [
+          "extensions/country-flags/flags/ilyndor.svg"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "1e875520-fb3e-4d26-a982-44a5fb7f9375",
+          "type": "represents"
+        }
+      ],
+      "uuid": "e84fb78c-fac5-5bf5-921c-1a58887f5dc0",
+      "value": "Flag of Ilyndor"
+    },
+    {
+      "description": "Three joined hexagonal cells above a mint coastal stripe represent a shared grid and cooperative institutions.",
+      "meta": {
+        "aspect-ratio": [
+          "3:2"
+        ],
+        "entity-type": [
+          "country-flag"
+        ],
+        "flag-path": [
+          "extensions/country-flags/flags/brinax-collective.svg"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "91f273f8-66c0-446f-bdb2-4233fd0c55ef",
+          "type": "represents"
+        }
+      ],
+      "uuid": "bd26e445-ad85-5859-86b2-49e375f88b63",
+      "value": "Flag of Brinax Collective"
+    },
+    {
+      "description": "An ice-white field, a navy wedge, and a blue compass rose recall polar navigation.",
+      "meta": {
+        "aspect-ratio": [
+          "3:2"
+        ],
+        "entity-type": [
+          "country-flag"
+        ],
+        "flag-path": [
+          "extensions/country-flags/flags/soreth-dominion.svg"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "c4be7f53-6d08-4472-8480-49ccb7946e78",
+          "type": "represents"
+        }
+      ],
+      "uuid": "4923b235-b7c6-54ef-bbe4-150e320d4349",
+      "value": "Flag of Soreth Dominion"
+    },
+    {
+      "description": "A gold sun and rising coral band on plum evoke the equatorial growing season.",
+      "meta": {
+        "aspect-ratio": [
+          "3:2"
+        ],
+        "entity-type": [
+          "country-flag"
+        ],
+        "flag-path": [
+          "extensions/country-flags/flags/quenari-league.svg"
+        ],
+        "planet": [
+          "Nacre"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "54670ad5-49fe-4d0c-8a81-84b06a8b5050",
+          "type": "represents"
+        }
+      ],
+      "uuid": "3ed3c842-1029-58d7-9b83-f56e577b4957",
+      "value": "Flag of Quenari League"
+    }
+  ],
+  "version": 1
+}

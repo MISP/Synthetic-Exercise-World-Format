@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 100" role="img" aria-labelledby="title description">
+  <title id="title">Flag of Orinthia</title>
+  <desc id="description">Three ivory island diamonds above a sea-green wave represent the archipelago.</desc>
+  <g>
+    <rect width="150" height="100" fill="#174d59"/>
+    <path d="M 0,76 Q 25,62 50,76 T 100,76 T 150,76 V 100 H 0 Z" fill="#69cbbb"/>
+    <path d="M 39,37 49,47 39,57 29,47 Z M 75,21 87,33 75,45 63,33 Z M 111,37 121,47 111,57 101,47 Z" fill="#fff7de"/>
+  </g>
+</svg>

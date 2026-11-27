@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 100" role="img" aria-labelledby="title description">
+  <title id="title">Flag of Soreth Dominion</title>
+  <desc id="description">An ice-white field, a navy wedge, and a blue compass rose recall polar navigation.</desc>
+  <g>
+    <rect width="150" height="100" fill="#eaf3f7"/>
+    <path d="M 0,0 51,50 0,100 Z" fill="#2b465f"/>
+    <path d="M 99,18 105,43 128,50 105,57 99,82 93,57 70,50 93,43 Z" fill="#387fa7"/>
+    <circle cx="99" cy="50" r="4" fill="#eaf3f7"/>
+  </g>
+</svg>

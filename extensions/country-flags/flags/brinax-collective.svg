@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 100" role="img" aria-labelledby="title description">
+  <title id="title">Flag of Brinax Collective</title>
+  <desc id="description">Three joined hexagonal cells above a mint coastal stripe represent a shared grid and cooperative institutions.</desc>
+  <g>
+    <rect width="150" height="100" fill="#215145"/>
+    <rect y="81" width="150" height="19" fill="#79d2b2"/>
+    <path d="M 75,15 94,26 94,48 75,59 56,48 56,26 Z M 56,37 37,48 37,70 56,81 75,70 75,59 M 94,37 113,48 113,70 94,81 75,70"
+          fill="none" stroke="#ffde99" stroke-width="4" stroke-linejoin="round"/>
+  </g>
+</svg>

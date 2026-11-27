@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 100" role="img" aria-labelledby="title description">
+  <title id="title">Flag of Caelum Protectorate</title>
+  <desc id="description">Two pale mountain peaks and an amber sun against indigo evoke the high plateau.</desc>
+  <g>
+    <rect width="150" height="100" fill="#45478e"/>
+    <circle cx="108" cy="31" r="11" fill="#ffcb7f"/>
+    <path d="M 0,100 52,38 73,64 87,50 130,100 Z" fill="#e6ecfa"/>
+    <path d="M 22,100 52,64 67,82 86,69 112,100 Z" fill="#94acd9"/>
+  </g>
+</svg>

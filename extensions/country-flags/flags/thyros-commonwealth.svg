@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 100" role="img" aria-labelledby="title description">
+  <title id="title">Flag of Thyros Commonwealth</title>
+  <desc id="description">An ochre field bears a dark four-spoke wheel above a charcoal stripe for inland trade routes.</desc>
+  <g>
+    <rect width="150" height="100" fill="#e8af53"/>
+    <rect y="76" width="150" height="24" fill="#2f342d"/>
+    <circle cx="75" cy="38" r="21" fill="none" stroke="#2f342d" stroke-width="6"/>
+    <path d="M 75,19 V 57 M 56,38 H 94" stroke="#2f342d" stroke-width="6"/>
+    <circle cx="75" cy="38" r="5" fill="#fff0c1"/>
+  </g>
+</svg>
