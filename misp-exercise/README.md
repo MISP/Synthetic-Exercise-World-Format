@@ -2,14 +2,14 @@
 
 Use this walkthrough to load the Synthetic Exercise World Galaxy, build a synthetic incident record, and exchange reviewed findings across separate MISP instances. It uses **NACRE-01 · Delta Port dispatch delay** as a worked example. A single instance is enough for the event, report, and assessment walkthrough. The federation steps add independent teams and a receiving-side verification exercise.
 
-The instructions were checked against MISP application revision `cd8a4f4`. The screenshots show the MISP interface with MISP Book training data. Use the Nacre names and values from the walkthrough when following them. [Checked application revision](https://github.com/MISP/MISP/commit/cd8a4f416438174389d57307894039ce0c75f6c9)
+Use the latest version of MISP for the exercise. The screenshots show the MISP interface with MISP Book training data. Menu locations can vary by release. Use the named actions and the Nacre values from the walkthrough. [Latest MISP release](https://github.com/MISP/MISP/releases/latest)
 
 For a second walkthrough focused on defender decisions and indicator sharing, use the [NACRE-02 telecom exercise](telecom-defence.md).
 
 ## Prepare the exercise environment
 
 1. Set up a dedicated MISP instance for each participating team and one for Exercise Control. Give each instance its own database, Redis, files, credentials, and HTTPS base URL. Use separate hosts or isolated Compose deployments with distinct ports and storage. Use certificates trusted by the exercise instances. [MISP Book Docker quick start](https://www.circl.lu/doc/misp/quick-start/)
-2. If you use Docker, pin the same application `CORE_COMMIT` on each instance. Record the application, deployment, exercise-repository, and Galaxy revisions in the facilitator's run sheet. Use a unique local host organisation and keep a roster of its UUID, instance URL, and facilitator contact. [Docker source used for the walkthrough](https://github.com/MISP/misp-docker/tree/misp-3.0_wip)
+2. Run the same MISP version on every instance. Record the MISP version and the exercise-repository and Galaxy revisions in the facilitator's run sheet. Use a unique local host organisation and keep a roster of its UUID, instance URL, and facilitator contact. [MISP Docker deployment](https://github.com/MISP/misp-docker)
 3. Give exercise authors permission to create and edit their organisation's events, attach tags and Galaxy clusters, and create Analyst Data. Give publication permission to the designated reviewer. Use separate Sync user accounts for instance-to-instance sharing and leave production peers, feeds, email notifications, and downstream detection integrations outside the exercise.
 4. Use the same fictitious country names and incident ID in all handovers. Give defenders the public brief and keep the later injects with Exercise Control. Start with manually triggered sync so the facilitator can see who received each item.
 
@@ -176,7 +176,7 @@ In the debrief, check four outcomes. Defenders distinguished observations from h
 
 ## Screenshot provenance
 
-The unmodified screenshots use standalone MISP Book training data. The MISP Book contributors license these screenshots under CC BY-SA 4.0. The source tree below pins the exact images, and its capture records document the application commits and UI fixtures. [MISP Book screenshot sources](https://github.com/MISP/misp-book/tree/b675fdc9e3926490bd104a3280e2344c10269b8f) · [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+The unmodified screenshots use standalone MISP Book training data. The MISP Book contributors license these screenshots under CC BY-SA 4.0. The source tree below identifies the exact images, and its capture records document how they were made. [MISP Book screenshot sources](https://github.com/MISP/misp-book/tree/b675fdc9e3926490bd104a3280e2344c10269b8f) · [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 
 - Galaxy catalogue and picker. [Data-model capture record](https://github.com/MISP/misp-book/blob/b675fdc9e3926490bd104a3280e2344c10269b8f/assets/data-model-screenshots.json)
 - Event, attribute, report, Assessment, publication, and sharing group screens. [Using MISP capture record](https://github.com/MISP/misp-book/blob/b675fdc9e3926490bd104a3280e2344c10269b8f/assets/using-misp-screenshots.json)
