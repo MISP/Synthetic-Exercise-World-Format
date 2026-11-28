@@ -1,0 +1,31 @@
+{
+  "Event": {
+    "uuid": "81b112f1-a1af-4914-ac37-d3112a573b86",
+    "info": "[EXERCISE] NACRE-01 · Delta Port dispatch delay",
+    "date": "2026-11-18",
+    "distribution": "0",
+    "threat_level_id": "4",
+    "analysis": "0",
+    "published": false,
+    "Attribute": [
+      {
+        "uuid": "25f3f72a-c31a-40b6-ade9-38b687727a96",
+        "category": "Network activity",
+        "type": "domain",
+        "value": "dispatch.delta-port.example",
+        "comment": "Synthetic dispatch log, 2026-11-18 09:05 UTC.",
+        "to_ids": false,
+        "distribution": "5"
+      },
+      {
+        "uuid": "4db32e62-563f-47ce-875c-373d6bd742bd",
+        "category": "Network activity",
+        "type": "ip-dst",
+        "value": "192.0.2.44",
+        "comment": "Simulated destination in the same exercise log.",
+        "to_ids": false,
+        "distribution": "5"
+      }
+    ]
+  }
+}

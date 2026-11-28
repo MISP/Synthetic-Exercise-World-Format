@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 520" role="img" aria-labelledby="title desc">
+  <title id="title">Nacre exercise instance topology</title>
+  <desc id="desc">The Velkar scenario cell gives drafts to Ilyndor Control for review. Ilyndor Control exchanges approved records with three separate defender instances in Neruva, Brinax, and Orinthia. Each receiver initiates its own pull.</desc>
+  <style>
+    text { font-family: "DejaVu Sans", sans-serif; fill: #183447; }
+    .title { font-weight: 700; font-size: 36px; }
+    .body { font-size: 17px; }
+    .heading { font-weight: 700; font-size: 21px; }
+    .meta { font-size: 16px; fill: #425f6d; }
+    .panel { fill: #fffdf4; stroke: #b3c6c4; stroke-width: 2; }
+    .exchange { fill: none; stroke: #007b86; stroke-width: 3; }
+    .review { fill: none; stroke: #935521; stroke-width: 3; stroke-dasharray: 6 5; }
+  </style>
+  <defs>
+    <marker id="arrow" viewBox="0 0 8 8" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#007b86"/>
+    </marker>
+    <marker id="review-arrow" viewBox="0 0 8 8" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#935521"/>
+    </marker>
+  </defs>
+  <rect width="1100" height="520" rx="18" fill="#edf3ef"/>
+  <text x="32" y="60" class="title">Nacre team instances</text>
+  <text x="33" y="94" class="body">Control reviews injects and manages each country's handover separately.</text>
+
+  <path d="M310,261 H398" class="review" marker-end="url(#review-arrow)"/>
+  <path d="M688,245 C735,245 743,175 790,175" class="exchange" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <path d="M688,261 H790" class="exchange" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <path d="M688,277 C735,277 743,347 790,347" class="exchange" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+
+  <rect x="32" y="216" width="278" height="90" rx="10" class="panel"/>
+  <path d="M46,220 V302" stroke="#c68955" stroke-width="4"/>
+  <text x="62" y="250" class="heading">Velkar Scenario Cell</text>
+  <text x="62" y="278" class="meta">Drafts fictional injects</text>
+
+  <rect x="398" y="216" width="290" height="90" rx="10" fill="#d5ece8" stroke="#007b86" stroke-width="2"/>
+  <text x="418" y="250" class="heading">Ilyndor Control</text>
+  <text x="418" y="278" class="meta">Reviews and releases records</text>
+
+  <rect x="790" y="140" width="278" height="70" rx="10" class="panel"/>
+  <text x="808" y="169" class="heading">Neruva Defenders</text>
+  <text x="808" y="194" class="meta">Delta Port</text>
+
+  <rect x="790" y="226" width="278" height="70" rx="10" class="panel"/>
+  <text x="808" y="255" class="heading">Brinax Defenders</text>
+  <text x="808" y="280" class="meta">Coast Terminal</text>
+
+  <rect x="790" y="312" width="278" height="70" rx="10" class="panel"/>
+  <text x="808" y="341" class="heading">Orinthia Defenders</text>
+  <text x="808" y="366" class="meta">Sound Harbor</text>
+
+  <path d="M32,420 H1068" stroke="#b3c6c4"/>
+  <path d="M34,452 H90" class="review" marker-end="url(#review-arrow)"/>
+  <text x="104" y="458" class="body">Facilitator-only review</text>
+  <path d="M34,483 H90" class="exchange" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <text x="104" y="489" class="body">Approved records in both directions. Each receiver initiates its own pull.</text>
+</svg>

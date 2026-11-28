@@ -1,6 +1,6 @@
 # Synthetic Exercise World - Self-contained fictional world dataset for cyber exercises and standards documents.
 
-[Browse the world extensions and their maps](#world-extensions) · [Download the documentation PDF](https://misp.github.io/Synthetic-Exercise-World-Format/synthetic-exercise-world.pdf) · [Acknowledgements](acknowledgements/README.md)
+[Browse the world extensions and their maps](#world-extensions) · [Run an exercise in MISP 3.0](misp-exercise/README.md) · [Download the documentation PDF](https://misp.github.io/Synthetic-Exercise-World-Format/synthetic-exercise-world.pdf) · [Acknowledgements](acknowledgements/README.md)
 
 ## Why the Synthetic Exercise World Format Matters
 
@@ -251,6 +251,10 @@ and their destinations within Veyra. The Kestrel Island Shaft cluster uses
 `meta.surface-site` to identify the specific island within Orinthia. The surface
 references were verified against [MISP Galaxy revision `779b780`](https://github.com/MISP/misp-galaxy/blob/779b780a13f67288d9b1a031b064fb140cdacaae/clusters/exercise-world.json).
 
+## Run an exercise in MISP 3.0
+
+Use the NACRE-01 walkthrough to load the Galaxies, document a synthetic port incident with an event and analyst assessment, and test sharing between separate country teams. [MISP 3.0 exercise guide](misp-exercise/README.md)
+
 ## World extensions
 
 Select a preview to open its full-size SVG. Each extension guide includes a tabletop case and links to its MISP Galaxy definition and cluster collection. Extensions reference the base world's entities by UUID.
@@ -320,5 +324,7 @@ Suggested attribution:
 > Synthetic Exercise World — licensed under CC BY 4.0.
 
 License text: <https://creativecommons.org/licenses/by/4.0/>
+
+The MISP 3.0 screenshots reproduced in the exercise guide are licensed under CC BY-SA 4.0. [Screenshot provenance](misp-exercise/README.md#screenshot-provenance)
 
 All countries, companies, sectors, and threat actors described in this project are fictional and intended for neutral CTI exercises, documentation, testing, and training.
