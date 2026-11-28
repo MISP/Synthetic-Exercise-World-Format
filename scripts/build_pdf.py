@@ -60,6 +60,7 @@ def nodes(tree):
 def prepare_chapters(work, readme, revision):
     source_root = "README.md"
     atlas = "geography/README.md"
+    acknowledgements = "acknowledgements/README.md"
     available = {path.relative_to(ROOT).as_posix() for path in (ROOT / "extensions").glob("*/README.md")}
     ordered = dict.fromkeys(GUIDE_LINK.findall(readme))
     guides = [*ordered, *sorted(available - ordered.keys())]
@@ -67,6 +68,7 @@ def prepare_chapters(work, readme, revision):
         source_root: "index",
         atlas: "geographic-atlas",
         **{guide: f'extension-{Path(guide).parent.name}' for guide in guides},
+        acknowledgements: "acknowledgements",
     }
     documents = {}
     section_ids = {}
@@ -131,9 +133,12 @@ def prepare_chapters(work, readme, revision):
         (work / f"{slug}.qmd").write_text(
             pandoc(json.dumps(document), "json", "markdown"), encoding="utf-8",
         )
-    return ["index.qmd", "geographic-atlas.qmd", {
-        "part": "World extensions", "chapters": [f"{chapters[guide]}.qmd" for guide in guides],
-    }]
+    return [
+        "index.qmd",
+        "geographic-atlas.qmd",
+        {"part": "World extensions", "chapters": [f"{chapters[guide]}.qmd" for guide in guides]},
+        "acknowledgements.qmd",
+    ]
 
 
 def stage_template(work):

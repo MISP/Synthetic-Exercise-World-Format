@@ -1,6 +1,6 @@
 # Synthetic Exercise World - Self-contained fictional world dataset for cyber exercises and standards documents.
 
-[Browse the world extensions and their maps](#world-extensions) · [Download the documentation PDF](https://misp.github.io/Synthetic-Exercise-World-Format/synthetic-exercise-world.pdf)
+[Browse the world extensions and their maps](#world-extensions) · [Download the documentation PDF](https://misp.github.io/Synthetic-Exercise-World-Format/synthetic-exercise-world.pdf) · [Acknowledgements](acknowledgements/README.md)
 
 ## Why the Synthetic Exercise World Format Matters
 
