@@ -9,6 +9,10 @@ on:
 permissions:
   contents: read
 
+concurrency:
+  group: documentation-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
   pdf:
     runs-on: ubuntu-latest
@@ -33,3 +37,50 @@ jobs:
           name: synthetic-exercise-world-pdf
           path: _book/synthetic-exercise-world.pdf
           if-no-files-found: error
+
+      - name: Stage PDF for GitHub Pages
+        run: install -m 0644 _book/synthetic-exercise-world.pdf synthetic-exercise-world.pdf
+
+      - name: Build the Jekyll site
+        uses: actions/jekyll-build-pages@v1
+
+      - name: Check the published files and download link
+        run: |
+          cmp _book/synthetic-exercise-world.pdf _site/synthetic-exercise-world.pdf
+          grep -Fq 'href="https://misp.github.io/Synthetic-Exercise-World-Format/synthetic-exercise-world.pdf"' _site/index.html
+
+      - name: Upload GitHub Pages site
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: _site
+
+  deploy:
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    needs: pdf
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
+
+      - name: Verify the live PDF download
+        env:
+          PAGES_URL: ${{ steps.deployment.outputs.page_url }}
+        run: |
+          site="${PAGES_URL%/}"
+          pdf="$site/synthetic-exercise-world.pdf"
+          curl --fail --silent --show-error --location --retry 5 --retry-all-errors --max-time 40 \
+            "$site/?revision=$GITHUB_SHA" --output "$RUNNER_TEMP/index.html"
+          grep -Fq "href=\"$pdf\"" "$RUNNER_TEMP/index.html"
+          content_type=$(curl --fail --silent --show-error --location --retry 5 --retry-all-errors --max-time 40 \
+            "$pdf?revision=$GITHUB_SHA" --output "$RUNNER_TEMP/documentation.pdf" --write-out '%{content_type}')
+          test "${content_type%%;*}" = application/pdf
+          test "$(head -c 5 "$RUNNER_TEMP/documentation.pdf")" = %PDF-
+          printf 'Verified %s\n' "$pdf"
