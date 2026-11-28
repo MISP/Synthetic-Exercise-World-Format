@@ -60,6 +60,7 @@ def nodes(tree):
 def prepare_chapters(work, readme, revision):
     source_root = "README.md"
     atlas = "geography/README.md"
+    exercise = "misp-exercise/README.md"
     acknowledgements = "acknowledgements/README.md"
     available = {path.relative_to(ROOT).as_posix() for path in (ROOT / "extensions").glob("*/README.md")}
     ordered = dict.fromkeys(GUIDE_LINK.findall(readme))
@@ -67,6 +68,7 @@ def prepare_chapters(work, readme, revision):
     chapters = {
         source_root: "index",
         atlas: "geographic-atlas",
+        exercise: "misp-exercise",
         **{guide: f'extension-{Path(guide).parent.name}' for guide in guides},
         acknowledgements: "acknowledgements",
     }
@@ -136,6 +138,7 @@ def prepare_chapters(work, readme, revision):
     return [
         "index.qmd",
         "geographic-atlas.qmd",
+        "misp-exercise.qmd",
         {"part": "World extensions", "chapters": [f"{chapters[guide]}.qmd" for guide in guides]},
         "acknowledgements.qmd",
     ]
