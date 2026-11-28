@@ -155,6 +155,8 @@ After the peer records exist, open **Sync → Sharing Groups → List Sharing Gr
 
 ![The MISP 3.0 Pull rules form with separate allow and block lists for tags and organisations.](figures/pull-rules.png)
 
+For each approved inject or response, select the intended sharing group, apply the approved tag, and clear any hold tag as part of review. Publish the reviewed version and have the recipient run **Pull all** on the saved peer. Record the event UUID, intended audience, and receipt confirmation in Control's handover log.
+
 For an exercise without server sync, have Control share a reviewed **MISP JSON** event export through the agreed exercise channel. On the recipient, review the import audience and publication settings before uploading the export. Confirm the event UUID, creator, fields, and locks after import. Use the locally authored **POST `/events/add`** fixture only to seed the original exercise event. [MISP event exports](https://www.circl.lu/doc/misp/using-the-system/#exporting-data)
 
 ### Run the round and debrief
