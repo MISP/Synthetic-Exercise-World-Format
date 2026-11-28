@@ -21,7 +21,7 @@ On each instance, load the base `exercise-world` Galaxy and the `exercise-world-
 
 Start at **09:15 UTC on 2026-11-19**. Control gives DeltaReach two synthetic records from earlier that morning. A web log entry (**URL01**) recorded the full URL at **09:10 UTC**. A separate exercise abuse report corroborates the path as the one to contain. An egress log entry (**FLOW01**) recorded the TCP destination tuple at **09:12 UTC**. The flow is a lead for review. The source logs supply two separate observations.
 
-Create **[EXERCISE] NACRE-02 · DeltaReach indicator handover** on DeltaReach's instance. Use **Your organisation only**, **Initial**, and **Undefined** while preparing the draft. Attach the **Neruva Federation** and **DeltaReach** clusters. Add **Delta Trunk** and **Coastal Link** as the infrastructure context for the handover. Use global attachment scope for the context intended to travel.
+Create **[EXERCISE] NACRE-02 · DeltaReach indicator handover** on DeltaReach's instance. Use **Your organisation only**, **Initial**, and **Undefined** while preparing the draft.
 
 From **Objects**, choose **Add Object** and select the template. Use the relations below. Give each object its source comment and observation time in **First seen** and **Last seen**. Set the objects and their attributes to **Inherit event**. Review the actual saved IDS flags and keep **For IDS** off for these exercise values.
 
@@ -37,7 +37,11 @@ From **Objects**, choose **Add Object** and select the template. Use the relatio
 
 ![Expanded URL object in MISP showing the full URL and the host as distinct relations. The screenshot uses training values.](figures/url-object-expanded.png)
 
-You can also create the draft by pasting the supplied JSON into **API → REST client** and submitting **POST `/events/add`** on the DeltaReach instance. Use a key for an authorised author. This adds the same unpublished event and both objects, so choose it in place of manual creation. Inspect the response and saved Objects tab before continuing. The fixture uses fixed event, object, and attribute UUIDs. Use fresh UUIDs for an independent run on the same instance. [NACRE-02 starter event](examples/nacre-02-event.json) · [Pinned URL template](https://github.com/MISP/misp-objects/blob/478075d8a79fa9e0b01f79a1835a64f2461fa866/objects/url/definition.json) · [Pinned IP-port template](https://github.com/MISP/misp-objects/blob/478075d8a79fa9e0b01f79a1835a64f2461fa866/objects/ip-port/definition.json)
+You can also create the unpublished event and both objects by pasting the supplied JSON into **API → REST client** and submitting **POST `/events/add`** on the DeltaReach instance. Use a key for an authorised author. Inspect the response and saved Objects tab, then attach the Galaxy context below. The fixture uses fixed event, object, and attribute UUIDs. Use fresh UUIDs for an independent run on the same instance. [NACRE-02 starter event](examples/nacre-02-event.json) · [Pinned URL template](https://github.com/MISP/misp-objects/blob/478075d8a79fa9e0b01f79a1835a64f2461fa866/objects/url/definition.json) · [Pinned IP-port template](https://github.com/MISP/misp-objects/blob/478075d8a79fa9e0b01f79a1835a64f2461fa866/objects/ip-port/definition.json)
+
+### Attach the Galaxy context
+
+After creating the event and objects, either manually or with the starter JSON, open the event's Galaxy picker. Attach **Neruva Federation** from **Synthetic Exercise World** and **DeltaReach**, **Delta Trunk**, and **Coastal Link** from **Synthetic Exercise World - Telecommunications**. Use global attachment scope for all four clusters so the context travels with the approved event. Verify the four attachments before preparing the brief.
 
 ## 2. Share a decision with the indicators
 
@@ -50,7 +54,7 @@ A full MISP JSON event carries object membership and named relations. For the ex
 
 At **09:25 UTC**, review and publish to an approved group containing the **three telecom teams' organisations and their instances**. Scope it to this handover. Set the event and report audience deliberately, and keep any team-only annotation organisation-only. For native sync, use a round-specific approved tag such as `nacre-02:handover="approved"`, allow it in each receiving peer's Pull rules, and block the matching hold tag. Test the rules, run **Pull all** on both partner instances, and verify that an unrelated organisation lacks access. On a single instance, the partners perform those same visibility checks on the shared event. [Release pilot and recipient checks](README.md#set-the-rules-and-run-a-release-pilot)
 
-Before opening the replay, each partner confirms the event UUID and creator, the brief and both live references, the two objects and five relations, the priority guidance, and the intended audience. Exercise Control logs each confirmation.
+Before opening the replay, each partner confirms the event UUID and creator, all four Galaxy attachments, the brief and both live references, the two objects and five relations, the priority guidance, and the intended audience. Exercise Control logs each confirmation.
 
 ## 3. Run the replay and handle the correction
 
