@@ -1,6 +1,6 @@
 # Synthetic Exercise World - Self-contained fictional world dataset for cyber exercises and standards documents.
 
-[Browse the world extensions and their maps](#world-extensions).
+[Browse the world extensions and their maps](#world-extensions) · [Download the documentation PDF](https://misp.github.io/Synthetic-Exercise-World-Format/synthetic-exercise-world.pdf)
 
 ## Why the Synthetic Exercise World Format Matters
 
@@ -291,7 +291,9 @@ Select a preview to open its full-size SVG. Each extension guide includes a tabl
 
 ## PDF documentation
 
-The GitHub Actions workflow builds a single PDF from this README, the geographic atlas guide, and every extension guide. Open a completed run and download the `synthetic-exercise-world-pdf` artifact. [Build documentation PDF](https://github.com/MISP/Synthetic-Exercise-World-Format/actions/workflows/documentation-pdf.yml)
+The PDF combines this README, the geographic atlas guide, and every extension guide. GitHub Pages serves the PDF from the latest published build of `main`. [Download the documentation PDF](https://misp.github.io/Synthetic-Exercise-World-Format/synthetic-exercise-world.pdf)
+
+Pull request builds also attach the PDF as the `synthetic-exercise-world-pdf` artifact. [Build documentation PDF](https://github.com/MISP/Synthetic-Exercise-World-Format/actions/workflows/documentation-pdf.yml)
 
 To build locally, install Python 3.9 or later and Quarto 1.9.38, then run this command from the repository root.
 
