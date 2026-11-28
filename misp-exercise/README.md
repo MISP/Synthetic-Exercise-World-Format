@@ -1,13 +1,15 @@
-# Run a Nacre exercise in MISP 3.0
+# Run a Nacre exercise in MISP
 
 Use this walkthrough to load the Synthetic Exercise World Galaxy, build a synthetic incident record, and exchange reviewed findings across separate MISP instances. It uses **NACRE-01 · Delta Port dispatch delay** as a worked example. A single instance is enough for the event, report, and assessment walkthrough. The federation steps add independent teams and a receiving-side verification exercise.
 
-The upstream MISP development branch is named `3.0_wip`. The instructions use the 3.0 interface and were checked against application revision `cd8a4f4`. The screenshots show real 3.0 controls with MISP Book training data. Use the Nacre names and values from the walkthrough when following them. [MISP 3.0 branch](https://github.com/MISP/MISP/tree/3.0_wip) · [Checked application revision](https://github.com/MISP/MISP/commit/cd8a4f416438174389d57307894039ce0c75f6c9)
+Use the latest version of MISP for the exercise. The screenshots show the MISP interface with MISP Book training data. Menu locations can vary by release. Use the named actions and the Nacre values from the walkthrough. [Latest MISP release](https://github.com/MISP/MISP/releases/latest)
+
+For a second walkthrough focused on defender decisions and indicator sharing, use the [NACRE-02 telecom exercise](telecom-defence.md).
 
 ## Prepare the exercise environment
 
 1. Set up a dedicated MISP instance for each participating team and one for Exercise Control. Give each instance its own database, Redis, files, credentials, and HTTPS base URL. Use separate hosts or isolated Compose deployments with distinct ports and storage. Use certificates trusted by the exercise instances. [MISP Book Docker quick start](https://www.circl.lu/doc/misp/quick-start/)
-2. Use the official Docker branch `misp-3.0_wip` and pin the same application `CORE_COMMIT` on each instance. Record the application, Docker, exercise-repository, and Galaxy revisions in the facilitator's run sheet. Use a unique local host organisation and keep a roster of its UUID, instance URL, and facilitator contact. [Docker early-access branch](https://github.com/MISP/misp-docker/tree/misp-3.0_wip)
+2. Run the same MISP version on every instance. Record the MISP version and the exercise-repository and Galaxy revisions in the facilitator's run sheet. Use a unique local host organisation and keep a roster of its UUID, instance URL, and facilitator contact. [MISP Docker deployment](https://github.com/MISP/misp-docker)
 3. Give exercise authors permission to create and edit their organisation's events, attach tags and Galaxy clusters, and create Analyst Data. Give publication permission to the designated reviewer. Use separate Sync user accounts for instance-to-instance sharing and leave production peers, feeds, email notifications, and downstream detection integrations outside the exercise.
 4. Use the same fictitious country names and incident ID in all handovers. Give defenders the public brief and keep the later injects with Exercise Control. Start with manually triggered sync so the facilitator can see who received each item.
 
@@ -44,13 +46,13 @@ For other deployments, stage the same pairs under the instance's `app/files/misp
 
 Open **Data models → Galaxies**. Find **Synthetic Exercise World** and verify that the pinned base catalog contains 60 entries, including **Neruva Federation**, **Velkar Republic**, and **TA-701 Silver Mantis**. Open the transport Galaxy and look for **Delta Port**, **Coast Terminal**, and **Sound Harbor**. If the picker later omits a cluster, check that the paired files were loaded and the Galaxy is enabled.
 
-![The MISP 3.0 Galaxy catalogue with search and management controls.](figures/misp3-galaxies.png)
+![The MISP Galaxy catalogue with search and management controls.](figures/misp3-galaxies.png)
 
 ## Create the synthetic event
 
 On the Exercise Control instance, open **Data points → Events → Add Event**. Use **[EXERCISE] NACRE-01 · Delta Port dispatch delay** as the event title. Set the event date to **2026-11-18** for the worked example, **Analysis level** to **Initial**, **Threat level** to **Undefined**, and **Distribution** to **Your organisation only**. Leave it unpublished while preparing the evidence and report. Record the saved event UUID.
 
-![The MISP 3.0 Add Event form with the organisation-only audience selected.](figures/misp3-create-event.png)
+![The MISP Add Event form with the organisation-only audience selected.](figures/misp3-create-event.png)
 
 In the event's **Attributes** tab, add these two entries under **Network activity**. Choose **Inherit event** and leave **For IDS** off for both. The values come from the reserved `.example` domain and the documentation address block.
 
@@ -59,13 +61,13 @@ In the event's **Attributes** tab, add these two entries under **Network activit
 | `domain` | `dispatch.delta-port.example` | Synthetic dispatch log, 2026-11-18 09:05 UTC |
 | `ip-dst` | `192.0.2.44` | Simulated destination in the same exercise log |
 
-![The MISP 3.0 Add Attribute form showing category, type, audience, and IDS eligibility.](figures/misp3-add-attribute.png)
+![The MISP Add Attribute form showing category, type, audience, and IDS eligibility.](figures/misp3-add-attribute.png)
 
 To use a ready-made starting event, open **API → REST client**, select **POST**, and enter `/events/add`. Set the request format to JSON, use an API key for an authorised Exercise Control author, and paste the [NACRE-01 JSON](examples/nacre-01-event.json) into the request editor. Choose this path or create the event manually. The fixture's event and attribute UUIDs are fixed for one run. Use fresh UUIDs when seeding a separate run in the same database. Confirm that the response lists both attributes, reports no validation errors, and leaves the event unpublished and organisation-only. [MISP event API](https://www.circl.lu/doc/misp/automation/#api-create-event)
 
 Open the event's context or Galaxy controls and use the cluster picker to attach **Neruva Federation** and **Delta Port**. Inspect the selected values before saving. In this exercise, set the attachment scope to **global** for context you intend to travel with the released event. The draft's event distribution still controls its audience. Team-only analytic tags can stay local. Keep the actor name in the assessment as a scenario hypothesis and use Galaxy tags to record the confirmed country and site context.
 
-![The MISP 3.0 Galaxy cluster picker showing the attachment scope choice.](figures/misp3-cluster-picker.png)
+![The MISP Galaxy cluster picker showing the attachment scope choice.](figures/misp3-cluster-picker.png)
 
 ## Write and review the event report
 
@@ -87,7 +89,7 @@ Exercise Control will check with Brinax and Orinthia before the 09:30 UTC update
 
 Use **Edit Content** and the element controls to insert a live reference to the domain attribute in **Observed**. A manually written reference has the form `@[attribute](UUID)` with the attribute UUID from this instance's saved event. Select **Save** and open **General** to verify that the reference resolves and the report states its evidence, uncertainty, and next action. Check distribution before publishing and verify the rendered report on the receiving instance. Readers need access to referenced records. [MISP event report documentation](https://www.circl.lu/doc/misp/event-reports/)
 
-![The MISP 3.0 report editor with Markdown, element controls, and the rendered preview.](figures/misp3-report-editor.png)
+![The MISP report editor with Markdown, element controls, and the rendered preview.](figures/misp3-report-editor.png)
 
 ## Record analyst data and publish
 
@@ -101,11 +103,11 @@ Open the event's **General → Assessment** card. The add control exposes the an
 
 Use the relevant attribute's **Sighting details** control if a team receives an independent synthetic observation of the same domain. Record its time and source with the occurrence. The sighting records an observation, while the report and its annotations carry the team's interpretation. [MISP Analyst Data documentation](https://www.circl.lu/doc/misp/analyst-data/)
 
-![The MISP 3.0 Assessment card displaying a Note, an Opinion, and a Relationship.](figures/misp3-event-assessment.png)
+![The MISP Assessment card displaying a Note, an Opinion, and a Relationship.](figures/misp3-event-assessment.png)
 
 Before sending the event, have the reviewer check the two attributes, attached clusters, report references, and each record's audience. On a single instance, publish the reviewed event with **Your organisation only** and notifications off. For team exchange, first complete the [release pilot](#set-the-rules-and-run-a-release-pilot) below. Then change the event to the approved sharing group, set the report to **Inherit event** if it goes to the same recipients, and review the audience of each analyst record. Select **Publish** with notifications off and verify receipt. A draft's privacy depends on its distribution. [MISP publication and review](https://www.circl.lu/doc/misp/using-the-system/#publish-an-event)
 
-![The MISP 3.0 Publish dialog with the optional notification switch.](figures/misp3-publish.png)
+![The MISP Publish dialog with the optional notification switch.](figures/misp3-publish.png)
 
 ## Run the exercise across separate instances
 
@@ -137,9 +139,9 @@ For **Neruva to pull reviewed injects from Control**:
 2. On **Neruva**, a site administrator opens **Sync → Servers & Feeds → Servers → Add Server**. Enter Control's HTTPS base URL, select **Ilyndor Control** as the organisation hosting the remote instance, and use the key issued by **Control**. The host-organisation UUID and the remote key's account organisation represent different identities.
 3. Under **What to synchronise**, enable **Pull** for **Events**. Enable **Pull** for **Analyst data** only for a pilot that explicitly includes approved annotations. Leave **Push**, remote value caching, and the remaining data types off for this connection. The Nacre default Galaxy catalog is already loaded on both instances.
 
-![The MISP 3.0 server form lists separate push and pull controls for Events and Analyst Data.](figures/misp3-server-methods.png)
+![The MISP server form lists separate push and pull controls for Events and Analyst Data.](figures/misp3-server-methods.png)
 
-![The MISP 3.0 sharing group editor shows the organisation and server membership controls.](figures/misp3-sharing-group.png)
+![The MISP sharing group editor shows the organisation and server membership controls.](figures/misp3-sharing-group.png)
 
 For **Control to pull Neruva's approved responses**, reverse source and receiver. Issue a different key on **Neruva** to a **Sync user** representing **Ilyndor Control**, and configure a peer on **Control** pointed at the **Neruva** host organisation. Repeat the same pattern for Brinax and Orinthia using separate credentials and peers. [MISP synchronisation and account identities](https://www.circl.lu/doc/misp/sharing/#concept)
 
@@ -153,7 +155,7 @@ After the peer records exist, open **Sync → Sharing Groups → List Sharing Gr
 4. Use **Test connection**, then **Test Pull Rules** from the server list. Confirm the candidate set and select **Pull all** on the receiver to exercise the saved rules. Check the job and compare actual event UUIDs, creator organisation, distribution, global tags and Galaxy attachments, report links, and any enabled Analyst Data. Verify that the held record and private draft stay out of the receiving instance.
 5. Open the result as an ordinary recipient and check that the group covers the intended readers. Repeat the positive and negative checks for every direction and country before running a timed round. If an annotation is missing, check its own distribution and the peer's **Analyst data** switch in addition to the parent event's result. [MISP pilot procedure](https://www.circl.lu/doc/misp/first-synchronization/#test-the-rules-and-run-a-pilot)
 
-![The MISP 3.0 Pull rules form with separate allow and block lists for tags and organisations.](figures/pull-rules.png)
+![The MISP Pull rules form with separate allow and block lists for tags and organisations.](figures/pull-rules.png)
 
 For each approved inject or response, select the intended sharing group, apply the approved tag, and clear any hold tag as part of review. Publish the reviewed version and have the recipient run **Pull all** on the saved peer. Record the event UUID, intended audience, and receipt confirmation in Control's handover log.
 
@@ -174,7 +176,7 @@ In the debrief, check four outcomes. Defenders distinguished observations from h
 
 ## Screenshot provenance
 
-The unmodified screenshots use standalone MISP Book training data. They show MISP 3.0.0 development snapshots on `3.0_wip`. The MISP Book contributors license these screenshots under CC BY-SA 4.0. The source tree below pins the exact images, and its capture records document the application commits and UI fixtures. [MISP Book screenshot sources](https://github.com/MISP/misp-book/tree/b675fdc9e3926490bd104a3280e2344c10269b8f) · [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+The unmodified screenshots use standalone MISP Book training data. The MISP Book contributors license these screenshots under CC BY-SA 4.0. The source tree below identifies the exact images, and its capture records document how they were made. [MISP Book screenshot sources](https://github.com/MISP/misp-book/tree/b675fdc9e3926490bd104a3280e2344c10269b8f) · [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 
 - Galaxy catalogue and picker. [Data-model capture record](https://github.com/MISP/misp-book/blob/b675fdc9e3926490bd104a3280e2344c10269b8f/assets/data-model-screenshots.json)
 - Event, attribute, report, Assessment, publication, and sharing group screens. [Using MISP capture record](https://github.com/MISP/misp-book/blob/b675fdc9e3926490bd104a3280e2344c10269b8f/assets/using-misp-screenshots.json)

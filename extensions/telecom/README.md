@@ -50,6 +50,8 @@ Thirty minutes later, Pelagic Radio reports loss of the Island Cable (F05). Loca
 
 **Facilitator check.** The mainland detour uses F03 and F04. Orinthia has no remaining shared-transit path, even though F09 continues to carry private research traffic. F08 can only add an Ilyndor–Brinax path after commissioning, so it cannot restore Orinthia. SteppeWave’s domestic service is outside the affected transit network.
 
+For an indicator-sharing drill on the same network, follow [NACRE-02 · Telecom defence](../../misp-exercise/telecom-defence.md).
+
 ## MISP Galaxy
 
 Load the base Synthetic Exercise World galaxy and cluster collection first, then import the extension's [Galaxy definition](galaxies/exercise-world-telecom.json) and [cluster collection](clusters/exercise-world-telecom.json). Use the galaxy type `exercise-world-telecom`.
