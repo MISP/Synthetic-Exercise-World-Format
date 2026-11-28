@@ -1,0 +1,88 @@
+{
+  "Event": {
+    "uuid": "c751c274-b5c9-5f94-a0fb-0312af179218",
+    "info": "[EXERCISE] NACRE-02 · DeltaReach indicator handover",
+    "date": "2026-11-19",
+    "distribution": "0",
+    "threat_level_id": "4",
+    "analysis": "0",
+    "published": false,
+    "Object": [
+      {
+        "uuid": "2e2d395e-829c-59ef-bcf4-5349889533f7",
+        "name": "url",
+        "meta-category": "network",
+        "description": "url object describes an url along with its normalized field (like extracted using faup parsing library) and its metadata.",
+        "template_uuid": "60efb77b-40b5-4c46-871b-ed1ed999fce5",
+        "template_version": "10",
+        "comment": "Synthetic DeltaReach web log URL01. Matched the exercise abuse report.",
+        "first_seen": "2026-11-19T09:10:00Z",
+        "last_seen": "2026-11-19T09:10:00Z",
+        "distribution": "5",
+        "Attribute": [
+          {
+            "uuid": "fe437f92-7ac8-52d7-982a-c41bfcdfd167",
+            "category": "Network activity",
+            "type": "url",
+            "object_relation": "url",
+            "value": "https://updates.deltareach.example/session-review",
+            "to_ids": false,
+            "distribution": "5"
+          },
+          {
+            "uuid": "794e5c9b-bccc-59d9-adf7-67a2ef029a35",
+            "category": "Network activity",
+            "type": "hostname",
+            "object_relation": "host",
+            "value": "updates.deltareach.example",
+            "to_ids": false,
+            "distribution": "5"
+          }
+        ]
+      },
+      {
+        "uuid": "cbc92caa-1ba1-57f2-8957-83bab18ee2ae",
+        "name": "ip-port",
+        "meta-category": "network",
+        "description": "An IP address (or domain or hostname) and a port seen as a tuple (or as a triple) in a specific time frame.",
+        "template_uuid": "9f8cea74-16fe-4968-a2b4-026676949ac6",
+        "template_version": "11",
+        "comment": "Synthetic DeltaReach flow log FLOW01. Source reports the observed TCP tuple.",
+        "first_seen": "2026-11-19T09:12:00Z",
+        "last_seen": "2026-11-19T09:12:00Z",
+        "distribution": "5",
+        "Attribute": [
+          {
+            "uuid": "80483f4f-a5ca-5d3f-a1ed-0919fad33684",
+            "category": "Network activity",
+            "type": "ip-dst",
+            "object_relation": "ip-dst",
+            "value": "198.51.100.27",
+            "to_ids": false,
+            "distribution": "5"
+          },
+          {
+            "uuid": "c43c65c0-fb7f-53c6-867a-12408691b74c",
+            "category": "Network activity",
+            "type": "port",
+            "object_relation": "dst-port",
+            "value": "8443",
+            "to_ids": false,
+            "distribution": "5",
+            "disable_correlation": true
+          },
+          {
+            "uuid": "070729bd-6d4b-5185-bdef-242c987bbf50",
+            "category": "Network activity",
+            "type": "text",
+            "object_relation": "protocol",
+            "value": "tcp",
+            "to_ids": false,
+            "distribution": "5",
+            "disable_correlation": true
+          }
+        ]
+      }
+    ]
+  }
+}

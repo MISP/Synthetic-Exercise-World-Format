@@ -1,0 +1,9 @@
+row,time_utc,operator,telemetry,url,destination_ip,destination_port,protocol
+R01,2026-11-19T09:32:00Z,Corridor Exchange,web,https://updates.deltareach.example/session-review,,,
+R02,2026-11-19T09:33:00Z,Corridor Exchange,web,https://updates.deltareach.example/status,,,
+R03,2026-11-19T09:34:00Z,Tidegrid Fiber,flow,,198.51.100.27,8443,tcp
+R04,2026-11-19T09:35:00Z,Tidegrid Fiber,flow,,198.51.100.27,443,tcp
+R05,2026-11-19T09:36:00Z,Tidegrid Fiber,flow,,198.51.100.28,8443,tcp
+R06,2026-11-19T09:37:00Z,Tidegrid Fiber,flow,,198.51.100.27,8443,udp
+R07,2026-11-19T10:02:00Z,Tidegrid Fiber,flow,,198.51.100.27,8443,tcp
+R08,2026-11-19T10:03:00Z,Corridor Exchange,web,https://updates.deltareach.example/session-review,,,
